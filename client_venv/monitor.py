@@ -1,5 +1,5 @@
-#Rodar esse script na máquina que for rodar o cliente
-
+# -*- coding: utf-8 -*-
+# #Rodar esse script na máquina que for rodar o cliente
 import sqlite3, re, client, writer
 from os import path
 from datetime import datetime, timedelta
