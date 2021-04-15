@@ -1,0 +1,18 @@
+2021-04-13 14:16:49.436640 // PV: SI-13C4:DI-DCCT:Current-Mon //  Rule: pv < L //  Limit(s): L=0 //  PV Value: -0.015367772025
+2021-04-13 14:26:50.753810 // PV: SI-13C4:DI-DCCT:Current-Mon //  Rule: pv < L //  Limit(s): L=0 //  PV Value: -0.014985898733
+2021-04-13 14:36:50.073967 // PV: SI-13C4:DI-DCCT:Current-Mon //  Rule: pv < L //  Limit(s): L=0 //  PV Value: -0.017193147229
+2021-04-13 14:46:51.382465 // PV: SI-13C4:DI-DCCT:Current-Mon //  Rule: pv < L //  Limit(s): L=0 //  PV Value: -0.017056465805
+2021-04-13 14:56:52.696595 // PV: SI-13C4:DI-DCCT:Current-Mon //  Rule: pv < L //  Limit(s): L=0 //  PV Value: -0.014777746488
+2021-04-13 15:06:51.999790 // PV: SI-13C4:DI-DCCT:Current-Mon //  Rule: pv < L //  Limit(s): L=0 //  PV Value: -0.012674313273
+2021-04-13 15:16:54.728205 // PV: SI-13C4:DI-DCCT:Current-Mon //  Rule: pv < L //  Limit(s): L=0 //  PV Value: -0.016036571971
+2021-04-13 15:26:09.996655 // PV: SI-07SPFE:VA-CCG-MD:Pressure-Mon //  Rule: pv < L //  Limit(s): L=7e-8 //  PV Value: 3.4e-08
+2021-04-13 15:26:59.027376 // PV: SI-13C4:DI-DCCT:Current-Mon //  Rule: pv < L //  Limit(s): L=0 //  PV Value: -0.016940651774
+2021-04-13 15:37:00.330602 // PV: SI-13C4:DI-DCCT:Current-Mon //  Rule: pv < L //  Limit(s): L=0 //  PV Value: -0.015909802559
+2021-04-13 15:46:59.612131 // PV: SI-13C4:DI-DCCT:Current-Mon //  Rule: pv < L //  Limit(s): L=0 //  PV Value: -0.016581732614
+2021-04-13 15:57:00.909194 // PV: SI-13C4:DI-DCCT:Current-Mon //  Rule: pv < L //  Limit(s): L=0 //  PV Value: -0.014601938702
+2021-04-13 16:07:02.208365 // PV: SI-13C4:DI-DCCT:Current-Mon //  Rule: pv < L //  Limit(s): L=0 //  PV Value: -0.015707910532
+2021-04-13 16:17:03.512234 // PV: SI-13C4:DI-DCCT:Current-Mon //  Rule: pv < L //  Limit(s): L=0 //  PV Value: -0.016256201283
+2021-04-13 16:27:02.812789 // PV: SI-13C4:DI-DCCT:Current-Mon //  Rule: pv < L //  Limit(s): L=0 //  PV Value: -0.013967569954
+2021-04-13 16:37:04.108818 // PV: SI-13C4:DI-DCCT:Current-Mon //  Rule: pv < L //  Limit(s): L=0 //  PV Value: -0.01438335276
+2021-04-15 08:40:10.379565 // PV: test //  Rule: pv == L //  Limit(s): test //  PV Value: None
+
