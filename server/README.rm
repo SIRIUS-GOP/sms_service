@@ -1,5 +1,5 @@
 #sms_service server
 - this runs on windows os
 - install dependencies from requirements.txt
-- configure server address in config.cfg
+- configure client/server address in config.cfg
 - run the server
