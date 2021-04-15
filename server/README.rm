@@ -2,4 +2,4 @@
 - this runs on windows os
 - install dependencies from requirements.txt
 - configure client/server address in config.cfg
-- run the server
+- run server.bat
