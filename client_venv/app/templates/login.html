@@ -1,0 +1,32 @@
+{% extends "base.html" %}
+{% set active_page = "login" %}
+
+{% block main %}
+    <h1>Login</h1>
+    <form action="" method="post" autocomplete="off" novalidate>
+        {{ form.hidden_tag() }}
+        <span class='login_field'>
+            {{ form.username.label }}<br>
+            {{ form.username(size=40) }}<br>
+            {% for error in form.username.errors %}
+            <span style="color: red;">[{{ error }}]</span>
+            {% endfor %}
+        </span>
+        <br>
+        <span class='login_field'>
+            {{ form.password.label }}<br>
+            {{ form.password(size=40) }}<br>
+            {% for error in form.password.errors %}
+            <span style="color: red;">[{{ error }}]</span>
+            {% endfor %}
+        </span>
+        <br>
+        <span>{{ form.remember_me() }} {{ form.remember_me.label }}</p>
+        <br>
+        <span>
+        {{ form.submit() }}
+        <a id='register' class="register" href="{{url_for('register')}}">
+            <button type="button">Create Account</button></a>
+        </span>
+    </form>
+{% endblock %}

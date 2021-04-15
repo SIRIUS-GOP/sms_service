@@ -1,0 +1,75 @@
+<!doctype html>
+<html lang="en">
+<head>
+</head>
+<head>
+    <script src="http://code.jquery.com/jquery-1.9.1.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.maskedinput/1.4.1/jquery.maskedinput.min.js"></script>
+    <link rel="icon" href="{{ url_for('static', filename='favicon.ico') }}">
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/base.css') }}">
+    <link rel="stylesheet" href="{{ url_for('static', filename='js/datetimepicker-master/jquery.datetimepicker.css') }}">
+    <script src="{{ url_for('static', filename='js/datetimepicker-master/build/jquery.datetimepicker.full.min.js') }}"></script>
+    <script>
+        $(document).ready(function(){
+        $('#phone').mask("(99) 9-9999-999?9");
+        });
+    </script>
+    <script>
+        $(document).ready(function() {
+            $('#persistent').change(function() {
+                $('#form-field').toggle();
+            });
+        });
+    </script>
+    <title>SMS Service - {{title}}</title>
+</head>
+<body>
+    <script>
+        $(document).ready(function() {
+        setTimeout(function() {
+            $('.alert').fadeOut('slow');
+        }, 3000); // <-- time in milliseconds
+        });
+    </script>
+    <div class="body">
+        <!-- top -->
+        <div class="top">
+            <a class="homelink" href="{{url_for('index')}}">SMS Service</a>
+        </div>
+        <div class="sigreg">
+            <a id='login' class="{{'active' if active_page=='login' else ''}}" 
+                {% if current_user.username %} href="{{url_for('logout')}}"> 
+                Logout {{current_user.username}} {%else%} href="{{url_for('login')}}">
+                Guest {%endif%}</a>
+        </div>
+        <!-- sidebar -->
+        {% set active_page = active_page | default('index') -%}
+        <div class="menu">
+            <div class="spacer" style='overflow:hidden;'></div>
+            <a id='index' class="{{'active' if active_page=='index' else ''}}" 
+                href="{{url_for('index')}}">Home</a>
+            <a id='notifications' class="{{'active' if active_page=='notifications' else ''}}" 
+                href="{{url_for('notifications')}}">Notifications</a>
+            <a id='rules' class="{{'active' if active_page=='rules' else '' }}" 
+                href="{{url_for('rules')}}">Rules</a>
+            {%if current_user.username=='admin'%}
+            <a id='users' class="{{'active' if active_page == 'accounts' else '' }}" 
+                href="{{url_for('accounts')}}">Accounts</a>
+            {%endif%}
+        </div>
+        <!-- main -->
+        <div class="main">
+            <div class="flash">
+                {% if get_flashed_messages %}
+                    {% for message in get_flashed_messages() %}
+                        <div class="alert alert-error" style="text-align:center">{{ message }}</div>
+                    {% endfor %}
+                {% endif %}
+            </div>
+            <div class='content'>
+                {% block main %} {% endblock %}
+            </div>
+        </div>
+    </div> 
+</body>
+</html>
