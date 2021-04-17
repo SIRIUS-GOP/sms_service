@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 # #Rodar esse script na máquina que for rodar o cliente
-import sqlite3, re, client, writer
+import sqlite3, re, client, writer, requests, configparser
 from os import path
 from datetime import datetime, timedelta
 from epics import caget
@@ -50,7 +50,37 @@ def ext_lim(limits):
         L['LU'] = float(find_val(limits[mLU.span()[1]:]))
     return L
 
+def read(section,key):
+    try:
+        config = configparser.RawConfigParser()
+        dir_path = path.dirname(path.realpath(__file__)) #current folder application path
+        #print('dir_path ', dir_path)
+        config_path = path.join(dir_path, 'config.cfg')
+        #print('config_path ', config_path)
+        config.read_file(open(config_path)) 
+        r = config.get(section,key)
+    except:
+        return 0
+    return r
+
+def getfullpvlist():
+    url = read('EPICS','url')
+    r = requests.get(url, allow_redirects=True, verify=False)
+    #[item for item in list if condition]
+    fullpvlist = r.text.replace('"','').split(',')
+    return fullpvlist
+
+def verifyPV(pv):
+    fullpvlist = getfullpvlist()
+    r = re.compile(pv)
+    matchedpvlist = list(filter(r.match, fullpvlist))
+    if matched_pv_list:
+        return 1
+    else:
+        return 0
+
 def evaluate():
+    fullpvlist = getfullpvlist()
     while True:
         now = datetime.now()
         notifications = get_notifications_db()
@@ -69,56 +99,59 @@ def evaluate():
                             persistent=row['persistent'])
             exp = datetime.strptime(n.expiration, "%Y-%m-%d %H:%M:%S")
             #print(exp, n.expiration)
-            pv = caget(n.pv) #get pv value
-            #print(n.pv, pv)
-            #print(datetime.now(), n)
-            L = ext_lim(n.limits)['L']
-            LL = ext_lim(n.limits)['LL']
-            LU = ext_lim(n.limits)['LU']
-            if (now <= exp):
-                if (eval(n.rule)):
-                    msg = '{{"pv" : "{pv}",\
-                             "value" : "{value}",\
-                             "rule" : "{rule}",\
-                             "limits" : "{limits}",\
-                             "phone" : "{phone}",\
-                             "owner" : "{owner}"}}'.format(pv=n.pv,\
-                                                           value=pv,\
-                                                           rule=n.rule,\
-                                                           limits=n.limits,\
-                                                           phone=n.phone,\
-                                                           owner=n.owner)
-                    if (n.persistent):
-                        sent_time = datetime.strptime(n.sent_time, "%Y-%m-%d %H:%M:%S.%f")
-                        if (now > (sent_time + timedelta(minutes=int(n.interval)))):
-                            r = client.client(msg) #send data to Server (modem's PC)
-                            if r==False:
-                                log = str(datetime.now()) + ' error sending message to server\n\r'
-                                dir_path = path.dirname(path.realpath(__file__)) #current folder application path
-                                log_path = path.join(dir_path, 'log.txt')
-                                writer.write(log_path, log, 'a')
-                            else:
-                                log = str(datetime.now()) + ' message to owner ' + n.owner + ' sent to server\n\r'
-                                dir_path = path.dirname(path.realpath(__file__)) #current folder application path
-                                log_path = path.join(dir_path, 'log.txt')
-                                writer.write(log_path, log, 'a')
-                                set_sent_db(n.id, True)
-                                set_sent_time_db(n.id, now)
-                    else:
-                        if (n.sent==False):
-                            r = client.client(msg) #send data to Server (modem's PC)
-                            if r==False:
-                                log = str(datetime.now()) + ' error sending message to server\n\r'
-                                dir_path = path.dirname(path.realpath(__file__)) #current folder application path
-                                log_path = path.join(dir_path, 'log.txt')
-                                writer.write(log_path, log, 'a')
-                            else:
-                                log = str(datetime.now()) + ' message to owner ' + n.owner + ' sent to server\n\r'
-                                dir_path = path.dirname(path.realpath(__file__)) #current folder application path
-                                log_path = path.join(dir_path, 'log.txt')
-                                writer.write(log_path, log, 'a')
-                                set_sent_db(n.id, True)
-                                set_sent_time_db(n.id, datetime.now())
+            r = re.compile(n.pv)
+            matchedpvlist = list(filter(r.match, fullpvlist))
+            for x in matchedpvlist:
+                pv = caget(x) #get pv value
+                #print(n.pv, pv)
+                #print(datetime.now(), n)
+                L = ext_lim(n.limits)['L']
+                LL = ext_lim(n.limits)['LL']
+                LU = ext_lim(n.limits)['LU']
+                if (now <= exp):
+                    if (eval(n.rule)):
+                        msg = '{{"pv" : "{pv}",\
+                                "value" : "{value}",\
+                                "rule" : "{rule}",\
+                                "limits" : "{limits}",\
+                                "phone" : "{phone}",\
+                                "owner" : "{owner}"}}'.format(pv=n.pv,\
+                                                            value=pv,\
+                                                            rule=n.rule,\
+                                                            limits=n.limits,\
+                                                            phone=n.phone,\
+                                                            owner=n.owner)
+                        if (n.persistent):
+                            sent_time = datetime.strptime(n.sent_time, "%Y-%m-%d %H:%M:%S.%f")
+                            if (now > (sent_time + timedelta(minutes=int(n.interval)))):
+                                r = client.client(msg) #send data to Server (modem's PC)
+                                if r==False:
+                                    log = str(datetime.now()) + ' error sending message to server\n\r'
+                                    dir_path = path.dirname(path.realpath(__file__)) #current folder application path
+                                    log_path = path.join(dir_path, 'log.txt')
+                                    writer.write(log_path, log, 'a')
+                                else:
+                                    log = str(datetime.now()) + ' message to owner ' + n.owner + ' sent to server\n\r'
+                                    dir_path = path.dirname(path.realpath(__file__)) #current folder application path
+                                    log_path = path.join(dir_path, 'log.txt')
+                                    writer.write(log_path, log, 'a')
+                                    set_sent_db(n.id, True)
+                                    set_sent_time_db(n.id, now)
+                        else:
+                            if (n.sent==False):
+                                r = client.client(msg) #send data to Server (modem's PC)
+                                if r==False:
+                                    log = str(datetime.now()) + ' error sending message to server\n\r'
+                                    dir_path = path.dirname(path.realpath(__file__)) #current folder application path
+                                    log_path = path.join(dir_path, 'log.txt')
+                                    writer.write(log_path, log, 'a')
+                                else:
+                                    log = str(datetime.now()) + ' message to owner ' + n.owner + ' sent to server\n\r'
+                                    dir_path = path.dirname(path.realpath(__file__)) #current folder application path
+                                    log_path = path.join(dir_path, 'log.txt')
+                                    writer.write(log_path, log, 'a')
+                                    set_sent_db(n.id, True)
+                                    set_sent_time_db(n.id, datetime.now())
         sleep(10)
 
 evaluate()

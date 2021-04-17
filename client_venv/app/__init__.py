@@ -3,7 +3,7 @@ from config import Config
 from flask_sqlalchemy import SQLAlchemy
 from flask_migrate import Migrate
 from flask_login import LoginManager
-from app import getconfig
+from app.aux_fun import read
 
 class PrefixMiddleware(object):
     def __init__(self, app, prefix=''):
@@ -26,7 +26,7 @@ db = SQLAlchemy(app)
 migrate = Migrate(app, db)
 login = LoginManager(app)
 login.login_view = 'login'
-p = getconfig.read('PREFIX','prefix')
+p = read('PREFIX','prefix')
 app.wsgi_app = PrefixMiddleware(app.wsgi_app, prefix=p)
 
 from app import routes, models

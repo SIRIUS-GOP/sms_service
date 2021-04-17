@@ -3,7 +3,7 @@
 
 import socket
 import sys
-from app import getconfig
+from app.aux_fun import read
 
 #data = b''
 
@@ -13,7 +13,7 @@ def client(msg): #rodar essa function no client
     data = b''
     # Connect the socket to the port where the server is listening
     try:
-        server_ip = getconfig.read('IP', 'server_ip')
+        server_ip = read('IP', 'server_ip')
         server_address = (server_ip, 5007)
         #print('connecting to %s port %s' % server_address)
         sock.connect(server_address)
