@@ -49,12 +49,11 @@ def ext_lim(limits):
         mLU = re.search('LU=', limits) 
         if mLU:
             L['LU'] = float(find_val(limits[mLU.span()[1]:]))
-        print('L ok =', L)
         return L
     except:
         mL = re.search(r'\AL=', limits)
         L['L'] = limits[mL.span()[1]:]
-        print('L except =', L['L'])
+        #print('L except =', L['L'])
         return L
 
 def read(section,key):
@@ -112,7 +111,7 @@ def evaluate():
             matchedpvlist = list(filter(r.match, fullpvlist))
             for x in matchedpvlist:
                 pv = caget(x) #get pv value
-                print(n.pv, pv)
+                #print(n.pv, pv)
                 #print(datetime.now(), n)
                 L = ext_lim(n.limits)['L']
                 LL = ext_lim(n.limits)['LL']
