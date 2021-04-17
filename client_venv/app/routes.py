@@ -262,6 +262,13 @@ def edit_rule(id):
             return redirect(url_for('rules'))
         if action == 'cancel':
             return redirect(url_for('rules'))
+        if action == 'delete': 
+            if request.method == "POST":
+                conn = get_rules_connection()
+                conn.execute("DELETE FROM rules_db WHERE id = ?", (id,))
+                conn.commit()
+                conn.close()
+                return redirect(url_for('rules'))
     rule = get_rule(id)
     return render_template('edit_rule.html', rule=rule, title='Edit Rule')
 

@@ -3,15 +3,17 @@
 
 {% block main %}
 <h1 class="header_text">Add Rule</h1></p>
-<p class='action_text'>Rules are mathematical expressions used to parameterize a notification.</p>
-<p class='action_text'>Use terms described bellow for the creation of the rule:</p>
-<p class='action_text'>&#9656;&nbsp;&nbsp;'pv' = PV reading value;</p>
-<p class='action_text'>&#9656;&nbsp;&nbsp;'L' = Limit threshold to be compared against pv;</p>
-<p class='action_text'>&#9656;&nbsp;&nbsp;'LU' = Upper Limit threshold to be compared against pv;</p>
-<p class='action_text'>&#9656;&nbsp;&nbsp;'LL' = Lower Limit threshold to be compared against pv;</p>
-<p class='action_text'>&#9656;&nbsp;&nbsp;Accepted operators: '>', '&#60;', '>=', '&#60;=', '==', '!=', 'and' and finally 'or';</p>
-<p class='action_text'>&#9656;&nbsp;&nbsp;They're the same operators of an EVAL() function used in Python.</p>
-<p class='action_text'>&#9656;&nbsp;&nbsp;Remember, when the Rule evaluates to True, the SMS message is sent;</p>
+<div class='add_text' style='line-height: 12px;'>
+    <p class='action_text'>Rules are mathematical expressions used to parameterize a notification.</p>
+    <p class='action_text'>Use terms described bellow for the creation of the rule:</p>
+    <p class='action_text'>&#9656;&nbsp;&nbsp;'pv' = PV reading value;</p>
+    <p class='action_text'>&#9656;&nbsp;&nbsp;'L' = Limit threshold to be compared against pv;</p>
+    <p class='action_text'>&#9656;&nbsp;&nbsp;'LU' = Upper Limit threshold to be compared against pv;</p>
+    <p class='action_text'>&#9656;&nbsp;&nbsp;'LL' = Lower Limit threshold to be compared against pv;</p>
+    <p class='action_text'>&#9656;&nbsp;&nbsp;Accepted operators: '>', '&#60;', '>=', '&#60;=', '==', '!=', 'and' and finally 'or';</p>
+    <p class='action_text'>&#9656;&nbsp;&nbsp;They're the same operators of an EVAL() function used in Python.</p>
+    <p class='action_text'>&#9656;&nbsp;&nbsp;Remember, when the Rule evaluates to True, the SMS message is sent;</p>
+</div>
 <form autocomplete="off" class="form" action='{{url_for("add_rule")}}' method="post">
     <div class="form-group" style="padding-top: 10px;">
         <label class="label" for="pv">Rule:</label><br>

@@ -62,8 +62,8 @@
     z-index: 3;
 }
 .sigreg:hover {
-  background-color: #555;
-  color: white;
+    background-color: #555;
+    color: white;
 }
 
 .sigreg a{
@@ -80,16 +80,16 @@
 }
 
 .sigreg a:hover:not(.active) {
-  background-color: #555;
-  color: white;
+    background-color: #555;
+    color: white;
 }
 
 .logopt {
-  top:0;
-  right:0;
-  text-align: center;
-  background-color: lightblue;
-  margin-top: 50px;
+    top:0;
+    right:0;
+    text-align: center;
+    background-color: lightblue;
+    margin-top: 50px;
 }
 /* sidebar navigation menu */
 .menu {
@@ -142,11 +142,11 @@
   }
 
 .content {
-  height: calc(100% - 100px);
-  width: calc(100% - 150px);
-  overflow-x: auto;
-  overflow-y: auto;
-  border-collapse: collapse;
+    height: calc(100% - 100px);
+    width: calc(100% - 150px);
+    overflow-x: auto;
+    overflow-y: auto;
+    border-collapse: collapse;
 }
 /* flash messages */
 .flash {
@@ -166,42 +166,46 @@
 }
 
 table {
-  font-family: Helvetica;
-  border-collapse: collapse;
-  width: max-content;
+    font-family: Helvetica;
+    border-collapse: collapse;
+    width: max-content;
 }
 
-table tr:nth-child(even){background-color: #f1f1f1;}
+table tr:nth-child(even){
+    background-color: #f1f1f1;
+}
 
-table tr:hover {background-color: rgb(211, 226, 248);}
+table tr:hover {
+    background-color: rgb(211, 226, 248);
+}
 
 table td, tr {
-  border: 1px solid #ddd;
-  padding: 8px;
+    border: 1px solid #ddd;
+    padding: 8px;
 }
 
 table th {
-  padding: 10px 10px 10px 10px;
-  text-align: left;
-  border: 1px solid #555;
-  background-color: #106bf5;
-  color: white;
+    padding: 10px 10px 10px 10px;
+    text-align: left;
+    border: 1px solid #555;
+    background-color: #106bf5;
+    color: white;
 }
 
 .form-field {
-  display: inline-block;
-  padding: 10px 15px 10px 10px;
-  width: max-content;
+    display: inline-block;
+    padding: 10px 15px 10px 10px;
+    width: max-content;
 }
 
 .rule {
-  min-width: max-content;
+    min-width: max-content;
 }
 
 input[type=text]  {
-  min-width: 40ch;
+    min-width: 40ch;
 }
 
 .login_field {
-  width: 100px;
+    width: 100px;
 }

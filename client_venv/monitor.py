@@ -36,19 +36,26 @@ def find_val(limit):
 
 def ext_lim(limits):
     L = dict.fromkeys(['L', 'LL', 'LU'])
-    mL = re.search(r'\AL=', limits)
-     #teste for 'L='
-    if mL:
-        L['L'] = float(find_val(limits[mL.span()[1]:]))
-    #teste for 'LL='
-    mLL = re.search('LL=', limits)
-    if mLL:
-        L['LL'] = float(find_val(limits[mLL.span()[1]:]))
-    #teste for 'LU='
-    mLU = re.search('LU=', limits) 
-    if mLU:
-        L['LU'] = float(find_val(limits[mLU.span()[1]:]))
-    return L
+    try:
+        mL = re.search(r'\AL=', limits)
+        #teste for 'L='
+        if mL:
+            L['L'] = float(limits[mL.span()[1]:])
+        #teste for 'LL='
+        mLL = re.search('LL=', limits)
+        if mLL:
+            L['LL'] = float(find_val(limits[mLL.span()[1]:]))
+        #teste for 'LU='
+        mLU = re.search('LU=', limits) 
+        if mLU:
+            L['LU'] = float(find_val(limits[mLU.span()[1]:]))
+        print('L ok =', L)
+        return L
+    except:
+        mL = re.search(r'\AL=', limits)
+        L['L'] = limits[mL.span()[1]:]
+        print('L except =', L['L'])
+        return L
 
 def read(section,key):
     try:
@@ -99,16 +106,18 @@ def evaluate():
                             persistent=row['persistent'])
             exp = datetime.strptime(n.expiration, "%Y-%m-%d %H:%M:%S")
             #print(exp, n.expiration)
+            if n.pv[len(n.pv) - 1] != '$': 
+                n.pv = n.pv + '$' #prepare pv name for filter 
             r = re.compile(n.pv)
             matchedpvlist = list(filter(r.match, fullpvlist))
             for x in matchedpvlist:
                 pv = caget(x) #get pv value
-                #print(n.pv, pv)
+                print(n.pv, pv)
                 #print(datetime.now(), n)
                 L = ext_lim(n.limits)['L']
                 LL = ext_lim(n.limits)['LL']
                 LU = ext_lim(n.limits)['LU']
-                if (now <= exp):
+                if ((now <= exp) and (type(pv)==int or type(pv)==float)):
                     if (eval(n.rule)):
                         msg = '{{"pv" : "{pv}",\
                                 "value" : "{value}",\
