@@ -31,7 +31,7 @@
         <div class="form-field">
             <label class="label" for="rule">Rule:</label><br>
             <select class="select" name="rule" id="rule"> 
-                <option value="0" disabled hidden selected="selected">Please Choose...</option>
+                <option value="0" disabled hidden selected="selected">    </option>
                 {% for row in rules %}
                     <option value="{{ row.rule }}">{{ row.description + ' : ' + row.rule}}</option>
                 {% endfor %}

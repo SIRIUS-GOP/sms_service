@@ -5,7 +5,7 @@ from app.models import User
 from flask_login import current_user, login_user, logout_user, login_required
 from werkzeug.urls import url_parse
 from app.dbfun import *
-from app import getconfig
+from app import aux_fun
 
 @app.shell_context_processor
 def make_shell_context():
@@ -141,21 +141,25 @@ def add_notification():
             phone = request.form['phone']
             persistent = 'persistent' in request.form
             interval = request.form['interval']
-            if interval.isnumeric():
-                if (int(interval) < 10):
+            r = aux_fun.verifyPV(pv)
+            if r:
+                if interval.isnumeric():
+                    if (int(interval) < 10):
+                        interval = 10
+                else:
                     interval = 10
+                if expiration=='' or pv=='' or rule==None or limits=='' or phone=='':
+                    flash("Please fill in empty field(s)")
+                else:
+                    conn = get_notifications_connection()
+                    conn.execute('INSERT INTO notifications_db (expiration, pv, rule, limits, owner, \
+                                phone, persistent, interval) VALUES (?, ?, ?, ?, ?, ?, ?, ?)',
+                                (expiration, pv, rule, limits, owner, phone, persistent, interval))
+                    conn.commit()
+                    conn.close()
+                    return redirect(url_for('notifications'))
             else:
-                interval = 10
-            if expiration=='' or pv=='' or rule==None or limits=='' or phone=='':
-                flash("Please fill in empty field(s)")
-            else:
-                conn = get_notifications_connection()
-                conn.execute('INSERT INTO notifications_db (expiration, pv, rule, limits, owner, \
-                            phone, persistent, interval) VALUES (?, ?, ?, ?, ?, ?, ?, ?)',
-                            (expiration, pv, rule, limits, owner, phone, persistent, interval))
-                conn.commit()
-                conn.close()
-                return redirect(url_for('notifications'))
+                flash("Please verify PV name")
         if action == 'cancel':
             return redirect(url_for('notifications'))
     return render_template('add_notification.html', descriptions=descriptions, rules=rules, title="Add Notification")
@@ -184,23 +188,34 @@ def edit_notification(id):
                 persistent = 1
             else:
                 persistent = 0
-            if interval.isnumeric():
-                if (int(interval) < 10):
+            r = aux_fun.verifyPV(pv)
+            if r:
+                if interval.isnumeric():
+                    if (int(interval) < 10):
+                        interval = 10
+                else:
                     interval = 10
+                if request.form.get('action'):
+                    conn = get_notifications_connection()
+                    conn.execute('UPDATE notifications_db SET expiration = ?, pv = ?, rule = ?, limits = ?, owner = ?, \
+                                phone = ?, interval = ?, sent = ?, persistent = ?'
+                                ' WHERE id = ?',
+                                (expiration, pv, rule, limits, owner, phone, interval, sent, persistent, id))
+                    conn.commit()
+                    notification = conn.execute('SELECT * FROM notifications_db').fetchall()
+                    conn.close()
+                    return redirect(url_for('notifications'))
             else:
-                interval = 10
-            if request.form.get('action'):
+                flash("Please verify PV name")
+        if action == 'cancel':
+            return redirect(url_for('notifications'))
+        if action == 'delete': 
+            if request.method == "POST":
                 conn = get_notifications_connection()
-                conn.execute('UPDATE notifications_db SET expiration = ?, pv = ?, rule = ?, limits = ?, owner = ?, \
-                            phone = ?, interval = ?, sent = ?, persistent = ?'
-                            ' WHERE id = ?',
-                            (expiration, pv, rule, limits, owner, phone, interval, sent, persistent, id))
+                conn.execute("DELETE FROM notifications_db WHERE id = ?", (id,))
                 conn.commit()
-                notification = conn.execute('SELECT * FROM notifications_db').fetchall()
                 conn.close()
                 return redirect(url_for('notifications'))
-        else:
-            return redirect(url_for('notifications'))
     notification = get_notification(id)
     return render_template('edit_notification.html', descriptions=descriptions, rules=rules, notification=notification, title="Edit Notification")
 

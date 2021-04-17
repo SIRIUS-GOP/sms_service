@@ -96,6 +96,9 @@
         <span class="action-buttons" style="padding: 10px 10px 10px 0px;">
             <button type="submit" class="btn-cancel" value='cancel' name='action'>Cancel</button>
         </span>
+        <span class="action-buttons" style="padding: 10px 10px 10px 0px;">
+            <button type="submit" class="btn-delete" value='delete' name='action' onclick="return confirm('Are you sure?');">Delete</button>
+        </span>
     </span>
 </form>
 {% endblock %}
