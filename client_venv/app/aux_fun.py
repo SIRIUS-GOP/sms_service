@@ -15,25 +15,9 @@ def read(section,key):
         return 0
     return r
 
-def verifyPV(pv):
-    url = read('EPICS','url')
-    r = requests.get(url, allow_redirects=True, verify=False)
-    fullpvlist = r.text.replace('"','').split(',')
-    r = re.compile(pv)
-    matched_pv_list = list(filter(r.match, fullpvlist))
-
-    if matched_pv_list:
-        print('match')
-        return 1
-    else:
-        print('n match')
-        return 0
-
 def getfullpvlist():
     url = read('EPICS','url')
     r = requests.get(url, allow_redirects=True, verify=False)
     #[item for item in list if condition]
     fullpvlist = r.text.replace('"','').split(',')
     return fullpvlist
-
-#verifyPV('TS-01:PS-CV-1:Current-Mon')

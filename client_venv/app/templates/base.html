@@ -40,10 +40,10 @@
                         q: request.term, // in flask, "q" will be the argument to look for using request.args
                     }, 
                     function(data) {
-                        response(data.matching_results.slice(0,24)); // matching_results from jsonify
+                        response(data.matching_results.slice(0,200)); // matching_results from jsonify
                     });
                 },
-                minLength: 6,
+                minLength: 2,
                 delay:100,
             });
         })

@@ -1,5 +1,6 @@
 import sqlite3
 from os import path
+import re
 
 def get_notifications_connection():
     dir_path = path.dirname(path.realpath(__file__)) #current folder application path
@@ -29,6 +30,12 @@ def get_fullpvlist_connection():
     conn.row_factory = sqlite3.Row
     return conn
 
+def get_fullpvlist_conn():
+    dir_path = path.dirname(path.realpath(__file__)) #current folder application path
+    db_path = path.join(dir_path, 'db/fullpvlist.db')
+    conn = sqlite3.connect(db_path)
+    return conn
+    
 def get_rule(rule_id):
     conn = get_rules_connection()
     rule = conn.execute('SELECT * FROM rules_db WHERE id = ?',
@@ -75,3 +82,7 @@ def set_sent_time_db(id, val):
                     ' WHERE id = ?',
                     (val, id))
     conn.commit()
+
+def regexp(expr, item):
+    reg = re.compile(expr)
+    return reg.search(item) is not None

@@ -76,15 +76,6 @@ def getfullpvlist():
     fullpvlist = r.text.replace('"','').split(',')
     return fullpvlist
 
-def verifyPV(pv):
-    fullpvlist = getfullpvlist()
-    r = re.compile(pv)
-    matchedpvlist = list(filter(r.match, fullpvlist))
-    if matched_pv_list:
-        return 1
-    else:
-        return 0
-
 def evaluate():
     conn_fullpvlist = getfullpvlist()
     while True:
