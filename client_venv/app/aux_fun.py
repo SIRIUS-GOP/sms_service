@@ -1,7 +1,7 @@
 import requests
 import configparser
 from os import path
-import re
+import re, requests
 
 def read(section,key):
     try:
@@ -28,5 +28,12 @@ def verifyPV(pv):
     else:
         print('n match')
         return 0
+
+def getfullpvlist():
+    url = read('EPICS','url')
+    r = requests.get(url, allow_redirects=True, verify=False)
+    #[item for item in list if condition]
+    fullpvlist = r.text.replace('"','').split(',')
+    return fullpvlist
 
 #verifyPV('TS-01:PS-CV-1:Current-Mon')

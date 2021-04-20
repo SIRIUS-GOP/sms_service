@@ -3,7 +3,9 @@
 <head>
 </head>
 <head>
-    <script src="http://code.jquery.com/jquery-1.9.1.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+    <link rel="stylesheet" href="https://code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.maskedinput/1.4.1/jquery.maskedinput.min.js"></script>
     <link rel="icon" href="{{ url_for('static', filename='favicon.ico') }}">
     <link rel="stylesheet" href="{{ url_for('static', filename='css/base.css') }}">
@@ -20,6 +22,31 @@
                 $('#form-field').toggle();
             });
         });
+    </script>
+    <script>
+        $(function(){
+            $.datetimepicker.setLocale('en');
+            $('#datetimepicker').datetimepicker({
+                format:"Y-m-d H:i:00",
+                timeDisplayFormat: "hh:mm:ss",
+            });
+        });
+    </script>
+    <script>
+        $(function() {
+            $("#pv").autocomplete({
+                source:function(request, response) {
+                    $.getJSON("{{url_for('autocomplete')}}",{
+                        q: request.term, // in flask, "q" will be the argument to look for using request.args
+                    }, 
+                    function(data) {
+                        response(data.matching_results.slice(0,24)); // matching_results from jsonify
+                    });
+                },
+                minLength: 6,
+                delay:100,
+            });
+        })
     </script>
     <title>SMS Service - {{title}}</title>
 </head>

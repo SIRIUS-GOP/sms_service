@@ -22,6 +22,13 @@ def get_users_connection():
     conn.row_factory = sqlite3.Row
     return conn
 
+def get_fullpvlist_connection():
+    dir_path = path.dirname(path.realpath(__file__)) #current folder application path
+    db_path = path.join(dir_path, 'db/fullpvlist.db')
+    conn = sqlite3.connect(db_path)
+    conn.row_factory = sqlite3.Row
+    return conn
+
 def get_rule(rule_id):
     conn = get_rules_connection()
     rule = conn.execute('SELECT * FROM rules_db WHERE id = ?',

@@ -33,11 +33,13 @@
         </script>
         </div>
         <div class="form-field">
-            <label class="label" for="pv">PV Name:</label><br>
-            <input class="pv" type="text" name="pv" {%if (current_user.username==notification[6] 
-                or current_user.username=='admin')%} enabled {%else%} disabled {%endif%}
-                placeholder="Type in the PV name..." class="form-control"
-                value="{{ request.form['pv'] or notification[3] }}"></input>
+            <div class="ui-widget">
+                <label class="pv" for="pv">PV Name or Filter:</label><br>
+                <input class="pv" type="text" name="pv" {%if (current_user.username==notification[6] 
+                    or current_user.username=='admin')%} enabled {%else%} disabled {%endif%}
+                    placeholder="Type in the PV name..." id="pv"
+                    value="{{ request.form['pv'] or notification[3] }}"></input>
+            </div>
         </div>
     </div>
     <div class="form-field-line">
