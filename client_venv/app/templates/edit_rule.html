@@ -17,14 +17,16 @@
 <form autocomplete="off" class="form" method="post">
     <div class="form-group" style="padding-top: 10px;">
         <label class="label" for="pv">Rule:</label><br>
-        <input type="text" id="rule" name="rule"
+        <input type="text" id="rule" name="rule"{%if (current_user.username==rule[3]
+            or current_user.username=='admin')%} enabled {%else%} disabled {%endif%}
                placeholder="Type in the rule..." class="form-control"
                value="{{ request.form['rule'] or rule[1] }}"></input>
     </div>
     <div class="form-group" style="padding-top: 10px;">
         <label class="label" for="description">Description:</label><br>
-        <input type="text" id="description" name="description" maxlength = "50"
-               placeholder="Type in the description of your rule..." class="form-control"
+        <input type="text" id="description" name="description" maxlength = "50" {%if (current_user.username==rule[3]
+            or current_user.username=='admin')%} enabled {%else%} disabled {%endif%}
+               placeholder="Type in a description for your rule..." class="form-control"
                value="{{ request.form['description'] or rule[2]}}"></input>
     </div>
     <div class="form-group" style="padding-top: 10px;" >
@@ -35,14 +37,17 @@
     <br>
     <br>
     <span class="action-buttons">
-        <span class="action-buttons" style="padding: 10px 10px 10px 0px;">
-            <button type="submit" class="btn-submit" value='accept' name='action'>Submit</button>
+        <span class="action-buttons">
+            <button type="submit" class="btn-submit" value='accept' name='action' 
+            {%if current_user.username!=rule[3]%} disabled {%endif%}>Submit</button>
         </span>
-        <span class="action-buttons" style="padding: 10px 10px 10px 0px;">
-            <button type="submit" class="btn-accept" value='cancel' name='action'>Cancel</button>
+        <span class="action-buttons">
+            <button type="submit" class="btn-accept" value='cancel' name='action' 
+            {%if current_user.username!=rule[3]%} disabled {%endif%}>Cancel</button>
         </span>
-        <span class="action-buttons" style="padding: 10px 10px 10px 0px;">
-            <button type="submit" class="btn-accept" value='delete' name='action' onclick="return confirm('Are you sure?');">Delete</button>
+        <span class="action-buttons">
+            <button type="submit" class="btn-accept" value='delete' name='action' onclick="return confirm('Are you sure?');" 
+            {%if current_user.username!=rule[3]%} disabled {%endif%}>Delete</button>
         </span>
     </span>
 </form>
