@@ -166,10 +166,10 @@ def add_notification():
                 persistent = 'persistent' in request.form
                 interval = request.form['interval']
                 if interval.isnumeric():
-                    if (int(interval) < 10):
-                        interval = 10
+                    if (int(interval) < 1):
+                        interval = 1
                 else:
-                    interval = 10
+                    interval = 1
                 if expiration=='' or pv=='' or rule==None or limits=='' or phone=='':
                     flash("Please fill in empty field(s)")
                 else:
@@ -215,10 +215,10 @@ def edit_notification(id):
                 else:
                     persistent = 0
                 if interval.isnumeric():
-                    if (int(interval) < 10):
-                        interval = 10
+                    if (int(interval) < 1):
+                        interval = 1
                 else:
-                    interval = 10
+                    interval = 1
                 if request.form.get('action'):
                     conn = get_notifications_connection()
                     conn.execute('UPDATE notifications_db SET expiration = ?, pv = ?, rule = ?, limits = ?, owner = ?, \
