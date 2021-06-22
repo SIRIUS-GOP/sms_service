@@ -20,7 +20,7 @@ def init():
     # Bind the socket to the port
     ip = str(config.read("IP", "server_ip"))
     port = int(config.read("IP", "server_port"))
-    print(ip, port)
+    #print(ip, port)
     if (ip==0 or port==0):
         exit()
     else:
