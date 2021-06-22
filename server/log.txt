@@ -128,4 +128,11 @@
 2021-06-19 08:05:30.446341 // PV: SI-02SB:VA-CCG-BG:Pressure-Mon //  Rule: pv > L //  Limit(s): L=1.0e-8 //  PV Value: 1.4e-08
 2021-06-22 08:45:02.547797 // PV: SI-13C4:DI-DCCT:Current-Mon //  Rule: pv < L //  Limit(s): L=0 //  PV Value: -0.01693595842
 2021-06-22 09:50:23.426465 // PV: SI-13C4:DI-DCCT:Current-Mon //  Rule: pv < L //  Limit(s): L=1 //  PV Value: -0.018827580905
+2021-06-22 11:29:20.529955 // PV: SI-13C4:DI-DCCT:Current-Mon //  Rule: pv < L //  Limit(s): L=0.05 //  PV Value: -0.018061750655
+2021-06-22 12:29:29.274874 // PV: SI-13C4:DI-DCCT:Current-Mon //  Rule: pv < L //  Limit(s): L=0.05 //  PV Value: 0.0021060083416
+2021-06-22 15:18:57.064600 // PV: SI-13C4:DI-DCCT:Current-Mon //  Rule: pv < L //  Limit(s): L=2 //  PV Value: 0.79123356396
+2021-06-22 16:19:03.851623 // PV: SI-13C4:DI-DCCT:Current-Mon //  Rule: pv < L //  Limit(s): L=2 //  PV Value: 0.003780612141
+2021-06-22 16:55:53.891000 // PV: SI-13C4:DI-DCCT:Current-Mon //  Rule: pv < L //  Limit(s): L=3 //  PV Value: 2.3183532108
+2021-06-22 18:01:42.804155 // PV: SI-13C4:DI-DCCT:Current-Mon //  Rule: pv < L //  Limit(s): L=2 //  PV Value: 0.0034352577126
+2021-06-22 18:02:13.824337 // PV: SI-13C4:DI-DCCT:Current-Mon //  Rule: pv < L //  Limit(s): L=0.05 //  PV Value: 0.0026809034777
 

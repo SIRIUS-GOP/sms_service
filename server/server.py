@@ -51,7 +51,8 @@ def server(sock, queue, stop):
             ip1 = config.read("IP", "client_ip1")
             ip2 = config.read("IP", "client_ip2")
             ip3 = config.read("IP", "client_ip3")
-            if (client_address[0] == ip1 or client_address[0] == ip2 or client_address[0] == ip3):
+            ip4 = config.read("IP", "client_ip4")
+            if (client_address[0] == ip1 or client_address[0] == ip2 or client_address[0] == ip3 or client_address[0] == ip4):
                 #Receive the data in small chunks and retransmit it
                 data = connection.recv(1024)
                 #print(datetime.now(),' received "%s"' % data, type(data))
