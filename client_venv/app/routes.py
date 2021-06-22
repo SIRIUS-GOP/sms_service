@@ -38,7 +38,7 @@ def login():
         if user is None or not user.check_password(form.password.data):
             flash('Invalid username or password')
             return redirect(url_for('login'))
-        r = login_user(user, remember=form.remember_me.data)
+        r = login_user(user, remember=False) #form.remember_me.data)
         next_page = request.args.get('next')
         if not next_page or url_parse(next_page).netloc != '':
             next_page = url_for('notifications')
@@ -102,11 +102,27 @@ def notifications():
     #               (notification_id,)).fetchone()
     return render_template('notifications.html', notifications=notifications, rules=rules, title="Notifications")
 
-@app.route('/notifications/notifications_actions', methods=["POST", "GET"])
+@app.route('/delete_notification', methods=['POST', 'GET'])
 @login_required
-def notifications_actions():
+def delete_notification():
+    checked_list = request.args.getlist('checked_list')
     conn = get_notifications_connection()
     cursor = conn.cursor()
+    for item in checked_list:
+        query = cursor.execute("SELECT owner FROM notifications_db WHERE id = ?", (item,))
+        owner = query.fetchall()[0][0]
+        if current_user.username == owner:
+            cursor.execute("DELETE FROM notifications_db WHERE id = ?", (item,))
+        else:
+            flash("Cannot delete notifications you don't own")
+    conn.commit()
+    conn.close()
+    return redirect(url_for('notifications'))
+
+@app.route('/notifications/notifications_actions', methods=["POST", "GET"])
+def notifications_actions():
+    #conn = get_notifications_connection()
+    #cursor = conn.cursor()
     action = request.form['action']
     if action == 'add':
         if request.method == "POST":
@@ -115,12 +131,9 @@ def notifications_actions():
         if request.method == "POST":
             checked_list = list(map(int, request.form.getlist('checkbox[]')))
             if len(checked_list) > 0:
-                query = "DELETE FROM notifications_db WHERE id IN ({})".format(", ".join("?" * len(checked_list)))
-                cursor.execute(query, checked_list)
-                conn.commit()
+                return redirect(url_for('delete_notification', checked_list=checked_list))
             else:
                 flash('Select at least one notification to delete')
-        conn.close()
         return redirect(url_for('notifications'))
     if action == 'edit':
         if request.method == "POST":
@@ -132,7 +145,6 @@ def notifications_actions():
                 flash('Select one notification to edit')
                 return redirect(url_for('notifications'))
             else: 
-                #global idx
                 id = checked_list[0]
                 return redirect(url_for('edit_notification', id=id))
 
@@ -294,6 +306,26 @@ def edit_rule(id):
     rule = get_rule(id)
     return render_template('edit_rule.html', rule=rule, title='Edit Rule')
 
+@app.route('/delete_rule', methods=['POST', 'GET'])
+@login_required
+def delete_rule():
+    checked_list = request.args.getlist('checked_list')
+    conn = get_rules_connection()
+    cursor = conn.cursor()
+    if len(checked_list) > 0:
+        for item in checked_list:
+            query = cursor.execute("SELECT owner FROM rules_db WHERE id = ?", (item,))
+            owner = query.fetchall()[0][0]
+            if current_user.username == owner:
+                cursor.execute("DELETE FROM rules_db WHERE id = ?", (item,))
+            else:
+                flash("Cannot delete rules you do not own")
+        conn.commit()
+    else:
+        flash('Select at least one rule to delete')
+    conn.close()
+    return redirect(url_for('rules'))
+
 @app.route('/rules/rules_actions', methods=["POST", "GET"])
 def rules_actions():
     conn = get_rules_connection()
@@ -304,16 +336,8 @@ def rules_actions():
     if action == 'del':
         if request.method == "POST":
             checked_list = list(map(int, request.form.getlist('checkbox[]')))
-            print(checked_list)
-            #owner = get_rule(checked_list[0])[3]
-            if len(checked_list) > 0:
-                query = "DELETE FROM rules_db WHERE id IN ({})".format(", ".join("?" * len(checked_list)))
-                cursor.execute(query, checked_list)
-                conn.commit()
-            else:
-                flash('Select at least one rule to delete')
-        conn.close()
-        return redirect(url_for('rules'))
+            print('checked_list:', type(checked_list))
+            return redirect(url_for('delete_rule', checked_list=checked_list))
     if action == 'edit':
         if request.method == "POST":
             checked_list = list(map(int, request.form.getlist('checkbox[]')))

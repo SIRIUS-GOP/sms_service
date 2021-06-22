@@ -3,7 +3,7 @@
 
 {% block main %}
 <h1 class="header_text">Add Notification</h1>
-<div class='add_text' style='line-height: 12px;'>
+<div class='add_text' style='line-height: 7px;'>
     <p>▸ Expiration Date: Set a date and time to the notification expirate;</p>
     <p>▸ PV Name or Filter: Type in the PV name or a RegEx filter for multiple PVs;</p>
     <p>▸ Rule: Choose one between the list. You can add a new rule in the Rules menu;</p>
@@ -11,7 +11,9 @@
     <p style="margin-left: 50px">LL=&#60value&#62 or LU=&#60value&#62 for other cases;</p>
     <p style="margin-left: 50px;">Example 1) 'L=100' / Example 2) 'L=5e-8' / Example 3) 'LL=0;LU=1e-7'</p>
     <p>▸ Owner: This field is unchangeable, linked to your account;</p>
-    <p>▸ Phone Number: it follows the format displayed in the field on selecting it;</p>
+    <p>▸ Phone Number: It follows the format displayed in the field on selecting it;</p>
+    <p>▸ Persistent?: Messages will be sent whenever the Rule is True, using the 'Interval' value;</p>
+    <p>▸ Interval: Appears when 'Persistent?' is checked;</p>
 </div>
 <form autocomplete="off" class="form" action='{{url_for("add_notification")}}' method="post">
     <div class="form-field-line">
