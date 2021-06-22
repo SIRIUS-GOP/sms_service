@@ -48,8 +48,10 @@ def server(sock, queue, stop):
         connection, client_address = sock.accept()
         try:
             #print('connection from', client_address)
-            ip = config.read("IP", "client_ip")
-            if client_address[0] == ip:
+            ip1 = config.read("IP", "client_ip1")
+            ip2 = config.read("IP", "client_ip2")
+            ip3 = config.read("IP", "client_ip3")
+            if (client_address[0] == ip1 or client_address[0] == ip2 or client_address[0] == ip3):
                 #Receive the data in small chunks and retransmit it
                 data = connection.recv(1024)
                 #print(datetime.now(),' received "%s"' % data, type(data))
