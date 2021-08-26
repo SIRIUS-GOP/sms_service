@@ -12,6 +12,37 @@ from systray import systray_run
 
 sock = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
 
+def on_new_client(connection, client_address):
+    while True:
+        try:
+            #print('connection from', client_address)
+            ip1 = config.read("IP", "client_ip1")
+            ip2 = config.read("IP", "client_ip2")
+            ip3 = config.read("IP", "client_ip3")
+            ip4 = config.read("IP", "client_ip4")
+            data = ''
+            if (client_address[0] == ip1 or client_address[0] == ip2 or client_address[0] == ip3 or client_address[0] == ip4):
+                #Receive the data in small chunks and retransmit it
+                data = connection.recv(1024)
+                #print(datetime.now(),' received "%s"' % data, type(data))
+                if data:
+                    #print('sending data back to the client')
+                    connection.sendall(data) #echo
+                    to_sms = data.decode()
+                    #print('to_sms: ', to_sms, type(to_sms))
+                    queue.put_nowait(json.loads(to_sms)) #increment queue
+                # else:
+                #     pass
+                #     print('no more data from ', client_address)
+                #     break
+            else:
+                connection.close()
+        finally:
+            #Clean up the connection
+            connection.close()
+            break
+    quit()
+
 def init():
     # Create a TCP/IP socket
     sock = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
@@ -47,31 +78,11 @@ def server(sock, queue, stop):
         # Wait for a connection
         connection, client_address = sock.accept()
         try:
-            #print('connection from', client_address)
-            ip1 = config.read("IP", "client_ip1")
-            ip2 = config.read("IP", "client_ip2")
-            ip3 = config.read("IP", "client_ip3")
-            ip4 = config.read("IP", "client_ip4")
-            if (client_address[0] == ip1 or client_address[0] == ip2 or client_address[0] == ip3 or client_address[0] == ip4):
-                #Receive the data in small chunks and retransmit it
-                data = connection.recv(1024)
-                #print(datetime.now(),' received "%s"' % data, type(data))
-                if data:
-                    #print('sending data back to the client')
-                    connection.sendall(data) #echo
-                    to_sms = data.decode()
-                    #print('to_sms: ', to_sms, type(to_sms))
-                    queue.put_nowait(json.loads(to_sms)) #increment queue
-                # else:
-                #     pass
-                #     print('no more data from ', client_address)
-                #     break
-            else:
-                connection.close()
+            p = Process(target=on_new_client, args=(connection, client_address))
+            p.start()
         finally:
             #Clean up the connection
-            connection.close()
-            listen(sock)
+            #listen(sock)
             sleep(1)
 
 def watcherseye(queue, stop): #queue watcher
@@ -86,7 +97,7 @@ def watcherseye(queue, stop): #queue watcher
             msg = str('PV: ' + n['pv'] + '\n\r Rule: ' + n['rule'] + '\n\r Limit(s): '\
                       + n['limits'] + '\n\r PV Value: ' + n['value'])
             r = sendsms.sendSMS(sub("[^0-9]", "", n['phone']), msg)
-            print(r)
+            #print(r)
             if r==True:
                 writer.write(msg)
             else:
@@ -111,7 +122,6 @@ def main():
     p3.start()
     #print('p3 ok')
     while exit.value == False:
-        sleep(1)
         if (start.value == True and stop.value == True):
             stop.value = False
             sock = init()
