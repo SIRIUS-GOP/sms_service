@@ -1,5 +1,0 @@
-#sms_service server
-- this runs on windows os
-- install dependencies from requirements.txt
-- configure client/server address in config.cfg
-- run server.bat
