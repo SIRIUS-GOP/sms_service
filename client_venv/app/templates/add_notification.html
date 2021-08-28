@@ -1,0 +1,92 @@
+{% extends 'base.html' %}
+{% set active_page = "notifications" %}
+
+{% block main %}
+<h1 class="header_text">Add Notification</h1>
+<div class='add_text' style='line-height: 7px;'>
+    <p>▸ Expiration Date: Set a date and time to the notification expirate;</p>
+    <p>▸ PV Name or Filter: Type in the PV name or a RegEx filter for multiple PVs;</p>
+    <p>▸ Rule: Choose one between the list. You can add a new rule in the Rules menu;</p>
+    <p>▸ Limit(s): Type in the limit(s) ot your rule. Use L=&#60value&#62 for a single limit,</p>
+    <p style="margin-left: 50px">LL=&#60value&#62 or LU=&#60value&#62 for other cases;</p>
+    <p style="margin-left: 50px;">Example 1) 'L=100' / Example 2) 'L=5e-8' / Example 3) 'LL=0;LU=1e-7'</p>
+    <p>▸ Owner: This field is unchangeable, linked to your account;</p>
+    <p>▸ Phone Number: It follows the format displayed in the field on selecting it;</p>
+    <p>▸ Persistent?: Messages will be sent whenever the Rule is True, using the 'Interval' value;</p>
+    <p>▸ Interval: Appears when 'Persistent?' is checked;</p>
+</div>
+<form autocomplete="off" class="form" action='{{url_for("add_notification")}}' method="post">
+    <div class="form-field-line">
+        <div class="form-field" style="padding-top: 10px;">
+            <label class="label" for="expiration">Expiration Date:</label><br>
+            <input type="text" id="datetimepicker" name="expiration" 
+                    placeholder="Choose the expiration date..." class="form-control"
+                    value="{{ request.form['expiration'] }}"></input>
+        </div>
+        <div class="form-field">
+            <div class="ui-widget">
+                <label class="pv" for="pv">PV Name or Filter:</label><br>
+                <input class="pv" type="text" name="pv" id="pv"
+                    placeholder="Type in the PV name..."
+                    value="{{ request.form['pv'] }}"></input>
+            </div>
+        </div>
+    </div>
+    <div class="form-field-line">
+        <div class="form-field">
+            <label class="label" for="rule">Rule:</label><br>
+            <select class="select" name="rule" id="rule"> 
+                <option value="0" disabled hidden selected="selected">    </option>
+                {% for row in rules %}
+                    <option value="{{ row.rule }}">{{ row.description + ' : ' + row.rule}}</option>
+                {% endfor %}
+            </select>
+        </div>
+    </div>
+    <div class="form-field-line">
+        <div class="form-field">
+            <label class="label" for="limits">Limit(s):</label><br>
+            <input class="limits" type="text" name="limits" 
+                placeholder="Type in the value..." class="form-control"
+                value="{{ request.form['limits'] }}"></input>
+        </div>
+        <div class="form-field">
+            <label class="label" for="phone">Owner:</label><br>
+            <input class="owner" type="text" name="owner" readonly
+                placeholder="Type in the owner of the rule.." class="form-control"
+                value="{{ request.form['owner'] or current_user.username}}"></input>   
+        </div>
+    </div>
+    <div class="form-field-line">
+        <div class="form-field">
+            <label class="label" for="phone">Phone Number:</label><br>
+            <input class="phone" type="text" name="phone" id="phone"
+                placeholder="Type in the phone number..."
+                value="{{ request.form['phone'] }}"></input>   
+        </div>
+        <div class="form-field" id="form-field" style="display:none">
+            <label class="label" for="interval">Interval:</label><br>
+            <input class="interval" type="text" name="interval" 
+                placeholder="Type the value in minutes, if persistent..." class="form-control"
+                value="{{ request.form['interval'] }}"></input>               
+        </div>
+    </div>
+    <div class="form-field-line">
+        <div class="form-field">
+            <label class="label" for="persistent">Persistent?</label><br>
+            <input type="checkbox" class="persistent" name="persistent" id="persistent"
+                    placeholder="Type in persistence value..."
+                    value="{{ request.form['persistent'] }}"></input>   
+        </div>
+    </div>
+        <br>
+    <div class="action-buttons">
+        <button type="submit" class="btn-accept" value='accept' name='action' 
+        {%if (current_user.username or current_user.username=='admin')%} enabled style="opacity:1;"{%else%} 
+        disabled style="opacity:0.5;"{%endif%}>Submit</button>
+        <button type="submit" class="btn-cancel" value='cancel' name='action'
+        {%if (current_user.username or current_user.username=='admin')%} enabled style="opacity:1;"{%else%} 
+        disabled style="opacity:0.5;"{%endif%}>Cancel</button>
+    </div>
+</form>
+{% endblock %}
