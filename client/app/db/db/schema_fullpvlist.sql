@@ -1,0 +1,6 @@
+DROP TABLE IF EXISTS fullpvlist_db;
+
+CREATE TABLE fullpvlist_db (
+    id INTEGER PRIMARY KEY AUTOINCREMENT,
+    pv TEXT NOT NULL
+);

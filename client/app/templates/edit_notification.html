@@ -1,0 +1,214 @@
+{% extends 'base.html' %}
+{% set active_page = "notifications" %}
+
+{% block main %}
+<h1 class="header_text">Edit Notification</h1>
+<div class='add_text' style='line-height: 7px;'>
+    <p>▸ Expiration Date: Set a date and time to the notification expirate;</p>
+    <p>▸ PV Name or Filter: Type in the PV name or a RegEx filter for multiple PVs;</p>
+    <p>▸ Rule: Choose one between the list. You can add a new rule in the Rules menu;</p>
+    <p>▸ Limit(s): Type in the limit(s) ot your rule. Use L=&#60value&#62 for a single limit,</p>
+    <p style="margin-left: 50px">LL=&#60value&#62 or LU=&#60value&#62 for other cases;</p>
+    <p style="margin-left: 50px;">Example 1) 'L=100' / Example 2) 'L=5e-8' / Example 3) 'LL=0;LU=1e-7'</p>
+    <p>▸ Owner: This field is unchangeable, linked to your account;</p>
+    <p>▸ Phone Number: It follows the format displayed in the field on selecting it;</p>
+    <p>▸ Persistent?: Messages will be sent whenever the Rule is True, using the 'Interval' value;</p>
+    <p>▸ Interval: Appears when 'Persistent?' is checked;</p>
+</div>
+<form autocomplete="off" class="form" method="post" id="formednot">
+    <div class="form-field-line">
+        <div class="form-field" style="padding-top: 10px;">
+            <label class="label" for="expiration">Expiration Date:</label><br>
+            <input type="text" id="datetimepicker" name="expiration" {%if 
+                    (current_user.username==notification[3] or 
+                    current_user.username=='admin')%} enabled {%else%} disabled {%endif%}
+                    placeholder="Choose the expiration date..." class="form-control"
+                    value="{{ request.form['expiration'] or notification[2] }}"></input>
+        </div>
+        <div class="form-field">
+            <label class="label" for="phone">Owner:</label><br>
+            <input class="owner" type="text" name="owner" {%if (current_user.username==notification[3]
+                or current_user.username=='admin')%} enabled {%else%} disabled {%endif%}
+                placeholder="Type in the owner of the rule.." class="form-control"
+                value="{{ request.form['owner'] or notification[3] }}" readonly></input>   
+        </div>
+        <div class="form-field">
+            <label class="label" for="phone">Phone Number:</label><br>
+            <input class="phone" type="text" name="phone" {%if (current_user.username==notification[3] or current_user.username=='admin')%} id="phone"
+                style="color:black" enabled{%else%} disabled {%endif%}
+                placeholder="Type in the phone number..." class="form-control"
+                value={%if (current_user.username==notification[3] or current_user.username=='admin')%}"{{ request.form['phone'] or notification[4] }}"
+                {%else%}"{{ request.form['phone'] or '(??)?????-????' }}"{%endif%}></input>   
+        </div>
+    </div>
+    <br>
+    <div class="RuleCore1" id="RuleCore1">
+        <div class="form-field-line" style="border:solid black 1px;display:inline-block">
+            <div class="form-field">
+                <div class="ui-widget">
+                    <label class="pv1" for="pv1">PV Name or Filter:</label><br>
+                    <input class="pv1" type="text" name="pv1" {%if (current_user.username==notification[3] 
+                        or current_user.username=='admin')%} enabled {%else%} disabled {%endif%}
+                        placeholder="Type in the PV name..." id="pv1"
+                        value="{{ request.form['pv'] or notification[5] }}"></input>
+                </div>
+            </div>
+            <div class="form-field">
+                <label class="label" for="rule1">Rule:</label><br>
+                <select class="rule1" name="rule1" id="rule"{%if (current_user.username==notification[3] 
+                    or current_user.username=='admin')%} enabled {%else%} disabled {%endif%}>
+                    {% for row in rules %}
+                        <option value="{{ row.rule }}" {% if row.rule==notification[6] %} selected="selected" 
+                        {% endif %}>{{ row.description + ' : ' + row.rule}}</option>
+                    {% endfor %}
+                </select>
+            </div>
+            <div class="form-field">
+                <label class="label" for="limits1">Limit(s):</label><br>
+                <input class="limits1" type="text" name="limits1" {%if (current_user.username==notification[3] 
+                    or current_user.username=='admin')%} enabled {%else%} disabled {%endif%}
+                    placeholder="Type in the value..." class="form-control"
+                    value="{{ request.form['limits'] or notification[7] }}"></input>
+            </div>
+        </div>
+        <div name="divsubrule1" id="divsubrule1">
+            <select class="select" name="addsubrule1" id="addsubrule1"> 
+                <option value="0" {%if notification[8]=="0"%}selected="selected"{%endif%}>  </option>
+                <option value="AND" {%if notification[8]=="and"%}selected="selected"{%endif%}>AND</option>
+                <option value="OR" {%if notification[8]=="or"%}selected="selected"{%endif%}>OR</option>
+                <option value="NOT" {%if notification[8]=="not"%}selected="selected"{%endif%}>NOT</option>
+            </select>
+        </div>
+    </div>
+    <div class="RuleCore2" id="RuleCore2" name="RuleCore2" {%if notification[8]=="0"%}style="display:none;"{%endif%} >
+        <div class="form-field-line" style="border:solid black 1px;display:inline-block">
+            <div class="form-field">
+                <div class="ui-widget">
+                    <label class="pv2" for="pv2">PV Name or Filter:</label><br>
+                    <input class="pv2" type="text" name="pv2" {%if (current_user.username==notification[3] 
+                        or current_user.username=='admin')%} enabled {%else%} disabled {%endif%}
+                        placeholder="Type in the PV name..." id="pv2"
+                        value="{{ request.form['pv'] or notification[9] }}"></input>
+                </div>
+            </div>
+            <div class="form-field">
+                <label class="label" for="rule2">Rule:</label><br>
+                <select class="rule2" name="rule2" id="rule"{%if (current_user.username==notification[3] 
+                    or current_user.username=='admin')%} enabled {%else%} disabled {%endif%}>
+                    {% for row in rules %}
+                        <option value="{{ row.rule }}" {% if row.rule==notification[10] %} selected="selected" 
+                        {% endif %}>{{ row.description + ' : ' + row.rule}}</option>
+                    {% endfor %}
+                </select>
+            </div>
+            <div class="form-field">
+                <label class="label" for="limits2">Limit(s):</label><br>
+                <input class="limits2" type="text" name="limits2" {%if (current_user.username==notification[3] 
+                    or current_user.username=='admin')%} enabled {%else%} disabled {%endif%}
+                    placeholder="Type in the value..." class="form-control"
+                    value="{{ request.form['limits'] or notification[11] }}"></input>
+            </div>
+        </div>
+        <div name="divsubrule2" id="divsubrule2">
+            <select class="select" name="addsubrule2" id="addsubrule2"> 
+                <option value="0" {%if notification[12]=="0"%}selected="selected"{%endif%}>  </option>
+                <option value="AND" {%if notification[12]=="and"%}selected="selected"{%endif%}>AND</option>
+                <option value="OR" {%if notification[12]=="or"%}selected="selected"{%endif%}>OR</option>
+                <option value="NOT" {%if notification[12]=="not"%}selected="selected"{%endif%}>NOT</option>
+            </select>
+        </div>
+    </div>
+    <div class="RuleCore3" id="RuleCore3" name="RuleCore3" {%if notification[12]=="0"%}style="display:none;"{%endif%} >
+        <div class="form-field-line" style="border:solid black 1px;display:inline-block">
+            <div class="form-field">
+                <div class="ui-widget">
+                    <label class="pv3" for="pv3">PV Name or Filter:</label><br>
+                    <input class="pv3" type="text" name="pv3" {%if (current_user.username==notification[3] 
+                        or current_user.username=='admin')%} enabled {%else%} disabled {%endif%}
+                        placeholder="Type in the PV name..." id="pv3"
+                        value="{{ request.form['pv'] or notification[13] }}"></input>
+                </div>
+            </div>
+            <div class="form-field">
+                <label class="label" for="rule">Rule:</label><br>
+                <select class="rule3" name="rule3" id="rule3"{%if (current_user.username==notification[3] 
+                    or current_user.username=='admin')%} enabled {%else%} disabled {%endif%}>
+                    {% for row in rules %}
+                        <option value="{{ row.rule }}" {% if row.rule==notification[14] %} selected="selected" 
+                        {% endif %}>{{ row.description + ' : ' + row.rule}}</option>
+                    {% endfor %}
+                </select>
+            </div>
+            <div class="form-field">
+                <label class="label" for="limits3">Limit(s):</label><br>
+                <input class="limits3" type="text" name="limits3" {%if (current_user.username==notification[3] 
+                    or current_user.username=='admin')%} enabled {%else%} disabled {%endif%}
+                    placeholder="Type in the value..." class="form-control"
+                    value="{{ request.form['limits'] or notification[15] }}"></input>
+            </div>
+        </div>
+    </div>
+    <div class="form-field-line">
+        <div class="form-field">
+            <label class="persistent" for="persistent">Persistent?</label><br>
+            <input type="checkbox" class="persistent" type="text" name="persistent" id="persistent" {%if current_user.username!=notification[3]%} disabled {%endif%}
+                value={{notification[19] or request.form['persistent']}} checked="{% if notification[19]%} or request.form['persistent'] {%endif%}"></input>   
+        </div>
+        <div class="form-field" id="form-field" {% if notification[19]==0 %}style="display:none;" {%endif%}>
+            <label class="label" for="interval">Interval:</label><br>
+            <input class="interval" type="text" name="interval" {%if (current_user.username==notification[3]
+                or current_user.username=='admin')%} enabled {%else%} disabled {%endif%}
+                placeholder="Type the value in minutes, minimum of 10..."
+                value="{%if notification[19]==1%}{{ request.form['interval'] or notification[18] }}{%else%}{%endif%}"></input>               
+        </div>
+    </div>
+    <div class="form-field-line">
+        <div class="form-field" {%if current_user.username!='admin' %} style="display:none;" {%endif%}>
+            <label class="label" for="sent">Sent:</label><br>
+            <input class="sent" type="checkbox" name="sent"
+                placeholder="Sent status" class="form-control"
+                value={{notification[16] or request.form['sent']}} checked="{% if notification[16]%} or request.form['sent'] {%endif%}"></input>
+        </div>
+    </div>
+    <br>
+    <span class="action-buttons">
+        <span class="action-buttons">
+            <button type="submit" class="btn-submit" value='accept' name='action' id='action'
+            {%if current_user.username!=notification[3]%} disabled {%endif%}
+            {%if current_user.username=='admin'%} onload="Enablebutton();" {%endif%}>Submit</button>
+        </span>
+        <span class="action-buttons">
+            <button type="submit" class="btn-cancel" value='cancel' name='action' id='action'
+            {%if current_user.username!=notification[3]%} disabled {%endif%}>Cancel</button>
+        </span>
+        <span class="action-buttons">
+            <button type="submit" class="btn-delete" value='delete' name='action' id='action' onclick="return confirm('Are you sure?');Assign()" 
+            {%if current_user.username!=notification[3]%} disabled {%endif%}>Delete</button>
+        </span>
+    </span>
+    <textarea name="hidden1" class="form-control" style="display: none;" value="0" id="hidden1"></textarea>
+    <textarea name="hidden2" class="form-control" style="display: none;" value="0" id="hidden2"></textarea> 
+</form>
+<script>
+    function Assign()
+        {
+            if ($('#RuleCore2').css('display') === 'none'){
+                document.getElementById("hidden1").value = "0"; 
+            }
+            else {
+                document.getElementById("hidden1").value = "1";
+            }
+            if ($('#RuleCore3').css('display') === 'none'){
+                document.getElementById("hidden2").value = "0"; 
+            }
+            else {
+                document.getElementById("hidden2").value = "1";
+            }
+        }
+</script>
+<script>
+    function Enablebutton() {
+        document.getElementById("action").disabled = false;
+        }
+</script>
+{% endblock %}

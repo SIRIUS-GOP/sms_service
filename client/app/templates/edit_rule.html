@@ -1,0 +1,54 @@
+{% extends 'base.html' %}
+{% set active_page = "rules" %}
+
+{% block main %}
+<h1 class="header_text">Edit Rule</h1></p>
+<div class='add_text' style='line-height: 12px;'>
+    <p class='action_text'>Rules are mathematical expressions used to parameterize a notification.</p>
+    <p class='action_text'>Use terms described bellow for the creation of the rule:</p>
+    <p class='action_text'>&#9656;&nbsp;&nbsp;'pv' = PV reading value;</p>
+    <p class='action_text'>&#9656;&nbsp;&nbsp;'L' = Limit threshold to be compared against pv;</p>
+    <p class='action_text'>&#9656;&nbsp;&nbsp;'LU' = Upper Limit threshold to be compared against pv;</p>
+    <p class='action_text'>&#9656;&nbsp;&nbsp;'LL' = Lower Limit threshold to be compared against pv;</p>
+    <p class='action_text'>&#9656;&nbsp;&nbsp;Accepted operators: '>', '&#60;', '>=', '&#60;=', '==', '!=', 'and' and finally 'or';</p>
+    <p class='action_text'>&#9656;&nbsp;&nbsp;They're the same operators of an EVAL() function used in Python.</p>
+    <p class='action_text'>&#9656;&nbsp;&nbsp;Remember, when the Rule evaluates to True, the SMS message is sent;</p>
+</div>
+<form autocomplete="off" class="form" method="post">
+    <div class="form-group" style="padding-top: 10px;">
+        <label class="label" for="pv">Rule:</label><br>
+        <input type="text" id="rule" name="rule"{%if (current_user.username==rule[3]
+            or current_user.username=='admin')%} enabled {%else%} disabled {%endif%}
+               placeholder="Type in the rule..." class="form-control"
+               value="{{ request.form['rule'] or rule[1] }}"></input>
+    </div>
+    <div class="form-group" style="padding-top: 10px;">
+        <label class="label" for="description">Description:</label><br>
+        <input type="text" id="description" name="description" maxlength = "50" {%if (current_user.username==rule[3]
+            or current_user.username=='admin')%} enabled {%else%} disabled {%endif%}
+               placeholder="Type in a description for your rule..." class="form-control"
+               value="{{ request.form['description'] or rule[2]}}"></input>
+    </div>
+    <div class="form-group" style="padding-top: 10px;" >
+        <label class="label" for="owner">Owner:</label><br>
+        <input type="text" id="owner" name="owner" placeholder="Type in the description of your rule..." readonly
+            class="form-control" value="{{ request.form['description'] or rule[3] }}"></input>
+    </div>
+    <br>
+    <br>
+    <span class="action-buttons">
+        <span class="action-buttons">
+            <button type="submit" class="btn-submit" value='accept' name='action' 
+            {%if current_user.username!=rule[3]%} disabled {%endif%}>Submit</button>
+        </span>
+        <span class="action-buttons">
+            <button type="submit" class="btn-accept" value='cancel' name='action' 
+            {%if current_user.username!=rule[3]%} disabled {%endif%}>Cancel</button>
+        </span>
+        <span class="action-buttons">
+            <button type="submit" class="btn-accept" value='delete' name='action' onclick="return confirm('Are you sure?');" 
+            {%if current_user.username!=rule[3]%} disabled {%endif%}>Delete</button>
+        </span>
+    </span>
+</form>
+{% endblock %}
