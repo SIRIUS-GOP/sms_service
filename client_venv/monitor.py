@@ -131,21 +131,21 @@ def evaluate():
                                     sent_time = datetime.strptime(n.sent_time, "%Y-%m-%d %H:%M:%S.%f")
                                     #print('sent_time', sent_time)
                                     #print(now, (sent_time + timedelta(minutes=int(n.interval))))
-                                    #if (now > (sent_time + timedelta(minutes=int(n.interval)))):
-                                    r = client.client(msg) #send data to Server (modem's PC)
-                                    #print("r:", r)
-                                    if r==False:
-                                        log = str(datetime.now()) + ' error sending message to server\n\r'
-                                        dir_path = path.dirname(path.realpath(__file__)) #current folder application path
-                                        log_path = path.join(dir_path, 'log.txt')
-                                        writer.write(log_path, log, 'a')
-                                    else:
-                                        log = str(datetime.now()) + ' message to owner ' + n.owner + ' sent to server\n\r'
-                                        dir_path = path.dirname(path.realpath(__file__)) #current folder application path
-                                        log_path = path.join(dir_path, 'log.txt')
-                                        writer.write(log_path, log, 'a')
-                                        set_sent_db(n.id, True)
-                                        set_sent_time_db(n.id, now)
+                                    if (now > (sent_time + timedelta(minutes=int(n.interval)))):
+                                        r = client.client(msg) #send data to Server (modem's PC)
+                                        #print("r:", r)
+                                        if r==False:
+                                            log = str(datetime.now()) + ' error sending message to server\n\r'
+                                            dir_path = path.dirname(path.realpath(__file__)) #current folder application path
+                                            log_path = path.join(dir_path, 'log.txt')
+                                            writer.write(log_path, log, 'a')
+                                        else:
+                                            log = str(datetime.now()) + ' message to owner ' + n.owner + ' sent to server\n\r'
+                                            dir_path = path.dirname(path.realpath(__file__)) #current folder application path
+                                            log_path = path.join(dir_path, 'log.txt')
+                                            writer.write(log_path, log, 'a')
+                                            set_sent_db(n.id, True)
+                                            set_sent_time_db(n.id, now)
                                 else: #SMS already sent
                                     if (n.persistent):
                                         sent_time = datetime.strptime(n.sent_time, "%Y-%m-%d %H:%M:%S.%f")
