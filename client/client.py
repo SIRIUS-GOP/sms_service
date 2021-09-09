@@ -28,7 +28,7 @@ def client(msg): #rodar essa function no client
         #print('s: ', s)
     except:
         #print('error on connect')
-        return (0, aux)
+        return (False, aux)
     if s == None:
         # Look for the response
         #amount_received = 0
@@ -48,17 +48,17 @@ def client(msg): #rodar essa function no client
             #print('data: ', type(data.decode()), 'msg: ', type(msg))
             sock.close()
             aux = 'ok'
-            return (1, aux)
+            return (True, aux)
         else:
             #print('echo error')
             sock.close()
             aux = 'echo error'
-            return (0, aux)
+            return (False, aux)
     else:
         #print('Error on sendall()')
         sock.close()
         aux = 'error socket'
-        return (0, aux)
+        return (False, aux)
     
 # msg = '{"pv" : "SI-13C4:DI-DCCT:Current-Mon", \
 #         "value" : "0.002", \
