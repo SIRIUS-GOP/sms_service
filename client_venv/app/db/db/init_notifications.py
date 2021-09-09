@@ -11,9 +11,9 @@ with open(sql_path) as f:
 
 cur = connection.cursor()
 
-cur.execute("INSERT INTO notifications_db (pv, rule, limits, owner, phone) VALUES (?, ?, ?, ?, ?)",
-            ('SI-13C4:DI-DCCT:Current-Mon', 'pv < L', 'L=0', 'rone.castro', '(XX)12345-6789')
-            )
+#cur.execute("INSERT INTO notifications_db (pv, rule, limits, owner, phone) VALUES (?, ?, ?, ?, ?)",
+#            ('SI-13C4:DI-DCCT:Current-Mon', 'pv < L', 'L=0', 'rone.castro', '(XX)12345-6789')
+#            )
 
 connection.commit()
 connection.close()

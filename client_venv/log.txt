@@ -1,15 +1,12 @@
-2021-08-20 20:05:30.024248 message to owner rone.castro sent to server
-2021-08-21 20:05:06.340891 message to owner rone.castro sent to server
-2021-08-23 15:53:49.795533 message to owner rone.castro sent to server
-2021-08-23 16:59:28.363181 message to owner rone.castro sent to server
-2021-08-23 22:42:06.884895 message to owner rone.castro sent to server
-2021-08-24 11:02:36.913622 error sending message to server
-2021-08-24 11:02:47.149960 message to owner rone.castro sent to server
-2021-08-24 15:00:51.235984 message to owner rone.castro sent to server
-2021-08-24 16:01:00.610345 message to owner rone.castro sent to server
-2021-08-24 17:01:09.339326 message to owner rone.castro sent to server
-2021-08-24 18:01:18.799187 message to owner rone.castro sent to server
-2021-08-24 19:01:28.997999 message to owner rone.castro sent to server
-2021-08-25 00:13:21.563251 message to owner rone.castro sent to server
-2021-08-25 20:06:12.968860 message to owner rone.castro sent to server
+2021-09-02 14:35:52.415495 message to owner rone.castro sent to server
+2021-09-02 14:45:24.671304 message to owner rone.castro sent to server
+2021-09-02 15:37:32.955664 message to owner rone.castro sent to server
+2021-09-02 16:21:17.918418 message to owner rone.castro sent to server
+2021-09-03 08:08:55.205804 message to owner rone.castro sent to server
+2021-09-04 09:16:43.001756 message to owner rone.castro sent to server
+2021-09-06 08:12:45.542852 message to owner rone.castro sent to server
+2021-09-06 20:05:28.024890 message to owner rone.castro sent to server
+2021-09-07 08:07:00.903975 message to owner rone.castro sent to server
+2021-09-08 08:10:22.503734 message to owner rone.castro sent to server
+2021-09-08 20:04:59.266431 message to owner rone.castro sent to server
 
