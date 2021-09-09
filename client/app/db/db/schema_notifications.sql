@@ -18,7 +18,7 @@ CREATE TABLE notifications_db (
     rule3 INTEGER,
     limits3 TEXT,
     sent BOOLEAN NOT NULL DEFAULT 0,
-    sent_time DATETIME DEFAULT (STRFTIME('%Y-%m-%d %H:%M:%f', 'NOW')),
+    sent_time DATETIME DEFAULT (STRFTIME('%Y-%m-%d %H:%M:%f', 'now', 'localtime')),
     interval integer NOT NULL DEFAULT 10,
     persistent BOOLEAN NOT NULL DEFAULT 0
 );

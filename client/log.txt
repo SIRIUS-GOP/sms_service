@@ -9,4 +9,7 @@
 2021-08-31 17:04:00.347557 error sending message to server
 2021-08-31 17:04:10.818079 error sending message to server
 2021-08-31 17:04:21.392512 error sending message to server
+2021-09-09 11:33:15.056663 error sending message to server
+2021-09-09 11:33:25.599308 error sending message to server
+2021-09-09 11:33:36.132367 error sending message to server
 
