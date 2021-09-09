@@ -37,7 +37,7 @@ deactivate () {
 # unset irrelevant variables
 deactivate nondestructive
 
-VIRTUAL_ENV="/home/sirius/Documents/v0.2.0/client"
+VIRTUAL_ENV="/home/sirius/Documents/sms_service/client"
 export VIRTUAL_ENV
 
 _OLD_VIRTUAL_PATH="$PATH"
