@@ -12,4 +12,7 @@
 2021-09-09 11:33:15.056663 error sending message to server
 2021-09-09 11:33:25.599308 error sending message to server
 2021-09-09 11:33:36.132367 error sending message to server
+2021-09-09 11:43:03.292943 error sending message to server
+2021-09-09 11:43:13.864786 error sending message to server
+2021-09-09 11:45:21.877721 message to owner rone.castro sent to server
 

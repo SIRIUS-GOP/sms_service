@@ -47,15 +47,18 @@ def client(msg): #rodar essa function no client
         if data.decode() == msg:
             #print('data: ', type(data.decode()), 'msg: ', type(msg))
             sock.close()
-            return 1
+            aux = 'ok'
+            return (1, aux)
         else:
             #print('echo error')
             sock.close()
-            return 0
+            aux = 'echo error'
+            return (0, aux)
     else:
         #print('Error on sendall()')
         sock.close()
-        return 0
+        aux = 'error socket'
+        return (0, aux)
     
 # msg = '{"pv" : "SI-13C4:DI-DCCT:Current-Mon", \
 #         "value" : "0.002", \
