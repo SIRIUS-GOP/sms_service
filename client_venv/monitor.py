@@ -131,7 +131,7 @@ def evaluate():
                                     sent_time = datetime.strptime(n.sent_time, "%Y-%m-%d %H:%M:%S.%f")
                                     #print('sent_time', sent_time)
                                     #print(now, (sent_time + timedelta(minutes=int(n.interval))))
-                                    if (now > (sent_time + timedelta(minutes=int(n.interval)))):
+                                    #if (now > (sent_time + timedelta(minutes=int(n.interval)))):
                                     r = client.client(msg) #send data to Server (modem's PC)
                                     #print("r:", r)
                                     if r==False:
