@@ -87,13 +87,13 @@ def server(sock, queue, stop):
                 #listen(sock)
                 sleep(1)
         else:
-            print('server OFF')
+            #print('server OFF')
             break
 
 def watcherseye(queue, stop): #queue watcher
     while True:
         if stop.value:
-            print('watcherseye OFF')
+            #print('watcherseye OFF')
             exit()
         sleep(1)
         if queue.empty() == False:

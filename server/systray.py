@@ -30,7 +30,7 @@ class tray:
             self.vstop.value = True
 
     def exit(self):
-        print('systray_run OFF')
+        #print('systray_run OFF')
         self.stop()
         self.vexit.value = True
         self.c_icon.stop()
