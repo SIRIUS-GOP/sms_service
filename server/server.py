@@ -12,7 +12,7 @@ from systray import systray_run
 
 sock = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
 
-def on_new_client(connection, client_address):
+def on_new_client(connection, client_address, queue):
     while True:
         try:
             #print('connection from', client_address)
@@ -31,16 +31,16 @@ def on_new_client(connection, client_address):
                     to_sms = data.decode()
                     #print('to_sms: ', to_sms, type(to_sms))
                     queue.put_nowait(json.loads(to_sms)) #increment queue
-                # else:
-                #     pass
-                #     print('no more data from ', client_address)
-                #     break
+                else:
+                    #print('no data from ', client_address)
+                    break
             else:
                 connection.close()
         finally:
             #Clean up the connection
             connection.close()
             break
+    #print('on_new_client OFF')
     quit()
 
 def init():
@@ -69,35 +69,39 @@ def listen(sock):
 
 def server(sock, queue, stop):
     data = ''
-    #print('server on')
     while True:
         if stop.value:
-            #print('P2 OFF')
+            #print('server OFF')
             exit()
         sleep(1)
         # Wait for a connection
         connection, client_address = sock.accept()
-        try:
-            p = Process(target=on_new_client, args=(connection, client_address))
-            p.start()
-        finally:
-            #Clean up the connection
-            #listen(sock)
-            sleep(1)
+        if client_address[0] != '10.20.31.19':
+            try:
+                #print('setting p')
+                p = Process(target=on_new_client, args=(connection, client_address, queue))
+                #print('on_new_client on')
+                p.start()
+            finally:
+                #Clean up the connection
+                #listen(sock)
+                sleep(1)
+        else:
+            #print('server OFF')
+            break
 
 def watcherseye(queue, stop): #queue watcher
-    #print('watcherseye on')
     while True:
         if stop.value:
-            #print('P3 OFF')
+            #print('watcherseye OFF')
             exit()
         sleep(1)
         if queue.empty() == False:
             n = queue.get_nowait()
             msg = str('PV: ' + n['pv'] + '\n\r Rule: ' + n['rule'] + '\n\r Limit(s): '\
-                      + n['limits'] + '\n\r PV Value: ' + n['value'])
+                      + n['limits'])
             r = sendsms.sendSMS(sub("[^0-9]", "", n['phone']), msg)
-            #print(r)
+            #print('r', r)
             if r==True:
                 writer.write(msg)
             else:
@@ -114,13 +118,13 @@ def main():
     #t = systray_run(stop, exit)
     p1 = Process(target=systray_run, args=(start, stop, exit))
     p1.start()
-    #print('p1 ok')
+    #print('systray_run ok')
     p2 = Process(target=server, args=(sock, q, stop))
     p2.start()
-    #print('\rp2 ok')
+    #print('server ok')
     p3 = Process(target=watcherseye, args=(q, stop))
     p3.start()
-    #print('p3 ok')
+    #print('watcherseye ok')
     while exit.value == False:
         if (start.value == True and stop.value == True):
             stop.value = False
@@ -132,6 +136,7 @@ def main():
             p3.start()
             #print('p3 ok')
             start.value = False
+        sleep(1)
 
 if __name__ == '__main__':
     main()

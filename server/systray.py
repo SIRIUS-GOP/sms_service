@@ -30,6 +30,7 @@ class tray:
             self.vstop.value = True
 
     def exit(self):
+        #print('systray_run OFF')
         self.stop()
         self.vexit.value = True
         self.c_icon.stop()
@@ -44,7 +45,7 @@ class tray:
             self.c_icon = icon
             icon.run()
         except:
-            print('Icon creation error')
+            #print('Icon creation error')
             exit()
 
 def systray_run(vstart, vstop, vexit):
