@@ -139,9 +139,9 @@ def evaluate():
                 matchedpvlist3 = list(filter(r3.match, fullpvlist)) #make a list of PVs matching the filter
                 #print(matchedpvlist)
                 if (now <= exp): #check expiration
-                    print("exp ok")
+                    #print(str(datetime.now()), "exp ok")
                     if (n.sent==False or (n.sent==True and n.persistent==True)): #check persistence and if was sent b4
-                        print(n.pv1, n.subrule1, n.pv2, n.subrule2, n.pv3)
+                        #print(n.pv1, n.subrule1, n.pv2, n.subrule2, n.pv3)
                         check1 = testpvlist(matchedpvlist1, n.rule1, n.limits1)
                         numpvs = 1
                         expr =  str(check1[0])
@@ -159,8 +159,8 @@ def evaluate():
                             else:
                                 expr = expr + ' ' + n.subrule2 + ' ' + str(check3[0])
                             numpvs = 3
-                        print("expression:", expr)
-                        print("check1: ", check1)
+                        #print("expression:", expr)
+                        #print("check1: ", check1)
                         if (eval(expr)): #check expression for True
                             msg = '{{"pv" : "{pv}",\
                                     "rule" : "{rule}",\
@@ -169,10 +169,11 @@ def evaluate():
                                                                     rule=n.rule1 if numpvs==1 else "Multiple rules",\
                                                                     limits=n.limits1,\
                                                                     phone=n.phone)
-                            print(msg)
+                            #print(msg)
                             sent_time = datetime.strptime(n.sent_time, "%Y-%m-%d %H:%M:%S.%f") #- timedelta(hours=3)
-                            print("interval, sent_time, ", n.interval, sent_time)
-                            if ((n.persistent==True) and (now > (sent_time + timedelta(minutes=int(n.interval))))):
+                            #print("interval, sent_time, ", n.interval, sent_time)
+                            #print("interval, sent_time + delta, ", n.interval, sent_time + timedelta(minutes=int(n.interval)))
+                            if (n.sent==False ): #and n.persistent==True) and (now > (sent_time + timedelta(minutes=int(n.interval))))):
                                 r = client.client(msg) #send data to Server (modem's PC)
                                 print('client done persistence true')
                                 print('r', r)
@@ -189,21 +190,22 @@ def evaluate():
                                     set_sent_db(n.id, True)
                                     set_sent_time_db(n.id, now)
                             else:
-                                r = client.client(msg) #send data to Server (modem's PC)
-                                print('client done persistence false')
-                                print('r', r)
-                                if r[0]==False:
-                                    log = str(datetime.now()) + ' error sending message to server\n\r'
-                                    dir_path = path.dirname(path.realpath(__file__)) #current folder application path
-                                    log_path = path.join(dir_path, 'log.txt')
-                                    writer.write(log_path, log, 'a')
-                                else:
-                                    log = str(datetime.now()) + ' message to owner ' + n.owner + ' sent to server\n\r'
-                                    dir_path = path.dirname(path.realpath(__file__)) #current folder application path
-                                    log_path = path.join(dir_path, 'log.txt')
-                                    writer.write(log_path, log, 'a')
-                                    set_sent_db(n.id, True)
-                                    set_sent_time_db(n.id, now)
+                                if ((n.persistent==True) and (now > (sent_time + timedelta(minutes=int(n.interval))))):
+                                    r = client.client(msg) #send data to Server (modem's PC)
+                                    print('client done persistence false')
+                                    print('r', r)
+                                    if r[0]==False:
+                                        log = str(datetime.now()) + ' error sending message to server\n\r'
+                                        dir_path = path.dirname(path.realpath(__file__)) #current folder application path
+                                        log_path = path.join(dir_path, 'log.txt')
+                                        writer.write(log_path, log, 'a')
+                                    else:
+                                        log = str(datetime.now()) + ' message to owner ' + n.owner + ' sent to server\n\r'
+                                        dir_path = path.dirname(path.realpath(__file__)) #current folder application path
+                                        log_path = path.join(dir_path, 'log.txt')
+                                        writer.write(log_path, log, 'a')
+                                        set_sent_db(n.id, True)
+                                        set_sent_time_db(n.id, now)
 
             sleep(10)
 
