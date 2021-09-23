@@ -98,8 +98,16 @@ def watcherseye(queue, stop): #queue watcher
         sleep(1)
         if queue.empty() == False:
             n = queue.get_nowait()
-            msg = str('PV: ' + n['pv'] + '\n\r Rule: ' + n['rule'] + '\n\r Limit(s): '\
-                      + n['limits'])
+            if int(n['numpvs']) == 1:
+                msg = str('PV: ' + n['pv1'] + '\n\r Rule: ' + n['rule1'] + '\n\r Limit(s): '\
+                        + n['limits1'])
+            if int(n['numpvs']) == 1:
+                msg = n['rule1']
+                msg = msg.replace('pv', n['pv1'])
+                msg = msg.replace('L', n['limits1'])
+            elif int(n['numpvs']) == 2:
+                if n['limits1'].find('(pv < LL)') != -1 and n['limits1'].find('(pv > LU)') != -1:
+                    msg = n['pv1'] + 'is outside the range!'
             r = sendsms.sendSMS(sub("[^0-9]", "", n['phone']), msg)
             #print('r', r)
             if r==True:

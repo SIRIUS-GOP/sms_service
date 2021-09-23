@@ -170,17 +170,20 @@ def evaluate():
                             #                                         limits=n.limits1,\
                             #                                         phone=n.phone)
                             if numpvs == 1:
-                                msg = '{{"pv1" : "{pv1}",\
+                                msg = '{{"numpvs" : "{numpvs}",\
+                                        "pv1" : "{pv1}",\
                                         "rule1" : "{rule1}",\
                                         "limits1" : "{limits1}",\
                                         "value1" : "{value1}",\
-                                        "phone" : "{phone}"}}'.format(pv1=(check1[1])[0],\
+                                        "phone" : "{phone}"}}'.format(numpvs=numpvs,\
+                                                                      pv1=(check1[1])[0],\
                                                                       rule1=n.rule1,\
                                                                       limits1=n.limits1,\
                                                                       value1=check1[2],\
                                                                       phone=n.phone)
                             elif numpvs == 2:
-                                msg = '{{"pv1" : "{pv1}",\
+                                msg = '{{"numpvs" : "{numpvs}",\
+                                        "pv1" : "{pv1}",\
                                         "pv2" : "{pv2}",\
                                         "rule1" : "{rule1}",\
                                         "rule2" : "{rule2}",\
@@ -189,7 +192,8 @@ def evaluate():
                                         "subrule1" : "{subrule1}",\
                                         "value1" : "{value1}",\
                                         "value2" : "{value2}",\
-                                        "phone" : "{phone}"}}'.format(pv1=(check1[1])[0],\
+                                        "phone" : "{phone}"}}'.format(numpvs=numpvs,\
+                                                                      pv1=(check1[1])[0],\
                                                                       pv2=(check2[1])[0],\
                                                                       rule1=n.rule1,\
                                                                       rule2=n.rule2,\
@@ -200,7 +204,8 @@ def evaluate():
                                                                       value2=check2[2],\
                                                                       phone=n.phone)
                             elif numpvs == 3:                                           
-                                msg = '{{"pv1" : "{pv1}",\
+                                msg = '{{"numpvs" : "{numpvs}",\
+                                        "pv1" : "{pv1}",\
                                         "pv2" : "{pv2}",\
                                         "pv3" : "{pv3}",\
                                         "rule1" : "{rule1}",\
@@ -214,7 +219,8 @@ def evaluate():
                                         "value1" : "{value1}",\
                                         "value2" : "{value2}",\
                                         "value3" : "{value3}",\
-                                        "phone" : "{phone}"}}'.format(pv1=(check1[1])[0],\
+                                        "phone" : "{phone}"}}'.format(numpvs=numpvs,\
+                                                                      pv1=(check1[1])[0],\
                                                                       pv2=(check2[1])[0],\
                                                                       pv3=(check3[1])[0],\
                                                                       rule1=n.rule1,\
