@@ -170,14 +170,14 @@ def evaluate():
                             #                                         limits=n.limits1,\
                             #                                         phone=n.phone)
                             if numpvs == 1:
-                                msg = '{{"pv" : "{pv}",\
-                                        "rule" : "{rule}",\
-                                        "limits" : "{limits}",\
-                                        "value" : "{value}",\
-                                        "phone" : "{phone}"}}'.format(pv=(check1[1])[0],\
-                                                                      rule=n.rule1,\
-                                                                      limits=n.limits1,\
-                                                                      value=check1[2],\
+                                msg = '{{"pv1" : "{pv1}",\
+                                        "rule1" : "{rule1}",\
+                                        "limits1" : "{limits1}",\
+                                        "value1" : "{value1}",\
+                                        "phone" : "{phone}"}}'.format(pv1=(check1[1])[0],\
+                                                                      rule1=n.rule1,\
+                                                                      limits1=n.limits1,\
+                                                                      value1=check1[2],\
                                                                       phone=n.phone)
                             elif numpvs == 2:
                                 msg = '{{"pv1" : "{pv1}",\
