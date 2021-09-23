@@ -1,4 +1,9 @@
-2021-09-11 09:36:38.311261 // PV: SI-13C4:DI-DCCT:Current-Mon //  Rule: pv < L //  Limit(s): L=100
-2021-09-11 09:39:05.365427 // PV: SI-13C4:DI-DCCT:Current-Mon //  Rule: pv < L //  Limit(s): L=100
-2021-09-11 11:16:16.259680 // PV: SI-13C4:DI-DCCT:Current-Mon //  Rule: pv < L //  Limit(s): L=100
+2021-09-23 08:48:27.478012 // PV: LI-01:EG-TriggerPS:enable and more //  Rule: Multiple rules //  Limit(s): L=1
+2021-09-23 08:57:56.759219 // PV: LI-01:EG-TriggerPS:enable and more //  Rule: Multiple rules //  Limit(s): L=1
+2021-09-23 08:58:27.779355 // PV: LI-01:EG-TriggerPS:enable and more //  Rule: Multiple rules //  Limit(s): L=1
+2021-09-23 08:59:42.816484 // PV: SI-Glob:AP-SOFB:LoopState-Sts and more //  Rule: Multiple rules //  Limit(s): L=0
+2021-09-23 09:00:13.832313 // PV: SI-Glob:AP-SOFB:LoopState-Sel and more //  Rule: Multiple rules //  Limit(s): L=0
+2021-09-23 09:21:03.349335 // PV: SI-Glob:AP-SOFB:LoopState-Sel and more //  Rule: Multiple rules //  Limit(s): L=1
+2021-09-23 09:21:34.364526 // PV: SI-Glob:AP-SOFB:LoopState-Sts and more //  Rule: Multiple rules //  Limit(s): L=0
+2021-09-23 09:22:05.380727 // PV: SI-Glob:AP-SOFB:LoopState-Sel and more //  Rule: Multiple rules //  Limit(s): L=0
 
