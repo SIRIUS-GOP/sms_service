@@ -4,15 +4,20 @@
 {% block main %}
 <h1 class="header_text">Add Notification</h1>
 <div class='add_text' style='line-height: 7px;'>
-    <p>▸ Expiration Date: Set a date and time to the notification expirate;</p>
-    <p>▸ PV Name or Filter: Type in the PV name or a RegEx filter for multiple PVs;</p>
-    <p>▸ Rule: Choose one between the list. You can add a new rule in the Rules menu;</p>
-    <p>▸ Limit(s): Type in the limit(s) ot your rule. Use L=&#60value&#62 for a single limit,</p>
-    <p style="margin-left: 50px">LL=&#60value&#62 or LU=&#60value&#62 for other cases;</p>
-    <p style="margin-left: 50px;">Example 1) 'L=100' / Example 2) 'L=5e-8' / Example 3) 'LL=0;LU=1e-7'</p>
+    <p>▸ Expiration Date: Set a date and time to the notification expiration;</p>
     <p>▸ Owner: This field is unchangeable, linked to your account;</p>
     <p>▸ Phone Number: It follows the format displayed in the field on selecting it;</p>
-    <p>▸ Persistent?: Messages will be sent whenever the Rule is True, using the 'Interval' value;</p>
+    <p>▸ PV Name or Filter: Type in the PV name or a RegEx filter for multiple PVs;</p>
+    <p>▸ Rule: Choose one between the list. You can add a new rule in the Rules menu;</p>
+    <p>▸ Limit(s): Type in the limit(s) of your rule. Use L=&#60value&#62 for a single limit,</p>
+    <p style="margin-left: 50px">LL=&#60value&#62 or LU=&#60value&#62 for other cases;</p>
+    <p style="margin-left: 50px;">Example 1) 'L=100' / Example 2) 'L=5e-8' / Example 3) 'LL=0;LU=1e-7'</p>
+    <p>▸ Add Subrule: A Subrule can be added selecting a value other than the blank option in the dropdown menu.</p>
+    <p style="margin-left: 50px">A new set of PV/Rule/Limit will be created in the page, enabling to enter a new condition</p>
+    <p style="margin-left: 50px">to sent or not a SMS. For instance: if you want to monitor the PV 'SI-13C4:DI-DCCT:Current-Mon'</p>
+    <p style="margin-left: 50px">only when the Machine Shift is 'Users', a new subrule can be added using the option 'AND',</p>
+    <p style="margin-left: 50px">then adding 'AS-Glob:AP-MachShift:Mode-Sts' and Limit equals L=0 (zero means 'User' in this PV);</p>
+    <p>▸ Persistent?: Messages will be sent whenever the Rule is True, according to 'Interval' value;</p>
     <p>▸ Interval: Appears when 'Persistent?' is checked;</p>
 </div>
 <form autocomplete="off" class="form" action='{{url_for("add_notification")}}' id="formaddnot" method="post">
@@ -64,6 +69,8 @@
             </div>
             <br>
         </div>
+        <br>
+        <label class="label" for="divsubrule1" style="font-size:80%">Add Subrule: </label>
         <div name="divsubrule1" id="divsubrule1">
             <select class="select" name="addsubrule1" id="addsubrule1"> 
                 <option value="0">  </option>
