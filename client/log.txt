@@ -116,4 +116,21 @@
 2021-09-23 09:20:31.810901 message to owner rone.castro sent to server
 2021-09-23 09:20:33.445958 message to owner walter.junior sent to server
 2021-09-23 09:20:35.461373 message to owner operador sent to server
+2021-09-23 20:08:48.874886 message to owner walter.junior sent to server
+2021-09-23 20:08:50.734909 message to owner operador sent to server
+2021-09-23 20:09:37.437999 message to owner walter.junior sent to server
+2021-09-24 08:06:54.210600 message to owner operador sent to server
+2021-09-24 08:07:05.593869 message to owner walter.junior sent to server
+2021-09-24 08:07:29.618489 message to owner walter.junior sent to server
+2021-09-24 08:07:31.633053 message to owner operador sent to server
+2021-09-24 20:02:55.404047 message to owner walter.junior sent to server
+2021-09-24 20:02:57.234471 message to owner operador sent to server
+2021-09-24 20:03:55.471711 message to owner walter.junior sent to server
+2021-09-24 20:03:57.480840 message to owner operador sent to server
+2021-09-25 08:02:49.621535 message to owner walter.junior sent to server
+2021-09-25 08:02:51.436742 message to owner operador sent to server
+2021-09-25 08:04:02.031278 message to owner walter.junior sent to server
+2021-09-25 08:04:04.043389 message to owner operador sent to server
+2021-09-25 09:20:39.000585 message to owner rone.castro sent to server
+2021-09-25 09:20:40.820766 message to owner rone.castro sent to server
 
