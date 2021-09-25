@@ -2,7 +2,7 @@
 #It will receive orders to send SMS, queueing them
 #and sending accordingly
 
-import socket, sys, json, sendsms, writer, config
+import socket, sys, json, sendsms, writer, config, re
 from multiprocessing import Process, Queue, Pool, Manager, Value
 from time import sleep
 from datetime import datetime
