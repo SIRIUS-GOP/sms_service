@@ -6,4 +6,21 @@
 2021-09-23 09:21:03.349335 // PV: SI-Glob:AP-SOFB:LoopState-Sel and more //  Rule: Multiple rules //  Limit(s): L=1
 2021-09-23 09:21:34.364526 // PV: SI-Glob:AP-SOFB:LoopState-Sts and more //  Rule: Multiple rules //  Limit(s): L=0
 2021-09-23 09:22:05.380727 // PV: SI-Glob:AP-SOFB:LoopState-Sel and more //  Rule: Multiple rules //  Limit(s): L=0
+2021-09-23 20:09:20.776929 // PV: BO-01U:VA-CCG-BG:Pressure-Mon //  Rule: pv > L //  Limit(s): L=1e-8
+2021-09-23 20:09:51.793136 // PV: BO-01U:VA-CCG-BG:Pressure-Mon //  Rule: pv > L //  Limit(s): L=1e-8
+2021-09-23 20:10:22.809301 // PV: SI-02SB:VA-CCG-CAV:Pressure-Mon //  Rule: pv > L //  Limit(s): L=1e-8
+2021-09-24 08:07:24.383462 // PV: BO-01U:VA-CCG-BG:Pressure-Mon //  Rule: pv > L //  Limit(s): L=1e-8
+2021-09-24 08:07:55.403863 // PV: BO-01U:VA-CCG-BG:Pressure-Mon //  Rule: pv > L //  Limit(s): L=1e-8
+2021-09-24 08:08:26.423271 // PV: SI-02SB:VA-CCG-CAV:Pressure-Mon //  Rule: pv > L //  Limit(s): L=1e-8
+2021-09-24 08:08:57.444391 // PV: SI-02SB:VA-CCG-CAV:Pressure-Mon //  Rule: pv > L //  Limit(s): L=1e-8
+2021-09-24 20:03:27.238906 // PV: BO-01U:VA-CCG-BG:Pressure-Mon //  Rule: pv > L //  Limit(s): L=1e-8
+2021-09-24 20:03:58.256834 // PV: BO-01U:VA-CCG-BG:Pressure-Mon //  Rule: pv > L //  Limit(s): L=1e-8
+2021-09-24 20:04:29.278011 // PV: SI-02SB:VA-CCG-CAV:Pressure-Mon //  Rule: pv > L //  Limit(s): L=1e-8
+2021-09-24 20:05:00.295796 // PV: SI-02SB:VA-CCG-CAV:Pressure-Mon //  Rule: pv > L //  Limit(s): L=1e-8
+2021-09-25 08:03:20.266321 // PV: BO-01U:VA-CCG-BG:Pressure-Mon //  Rule: pv > L //  Limit(s): L=1e-8
+2021-09-25 08:03:51.287133 // PV: BO-01U:VA-CCG-BG:Pressure-Mon //  Rule: pv > L //  Limit(s): L=1e-8
+2021-09-25 08:04:32.311907 // PV: SI-02SB:VA-CCG-CAV:Pressure-Mon //  Rule: pv > L //  Limit(s): L=1e-8
+2021-09-25 08:05:03.331955 // PV: SI-02SB:VA-CCG-CAV:Pressure-Mon //  Rule: pv > L //  Limit(s): L=1e-8
+2021-09-25 09:21:10.543854 // PV: LI-01:EG-TriggerPS:enable and more //  Rule: Multiple rules //  Limit(s): L=1
+2021-09-25 09:21:41.558895 // PV: LI-01:EG-TriggerPS:enable and more //  Rule: Multiple rules //  Limit(s): L=1
 
