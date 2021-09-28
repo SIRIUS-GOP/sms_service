@@ -80,7 +80,7 @@
             </select>
         </div>
     </div>
-    <div class="RuleCore2" id="RuleCore2" name="RuleCore2" style="display:none" value="0">
+    <div class="outer" id="RuleCore2" style="display:none" value="0">
         <div class="form-field-line" style="border:solid black 1px;display:inline-block">
             <div class="form-field">
                 <div class="ui-widget">
@@ -100,50 +100,10 @@
                 </select>
             </div>
             <div class="form-field">
-                <div class="form-field">
-                    <label class="label" for="limits2">Limit(s):</label><br>
-                    <input class="limits2" type="text" name="limits2" 
-                        placeholder="Type in the value..." class="form-control"
-                        value="{{ request.form['limits2'] }}"></input>
-                </div>
-            </div>
-            <br>
-        </div>
-        <div name="divsubrule2" id="divsubrule2">
-            <select class="select" name="addsubrule2" id="addsubrule2"> 
-                <option value="0">  </option>
-                <option value="AND">AND</option>
-                <option value="OR">OR</option>
-                <option value="NOT">NOT</option>
-            </select>
-        </div>
-    </div>
-    <div class="RuleCore3" id="RuleCore3" name="RuleCore3" style="display:none" value="0">
-        <div class="form-field-line" style="border:solid black 1px;display:inline-block">
-            <div class="form-field">
-                <div class="ui-widget">
-                    <label class="label" for="pv">PV Name or Filter:</label><br>
-                    <input class="form-control" type="text" name="pv3" id="pv3"
-                        placeholder="Type in the PV name..."
-                        value="{{ request.form['pv3'] }}"></input>
-                </div>
-            </div>
-            <div class="form-field">
-                <label class="label" for="rule">Rule:</label><br>
-                <select class="select" name="rule3" id="rule3"> 
-                    <option value="0" disabled hidden selected="selected">    </option>
-                    {% for row in rules %}
-                        <option value="{{ row.rule }}">{{ row.description + ' : ' + row.rule}}</option>
-                    {% endfor %}
-                </select>
-            </div>
-            <div class="form-field">
-                <div class="form-field">
-                    <label class="label" for="limits3">Limit(s):</label><br>
-                    <input class="limits3" type="text" name="limits3" 
-                        placeholder="Type in the value..." class="form-control"
-                        value="{{ request.form['limits3'] }}"></input>
-                </div>
+                <label class="label" for="limits2">Limit(s):</label><br>
+                <input class="limits2" type="text" name="limits2" 
+                    placeholder="Type in the value..." class="form-control"
+                    value="{{ request.form['limits2'] }}"></input>
             </div>
             <br>
         </div>

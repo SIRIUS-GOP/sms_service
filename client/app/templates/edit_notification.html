@@ -109,44 +109,6 @@
                     value="{{ request.form['limits'] or notification[11] }}"></input>
             </div>
         </div>
-        <div name="divsubrule2" id="divsubrule2">
-            <select class="select" name="addsubrule2" id="addsubrule2"> 
-                <option value="0" {%if notification[12]=="0"%}selected="selected"{%endif%}>  </option>
-                <option value="AND" {%if notification[12]=="and"%}selected="selected"{%endif%}>AND</option>
-                <option value="OR" {%if notification[12]=="or"%}selected="selected"{%endif%}>OR</option>
-                <option value="NOT" {%if notification[12]=="not"%}selected="selected"{%endif%}>NOT</option>
-            </select>
-        </div>
-    </div>
-    <div class="RuleCore3" id="RuleCore3" name="RuleCore3" {%if notification[12]=="0"%}style="display:none;"{%endif%} >
-        <div class="form-field-line" style="border:solid black 1px;display:inline-block">
-            <div class="form-field">
-                <div class="ui-widget">
-                    <label class="pv3" for="pv3">PV Name or Filter:</label><br>
-                    <input class="pv3" type="text" name="pv3" {%if (current_user.username==notification[3] 
-                        or current_user.username=='admin')%} enabled {%else%} disabled {%endif%}
-                        placeholder="Type in the PV name..." id="pv3"
-                        value="{{ request.form['pv'] or notification[13] }}"></input>
-                </div>
-            </div>
-            <div class="form-field">
-                <label class="label" for="rule">Rule:</label><br>
-                <select class="rule3" name="rule3" id="rule3"{%if (current_user.username==notification[3] 
-                    or current_user.username=='admin')%} enabled {%else%} disabled {%endif%}>
-                    {% for row in rules %}
-                        <option value="{{ row.rule }}" {% if row.rule==notification[14] %} selected="selected" 
-                        {% endif %}>{{ row.description + ' : ' + row.rule}}</option>
-                    {% endfor %}
-                </select>
-            </div>
-            <div class="form-field">
-                <label class="label" for="limits3">Limit(s):</label><br>
-                <input class="limits3" type="text" name="limits3" {%if (current_user.username==notification[3] 
-                    or current_user.username=='admin')%} enabled {%else%} disabled {%endif%}
-                    placeholder="Type in the value..." class="form-control"
-                    value="{{ request.form['limits'] or notification[15] }}"></input>
-            </div>
-        </div>
     </div>
     <div class="form-field-line">
         <div class="form-field">
