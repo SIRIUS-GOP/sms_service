@@ -56,4 +56,14 @@
 2021-09-28 11:30:18.174540 // WARNING // AS-Glob:AP-MachShift:Mode-Sts == 5 // Limit: L=5 // Rule: pv == L // LI-01:EG-TriggerPS:enable == 1 // Limit: L=1 // Rule: pv == L
 2021-09-28 13:29:20.642762 // WARNING // LI-01:EG-TriggerPS:enable == 1 // Limit: L=1 // Rule: pv == L
 2021-09-28 13:37:48.981907 // WARNING // LI-01:EG-TriggerPS:enable == 1 // Limit: L=1 // Rule: pv == L // AS-Glob:AP-MachShift:Mode-Sts = 5 // LL=1;LU=4 // Rule: (pv < LL) or (pv > LU)
+2021-09-28 13:47:49.770654 // WARNING // 1) LI-01:EG-TriggerPS:enable == 1 // Limit: L=1 // Rule: pv == L // 2) AS-Glob:AP-MachShift:Mode-Sts == 5 // Limits: LL=1;LU=4 // Rule: (pv < LL) or (pv > LU)
+2021-09-28 13:57:51.077292 // WARNING // 1) LI-01:EG-TriggerPS:enable == 1 // Limit: L=1 // Rule: pv == L // 2) AS-Glob:AP-MachShift:Mode-Sts == 5 // Limits: LL=1;LU=4 // Rule: (pv < LL) or (pv > LU)
+2021-09-28 14:07:50.387754 // WARNING // 1) LI-01:EG-TriggerPS:enable == 1 // Limit: L=1 // Rule: pv == L // 2) AS-Glob:AP-MachShift:Mode-Sts == 5 // Limits: LL=1;LU=4 // Rule: (pv < LL) or (pv > LU)
+2021-09-28 14:17:53.048524 // WARNING // 1) LI-01:EG-TriggerPS:enable == 1 // Limit: L=1 // Rule: pv == L // 2) AS-Glob:AP-MachShift:Mode-Sts == 5 // Limits: LL=1;LU=4 // Rule: (pv < LL) or (pv > LU)
+2021-09-28 14:27:53.359035 // WARNING // 1) LI-01:EG-TriggerPS:enable == 1 // Limit: L=1 // Rule: pv == L // 2) AS-Glob:AP-MachShift:Mode-Sts = 5 // Limits: LL=1;LU=4 // Rule: (pv < LL) or (pv > LU)
+2021-09-28 14:37:58.874708 // WARNING // 1) LI-01:EG-TriggerPS:enable == 1 // Limit: L=1 // Rule: pv == L // 2) AS-Glob:AP-MachShift:Mode-Sts = 5 // Limits: LL=1;LU=4 // Rule: (pv < LL) or (pv > LU)message with a bigger lenght than the sms character limit of 160
+2021-09-28 14:48:06.373279 // WARNING // 1) LI-01:EG-TriggerPS:enable == 1 // Limit: L=1 // Rule: pv == L // 2) AS-Glob:AP-MachShift:Mode-Sts = 5 // Limits: LL=1;LU=4 // Rule: (pv < LL) or (pv > LU)message with a bigger lenght than the sms character limit of 160
+2021-09-28 14:49:43.426610 // WARNING // BO-16U:VA-CCG-ED:Pressure-Mon > 1.1e-09 // Limit: L=1e-8 // Rule: pv > L
+2021-09-28 14:50:14.444181 // WARNING // BO-16U:VA-CCG-ED:Pressure-Mon > 9.9e-10 // Limit: L=1e-8 // Rule: pv > L
+2021-09-28 14:58:18.516033 // WARNING // 1) LI-01:EG-TriggerPS:enable == 1 // Limit: L=1 // Rule: pv == L // 2) AS-Glob:AP-MachShift:Mode-Sts = 5 // Limits: LL=1;LU=4 // Rule: (pv < LL) or (pv > LU)message with a bigger lenght than the sms character limit of 160
 
