@@ -6,7 +6,7 @@
 <div class="header_align">
     <h1 class="header_text">Rules</h1>
     <p class='action_text'>Rules use special variables to set a condition for evaluation.</p>
-    <p class='action_text'>Special variables are explained in the Add Rule page.</p>
+    <p class='action_text'>All available rules are displayed bellow.</p>
 </div>
 </div>
 <div>
@@ -17,29 +17,25 @@
 <div>
 <table class="rules-table">
     <tr class="table-col">
+        {%if current_user.username == 'admin'%}<th>Select</th>{%endif%}
         {%if current_user.username == 'admin'%}<th>ID</th>{%endif%}
-        {%if current_user.username %}<th>Select</th>{%endif%}
         <th>Rule</th>
         <th>Description</th>
-        <th>Owner</th>
     </tr>
 {% for rule in rules %}
-    <tr class="table-lin"> 
-        {%if current_user.username == 'admin'%}<td>{{rule[0]}}</td>{%endif%}
-        {%if current_user.username %}
-        <td>{%if current_user.username==rule[3] or current_user.username=='admin'%}
+    <tr class="table-lin">
+        {%if  current_user.username=='admin'%}<td>
             <input name='checkbox[]' class="cb" type="checkbox" id="{{rule[0]}}" value="{{rule[0]}}">
-            {%endif%}</td>
-        {%endif%}
+            </td>{%endif%}
+        {%if current_user.username == 'admin'%}<td>{{rule[0]}}</td>{%endif%}
         <td>{{rule[1]}}</td>
         <td>{{rule[2]}}</td>
-        <td>{%if rule[3]=='admin'%}'SMS Service'{%else%}{{rule[3]}}{%endif%}</td>
     </tr>
 {% endfor %}
 </table>
 </div>
 <br>
-<span class="action-buttons" {% if current_user.username %} style="visibility:visible;" {% else %} style="visibility:hidden;"{% endif %}>
+<span class="action-buttons" {%if current_user.username=='admin'%} style="visibility:visible;" {%else%} style="visibility:hidden;"{%endif%}>
     <span>
         <button class="btn-del" type="submit" name="action" value="add">Add Rule</button>
     </span>
