@@ -23,4 +23,37 @@
 2021-09-25 08:05:03.331955 // PV: SI-02SB:VA-CCG-CAV:Pressure-Mon //  Rule: pv > L //  Limit(s): L=1e-8
 2021-09-25 09:21:10.543854 // PV: LI-01:EG-TriggerPS:enable and more //  Rule: Multiple rules //  Limit(s): L=1
 2021-09-25 09:21:41.558895 // PV: LI-01:EG-TriggerPS:enable and more //  Rule: Multiple rules //  Limit(s): L=1
+2021-09-25 20:06:53.437175 // PV: BO-01U:VA-CCG-BG:Pressure-Mon //  Rule: pv > L //  Limit(s): L=1e-8
+2021-09-25 20:07:24.463207 // PV: BO-01U:VA-CCG-BG:Pressure-Mon //  Rule: pv > L //  Limit(s): L=1e-8
+2021-09-25 20:08:15.496427 // PV: SI-02SB:VA-CCG-BG:Pressure-Mon //  Rule: pv > L //  Limit(s): L=1e-8
+2021-09-25 20:08:46.516929 // PV: SI-02SB:VA-CCG-BG:Pressure-Mon //  Rule: pv > L //  Limit(s): L=1e-8
+2021-09-26 07:11:04.687013 // PV: BO-01U:VA-CCG-BG:Pressure-Mon //  Rule: pv > L //  Limit(s): L=1e-8
+2021-09-26 07:11:35.704246 // PV: BO-01U:VA-CCG-BG:Pressure-Mon //  Rule: pv > L //  Limit(s): L=1e-8
+2021-09-26 07:12:11.724685 // Modem error: ATZ
+2021-09-26 07:12:42.737834 // PV: SI-02SB:VA-CCG-CAV:Pressure-Mon //  Rule: pv > L //  Limit(s): L=1e-8
+2021-09-26 20:42:07.267083 // PV: SI-Glob:AP-SOFB:LoopState-Sel and more //  Rule: Multiple rules //  Limit(s): L=1
+2021-09-26 20:42:38.282660 // PV: SI-Glob:AP-SOFB:LoopState-Sts and more //  Rule: Multiple rules //  Limit(s): L=0
+2021-09-26 20:43:09.299896 // PV: SI-Glob:AP-SOFB:LoopState-Sel and more //  Rule: Multiple rules //  Limit(s): L=0
+2021-09-26 20:43:40.319548 // PV: SI-13C4:DI-DCCT:Current-Mon and more //  Rule: Multiple rules //  Limit(s): L=5
+2021-09-26 20:44:11.336839 // PV: SI-13C4:DI-DCCT:Current-Mon and more //  Rule: Multiple rules //  Limit(s): L=5
+2021-09-28 09:12:45.257974 // WARNING // 1I-01:EG-TriggerPS:enable == 1 //  Rule: pv == L
+2021-09-28 09:17:27.939546 // WARNING // 1I-01:EG-TriggerPS:enable == 1 //  Rule: pv == L
+2021-09-28 09:20:49.808034 // WARNING //  1I-01:EG-TriggerPS:enable== 1 //  Rule: pv == L
+2021-09-28 09:22:32.516684 // WARNING //  1I-01:EG-TriggerPS:enable== 1 //  Rule: pv == L
+2021-09-28 09:37:57.263199 // WARNING // pv == L
+2021-09-28 09:51:16.610563 // WARNING //  LI-01:EG-TriggerPS:enable ==  1Limit == L=1 //  Rule: pv == L
+2021-09-28 09:54:05.746679 // WARNING //  LI-01:EG-TriggerPS:enable ==  1 // Limit: L=1 //  Rule: pv == L
+2021-09-28 10:04:12.032742 // Modem error: ATZ
+2021-09-28 10:14:22.346262 // Modem error: ATZ
+2021-09-28 10:21:13.550924 // WARNING //  LI-01:EG-TriggerPS:enable ==  1 // Limit: L=1 //  Rule: pv == L
+2021-09-28 10:23:39.594491 // WARNING //  LI-01:EG-TriggerPS:enable == 1 // Limit: L=1 // Rule: pv == L
+2021-09-28 10:33:48.901439 // WARNING //  LI-01:EG-TriggerPS:enable == 1 // Limit: L=1 // Rule: pv == L
+2021-09-28 10:43:58.596719 // WARNING // LI-01:EG-TriggerPS:enable == 1 // Limit: L=1 // Rule: pv == L
+2021-09-28 10:54:05.898859 // WARNING // LI-01:EG-TriggerPS:enable == 1 // Limit: L=1 // Rule: pv == L
+2021-09-28 11:07:46.513121 // Modem error: ATZ
+2021-09-28 11:12:56.705392 // WARNING // LI-01:EG-TriggerPS:enable = 1 // L=1 // Rule: pv == L // AS-Glob:AP-MachShift:Mode-Sts = 5 // L=5 // Rule: pv == L
+2021-09-28 11:20:09.336194 // WARNING // AS-Glob:AP-MachShift:Mode-Sts == 5 // Limit: L=5 // Rule: pv == L // 1I-01:EG-TriggerPS:enable == 1 // Limit: L=1 // Rule: pv == L
+2021-09-28 11:30:18.174540 // WARNING // AS-Glob:AP-MachShift:Mode-Sts == 5 // Limit: L=5 // Rule: pv == L // LI-01:EG-TriggerPS:enable == 1 // Limit: L=1 // Rule: pv == L
+2021-09-28 13:29:20.642762 // WARNING // LI-01:EG-TriggerPS:enable == 1 // Limit: L=1 // Rule: pv == L
+2021-09-28 13:37:48.981907 // WARNING // LI-01:EG-TriggerPS:enable == 1 // Limit: L=1 // Rule: pv == L // AS-Glob:AP-MachShift:Mode-Sts = 5 // LL=1;LU=4 // Rule: (pv < LL) or (pv > LU)
 
