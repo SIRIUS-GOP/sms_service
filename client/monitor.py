@@ -95,6 +95,8 @@ def testpvlist(pvlist, rule, limits): #test pvs using rule and limits
         L = ext_lim(limits)['L']
         LL = ext_lim(limits)['LL']
         LU = ext_lim(limits)['LU']
+        print('L,LL,LU,pv', L, LL, LU, pv)
+        print('eval:', eval(rule))
         if (eval(rule) and (type(pv)==int or type(pv)==float)):
             truelist.append(pv_)
             signal = True
@@ -150,7 +152,8 @@ def evaluate():
                             if n.subrule1 == "not":
                                 expr = expr + ' and (not ' + str(check2[0]) + ')'
                             else:
-                                expr = expr + ' ' + n.subrule1 + ' ' + str(check2[0])                         
+                                expr = expr + ' ' + n.subrule1 + ' ' + str(check2[0])      
+                                #print('expression:', expr, 'rule:', n.rule2, 'limits:', n.limits2)                  
                             numpvs = 2
                         if (n.subrule2 != '0'):
                             check3 = testpvlist(matchedpvlist3, n.rule2, n.limits3)
@@ -159,7 +162,7 @@ def evaluate():
                             else:
                                 expr = expr + ' ' + n.subrule2 + ' ' + str(check3[0])
                             numpvs = 3
-                        #print("expression:", expr)
+                        print("expression:", expr)
                         #print("check1: ", check1)
                         if (eval(expr)): #check expression for True
                             # msg = '{{"pv" : "{pv}",\
