@@ -89,6 +89,7 @@ def getfullpvlist(): # gets the list from fullpvlist_db
 
 def testpvlist(pvlist, rule, limits): #test pvs using rule and limits
     truelist = []
+    pvvaluelist = []
     signal = False
     for pv_ in pvlist:
         pv = caget(pv_)
@@ -99,8 +100,9 @@ def testpvlist(pvlist, rule, limits): #test pvs using rule and limits
         print('eval:', eval(rule))
         if (eval(rule) and (type(pv)==int or type(pv)==float)):
             truelist.append(pv_)
+            pvvaluelist.append(pv)
             signal = True
-    aux = (signal, truelist, pv)
+    aux = (signal, truelist, pvvaluelist)
     return aux
 
 def evaluate():
@@ -142,7 +144,7 @@ def evaluate():
                 #print(matchedpvlist)
                 if (now <= exp): #check expiration
                     #print(str(datetime.now()), "exp ok")
-                    if (n.sent==False or (n.sent==True and n.persistent==True)): #check persistence and if was sent b4
+                    if (n.sent==False or (n.sent==True and n.persistent==True)): #check persistence and if it was sent b4
                         #print(n.pv1, n.subrule1, n.pv2, n.subrule2, n.pv3)
                         check1 = testpvlist(matchedpvlist1, n.rule1, n.limits1)
                         numpvs = 1
@@ -182,7 +184,7 @@ def evaluate():
                                                                       pv1=(check1[1])[0],\
                                                                       rule1=n.rule1,\
                                                                       limits1=n.limits1,\
-                                                                      value1=check1[2],\
+                                                                      value1=check1[2][0],\
                                                                       phone=n.phone)
                             elif numpvs == 2:
                                 msg = '{{"numpvs" : "{numpvs}",\
@@ -203,8 +205,8 @@ def evaluate():
                                                                       limits1=n.limits1,\
                                                                       limits2=n.limits2,\
                                                                       subrule1=n.subrule1,\
-                                                                      value1=check1[2],\
-                                                                      value2=check2[2],\
+                                                                      value1=check1[2][0],\
+                                                                      value2=check2[2][0],\
                                                                       phone=n.phone)
                             elif numpvs == 3:                                           
                                 msg = '{{"numpvs" : "{numpvs}",\
@@ -234,9 +236,9 @@ def evaluate():
                                                                       limits3=n.limits2,\
                                                                       subrule1=n.subrule1,\
                                                                       subrule2=n.subrule2,\
-                                                                      value1=check1[2],\
-                                                                      value2=check2[2],\
-                                                                      value3=check3[2],\
+                                                                      value1=check1[2][0],\
+                                                                      value2=check2[2][0],\
+                                                                      value3=check3[2][0],\
                                                                       phone=n.phone)
                             #print(msg)
                             sent_time = datetime.strptime(n.sent_time, "%Y-%m-%d %H:%M:%S.%f") #- timedelta(hours=3)
