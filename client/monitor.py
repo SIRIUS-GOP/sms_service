@@ -96,8 +96,8 @@ def testpvlist(pvlist, rule, limits): #test pvs using rule and limits
         L = ext_lim(limits)['L']
         LL = ext_lim(limits)['LL']
         LU = ext_lim(limits)['LU']
-        print('L,LL,LU,pv', L, LL, LU, pv)
-        print('eval:', eval(rule))
+        #print('L,LL,LU,pv', L, LL, LU, pv)
+        #print('eval:', eval(rule))
         if (eval(rule) and (type(pv)==int or type(pv)==float)):
             truelist.append(pv_)
             pvvaluelist.append(pv)
@@ -164,7 +164,7 @@ def evaluate():
                             else:
                                 expr = expr + ' ' + n.subrule2 + ' ' + str(check3[0])
                             numpvs = 3
-                        print("expression:", expr)
+                        #print("expression:", expr)
                         #print("check1: ", check1)
                         if (eval(expr)): #check expression for True
                             # msg = '{{"pv" : "{pv}",\
@@ -246,13 +246,14 @@ def evaluate():
                             #print("interval, sent_time + delta, ", n.interval, sent_time + timedelta(minutes=int(n.interval)))
                             if (n.sent==False ): #and n.persistent==True) and (now > (sent_time + timedelta(minutes=int(n.interval))))):
                                 r = client.client(msg) #send data to Server (modem's PC)
-                                print('client done persistence true')
-                                print('r', r)
+                                #print('client done persistence true')
+                                #print('r', r)
                                 if r[0]==False:
                                     log = str(datetime.now()) + ' error sending message to server\n\r'
                                     dir_path = path.dirname(path.realpath(__file__)) #current folder application path
                                     log_path = path.join(dir_path, 'log.txt')
                                     writer.write(log_path, log, 'a')
+                                    print(log)
                                 else:
                                     log = str(datetime.now()) + ' message to owner ' + n.owner + ' sent to server\n\r'
                                     dir_path = path.dirname(path.realpath(__file__)) #current folder application path
@@ -260,16 +261,18 @@ def evaluate():
                                     writer.write(log_path, log, 'a')
                                     set_sent_db(n.id, True)
                                     set_sent_time_db(n.id, now)
+                                    print(log)
                             else:
                                 if ((n.persistent==True) and (now > (sent_time + timedelta(minutes=int(n.interval))))):
                                     r = client.client(msg) #send data to Server (modem's PC)
-                                    print('client done persistence false')
-                                    print('r', r)
+                                    #print('client done persistence false')
+                                    #print('r', r)
                                     if r[0]==False:
                                         log = str(datetime.now()) + ' error sending message to server\n\r'
                                         dir_path = path.dirname(path.realpath(__file__)) #current folder application path
                                         log_path = path.join(dir_path, 'log.txt')
                                         writer.write(log_path, log, 'a')
+                                        print(log)
                                     else:
                                         log = str(datetime.now()) + ' message to owner ' + n.owner + ' sent to server\n\r'
                                         dir_path = path.dirname(path.realpath(__file__)) #current folder application path
@@ -277,6 +280,7 @@ def evaluate():
                                         writer.write(log_path, log, 'a')
                                         set_sent_db(n.id, True)
                                         set_sent_time_db(n.id, now)
+                                        print(log)
 
             sleep(10)
 
