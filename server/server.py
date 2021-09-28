@@ -109,35 +109,35 @@ def watcherseye(queue, stop): #queue watcher
             elif int(n['numpvs']) == 2:
                 if (n['rule1'].find('(pv < LL) or (pv > LU)') != -1): #outside range
                     msg1 = prefix + '\n\r1) ' + n['pv1'] + ' = ' + n['value1'] + '\n\r'+ 'Limits: ' + n['limits1'] + '\n\rRule: ' + n['rule1']
-                    print('pv1 outside range')
+                    #print('pv1 outside range')
                 elif (n['rule1'].find('(pv > LL) and (pv < LU)') != -1): #within range
                     msg1 = prefix + '\n\r1) ' + n['pv1'] + ' = ' + n['value1'] + '\n\r'+ 'Limits: ' + n['limits1'] + '\n\rRule: ' + n['rule1']
-                    print('pv1 within range')
+                    #print('pv1 within range')
                 elif (bool(re.search('^pv .+ L$', n['rule1']))) != -1: #other rules
                     msg1 = prefix + '\n\r1) ' + n['rule1']
                     msg1 = msg1.replace('==', '=', 1)
                     msg1 = msg1.replace('L', n['value1'], 1)
                     msg1 = msg1.replace('pv', n['pv1'], 1)
                     msg1 = msg1 + '\n\r' + 'Limit: ' + n['limits1'] + '\n\rRule: ' + n['rule1']
-                    print('pv1 pv=L choice')
+                    #print('pv1 pv=L choice')
                 if (n['rule2'].find('(pv < LL) or (pv > LU)') != -1): #outside range
                     msg2 = '\n\r2) ' + n['pv2'] + ' = ' + n['value2'] + '\n\r'+ 'Limits: ' + n['limits2'] + '\n\rRule: ' + n['rule2']
                 elif (n['rule2'].find('(pv > LL) and (pv < LU)') != -1): #within range
                     msg2 = '\n\r2) ' + n['pv2'] + ' = ' + n['value2'] + '\n\r'+ 'Limits: ' + n['limits2'] + '\n\rRule: ' + n['rule2']
-                    print('pv2 within range')
+                    #print('pv2 within range')
                 elif (bool(re.search('^pv .+ L$', n['rule2']))): #other rules
                     msg2 = '\n\r' + n['rule2']
                     msg2 = msg2.replace('==', '=', 1)
                     msg2 = msg2.replace('L', n['value2'])
                     msg2 = msg2.replace('pv', n['pv2'])
                     msg2 = msg2 + '\n\r' + 'Limit: ' + n['limits2'] + '\n\rRule: ' + n['rule2']
-                    print('pv2 pv=L choice')
+                    #print('pv2 pv=L choice')
                 msg = msg1 + msg2
                 msg = (msg[:159]) if len(msg) > 160 else msg
             elif int(n['numpvs']) == 3:
                 pass
             r = sendsms.sendSMS(sub("[^0-9]", "", n['phone']), msg)
-            print('r', r)
+            #print('r', r)
             if r==True:
                 writer.write(msg)
             else:
