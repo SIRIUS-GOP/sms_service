@@ -76,4 +76,5 @@
 2021-09-28 15:59:05.814352 // WARNING // 1) LI-01:EG-TriggerPS:enable = 1 // Limit: L=1 // Rule: pv == L // 2) AS-Glob:AP-MachShift:Mode-Sts = 5 // Limits: LL=1;LU=4 // Rule: (pv < LL) or (pv > LU)
 2021-09-28 16:09:09.114153 // WARNING // 1) LI-01:EG-TriggerPS:enable = 1 // Limit: L=1 // Rule: pv == L // 2) AS-Glob:AP-MachShift:Mode-Sts = 5 // Limits: LL=1;LU=4 // Rule: (pv < LL) or (pv > LU)
 2021-09-28 16:19:16.412758 // WARNING // 1) LI-01:EG-TriggerPS:enable = 1 // Limit: L=1 // Rule: pv == L // 2) AS-Glob:AP-MachShift:Mode-Sts = 5 // Limits: LL=1;LU=4 // Rule: (pv < LL) or (pv > LU)
+2021-09-28 16:29:23.717560 // WARNING // 1) LI-01:EG-TriggerPS:enable = 1 // Limit: L=1 // Rule: pv == L // 2) AS-Glob:AP-MachShift:Mode-Sts = 5 // Limits: LL=1;LU=4 // Rule: (pv < LL) or (pv > LU)
 
