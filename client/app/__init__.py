@@ -28,6 +28,6 @@ login = LoginManager(app)
 login.login_view = 'login'
 p = read('PREFIX','prefix')
 app.wsgi_app = PrefixMiddleware(app.wsgi_app, prefix=p)
-#app.permanent_session_lifetime = 600
+app.permanent_session_lifetime = 600
 
 from app import routes, models
