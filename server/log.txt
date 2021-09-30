@@ -68,4 +68,13 @@
 2021-09-28 14:58:18.516033 // WARNING // 1) LI-01:EG-TriggerPS:enable == 1 // Limit: L=1 // Rule: pv == L // 2) AS-Glob:AP-MachShift:Mode-Sts = 5 // Limits: LL=1;LU=4 // Rule: (pv < LL) or (pv > LU)message with a bigger lenght than the sms character limit of 160
 2021-09-28 15:08:30.859120 // WARNING // 1) LI-01:EG-TriggerPS:enable == 1 // Limit: L=1 // Rule: pv == L // 2) AS-Glob:AP-MachShift:Mode-Sts = 5 // Limits: LL=1;LU=4 // Rule: (pv < LL) or (pv > LU)
 2021-09-28 15:18:40.546465 // WARNING // 1) LI-01:EG-TriggerPS:enable = 1 // Limit: L=1 // Rule: pv == L // 2) AS-Glob:AP-MachShift:Mode-Sts = 5 // Limits: LL=1;LU=4 // Rule: (pv < LL) or (pv > LU)
+2021-09-28 15:28:51.874289 // WARNING // 1) LI-01:EG-TriggerPS:enable = 1 // Limit: L=1 // Rule: pv == L // 2) AS-Glob:AP-MachShift:Mode-Sts = 5 // Limits: LL=1;LU=4 // Rule: (pv < LL) or (pv > LU)
+2021-09-28 15:30:24.931896 // WARNING // BO-16U:VA-CCG-ED:Pressure-Mon > 9.7e-10 // Limit: L=1e-8 // Rule: pv > L
+2021-09-28 15:30:55.960953 // WARNING // BO-16U:VA-CCG-ED:Pressure-Mon > 9.6e-10 // Limit: L=1e-8 // Rule: pv > L
+2021-09-28 15:39:03.207505 // WARNING // 1) LI-01:EG-TriggerPS:enable = 1 // Limit: L=1 // Rule: pv == L // 2) AS-Glob:AP-MachShift:Mode-Sts = 5 // Limits: LL=1;LU=4 // Rule: (pv < LL) or (pv > LU)
+2021-09-28 15:49:04.509294 // WARNING // 1) LI-01:EG-TriggerPS:enable = 1 // Limit: L=1 // Rule: pv == L // 2) AS-Glob:AP-MachShift:Mode-Sts = 5 // Limits: LL=1;LU=4 // Rule: (pv < LL) or (pv > LU)
+2021-09-28 15:59:05.814352 // WARNING // 1) LI-01:EG-TriggerPS:enable = 1 // Limit: L=1 // Rule: pv == L // 2) AS-Glob:AP-MachShift:Mode-Sts = 5 // Limits: LL=1;LU=4 // Rule: (pv < LL) or (pv > LU)
+2021-09-28 16:09:09.114153 // WARNING // 1) LI-01:EG-TriggerPS:enable = 1 // Limit: L=1 // Rule: pv == L // 2) AS-Glob:AP-MachShift:Mode-Sts = 5 // Limits: LL=1;LU=4 // Rule: (pv < LL) or (pv > LU)
+2021-09-28 16:19:16.412758 // WARNING // 1) LI-01:EG-TriggerPS:enable = 1 // Limit: L=1 // Rule: pv == L // 2) AS-Glob:AP-MachShift:Mode-Sts = 5 // Limits: LL=1;LU=4 // Rule: (pv < LL) or (pv > LU)
+2021-09-28 16:29:23.717560 // WARNING // 1) LI-01:EG-TriggerPS:enable = 1 // Limit: L=1 // Rule: pv == L // 2) AS-Glob:AP-MachShift:Mode-Sts = 5 // Limits: LL=1;LU=4 // Rule: (pv < LL) or (pv > LU)
 
