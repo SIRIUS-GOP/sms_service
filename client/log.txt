@@ -187,4 +187,9 @@
 2021-09-28 15:38:31.920391 message to owner rone.castro sent to server
 2021-09-28 15:48:32.712823 message to owner rone.castro sent to server
 2021-09-28 15:58:33.871241 message to owner rone.castro sent to server
+2021-09-28 16:08:38.876757 message to owner rone.castro sent to server
+2021-09-28 16:18:45.002023 message to owner rone.castro sent to server
+2021-09-28 16:28:52.644854 message to owner rone.castro sent to server
+2021-09-29 11:22:56.716874 message to owner walter.junior sent to server
+2021-09-29 11:22:58.602184 message to owner operador sent to server
 

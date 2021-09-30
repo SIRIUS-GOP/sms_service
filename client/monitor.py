@@ -98,10 +98,13 @@ def testpvlist(pvlist, rule, limits): #test pvs using rule and limits
         LU = ext_lim(limits)['LU']
         #print('L,LL,LU,pv', L, LL, LU, pv)
         #print('eval:', eval(rule))
-        if (eval(rule) and (type(pv)==int or type(pv)==float)):
-            truelist.append(pv_)
-            pvvaluelist.append(pv)
-            signal = True
+        try:
+            if (eval(rule) and (type(pv)==int or type(pv)==float)):
+                truelist.append(pv_)
+                pvvaluelist.append(pv)
+                signal = True
+        except:
+            print('Error on eval(rule). Values of  pv, L, LL and LU:', pv, L, LL, LU)
     aux = (signal, truelist, pvvaluelist)
     return aux
 
