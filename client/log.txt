@@ -225,4 +225,5 @@
 2021-10-01 19:47:34.712761 message to owner walter.junior sent to server > BO-05D:VA-CCG-RFC:Pressure-Mon
 2021-10-01 23:43:16.834497 message to owner walter.junior sent to server > SI-08BCFE:VA-CCG-MD:Pressure-Mon
 2021-10-01 23:43:18.245929 message to owner operador sent to server > SI-08BCFE:VA-CCG-MD:Pressure-Mon
+2021-10-02 10:21:16.352557 message to owner rone.castro sent to server > LI-01:EG-TriggerPS:enable
 

@@ -260,7 +260,7 @@ def evaluate():
                                     dir_path = path.dirname(path.realpath(__file__)) #current folder application path
                                     log_path = path.join(dir_path, 'log.txt')
                                     writer.write(log_path, log, 'a')
-                                    print(log, n.pv1)
+                                    print(log)
                                 else:
                                     log = str(datetime.now()) + ' message to owner ' + n.owner + ' sent to server > ' + (check1[1])[0] + '\n\r'
                                     dir_path = path.dirname(path.realpath(__file__)) #current folder application path
@@ -268,7 +268,7 @@ def evaluate():
                                     writer.write(log_path, log, 'a')
                                     set_sent_db(n.id, True)
                                     set_sent_time_db(n.id, now)
-                                    print(log, n.pv1)
+                                    print(log)
                             else:
                                 if ((n.persistent==True) and (now > (sent_time + timedelta(minutes=int(n.interval))))):
                                     r = client.client(msg) #send data to Server (modem's PC)
@@ -279,7 +279,7 @@ def evaluate():
                                         dir_path = path.dirname(path.realpath(__file__)) #current folder application path
                                         log_path = path.join(dir_path, 'log.txt')
                                         writer.write(log_path, log, 'a')
-                                        print(log, n.pv1)
+                                        print(log)
                                     else:
                                         log = str(datetime.now()) + ' message to owner ' + n.owner + ' sent to server > ' + (check1[1])[0] + '\n\r'
                                         dir_path = path.dirname(path.realpath(__file__)) #current folder application path
@@ -287,7 +287,7 @@ def evaluate():
                                         writer.write(log_path, log, 'a')
                                         set_sent_db(n.id, True)
                                         set_sent_time_db(n.id, now)
-                                        print(log, n.pv1)
+                                        print(log)
 
             sleep(10)
 
