@@ -91,7 +91,9 @@ def testpvlist(pvlist, rule, limits): #test pvs using rule and limits
     truelist = []
     pvvaluelist = []
     signal = False
+    #print('pvlist, rule, limits:', pvlist, rule, limits)
     for pv_ in pvlist:
+        #print('pv_:', pv_)
         pv = caget(pv_)
         L = ext_lim(limits)['L']
         LL = ext_lim(limits)['LL']
@@ -104,7 +106,7 @@ def testpvlist(pvlist, rule, limits): #test pvs using rule and limits
                 pvvaluelist.append(pv)
                 signal = True
         except:
-            print('Error on eval(rule). Values of  pv, L, LL and LU:', pv, L, LL, LU)
+            print('Error on eval(rule). Values of pv, L, LL and LU:', pv_, L, LL, LU)
     aux = (signal, truelist, pvvaluelist)
     return aux
 
@@ -140,11 +142,13 @@ def evaluate():
                 #print(n.sent_time)
                 r1 = re.compile(n.pv1)
                 r2 = re.compile(n.pv2)
-                r3 = re.compile(n.pv3)
+                #r3 = re.compile(n.pv3)
                 matchedpvlist1 = list(filter(r1.match, fullpvlist)) #make a list of PVs matching the filter
                 matchedpvlist2 = list(filter(r2.match, fullpvlist)) #make a list of PVs matching the filter
-                matchedpvlist3 = list(filter(r3.match, fullpvlist)) #make a list of PVs matching the filter
-                #print(matchedpvlist)
+                #matchedpvlist3 = list(filter(r3.match, fullpvlist)) #make a list of PVs matching the filter
+                #print('matchedpvlist1:', matchedpvlist1)
+                #print('matchedpvlist2:', matchedpvlist2)
+                #print('matchedpvlist3:', matchedpvlist3)
                 if (now <= exp): #check expiration
                     #print(str(datetime.now()), "exp ok")
                     if (n.sent==False or (n.sent==True and n.persistent==True)): #check persistence and if it was sent b4
@@ -160,13 +164,13 @@ def evaluate():
                                 expr = expr + ' ' + n.subrule1 + ' ' + str(check2[0])      
                                 #print('expression:', expr, 'rule:', n.rule2, 'limits:', n.limits2)                  
                             numpvs = 2
-                        if (n.subrule2 != '0'):
-                            check3 = testpvlist(matchedpvlist3, n.rule2, n.limits3)
-                            if n.subrule2 =="not":
-                                expr = expr + ' and (not ' + str(check3[0]) + ')'
-                            else:
-                                expr = expr + ' ' + n.subrule2 + ' ' + str(check3[0])
-                            numpvs = 3
+                        # if (n.subrule2 != '0'):
+                        #     check3 = testpvlist(matchedpvlist3, n.rule2, n.limits3)
+                        #     if n.subrule2 =="not":
+                        #         expr = expr + ' and (not ' + str(check3[0]) + ')'
+                        #     else:
+                        #         expr = expr + ' ' + n.subrule2 + ' ' + str(check3[0])
+                        #     numpvs = 3
                         #print("expression:", expr)
                         #print("check1: ", check1)
                         if (eval(expr)): #check expression for True
@@ -211,38 +215,38 @@ def evaluate():
                                                                       value1=check1[2][0],\
                                                                       value2=check2[2][0],\
                                                                       phone=n.phone)
-                            elif numpvs == 3:                                           
-                                msg = '{{"numpvs" : "{numpvs}",\
-                                        "pv1" : "{pv1}",\
-                                        "pv2" : "{pv2}",\
-                                        "pv3" : "{pv3}",\
-                                        "rule1" : "{rule1}",\
-                                        "rule2" : "{rule2}",\
-                                        "rule3" : "{rule3}",\
-                                        "limits1" : "{limits1}",\
-                                        "limits2" : "{limits2}",\
-                                        "limits3" : "{limits3}",\
-                                        "subrule1" : "{subrule1}",\
-                                        "subrule2" : "{subrule2}",\
-                                        "value1" : "{value1}",\
-                                        "value2" : "{value2}",\
-                                        "value3" : "{value3}",\
-                                        "phone" : "{phone}"}}'.format(numpvs=numpvs,\
-                                                                      pv1=(check1[1])[0],\
-                                                                      pv2=(check2[1])[0],\
-                                                                      pv3=(check3[1])[0],\
-                                                                      rule1=n.rule1,\
-                                                                      rule2=n.rule2,\
-                                                                      rule3=n.rule2,\
-                                                                      limits1=n.limits1,\
-                                                                      limits2=n.limits2,\
-                                                                      limits3=n.limits2,\
-                                                                      subrule1=n.subrule1,\
-                                                                      subrule2=n.subrule2,\
-                                                                      value1=check1[2][0],\
-                                                                      value2=check2[2][0],\
-                                                                      value3=check3[2][0],\
-                                                                      phone=n.phone)
+                            # elif numpvs == 3:                                           
+                            #     msg = '{{"numpvs" : "{numpvs}",\
+                            #             "pv1" : "{pv1}",\
+                            #             "pv2" : "{pv2}",\
+                            #             "pv3" : "{pv3}",\
+                            #             "rule1" : "{rule1}",\
+                            #             "rule2" : "{rule2}",\
+                            #             "rule3" : "{rule3}",\
+                            #             "limits1" : "{limits1}",\
+                            #             "limits2" : "{limits2}",\
+                            #             "limits3" : "{limits3}",\
+                            #             "subrule1" : "{subrule1}",\
+                            #             "subrule2" : "{subrule2}",\
+                            #             "value1" : "{value1}",\
+                            #             "value2" : "{value2}",\
+                            #             "value3" : "{value3}",\
+                            #             "phone" : "{phone}"}}'.format(numpvs=numpvs,\
+                            #                                           pv1=(check1[1])[0],\
+                            #                                           pv2=(check2[1])[0],\
+                            #                                           pv3=(check3[1])[0],\
+                            #                                           rule1=n.rule1,\
+                            #                                           rule2=n.rule2,\
+                            #                                           rule3=n.rule2,\
+                            #                                           limits1=n.limits1,\
+                            #                                           limits2=n.limits2,\
+                            #                                           limits3=n.limits2,\
+                            #                                           subrule1=n.subrule1,\
+                            #                                           subrule2=n.subrule2,\
+                            #                                           value1=check1[2][0],\
+                            #                                           value2=check2[2][0],\
+                            #                                           value3=check3[2][0],\
+                            #                                           phone=n.phone)
                             #print(msg)
                             sent_time = datetime.strptime(n.sent_time, "%Y-%m-%d %H:%M:%S.%f") #- timedelta(hours=3)
                             #print("interval, sent_time, ", n.interval, sent_time)
@@ -252,38 +256,38 @@ def evaluate():
                                 #print('client done persistence true')
                                 #print('r', r)
                                 if r[0]==False:
-                                    log = str(datetime.now()) + ' error sending message to server\n\r'
+                                    log = str(datetime.now()) + ' error sending message to server > ' + (check1[1])[0] + '\n\r'
                                     dir_path = path.dirname(path.realpath(__file__)) #current folder application path
                                     log_path = path.join(dir_path, 'log.txt')
                                     writer.write(log_path, log, 'a')
-                                    print(log)
+                                    print(log, n.pv1)
                                 else:
-                                    log = str(datetime.now()) + ' message to owner ' + n.owner + ' sent to server\n\r'
+                                    log = str(datetime.now()) + ' message to owner ' + n.owner + ' sent to server > ' + (check1[1])[0] + '\n\r'
                                     dir_path = path.dirname(path.realpath(__file__)) #current folder application path
                                     log_path = path.join(dir_path, 'log.txt')
                                     writer.write(log_path, log, 'a')
                                     set_sent_db(n.id, True)
                                     set_sent_time_db(n.id, now)
-                                    print(log)
+                                    print(log, n.pv1)
                             else:
                                 if ((n.persistent==True) and (now > (sent_time + timedelta(minutes=int(n.interval))))):
                                     r = client.client(msg) #send data to Server (modem's PC)
                                     #print('client done persistence false')
                                     #print('r', r)
                                     if r[0]==False:
-                                        log = str(datetime.now()) + ' error sending message to server\n\r'
+                                        log = str(datetime.now()) + ' error sending message to server > ' + (check1[1])[0] + '\n\r'
                                         dir_path = path.dirname(path.realpath(__file__)) #current folder application path
                                         log_path = path.join(dir_path, 'log.txt')
                                         writer.write(log_path, log, 'a')
-                                        print(log)
+                                        print(log, n.pv1)
                                     else:
-                                        log = str(datetime.now()) + ' message to owner ' + n.owner + ' sent to server\n\r'
+                                        log = str(datetime.now()) + ' message to owner ' + n.owner + ' sent to server > ' + (check1[1])[0] + '\n\r'
                                         dir_path = path.dirname(path.realpath(__file__)) #current folder application path
                                         log_path = path.join(dir_path, 'log.txt')
                                         writer.write(log_path, log, 'a')
                                         set_sent_db(n.id, True)
                                         set_sent_time_db(n.id, now)
-                                        print(log)
+                                        print(log, n.pv1)
 
             sleep(10)
 

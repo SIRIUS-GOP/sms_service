@@ -63,14 +63,14 @@
         </td>
         <td style="text-transform:uppercase;">{%if row[8]=="0"%}-
             {%else%}
-                {{row[8]}}{%if row[12]!="0"%}, {{row[12]}}{%endif%}
+                {{row[8]}}{%if row[12]!="0"%}{{row[12]}}{%endif%}
             {%endif%}
         </td>
         <td>{{row[3]}}</td>
         <td>{% if row[19]==0%}No{%else%}Yes{%endif%}</td>
         <td>{% if row[19]==1%}{{row[18]}}{%else%}-{%endif%}</td>
         <td>{% if row[16]==0%}No{%else%}Yes{%endif%}</td>
-        {%if current_user.username=='admin' %}<td>{{row[17]}}</td>{%endif%}
+        {%if current_user.username=='admin'%}<td>{{row[17]}}</td>{%endif%}
     </tr>
 {% endfor %}
 </table>

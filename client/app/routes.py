@@ -173,10 +173,10 @@ def add_notification():
             pv2 = request.form['pv2']
             rule2 = request.form.get('rule2')
             limits2 = request.form['limits2']
-            addsubrule2 = (request.form.get('addsubrule2')).lower()
-            pv3 = request.form['pv3']
-            rule3 = request.form.get('rule3')
-            limits3 = request.form['limits3']
+            addsubrule2 = ''#(request.form.get('addsubrule2')).lower()
+            pv3 = ''#request.form['pv3']
+            rule3 = 0#request.form.get('rule3')
+            limits3 = ''#request.form['limits3']
             hidden1 = request.form['hidden1']
             hidden2 = request.form['hidden2']
             L1 = limits1.find('L=')
@@ -244,10 +244,10 @@ def edit_notification(id):
             pv2 = request.form['pv2']
             rule2 = request.form.get('rule2')
             limits2 = request.form['limits2']
-            addsubrule2 = (request.form.get('addsubrule2')).lower()
-            pv3 = request.form['pv3']
-            rule3 = request.form.get('rule3')
-            limits3 = request.form['limits3']
+            addsubrule2 = ''#(request.form.get('addsubrule2')).lower()
+            pv3 = ''#request.form['pv3']
+            rule3 = 0#request.form.get('rule3')
+            limits3 = ''#request.form['limits3']
             hidden1 = request.form['hidden1']
             hidden2 = request.form['hidden2']
             L1 = limits1.find('L=')
