@@ -9,4 +9,14 @@
 2021-10-19 12:41:25.780568 // WARNING // BO-01U:VA-CCG-BG:Pressure-Mon > 1.1e-08 // Limit: L=1e-8 // Rule: pv > L
 2021-10-19 12:48:14.988372 // WARNING // SI-02SB:VA-CCG-BG:Pressure-Mon > 2.5e-08 // Limit: L=1e-8 // Rule: pv > L
 2021-10-19 12:48:46.008914 // WARNING // SI-02SB:VA-CCG-BG:Pressure-Mon > 2.5e-08 // Limit: L=1e-8 // Rule: pv > L
+2021-10-19 15:20:21.401895 // WARNING // BO-01U:VA-CCG-BG:Pressure-Mon > 2.2e-08 // Limit: L=1e-8 // Rule: pv > L
+2021-10-19 15:20:52.427575 // WARNING // BO-01U:VA-CCG-BG:Pressure-Mon > 2.6e-08 // Limit: L=1e-8 // Rule: pv > L
+2021-10-19 15:21:23.452223 // WARNING // BO-01U:VA-CCG-BG:Pressure-Mon > 2.8e-08 // Limit: L=1e-8 // Rule: pv > L
+2021-10-19 15:21:54.482020 // WARNING // SI-02SB:VA-CCG-CAV:Pressure-Mon > 1.5e-08 // Limit: L=1e-8 // Rule: pv > L
+2021-10-19 15:22:25.507172 // WARNING // SI-02SB:VA-CCG-CAV:Pressure-Mon > 1.4e-08 // Limit: L=1e-8 // Rule: pv > L
+2021-10-19 16:12:38.019617 // WARNING // SI-02SB:VA-CCG-CAV:Pressure-Mon > 1.1e-08 // Limit: L=1e-8 // Rule: pv > L
+2021-10-19 18:08:45.844421 // WARNING // 1) SI-02SB:VA-CCG-CAV:Pressure-Mon > 2.7e-09 // Limit: L=2.5e-9 // Rule: pv > L // ^BO.+VA-CCG.+Pressure-Mon$ > - // Limit: L=1e-7 // Rule: pv > L
+2021-10-19 18:19:03.143457 // WARNING // 1) SI-02SB:VA-CCG-CAV:Pressure-Mon > 2.6e-09 // Limit: L=2.5e-9 // Rule: pv > L // ^BO.+VA-CCG.+Pressure-Mon$ > - // Limit: L=1e-7 // Rule: pv > L
+2021-10-19 18:30:06.480299 // WARNING // 1) SI-02SB:VA-CCG-CAV:Pressure-Mon > 2.6e-09 // Limit: L=2.5e-9 // Rule: pv > L // ^BO.+VA-CCG.+Pressure-Mon$ > - // Limit: L=1e-7 // Rule: pv > L
+2021-10-19 18:45:55.910995 // WARNING // 1) SI-02SB:VA-CCG-CAV:Pressure-Mon > 2.6e-09 // Limit: L=2.5e-9 // Rule: pv > L // ^BO.+VA-CCG.+Pressure-Mon$ > - // Limit: L=1e-7 // Rule: pv > L
 
