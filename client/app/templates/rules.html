@@ -5,7 +5,13 @@
 <div>
 <div class="header_align">
     <h1 class="header_text">Rules</h1>
-    <p class='action_text'>Rules use special variables to set a condition for evaluation.</p>
+    <p class='action_text'>Rules use special variables to set a condition for evaluation. They're described bellow:</p>
+    <p class='action_text'>&#9656;&nbsp;&nbsp;'pv' = PV reading value;</p>
+    <p class='action_text'>&#9656;&nbsp;&nbsp;'L' = Limit threshold to be compared against pv;</p>
+    <p class='action_text'>&#9656;&nbsp;&nbsp;'LU' = Upper Limit threshold to be compared against pv;</p>
+    <p class='action_text'>&#9656;&nbsp;&nbsp;'LL' = Lower Limit threshold to be compared against pv;</p>
+    <p class='action_text'>&#9656;&nbsp;&nbsp;The rules are evaluated through an EVAL() function used in Python.</p>
+    <p class='action_text'>&#9656;&nbsp;&nbsp;When the Rule evaluates to True, the SMS message is sent;</p>
     <p class='action_text'>All available rules are displayed bellow.</p>
 </div>
 </div>

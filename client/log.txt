@@ -226,4 +226,206 @@
 2021-10-01 23:43:16.834497 message to owner walter.junior sent to server > SI-08BCFE:VA-CCG-MD:Pressure-Mon
 2021-10-01 23:43:18.245929 message to owner operador sent to server > SI-08BCFE:VA-CCG-MD:Pressure-Mon
 2021-10-02 10:21:16.352557 message to owner rone.castro sent to server > LI-01:EG-TriggerPS:enable
+2021-10-02 11:02:56.097063 message to owner rone.castro sent to server > BO-14U:VA-CCG-BG:Pressure-Mon
+2021-10-03 21:08:45.134243 message to owner walter.junior sent to server > SI-02SB:VA-CCG-CAV:Pressure-Mon
+2021-10-03 21:08:46.518177 message to owner operador sent to server > SI-02SB:VA-CCG-CAV:Pressure-Mon
+2021-10-04 10:47:30.320556 message to owner walter.junior sent to server > BO-29U:VA-CCG-BG:Pressure-Mon
+2021-10-04 10:47:31.827485 message to owner operador sent to server > BO-29U:VA-CCG-BG:Pressure-Mon
+2021-10-04 10:47:33.822450 message to owner rone.castro sent to server > BO-29U:VA-CCG-BG:Pressure-Mon
+2021-10-05 11:22:28.823706 message to owner walter.junior sent to server > BO-34U:VA-CCG-BG:Pressure-Mon
+2021-10-05 11:22:30.629429 message to owner operador sent to server > BO-34U:VA-CCG-BG:Pressure-Mon
+2021-10-05 11:40:31.102650 message to owner walter.junior sent to server > SI-14SB:VA-CCG-BG:Pressure-Mon
+2021-10-05 11:40:32.498121 message to owner operador sent to server > SI-14SB:VA-CCG-BG:Pressure-Mon
+2021-10-05 11:40:34.515483 message to owner rone.castro sent to server > SI-14SB:VA-CCG-BG:Pressure-Mon
+2021-10-05 13:57:26.490685 message to owner walter.junior sent to server > BO-36U:VA-CCG-ED:Pressure-Mon
+2021-10-05 13:57:28.308931 message to owner operador sent to server > BO-36U:VA-CCG-ED:Pressure-Mon
+2021-10-05 14:07:30.333069 message to owner walter.junior sent to server > BO-36U:VA-CCG-ED:Pressure-Mon
+2021-10-05 14:07:32.196972 message to owner operador sent to server > BO-36U:VA-CCG-ED:Pressure-Mon
+2021-10-05 14:17:33.356032 message to owner walter.junior sent to server > BO-36U:VA-CCG-ED:Pressure-Mon
+2021-10-05 14:17:34.775791 message to owner operador sent to server > BO-36U:VA-CCG-ED:Pressure-Mon
+2021-10-05 14:27:36.667142 message to owner operador sent to server > BO-36U:VA-CCG-ED:Pressure-Mon
+2021-10-05 14:27:48.384587 message to owner walter.junior sent to server > BO-36U:VA-CCG-ED:Pressure-Mon
+2021-10-05 14:37:41.122646 message to owner operador sent to server > BO-36U:VA-CCG-ED:Pressure-Mon
+2021-10-05 14:38:04.479103 message to owner walter.junior sent to server > BO-36U:VA-CCG-ED:Pressure-Mon
+2021-10-05 14:48:06.816573 message to owner walter.junior sent to server > BO-36U:VA-CCG-ED:Pressure-Mon
+2021-10-05 14:48:08.683286 message to owner operador sent to server > BO-36U:VA-CCG-ED:Pressure-Mon
+2021-10-05 14:58:12.304198 message to owner operador sent to server > BO-36U:VA-CCG-ED:Pressure-Mon
+2021-10-05 14:58:58.939240 message to owner walter.junior sent to server > BO-36U:VA-CCG-ED:Pressure-Mon
+2021-10-05 15:09:04.395101 message to owner operador sent to server > BO-36U:VA-CCG-ED:Pressure-Mon
+2021-10-05 15:11:23.102479 message to owner walter.junior sent to server > BO-36U:VA-CCG-ED:Pressure-Mon
+2021-10-05 20:20:51.713749 message to owner walter.junior sent to server > SI-02SB:VA-CCG-CAV:Pressure-Mon
+2021-10-05 20:20:53.117797 message to owner operador sent to server > SI-02SB:VA-CCG-CAV:Pressure-Mon
+2021-10-05 20:21:17.366471 message to owner rone.castro sent to server > SI-02SB:VA-CCG-CAV:Pressure-Mon
+2021-10-05 21:20:29.945017 message to owner walter.junior sent to server > SI-02SB:VA-CCG-CAV:Pressure-Mon
+2021-10-05 22:10:35.914275 message to owner walter.junior sent to server > SI-02SB:VA-CCG-CAV:Pressure-Mon
+2021-10-05 22:10:37.743550 message to owner operador sent to server > SI-02SB:VA-CCG-CAV:Pressure-Mon
+2021-10-06 01:20:28.838594 message to owner rone.castro sent to server > SI-02SB:VA-CCG-CAV:Pressure-Mon
+2021-10-06 07:03:55.820952 message to owner walter.junior sent to server > SI-05SAFE:VA-CCG-MD:Pressure-Mon
+2021-10-06 08:43:44.243369 message to owner rone.castro sent to server > TB-01:VA-CCG-ED:Pressure-Mon
+2021-10-07 21:36:23.902812 message to owner walter.junior sent to server > BO-48D:VA-CCG-ED:Pressure-Mon
+2021-10-07 21:36:25.752903 message to owner operador sent to server > BO-16U:VA-CCG-ED:Pressure-Mon
+2021-10-07 21:36:27.738520 message to owner rone.castro sent to server > BO-16U:VA-CCG-ED:Pressure-Mon
+2021-10-08 19:48:40.863042 message to owner walter.junior sent to server > SI-02SB:VA-CCG-CAV:Pressure-Mon
+2021-10-08 19:48:42.284780 message to owner operador sent to server > SI-02SB:VA-CCG-CAV:Pressure-Mon
+2021-10-08 19:48:44.300072 message to owner rone.castro sent to server > SI-02SB:VA-CCG-CAV:Pressure-Mon
+2021-10-08 19:58:52.249323 message to owner walter.junior sent to server > SI-02SB:VA-CCG-CAV:Pressure-Mon
+2021-10-08 19:58:53.704394 message to owner operador sent to server > SI-02SB:VA-CCG-CAV:Pressure-Mon
+2021-10-08 20:09:36.221009 message to owner walter.junior sent to server > SI-02SB:VA-CCG-CAV:Pressure-Mon
+2021-10-08 20:12:17.577067 message to owner operador sent to server > SI-02SB:VA-CCG-CAV:Pressure-Mon
+2021-10-08 20:19:45.549231 message to owner walter.junior sent to server > SI-02SB:VA-CCG-CAV:Pressure-Mon
+2021-10-08 20:27:03.445756 message to owner operador sent to server > BO-05D:VA-CCG-RFC:Pressure-Mon
+2021-10-08 20:31:16.305196 message to owner operador sent to server > SI-02SB:VA-CCG-CAV:Pressure-Mon
+2021-10-08 20:32:02.174672 message to owner walter.junior sent to server > BO-05D:VA-CCG-RFC:Pressure-Mon
+2021-10-08 20:33:22.646200 message to owner walter.junior sent to server > SI-02SB:VA-CCG-CAV:Pressure-Mon
+2021-10-08 20:37:13.522023 message to owner operador sent to server > BO-05D:VA-CCG-RFC:Pressure-Mon
+2021-10-08 20:43:54.812379 message to owner walter.junior sent to server > SI-02SB:VA-CCG-CAV:Pressure-Mon
+2021-10-08 20:43:56.210212 message to owner operador sent to server > SI-02SB:VA-CCG-CAV:Pressure-Mon
+2021-10-08 20:50:16.829892 message to owner rone.castro sent to server > SI-02SB:VA-CCG-CAV:Pressure-Mon
+2021-10-08 20:54:05.147078 message to owner walter.junior sent to server > SI-02SB:VA-CCG-CAV:Pressure-Mon
+2021-10-08 20:54:06.992955 message to owner operador sent to server > SI-02SB:VA-CCG-CAV:Pressure-Mon
+2021-10-11 07:18:29.294225 message to owner walter.junior sent to server > SI-11SP:VA-CCG-BG:Pressure-Mon
+2021-10-11 07:18:31.025199 message to owner walter.junior sent to server > BO-16U:VA-CCG-ED:Pressure-Mon
+2021-10-11 12:36:39.032006 message to owner walter.junior sent to server > SI-01SA:VA-CCG-BG:Pressure-Mon
+2021-10-12 12:09:48.386868 message to owner walter.junior sent to server > SI-02SB:VA-CCG-CAV:Pressure-Mon
+2021-10-12 21:51:44.773961 message to owner rone.castro sent to server > BO-14U:VA-CCG-BG:Pressure-Mon
+2021-10-12 21:51:55.793048 message to owner walter.junior sent to server > BO-14U:VA-CCG-BG:Pressure-Mon
+2021-10-12 21:51:57.803736 message to owner operador sent to server > BO-14U:VA-CCG-BG:Pressure-Mon
+2021-10-12 22:01:57.177514 message to owner walter.junior sent to server > BO-14U:VA-CCG-BG:Pressure-Mon
+2021-10-12 22:01:59.027082 message to owner operador sent to server > BO-14U:VA-CCG-BG:Pressure-Mon
+2021-10-12 22:13:05.512810 message to owner walter.junior sent to server > BO-16U:VA-CCG-ED:Pressure-Mon
+2021-10-12 22:13:07.358672 message to owner operador sent to server > BO-14U:VA-CCG-BG:Pressure-Mon
+2021-10-12 22:56:47.923617 message to owner walter.junior sent to server > BO-14U:VA-CCG-BG:Pressure-Mon
+2021-10-12 22:57:23.198029 message to owner operador sent to server > BO-16U:VA-CCG-ED:Pressure-Mon
+2021-10-12 22:58:10.240777 message to owner rone.castro sent to server > BO-14U:VA-CCG-BG:Pressure-Mon
+2021-10-12 23:09:51.765515 message to owner walter.junior sent to server > BO-14U:VA-CCG-BG:Pressure-Mon
+2021-10-12 23:09:53.596850 message to owner operador sent to server > BO-14U:VA-CCG-BG:Pressure-Mon
+2021-10-12 23:20:26.380681 message to owner walter.junior sent to server > BO-14U:VA-CCG-BG:Pressure-Mon
+2021-10-12 23:20:28.288517 message to owner operador sent to server > BO-14U:VA-CCG-BG:Pressure-Mon
+2021-10-12 23:59:25.115171 message to owner rone.castro sent to server > BO-16U:VA-CCG-ED:Pressure-Mon
+2021-10-12 23:59:36.148830 message to owner walter.junior sent to server > BO-14U:VA-CCG-BG:Pressure-Mon
+2021-10-12 23:59:38.164649 message to owner operador sent to server > BO-14U:VA-CCG-BG:Pressure-Mon
+2021-10-13 00:10:00.790590 message to owner operador sent to server > BO-16U:VA-CCG-ED:Pressure-Mon
+2021-10-13 00:10:12.390365 message to owner walter.junior sent to server > BO-14U:VA-CCG-BG:Pressure-Mon
+2021-10-13 10:46:00.798164 message to owner operador sent to server > BO-14U:VA-CCG-BG:Pressure-Mon
+2021-10-13 10:46:02.254494 message to owner rone.castro sent to server > BO-14U:VA-CCG-BG:Pressure-Mon
+2021-10-13 10:46:13.208984 message to owner walter.junior sent to server > BO-14U:VA-CCG-BG:Pressure-Mon
+2021-10-13 11:02:09.638179 message to owner walter.junior sent to server > BO-01U:VA-CCG-BG:Pressure-Mon
+2021-10-13 11:02:11.066043 message to owner operador sent to server > BO-01U:VA-CCG-BG:Pressure-Mon
+2021-10-13 11:15:03.878491 message to owner operador sent to server > BO-09U:VA-CCG-BG:Pressure-Mon
+2021-10-13 11:21:47.045363 message to owner walter.junior sent to server > BO-16U:VA-CCG-ED:Pressure-Mon
+2021-10-13 11:25:38.210487 message to owner operador sent to server > BO-09U:VA-CCG-BG:Pressure-Mon
+2021-10-13 11:34:04.883601 message to owner walter.junior sent to server > SI-02SB:VA-CCG-CAV:Pressure-Mon
+2021-10-13 11:34:06.719874 message to owner operador sent to server > SI-02SB:VA-CCG-CAV:Pressure-Mon
+2021-10-13 11:55:34.267358 message to owner walter.junior sent to server > BO-01U:VA-CCG-BG:Pressure-Mon
+2021-10-13 11:55:36.086640 message to owner operador sent to server > BO-01U:VA-CCG-BG:Pressure-Mon
+2021-10-13 11:55:38.089612 message to owner rone.castro sent to server > BO-16U:VA-CCG-ED:Pressure-Mon
+2021-10-13 12:06:21.738617 message to owner walter.junior sent to server > BO-09U:VA-CCG-BG:Pressure-Mon
+2021-10-13 12:06:23.581837 message to owner operador sent to server > BO-16U:VA-CCG-ED:Pressure-Mon
+2021-10-13 12:25:34.745354 message to owner walter.junior sent to server > BO-16U:VA-CCG-ED:Pressure-Mon
+2021-10-13 12:25:36.780282 message to owner operador sent to server > BO-16U:VA-CCG-ED:Pressure-Mon
+2021-10-13 12:35:45.895623 message to owner walter.junior sent to server > BO-16U:VA-CCG-ED:Pressure-Mon
+2021-10-13 12:40:35.091430 message to owner operador sent to server > BO-01U:VA-CCG-BG:Pressure-Mon
+2021-10-13 12:41:55.756111 message to owner walter.junior sent to server > SI-02SB:VA-CCG-CAV:Pressure-Mon
+2021-10-13 12:41:57.594061 message to owner operador sent to server > SI-02SB:VA-CCG-CAV:Pressure-Mon
+2021-10-13 12:57:17.301400 message to owner walter.junior sent to server > BO-01U:VA-CCG-BG:Pressure-Mon
+2021-10-13 12:57:19.136776 message to owner operador sent to server > BO-01U:VA-CCG-BG:Pressure-Mon
+2021-10-13 12:57:21.153998 message to owner rone.castro sent to server > BO-01U:VA-CCG-BG:Pressure-Mon
+2021-10-13 13:44:15.959035 message to owner walter.junior sent to server > SI-02SB:VA-CCG-CAV:Pressure-Mon
+2021-10-13 16:49:07.842505 message to owner walter.junior sent to server > BO-01U:VA-CCG-BG:Pressure-Mon
+2021-10-13 16:49:09.222877 message to owner operador sent to server > BO-16U:VA-CCG-ED:Pressure-Mon
+2021-10-13 16:49:11.235423 message to owner rone.castro sent to server > BO-16U:VA-CCG-ED:Pressure-Mon
+2021-10-13 17:33:02.625242 message to owner walter.junior sent to server > BO-01U:VA-CCG-BG:Pressure-Mon
+2021-10-13 17:33:04.438917 message to owner operador sent to server > BO-01U:VA-CCG-BG:Pressure-Mon
+2021-10-13 17:35:10.639471 message to owner operador sent to server > SI-02SB:VA-CCG-CAV:Pressure-Mon
+2021-10-13 17:35:33.652156 message to owner walter.junior sent to server > SI-02SB:VA-CCG-BG:Pressure-Mon
+2021-10-14 07:50:53.006654 message to owner walter.junior sent to server > BO-01U:VA-CCG-BG:Pressure-Mon
+2021-10-14 07:50:54.325906 message to owner operador sent to server > BO-01U:VA-CCG-BG:Pressure-Mon
+2021-10-14 07:50:56.337686 message to owner rone.castro sent to server > BO-01U:VA-CCG-BG:Pressure-Mon
+2021-10-14 07:53:49.274025 message to owner walter.junior sent to server > SI-02SB:VA-CCG-BG:Pressure-Mon
+2021-10-14 07:53:51.100451 message to owner operador sent to server > SI-02SB:VA-CCG-BG:Pressure-Mon
+2021-10-14 16:49:21.450001 message to owner rone.castro sent to server > SI-Glob:AP-SOFB:LoopState-Sel
+2021-10-14 16:49:22.748559 message to owner walter.junior sent to server > SI-Glob:AP-SOFB:LoopState-Sts
+2021-10-14 16:49:24.759283 message to owner operador sent to server > SI-Glob:AP-SOFB:LoopState-Sel
+2021-10-14 16:59:31.179084 message to owner rone.castro sent to server > SI-Glob:AP-SOFB:LoopState-Sel
+2021-10-14 16:59:33.191328 message to owner walter.junior sent to server > SI-Glob:AP-SOFB:LoopState-Sts
+2021-10-14 16:59:35.197923 message to owner operador sent to server > SI-Glob:AP-SOFB:LoopState-Sel
+2021-10-14 17:09:41.624261 message to owner rone.castro sent to server > SI-Glob:AP-SOFB:LoopState-Sel
+2021-10-14 17:09:43.469139 message to owner walter.junior sent to server > SI-Glob:AP-SOFB:LoopState-Sts
+2021-10-14 17:09:45.487063 message to owner operador sent to server > SI-Glob:AP-SOFB:LoopState-Sel
+2021-10-14 17:19:41.956648 message to owner rone.castro sent to server > SI-Glob:AP-SOFB:LoopState-Sel
+2021-10-14 17:19:43.608420 message to owner walter.junior sent to server > SI-Glob:AP-SOFB:LoopState-Sts
+2021-10-14 17:19:45.861179 message to owner operador sent to server > SI-Glob:AP-SOFB:LoopState-Sel
+2021-10-14 17:29:53.193935 message to owner rone.castro sent to server > SI-Glob:AP-SOFB:LoopState-Sel
+2021-10-14 17:29:54.572422 message to owner walter.junior sent to server > SI-Glob:AP-SOFB:LoopState-Sts
+2021-10-14 17:29:56.589374 message to owner operador sent to server > SI-Glob:AP-SOFB:LoopState-Sel
+2021-10-14 17:39:52.792545 message to owner rone.castro sent to server > SI-Glob:AP-SOFB:LoopState-Sel
+2021-10-14 17:39:54.627059 message to owner walter.junior sent to server > SI-Glob:AP-SOFB:LoopState-Sts
+2021-10-14 17:39:56.642318 message to owner operador sent to server > SI-Glob:AP-SOFB:LoopState-Sel
+2021-10-14 17:49:53.759155 message to owner rone.castro sent to server > SI-Glob:AP-SOFB:LoopState-Sel
+2021-10-14 17:49:56.195765 message to owner walter.junior sent to server > SI-Glob:AP-SOFB:LoopState-Sts
+2021-10-14 17:49:57.569506 message to owner operador sent to server > SI-Glob:AP-SOFB:LoopState-Sel
+2021-10-14 17:59:54.369489 message to owner rone.castro sent to server > SI-Glob:AP-SOFB:LoopState-Sel
+2021-10-14 17:59:56.216575 message to owner walter.junior sent to server > SI-Glob:AP-SOFB:LoopState-Sts
+2021-10-14 17:59:58.226616 message to owner operador sent to server > SI-Glob:AP-SOFB:LoopState-Sel
+2021-10-14 18:09:55.861478 message to owner rone.castro sent to server > SI-Glob:AP-SOFB:LoopState-Sel
+2021-10-14 18:09:57.858468 message to owner walter.junior sent to server > SI-Glob:AP-SOFB:LoopState-Sts
+2021-10-14 18:09:59.879577 message to owner operador sent to server > SI-Glob:AP-SOFB:LoopState-Sel
+2021-10-14 18:20:00.007661 message to owner rone.castro sent to server > SI-Glob:AP-SOFB:LoopState-Sel
+2021-10-14 18:20:01.816774 message to owner walter.junior sent to server > SI-Glob:AP-SOFB:LoopState-Sts
+2021-10-14 18:20:03.820963 message to owner operador sent to server > SI-Glob:AP-SOFB:LoopState-Sel
+2021-10-14 18:30:05.377134 message to owner rone.castro sent to server > SI-Glob:AP-SOFB:LoopState-Sel
+2021-10-14 18:30:06.648630 message to owner walter.junior sent to server > SI-Glob:AP-SOFB:LoopState-Sts
+2021-10-14 18:30:08.662816 message to owner operador sent to server > SI-Glob:AP-SOFB:LoopState-Sel
+2021-10-14 20:07:58.846888 message to owner walter.junior sent to server > BO-01U:VA-CCG-BG:Pressure-Mon
+2021-10-14 20:08:00.660500 message to owner operador sent to server > BO-01U:VA-CCG-BG:Pressure-Mon
+2021-10-14 20:08:02.677193 message to owner rone.castro sent to server > BO-01U:VA-CCG-BG:Pressure-Mon
+2021-10-14 20:09:10.845088 message to owner walter.junior sent to server > SI-02SB:VA-CCG-CAV:Pressure-Mon
+2021-10-14 20:09:12.849804 message to owner operador sent to server > SI-02SB:VA-CCG-CAV:Pressure-Mon
+2021-10-15 08:02:13.048559 message to owner walter.junior sent to server > BO-01U:VA-CCG-BG:Pressure-Mon
+2021-10-15 08:02:14.832033 message to owner operador sent to server > BO-01U:VA-CCG-BG:Pressure-Mon
+2021-10-15 08:02:16.837391 message to owner rone.castro sent to server > BO-01U:VA-CCG-BG:Pressure-Mon
+2021-10-15 08:03:36.654965 message to owner walter.junior sent to server > SI-02SB:VA-CCG-CAV:Pressure-Mon
+2021-10-15 08:04:12.441775 message to owner operador sent to server > SI-02SB:VA-CCG-BG:Pressure-Mon
+2021-10-15 09:46:26.037100 message to owner walter.junior sent to server > SI-20SBFE:VA-CCG-MD:Pressure-Mon
+2021-10-15 09:46:27.460591 message to owner operador sent to server > SI-20SBFE:VA-CCG-MD:Pressure-Mon
+2021-10-15 09:46:29.468399 message to owner rone.castro sent to server > SI-20SBFE:VA-CCG-MD:Pressure-Mon
+2021-10-15 20:07:55.195830 message to owner walter.junior sent to server > BO-01U:VA-CCG-BG:Pressure-Mon
+2021-10-15 20:07:56.994868 message to owner operador sent to server > BO-01U:VA-CCG-BG:Pressure-Mon
+2021-10-15 20:07:58.997252 message to owner rone.castro sent to server > BO-01U:VA-CCG-BG:Pressure-Mon
+2021-10-15 20:09:30.588984 message to owner walter.junior sent to server > SI-02SB:VA-CCG-BG:Pressure-Mon
+2021-10-15 20:09:32.599360 message to owner operador sent to server > SI-02SB:VA-CCG-CAV:Pressure-Mon
+2021-10-16 08:01:57.987764 message to owner walter.junior sent to server > BO-47U:VA-CCG-ED:Pressure-Mon
+2021-10-16 08:01:59.744559 message to owner operador sent to server > BO-47U:VA-CCG-ED:Pressure-Mon
+2021-10-16 08:02:01.754731 message to owner rone.castro sent to server > BO-01U:VA-CCG-BG:Pressure-Mon
+2021-10-16 08:03:33.544088 message to owner walter.junior sent to server > SI-02SB:VA-CCG-CAV:Pressure-Mon
+2021-10-16 08:03:35.556038 message to owner operador sent to server > SI-02SB:VA-CCG-CAV:Pressure-Mon
+2021-10-16 08:14:41.443512 message to owner walter.junior sent to server > SI-02SB:VA-CCG-CAV:Pressure-Mon
+2021-10-16 08:14:43.271165 message to owner operador sent to server > SI-02SB:VA-CCG-CAV:Pressure-Mon
+2021-10-16 20:04:03.484049 message to owner walter.junior sent to server > BO-01U:VA-CCG-BG:Pressure-Mon
+2021-10-16 20:04:05.022738 message to owner operador sent to server > BO-01U:VA-CCG-BG:Pressure-Mon
+2021-10-16 20:04:07.029103 message to owner rone.castro sent to server > BO-01U:VA-CCG-BG:Pressure-Mon
+2021-10-16 20:06:13.523513 message to owner walter.junior sent to server > SI-02SB:VA-CCG-BG:Pressure-Mon
+2021-10-16 20:06:15.353905 message to owner operador sent to server > SI-02SB:VA-CCG-BG:Pressure-Mon
+2021-10-17 07:04:57.321742 message to owner walter.junior sent to server > BO-01U:VA-CCG-BG:Pressure-Mon
+2021-10-17 07:04:58.693853 message to owner operador sent to server > BO-01U:VA-CCG-BG:Pressure-Mon
+2021-10-17 07:05:00.706184 message to owner rone.castro sent to server > BO-01U:VA-CCG-BG:Pressure-Mon
+2021-10-17 07:07:29.403060 message to owner walter.junior sent to server > SI-02SB:VA-CCG-BG:Pressure-Mon
+2021-10-17 07:07:31.409508 message to owner operador sent to server > SI-02SB:VA-CCG-BG:Pressure-Mon
+2021-10-18 15:53:33.697167 message to owner rone.castro sent to server > BO-48D:PU-EjeKckr:Pulse-Sel
+2021-10-18 16:05:47.377778 message to owner rone.castro sent to server > BO-48D:PU-EjeKckr:Pulse-Sel
+2021-10-18 16:15:48.712637 message to owner rone.castro sent to server > BO-48D:PU-EjeKckr:Pulse-Sel
+2021-10-19 07:13:56.875518 message to owner rone.castro sent to server > BO-48D:PU-EjeKckr:Pulse-Sel
+2021-10-19 07:24:05.857233 error sending message to server > BO-48D:PU-EjeKckr:Pulse-Sel
+2021-10-19 07:24:17.225178 error sending message to server > BO-48D:PU-EjeKckr:Pulse-Sel
+2021-10-19 07:24:28.736934 error sending message to server > BO-48D:PU-EjeKckr:Pulse-Sel
+2021-10-19 07:24:40.257864 error sending message to server > BO-48D:PU-EjeKckr:Pulse-Sel
+2021-10-19 07:24:51.847614 error sending message to server > BO-48D:PU-EjeKckr:Pulse-Sel
+2021-10-19 07:25:03.258497 error sending message to server > BO-48D:PU-EjeKckr:Pulse-Sel
+2021-10-19 07:25:14.684080 error sending message to server > BO-48D:PU-EjeKckr:Pulse-Sel
+2021-10-19 07:25:26.128610 error sending message to server > BO-48D:PU-EjeKckr:Pulse-Sel
+2021-10-19 07:25:37.607748 error sending message to server > BO-48D:PU-EjeKckr:Pulse-Sel
+2021-10-19 07:25:48.966049 error sending message to server > BO-48D:PU-EjeKckr:Pulse-Sel
+2021-10-19 07:26:00.530878 error sending message to server > BO-48D:PU-EjeKckr:Pulse-Sel
+2021-10-19 07:26:11.935886 error sending message to server > BO-48D:PU-EjeKckr:Pulse-Sel
+2021-10-19 07:26:23.443565 error sending message to server > BO-48D:PU-EjeKckr:Pulse-Sel
 
