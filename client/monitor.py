@@ -32,25 +32,6 @@ class notification():
         self.interval = interval
         self.persistent = persistent
 
-def write2log(answer, n, now, log):
-    if answer == True:
-        dir_path = path.dirname(path.realpath(__file__)) #current folder application path
-        log_path = path.join(dir_path, 'log.txt')
-        writer.write(log_path, log, 'a')
-        set_sent_db(n.id, True)
-        set_sent_time_db(n.id, now)
-        #print(log)
-    elif answer == False:
-        dir_path = path.dirname(path.realpath(__file__)) #current folder application path
-        log_path = path.join(dir_path, 'log.txt')
-        writer.write(log_path, log, 'a')
-        #print(log)
-    else: #use for errors
-        dir_path = path.dirname(path.realpath(__file__)) #current folder application path
-        log_path = path.join(dir_path, 'log.txt')
-        writer.write(log_path, log, 'a')
-
-
 def find_val(limit):
     val = ''
     for char in limit:
