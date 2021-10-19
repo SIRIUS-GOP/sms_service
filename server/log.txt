@@ -1,80 +1,3 @@
-2021-09-23 08:48:27.478012 // PV: LI-01:EG-TriggerPS:enable and more //  Rule: Multiple rules //  Limit(s): L=1
-2021-09-23 08:57:56.759219 // PV: LI-01:EG-TriggerPS:enable and more //  Rule: Multiple rules //  Limit(s): L=1
-2021-09-23 08:58:27.779355 // PV: LI-01:EG-TriggerPS:enable and more //  Rule: Multiple rules //  Limit(s): L=1
-2021-09-23 08:59:42.816484 // PV: SI-Glob:AP-SOFB:LoopState-Sts and more //  Rule: Multiple rules //  Limit(s): L=0
-2021-09-23 09:00:13.832313 // PV: SI-Glob:AP-SOFB:LoopState-Sel and more //  Rule: Multiple rules //  Limit(s): L=0
-2021-09-23 09:21:03.349335 // PV: SI-Glob:AP-SOFB:LoopState-Sel and more //  Rule: Multiple rules //  Limit(s): L=1
-2021-09-23 09:21:34.364526 // PV: SI-Glob:AP-SOFB:LoopState-Sts and more //  Rule: Multiple rules //  Limit(s): L=0
-2021-09-23 09:22:05.380727 // PV: SI-Glob:AP-SOFB:LoopState-Sel and more //  Rule: Multiple rules //  Limit(s): L=0
-2021-09-23 20:09:20.776929 // PV: BO-01U:VA-CCG-BG:Pressure-Mon //  Rule: pv > L //  Limit(s): L=1e-8
-2021-09-23 20:09:51.793136 // PV: BO-01U:VA-CCG-BG:Pressure-Mon //  Rule: pv > L //  Limit(s): L=1e-8
-2021-09-23 20:10:22.809301 // PV: SI-02SB:VA-CCG-CAV:Pressure-Mon //  Rule: pv > L //  Limit(s): L=1e-8
-2021-09-24 08:07:24.383462 // PV: BO-01U:VA-CCG-BG:Pressure-Mon //  Rule: pv > L //  Limit(s): L=1e-8
-2021-09-24 08:07:55.403863 // PV: BO-01U:VA-CCG-BG:Pressure-Mon //  Rule: pv > L //  Limit(s): L=1e-8
-2021-09-24 08:08:26.423271 // PV: SI-02SB:VA-CCG-CAV:Pressure-Mon //  Rule: pv > L //  Limit(s): L=1e-8
-2021-09-24 08:08:57.444391 // PV: SI-02SB:VA-CCG-CAV:Pressure-Mon //  Rule: pv > L //  Limit(s): L=1e-8
-2021-09-24 20:03:27.238906 // PV: BO-01U:VA-CCG-BG:Pressure-Mon //  Rule: pv > L //  Limit(s): L=1e-8
-2021-09-24 20:03:58.256834 // PV: BO-01U:VA-CCG-BG:Pressure-Mon //  Rule: pv > L //  Limit(s): L=1e-8
-2021-09-24 20:04:29.278011 // PV: SI-02SB:VA-CCG-CAV:Pressure-Mon //  Rule: pv > L //  Limit(s): L=1e-8
-2021-09-24 20:05:00.295796 // PV: SI-02SB:VA-CCG-CAV:Pressure-Mon //  Rule: pv > L //  Limit(s): L=1e-8
-2021-09-25 08:03:20.266321 // PV: BO-01U:VA-CCG-BG:Pressure-Mon //  Rule: pv > L //  Limit(s): L=1e-8
-2021-09-25 08:03:51.287133 // PV: BO-01U:VA-CCG-BG:Pressure-Mon //  Rule: pv > L //  Limit(s): L=1e-8
-2021-09-25 08:04:32.311907 // PV: SI-02SB:VA-CCG-CAV:Pressure-Mon //  Rule: pv > L //  Limit(s): L=1e-8
-2021-09-25 08:05:03.331955 // PV: SI-02SB:VA-CCG-CAV:Pressure-Mon //  Rule: pv > L //  Limit(s): L=1e-8
-2021-09-25 09:21:10.543854 // PV: LI-01:EG-TriggerPS:enable and more //  Rule: Multiple rules //  Limit(s): L=1
-2021-09-25 09:21:41.558895 // PV: LI-01:EG-TriggerPS:enable and more //  Rule: Multiple rules //  Limit(s): L=1
-2021-09-25 20:06:53.437175 // PV: BO-01U:VA-CCG-BG:Pressure-Mon //  Rule: pv > L //  Limit(s): L=1e-8
-2021-09-25 20:07:24.463207 // PV: BO-01U:VA-CCG-BG:Pressure-Mon //  Rule: pv > L //  Limit(s): L=1e-8
-2021-09-25 20:08:15.496427 // PV: SI-02SB:VA-CCG-BG:Pressure-Mon //  Rule: pv > L //  Limit(s): L=1e-8
-2021-09-25 20:08:46.516929 // PV: SI-02SB:VA-CCG-BG:Pressure-Mon //  Rule: pv > L //  Limit(s): L=1e-8
-2021-09-26 07:11:04.687013 // PV: BO-01U:VA-CCG-BG:Pressure-Mon //  Rule: pv > L //  Limit(s): L=1e-8
-2021-09-26 07:11:35.704246 // PV: BO-01U:VA-CCG-BG:Pressure-Mon //  Rule: pv > L //  Limit(s): L=1e-8
-2021-09-26 07:12:11.724685 // Modem error: ATZ
-2021-09-26 07:12:42.737834 // PV: SI-02SB:VA-CCG-CAV:Pressure-Mon //  Rule: pv > L //  Limit(s): L=1e-8
-2021-09-26 20:42:07.267083 // PV: SI-Glob:AP-SOFB:LoopState-Sel and more //  Rule: Multiple rules //  Limit(s): L=1
-2021-09-26 20:42:38.282660 // PV: SI-Glob:AP-SOFB:LoopState-Sts and more //  Rule: Multiple rules //  Limit(s): L=0
-2021-09-26 20:43:09.299896 // PV: SI-Glob:AP-SOFB:LoopState-Sel and more //  Rule: Multiple rules //  Limit(s): L=0
-2021-09-26 20:43:40.319548 // PV: SI-13C4:DI-DCCT:Current-Mon and more //  Rule: Multiple rules //  Limit(s): L=5
-2021-09-26 20:44:11.336839 // PV: SI-13C4:DI-DCCT:Current-Mon and more //  Rule: Multiple rules //  Limit(s): L=5
-2021-09-28 09:12:45.257974 // WARNING // 1I-01:EG-TriggerPS:enable == 1 //  Rule: pv == L
-2021-09-28 09:17:27.939546 // WARNING // 1I-01:EG-TriggerPS:enable == 1 //  Rule: pv == L
-2021-09-28 09:20:49.808034 // WARNING //  1I-01:EG-TriggerPS:enable== 1 //  Rule: pv == L
-2021-09-28 09:22:32.516684 // WARNING //  1I-01:EG-TriggerPS:enable== 1 //  Rule: pv == L
-2021-09-28 09:37:57.263199 // WARNING // pv == L
-2021-09-28 09:51:16.610563 // WARNING //  LI-01:EG-TriggerPS:enable ==  1Limit == L=1 //  Rule: pv == L
-2021-09-28 09:54:05.746679 // WARNING //  LI-01:EG-TriggerPS:enable ==  1 // Limit: L=1 //  Rule: pv == L
-2021-09-28 10:04:12.032742 // Modem error: ATZ
-2021-09-28 10:14:22.346262 // Modem error: ATZ
-2021-09-28 10:21:13.550924 // WARNING //  LI-01:EG-TriggerPS:enable ==  1 // Limit: L=1 //  Rule: pv == L
-2021-09-28 10:23:39.594491 // WARNING //  LI-01:EG-TriggerPS:enable == 1 // Limit: L=1 // Rule: pv == L
-2021-09-28 10:33:48.901439 // WARNING //  LI-01:EG-TriggerPS:enable == 1 // Limit: L=1 // Rule: pv == L
-2021-09-28 10:43:58.596719 // WARNING // LI-01:EG-TriggerPS:enable == 1 // Limit: L=1 // Rule: pv == L
-2021-09-28 10:54:05.898859 // WARNING // LI-01:EG-TriggerPS:enable == 1 // Limit: L=1 // Rule: pv == L
-2021-09-28 11:07:46.513121 // Modem error: ATZ
-2021-09-28 11:12:56.705392 // WARNING // LI-01:EG-TriggerPS:enable = 1 // L=1 // Rule: pv == L // AS-Glob:AP-MachShift:Mode-Sts = 5 // L=5 // Rule: pv == L
-2021-09-28 11:20:09.336194 // WARNING // AS-Glob:AP-MachShift:Mode-Sts == 5 // Limit: L=5 // Rule: pv == L // 1I-01:EG-TriggerPS:enable == 1 // Limit: L=1 // Rule: pv == L
-2021-09-28 11:30:18.174540 // WARNING // AS-Glob:AP-MachShift:Mode-Sts == 5 // Limit: L=5 // Rule: pv == L // LI-01:EG-TriggerPS:enable == 1 // Limit: L=1 // Rule: pv == L
-2021-09-28 13:29:20.642762 // WARNING // LI-01:EG-TriggerPS:enable == 1 // Limit: L=1 // Rule: pv == L
-2021-09-28 13:37:48.981907 // WARNING // LI-01:EG-TriggerPS:enable == 1 // Limit: L=1 // Rule: pv == L // AS-Glob:AP-MachShift:Mode-Sts = 5 // LL=1;LU=4 // Rule: (pv < LL) or (pv > LU)
-2021-09-28 13:47:49.770654 // WARNING // 1) LI-01:EG-TriggerPS:enable == 1 // Limit: L=1 // Rule: pv == L // 2) AS-Glob:AP-MachShift:Mode-Sts == 5 // Limits: LL=1;LU=4 // Rule: (pv < LL) or (pv > LU)
-2021-09-28 13:57:51.077292 // WARNING // 1) LI-01:EG-TriggerPS:enable == 1 // Limit: L=1 // Rule: pv == L // 2) AS-Glob:AP-MachShift:Mode-Sts == 5 // Limits: LL=1;LU=4 // Rule: (pv < LL) or (pv > LU)
-2021-09-28 14:07:50.387754 // WARNING // 1) LI-01:EG-TriggerPS:enable == 1 // Limit: L=1 // Rule: pv == L // 2) AS-Glob:AP-MachShift:Mode-Sts == 5 // Limits: LL=1;LU=4 // Rule: (pv < LL) or (pv > LU)
-2021-09-28 14:17:53.048524 // WARNING // 1) LI-01:EG-TriggerPS:enable == 1 // Limit: L=1 // Rule: pv == L // 2) AS-Glob:AP-MachShift:Mode-Sts == 5 // Limits: LL=1;LU=4 // Rule: (pv < LL) or (pv > LU)
-2021-09-28 14:27:53.359035 // WARNING // 1) LI-01:EG-TriggerPS:enable == 1 // Limit: L=1 // Rule: pv == L // 2) AS-Glob:AP-MachShift:Mode-Sts = 5 // Limits: LL=1;LU=4 // Rule: (pv < LL) or (pv > LU)
-2021-09-28 14:37:58.874708 // WARNING // 1) LI-01:EG-TriggerPS:enable == 1 // Limit: L=1 // Rule: pv == L // 2) AS-Glob:AP-MachShift:Mode-Sts = 5 // Limits: LL=1;LU=4 // Rule: (pv < LL) or (pv > LU)message with a bigger lenght than the sms character limit of 160
-2021-09-28 14:48:06.373279 // WARNING // 1) LI-01:EG-TriggerPS:enable == 1 // Limit: L=1 // Rule: pv == L // 2) AS-Glob:AP-MachShift:Mode-Sts = 5 // Limits: LL=1;LU=4 // Rule: (pv < LL) or (pv > LU)message with a bigger lenght than the sms character limit of 160
-2021-09-28 14:49:43.426610 // WARNING // BO-16U:VA-CCG-ED:Pressure-Mon > 1.1e-09 // Limit: L=1e-8 // Rule: pv > L
-2021-09-28 14:50:14.444181 // WARNING // BO-16U:VA-CCG-ED:Pressure-Mon > 9.9e-10 // Limit: L=1e-8 // Rule: pv > L
-2021-09-28 14:58:18.516033 // WARNING // 1) LI-01:EG-TriggerPS:enable == 1 // Limit: L=1 // Rule: pv == L // 2) AS-Glob:AP-MachShift:Mode-Sts = 5 // Limits: LL=1;LU=4 // Rule: (pv < LL) or (pv > LU)message with a bigger lenght than the sms character limit of 160
-2021-09-28 15:08:30.859120 // WARNING // 1) LI-01:EG-TriggerPS:enable == 1 // Limit: L=1 // Rule: pv == L // 2) AS-Glob:AP-MachShift:Mode-Sts = 5 // Limits: LL=1;LU=4 // Rule: (pv < LL) or (pv > LU)
-2021-09-28 15:18:40.546465 // WARNING // 1) LI-01:EG-TriggerPS:enable = 1 // Limit: L=1 // Rule: pv == L // 2) AS-Glob:AP-MachShift:Mode-Sts = 5 // Limits: LL=1;LU=4 // Rule: (pv < LL) or (pv > LU)
-2021-09-28 15:28:51.874289 // WARNING // 1) LI-01:EG-TriggerPS:enable = 1 // Limit: L=1 // Rule: pv == L // 2) AS-Glob:AP-MachShift:Mode-Sts = 5 // Limits: LL=1;LU=4 // Rule: (pv < LL) or (pv > LU)
-2021-09-28 15:30:24.931896 // WARNING // BO-16U:VA-CCG-ED:Pressure-Mon > 9.7e-10 // Limit: L=1e-8 // Rule: pv > L
-2021-09-28 15:30:55.960953 // WARNING // BO-16U:VA-CCG-ED:Pressure-Mon > 9.6e-10 // Limit: L=1e-8 // Rule: pv > L
-2021-09-28 15:39:03.207505 // WARNING // 1) LI-01:EG-TriggerPS:enable = 1 // Limit: L=1 // Rule: pv == L // 2) AS-Glob:AP-MachShift:Mode-Sts = 5 // Limits: LL=1;LU=4 // Rule: (pv < LL) or (pv > LU)
-2021-09-28 15:49:04.509294 // WARNING // 1) LI-01:EG-TriggerPS:enable = 1 // Limit: L=1 // Rule: pv == L // 2) AS-Glob:AP-MachShift:Mode-Sts = 5 // Limits: LL=1;LU=4 // Rule: (pv < LL) or (pv > LU)
-2021-09-28 15:59:05.814352 // WARNING // 1) LI-01:EG-TriggerPS:enable = 1 // Limit: L=1 // Rule: pv == L // 2) AS-Glob:AP-MachShift:Mode-Sts = 5 // Limits: LL=1;LU=4 // Rule: (pv < LL) or (pv > LU)
-2021-09-28 16:09:09.114153 // WARNING // 1) LI-01:EG-TriggerPS:enable = 1 // Limit: L=1 // Rule: pv == L // 2) AS-Glob:AP-MachShift:Mode-Sts = 5 // Limits: LL=1;LU=4 // Rule: (pv < LL) or (pv > LU)
-2021-09-28 16:19:16.412758 // WARNING // 1) LI-01:EG-TriggerPS:enable = 1 // Limit: L=1 // Rule: pv == L // 2) AS-Glob:AP-MachShift:Mode-Sts = 5 // Limits: LL=1;LU=4 // Rule: (pv < LL) or (pv > LU)
-2021-09-28 16:29:23.717560 // WARNING // 1) LI-01:EG-TriggerPS:enable = 1 // Limit: L=1 // Rule: pv == L // 2) AS-Glob:AP-MachShift:Mode-Sts = 5 // Limits: LL=1;LU=4 // Rule: (pv < LL) or (pv > LU)
+2021-10-19 09:16:00.304773 // WARNING // BO-48D:PU-EjeKckr:Pulse-Sel = 1 // Limit: L=1 // Rule: pv == L
+2021-10-19 09:26:09.603603 // WARNING // BO-48D:PU-EjeKckr:Pulse-Sel = 1 // Limit: L=1 // Rule: pv == L
 

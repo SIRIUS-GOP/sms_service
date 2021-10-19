@@ -16,20 +16,20 @@ def on_new_client(connection, client_address, queue):
     while True:
         try:
             #print('connection from', client_address)
-            ip1 = config.read("IP", "client_ip1")
-            ip2 = config.read("IP", "client_ip2")
-            ip3 = config.read("IP", "client_ip3")
-            ip4 = config.read("IP", "client_ip4")
+            ip1 = config.read("IP", "client_ip4") #changed to get connections only from optiplex-sc-02
+            #ip2 = config.read("IP", "client_ip2")
+            #ip3 = config.read("IP", "client_ip3")
+            #ip4 = config.read("IP", "client_ip4")
             data = ''
-            if (client_address[0] == ip1 or client_address[0] == ip2 or client_address[0] == ip3 or client_address[0] == ip4):
+            if (client_address[0] == ip1):# or client_address[0] == ip2 or client_address[0] == ip3 or client_address[0] == ip4):
                 #Receive the data in small chunks and retransmit it
                 data = connection.recv(1024)
-                #print(datetime.now(),' received "%s"' % data, type(data))
+                print(datetime.now(),' received "%s"' % data, type(data))
                 if data:
                     #print('sending data back to the client')
                     connection.sendall(data) #echo
                     to_sms = data.decode()
-                    #print('to_sms: ', to_sms, type(to_sms))
+                    print('to_sms: ', to_sms, type(to_sms))
                     queue.put_nowait(json.loads(to_sms)) #increment queue
                 else:
                     #print('no data from ', client_address)
@@ -98,8 +98,9 @@ def watcherseye(queue, stop): #queue watcher
         sleep(1)
         if queue.empty() == False:
             n = queue.get_nowait()
+            #print("n", n)
             prefix = 'WARNING'
-            msg, msg1, msg2, msg3 = '', '', '', ''
+            msg, msg1, msg2 = '', '', ''
             if int(n['numpvs']) == 1:
                 msg = prefix + '\n\r' + n['rule1']
                 msg = msg.replace('==', '=', 1)
@@ -137,7 +138,7 @@ def watcherseye(queue, stop): #queue watcher
             elif int(n['numpvs']) == 3:
                 pass
             r = sendsms.sendSMS(sub("[^0-9]", "", n['phone']), msg)
-            #print('r', r)
+            print('r', r)
             if r==True:
                 writer.write(msg)
             else:
