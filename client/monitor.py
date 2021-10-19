@@ -132,7 +132,7 @@ def testpvlist(pvlist, rule, limits): #test pvs using rule and limits
             except:
                 print('Error on eval(rule). pv:', pv_, 'L:', L, 'LL:', LL, 'and LU:', LU)
         else:
-            print('Error on caget)')
+            print('Error on caget. PV:', pv_)
     aux = (signal, truelist, pvvaluelist)
     return aux
 
