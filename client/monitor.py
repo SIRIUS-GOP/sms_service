@@ -115,6 +115,7 @@ def testpvlist(pvlist, rule, limits): #test pvs using rule and limits
         else:
             print('Error on caget. PV:', pv_)
     aux = (signal, truelist, pvvaluelist)
+    #print("aux", aux)
     return aux
 
 def evaluate():
@@ -160,10 +161,12 @@ def evaluate():
                     #print(str(datetime.now()), "exp ok")
                     if (n.sent==False or (n.sent==True and n.persistent==True)): #check persistence and if it was sent b4
                         #print(n.pv1, n.subrule1, n.pv2, n.subrule2, n.pv3)
+                        #print("check1)")
                         check1 = testpvlist(matchedpvlist1, n.rule1, n.limits1)
                         numpvs = 1
                         expr =  str(check1[0])
                         if (n.subrule1 != '0'):
+                            #print("check2)")
                             check2 = testpvlist(matchedpvlist2, n.rule2, n.limits2)
                             if n.subrule1 == "not":
                                 expr = expr + ' and (not ' + str(check2[0]) + ')'
@@ -201,27 +204,51 @@ def evaluate():
                                                                       value1=check1[2][0],\
                                                                       phone=n.phone)
                             elif numpvs == 2:
-                                msg = '{{"numpvs" : "{numpvs}",\
-                                        "pv1" : "{pv1}",\
-                                        "pv2" : "{pv2}",\
-                                        "rule1" : "{rule1}",\
-                                        "rule2" : "{rule2}",\
-                                        "limits1" : "{limits1}",\
-                                        "limits2" : "{limits2}",\
-                                        "subrule1" : "{subrule1}",\
-                                        "value1" : "{value1}",\
-                                        "value2" : "{value2}",\
-                                        "phone" : "{phone}"}}'.format(numpvs=numpvs,\
-                                                                      pv1=(check1[1])[0],\
-                                                                      pv2=(check2[1])[0],\
-                                                                      rule1=n.rule1,\
-                                                                      rule2=n.rule2,\
-                                                                      limits1=n.limits1,\
-                                                                      limits2=n.limits2,\
-                                                                      subrule1=n.subrule1,\
-                                                                      value1=check1[2][0],\
-                                                                      value2=check2[2][0],\
-                                                                      phone=n.phone)
+                                if check2[0] == True:
+                                    msg = '{{"numpvs" : "{numpvs}",\
+                                            "pv1" : "{pv1}",\
+                                            "pv2" : "{pv2}",\
+                                            "rule1" : "{rule1}",\
+                                            "rule2" : "{rule2}",\
+                                            "limits1" : "{limits1}",\
+                                            "limits2" : "{limits2}",\
+                                            "subrule1" : "{subrule1}",\
+                                            "value1" : "{value1}",\
+                                            "value2" : "{value2}",\
+                                            "phone" : "{phone}"}}'.format(numpvs=numpvs,\
+                                                                        pv1=(check1[1])[0],\
+                                                                        pv2=(check2[1])[0],\
+                                                                        rule1=n.rule1,\
+                                                                        rule2=n.rule2,\
+                                                                        limits1=n.limits1,\
+                                                                        limits2=n.limits2,\
+                                                                        subrule1=n.subrule1,\
+                                                                        value1=check1[2][0],\
+                                                                        value2=check2[2][0],\
+                                                                        phone=n.phone)
+                                else:
+                                    msg = '{{"numpvs" : "{numpvs}",\
+                                            "pv1" : "{pv1}",\
+                                            "pv2" : "{pv2}",\
+                                            "rule1" : "{rule1}",\
+                                            "rule2" : "{rule2}",\
+                                            "limits1" : "{limits1}",\
+                                            "limits2" : "{limits2}",\
+                                            "subrule1" : "{subrule1}",\
+                                            "value1" : "{value1}",\
+                                            "value2" : "{value2}",\
+                                            "phone" : "{phone}"}}'.format(numpvs=numpvs,\
+                                                                        pv1=(check1[1])[0],\
+                                                                        pv2=n.pv2,\
+                                                                        rule1=n.rule1,\
+                                                                        rule2=n.rule2,\
+                                                                        limits1=n.limits1,\
+                                                                        limits2=n.limits2,\
+                                                                        subrule1=n.subrule1,\
+                                                                        value1=check1[2][0],\
+                                                                        value2="-",\
+                                                                        phone=n.phone)
+
                             # elif numpvs == 3:                                           
                             #     msg = '{{"numpvs" : "{numpvs}",\
                             #             "pv1" : "{pv1}",\
