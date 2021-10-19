@@ -428,4 +428,39 @@
 2021-10-19 07:26:00.530878 error sending message to server > BO-48D:PU-EjeKckr:Pulse-Sel
 2021-10-19 07:26:11.935886 error sending message to server > BO-48D:PU-EjeKckr:Pulse-Sel
 2021-10-19 07:26:23.443565 error sending message to server > BO-48D:PU-EjeKckr:Pulse-Sel
+2021-10-19 07:26:35.005991 error sending message to server > BO-48D:PU-EjeKckr:Pulse-Sel
+2021-10-19 07:26:46.584320 error sending message to server > BO-48D:PU-EjeKckr:Pulse-Sel
+2021-10-19 07:26:57.982068 error sending message to server > BO-48D:PU-EjeKckr:Pulse-Sel
+2021-10-19 07:27:09.430150 error sending message to server > BO-48D:PU-EjeKckr:Pulse-Sel
+2021-10-19 07:27:20.777103 error sending message to server > BO-48D:PU-EjeKckr:Pulse-Sel
+2021-10-19 07:27:32.216810 error sending message to server > BO-48D:PU-EjeKckr:Pulse-Sel
+2021-10-19 07:27:43.712928 error sending message to server > BO-48D:PU-EjeKckr:Pulse-Sel
+2021-10-19 07:27:55.071147 error sending message to server > BO-48D:PU-EjeKckr:Pulse-Sel
+2021-10-19 07:28:06.607514 error sending message to server > BO-48D:PU-EjeKckr:Pulse-Sel
+2021-10-19 07:28:17.930199 error sending message to server > BO-48D:PU-EjeKckr:Pulse-Sel
+2021-10-19 07:28:29.428391 error sending message to server > BO-48D:PU-EjeKckr:Pulse-Sel
+2021-10-19 07:28:40.774362 error sending message to server > BO-48D:PU-EjeKckr:Pulse-Sel
+2021-10-19 07:28:52.291439 error sending message to server > BO-48D:PU-EjeKckr:Pulse-Sel
+2021-10-19 07:29:03.688697 error sending message to server > BO-48D:PU-EjeKckr:Pulse-Sel
+2021-10-19 07:29:15.149345 error sending message to server > BO-48D:PU-EjeKckr:Pulse-Sel
+2021-10-19 07:29:26.691062 error sending message to server > BO-48D:PU-EjeKckr:Pulse-Sel
+2021-10-19 07:29:38.222171 error sending message to server > BO-48D:PU-EjeKckr:Pulse-Sel
+2021-10-19 07:29:49.619172 error sending message to server > BO-48D:PU-EjeKckr:Pulse-Sel
+2021-10-19 07:30:00.929408 error sending message to server > BO-48D:PU-EjeKckr:Pulse-Sel
+2021-10-19 07:30:12.327860 error sending message to server > BO-48D:PU-EjeKckr:Pulse-Sel
+2021-10-19 07:30:23.869042 error sending message to server > BO-48D:PU-EjeKckr:Pulse-Sel
+2021-10-19 07:30:35.300844 error sending message to server > BO-48D:PU-EjeKckr:Pulse-Sel
+2021-10-19 07:30:46.733527 error sending message to server > BO-48D:PU-EjeKckr:Pulse-Sel
+2021-10-19 07:30:58.261881 error sending message to server > BO-48D:PU-EjeKckr:Pulse-Sel
+2021-10-19 07:31:09.774023 error sending message to server > BO-48D:PU-EjeKckr:Pulse-Sel
+2021-10-19 07:31:21.196961 error sending message to server > BO-48D:PU-EjeKckr:Pulse-Sel
+2021-10-19 07:31:32.633483 error sending message to server > BO-48D:PU-EjeKckr:Pulse-Sel
+2021-10-19 07:31:44.085119 error sending message to server > BO-48D:PU-EjeKckr:Pulse-Sel
+2021-10-19 07:31:55.684012 error sending message to server > BO-48D:PU-EjeKckr:Pulse-Sel
+2021-10-19 07:32:07.089420 error sending message to server > BO-48D:PU-EjeKckr:Pulse-Sel
+2021-10-19 07:32:18.745244 message to owner rone.castro sent to server > BO-48D:PU-EjeKckr:Pulse-Sel
+2021-10-19 08:54:51.902552 error sending message to server > BO-48D:PU-EjeKckr:Pulse-Sel
+2021-10-19 08:55:03.331218 error sending message to server > BO-48D:PU-EjeKckr:Pulse-Sel
+2021-10-19 08:55:14.798833 error sending message to server > BO-48D:PU-EjeKckr:Pulse-Sel
+2021-10-19 08:55:28.525515 message to owner rone.castro sent to server > BO-48D:PU-EjeKckr:Pulse-Sel
 

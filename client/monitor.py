@@ -94,19 +94,26 @@ def testpvlist(pvlist, rule, limits): #test pvs using rule and limits
     #print('pvlist, rule, limits:', pvlist, rule, limits)
     for pv_ in pvlist:
         #print('pv_:', pv_)
-        pv = caget(pv_)
-        L = ext_lim(limits)['L']
-        LL = ext_lim(limits)['LL']
-        LU = ext_lim(limits)['LU']
+        try:
+            pv = caget(pv_)
+            L = ext_lim(limits)['L']
+            LL = ext_lim(limits)['LL']
+            LU = ext_lim(limits)['LU']
+            cageterror = 0
+        except:
+            cageterror = 1
         #print('L,LL,LU,pv', L, LL, LU, pv)
         #print('eval:', eval(rule))
-        try:
-            if (eval(rule) and (type(pv)==int or type(pv)==float)):
-                truelist.append(pv_)
-                pvvaluelist.append(pv)
-                signal = True
-        except:
-            print('Error on eval(rule). Values of pv, L, LL and LU:', pv_, L, LL, LU)
+        if cageterror != 1:
+            try:
+                if (eval(rule) and (type(pv)==int or type(pv)==float)):
+                    truelist.append(pv_)
+                    pvvaluelist.append(pv)
+                    signal = True
+            except:
+                print('Error on eval(rule). pv:', pv_, 'L:', L, 'LL:', LL, 'and LU:', LU)
+        else:
+            print('Error on caget)')
     aux = (signal, truelist, pvvaluelist)
     return aux
 
