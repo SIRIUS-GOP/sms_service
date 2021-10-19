@@ -101,9 +101,10 @@ def watcherseye(queue, stop): #queue watcher
             #print("n", n)
             prefix = 'WARNING'
             msg, msg1, msg2 = '', '', ''
-            if int(n['numpvs']) == 0:
+            if int(n['numpvs']) == 0: #for future implementation
                 pass
-            if int(n['numpvs']) == 1:
+                msg = 'ERROR on monitor.py'
+            elif int(n['numpvs']) == 1:
                 msg = prefix + '\n\r' + n['rule1']
                 msg = msg.replace('==', '=', 1)
                 msg = msg.replace('L', n['value1'], 1)
