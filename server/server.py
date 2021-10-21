@@ -107,11 +107,11 @@ def watcherseye(queue, stop): #queue watcher
             elif int(n['numpvs']) == 1:
                 msg = prefix + '\n\r' + n['rule1']
                 msg = msg.replace('==', '=', 1)
+                msg = msg.replace('!=', '=', 1)
                 msg = msg.replace('>=', '=', 1)
                 msg = msg.replace('<=', '=', 1)
                 msg = msg.replace('>', '=', 1)
                 msg = msg.replace('<', '=', 1)
-                msg = msg.replace('!=', '=', 1)
                 msg = msg.replace('L', n['value1'], 1)
                 msg = msg.replace('pv', n['pv1'], 1)
                 msg = msg + '\n\r' + 'Limit: ' + n['limits1'] + '\n\rRule: ' + n['rule1']
