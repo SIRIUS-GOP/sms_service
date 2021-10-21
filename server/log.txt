@@ -19,4 +19,70 @@
 2021-10-19 18:19:03.143457 // WARNING // 1) SI-02SB:VA-CCG-CAV:Pressure-Mon > 2.6e-09 // Limit: L=2.5e-9 // Rule: pv > L // ^BO.+VA-CCG.+Pressure-Mon$ > - // Limit: L=1e-7 // Rule: pv > L
 2021-10-19 18:30:06.480299 // WARNING // 1) SI-02SB:VA-CCG-CAV:Pressure-Mon > 2.6e-09 // Limit: L=2.5e-9 // Rule: pv > L // ^BO.+VA-CCG.+Pressure-Mon$ > - // Limit: L=1e-7 // Rule: pv > L
 2021-10-19 18:45:55.910995 // WARNING // 1) SI-02SB:VA-CCG-CAV:Pressure-Mon > 2.6e-09 // Limit: L=2.5e-9 // Rule: pv > L // ^BO.+VA-CCG.+Pressure-Mon$ > - // Limit: L=1e-7 // Rule: pv > L
+2021-10-19 19:01:21.514813 // WARNING // 1) SI-02SB:VA-CCG-CAV:Pressure-Mon > 2.4e-09 // Limit: L=2e-9 // Rule: pv > L // ^BO.+VA-CCG.+Pressure-Mon$ > - // Limit: L=1e-7 // Rule: pv > L
+2021-10-19 21:44:13.135364 // WARNING // BO-01U:VA-CCG-BG:Pressure-Mon = 2.7e-08 // Limit: L=1e-8 // Rule: pv > L
+2021-10-19 21:44:44.154804 // WARNING // BO-01U:VA-CCG-BG:Pressure-Mon = 3.1e-08 // Limit: L=1e-8 // Rule: pv > L
+2021-10-19 21:54:21.435957 // WARNING // BO-01U:VA-CCG-BG:Pressure-Mon = 2.9e-08 // Limit: L=1e-8 // Rule: pv > L
+2021-10-19 21:54:52.452901 // WARNING // BO-01U:VA-CCG-BG:Pressure-Mon = 3.5e-08 // Limit: L=1e-8 // Rule: pv > L
+2021-10-19 22:01:37.644362 // WARNING // SI-02SB:VA-CCG-CAV:Pressure-Mon = 1.1e-08 // Limit: L=1e-8 // Rule: pv > L
+2021-10-19 22:02:03.660531 // Modem error: ATZ
+2021-10-19 22:02:29.674346 // Modem error: ATZ
+2021-10-20 05:28:53.576908 // WARNING // BO-05D:VA-CCG-RFC:Pressure-Mon = 3.1e-08 // Limit: L=1e-8 // Rule: pv > L
+2021-10-20 07:06:01.442525 // WARNING // BO-29U:VA-CCG-BG:Pressure-Mon = 1.1e-08 // Limit: L=1e-8 // Rule: pv > L
+2021-10-20 07:07:34.490340 // WARNING // BO-29U:VA-CCG-BG:Pressure-Mon = 1.1e-08 // Limit: L=1e-8 // Rule: pv > L
+2021-10-20 07:22:01.936769 // WARNING // SI-02SB:VA-CCG-CAV:Pressure-Mon = 1.1e-08 // Limit: L=1e-8 // Rule: pv > L
+2021-10-20 07:22:32.961049 // WARNING // SI-02SB:VA-CCG-CAV:Pressure-Mon = 1.1e-08 // Limit: L=1e-8 // Rule: pv > L
+2021-10-20 07:23:03.979276 // WARNING // 1) SI-02SB:VA-CCG-CAV:Pressure-Mon > 1.1e-08 // Limit: L=1e-8 // Rule: pv > L // ^BO.+VA-CCG.+Pressure-Mon$ > - // Limit: L=1e-7 // Rule: pv > L
+2021-10-20 14:50:25.864054 // WARNING // 1) SI-13C4:DI-DCCT:Current-Mon < 0.013754088655 // Limit: L=5 // Rule: pv < L // AS-Glob:AP-MachShift:Mode-Sts = 0 // Limit: L=0 // Rule: pv == L
+2021-10-20 14:50:56.882395 // WARNING // 1) SI-Glob:AP-SOFB:LoopState-Sel != 0 // Limit: L=1 // Rule: pv != L // AS-Glob:AP-MachShift:Mode-Sts = 0 // Limit: L=0 // Rule: pv == L
+2021-10-20 14:51:27.899879 // WARNING // 1) SI-Glob:AP-SOFB:LoopState-Sts = 0 // Limit: L=0 // Rule: pv == L // AS-Glob:AP-MachShift:Mode-Sts = 0 // Limit: L=0 // Rule: pv == L
+2021-10-20 14:51:58.925657 // WARNING // 1) SI-Glob:AP-SOFB:LoopState-Sel = 0 // Limit: L=0 // Rule: pv == L // AS-Glob:AP-MachShift:Mode-Sts = 0 // Limit: L=0 // Rule: pv == L
+2021-10-20 14:52:29.950037 // WARNING // 1) SI-13C4:DI-DCCT:Current-Mon < 0.013039383893 // Limit: L=5 // Rule: pv < L // AS-Glob:AP-MachShift:Mode-Sts = 0 // Limit: L=0 // Rule: pv == L
+2021-10-20 15:00:27.177636 // WARNING // 1) SI-Glob:AP-SOFB:LoopState-Sel != 0 // Limit: L=1 // Rule: pv != L // AS-Glob:AP-MachShift:Mode-Sts = 0 // Limit: L=0 // Rule: pv == L
+2021-10-20 15:00:58.204456 // WARNING // 1) SI-Glob:AP-SOFB:LoopState-Sts = 0 // Limit: L=0 // Rule: pv == L // AS-Glob:AP-MachShift:Mode-Sts = 0 // Limit: L=0 // Rule: pv == L
+2021-10-20 15:01:29.224562 // WARNING // 1) SI-Glob:AP-SOFB:LoopState-Sel = 0 // Limit: L=0 // Rule: pv == L // AS-Glob:AP-MachShift:Mode-Sts = 0 // Limit: L=0 // Rule: pv == L
+2021-10-20 15:02:00.240628 // WARNING // 1) SI-13C4:DI-DCCT:Current-Mon < 0.014561131186 // Limit: L=5 // Rule: pv < L // AS-Glob:AP-MachShift:Mode-Sts = 0 // Limit: L=0 // Rule: pv == L
+2021-10-20 15:27:53.990071 // WARNING // SI-02SB:VA-CCG-CAV:Pressure-Mon = 6.1e-08 // Limit: L=1e-8 // Rule: pv > L
+2021-10-20 15:28:25.014741 // WARNING // SI-02SB:VA-CCG-BG:Pressure-Mon = 1.1e-08 // Limit: L=1e-8 // Rule: pv > L
+2021-10-20 15:28:56.040225 // WARNING // 1) SI-02SB:VA-CCG-BG:Pressure-Mon > 1.2e-08 // Limit: L=1e-8 // Rule: pv > L // ^BO.+VA-CCG.+Pressure-Mon$ > - // Limit: L=1e-7 // Rule: pv > L
+2021-10-20 15:37:51.317087 // WARNING // BO-19U:VA-CCG-BG:Pressure-Mon = 1.9e-08 // Limit: L=1e-8 // Rule: pv > L
+2021-10-20 15:39:44.377402 // WARNING // BO-29U:VA-CCG-BG:Pressure-Mon = 2.3e-08 // Limit: L=1e-8 // Rule: pv > L
+2021-10-20 15:47:55.626461 // WARNING // BO-01U:VA-CCG-BG:Pressure-Mon = 1.8e-08 // Limit: L=1e-8 // Rule: pv > L
+2021-10-20 15:49:50.689319 // WARNING // SI-02SB:VA-CCG-CAV:Pressure-Mon = 1.1e-08 // Limit: L=1e-8 // Rule: pv > L
+2021-10-20 20:07:33.197039 // WARNING // BO-19U:VA-CCG-BG:Pressure-Mon = 1.3e-08 // Limit: L=1e-8 // Rule: pv > L
+2021-10-20 20:08:04.215797 // WARNING // BO-01U:VA-CCG-BG:Pressure-Mon = 1.5e-08 // Limit: L=1e-8 // Rule: pv > L
+2021-10-20 20:25:07.699201 // WARNING // SI-02SB:VA-CCG-CAV:Pressure-Mon = 1.7e-08 // Limit: L=1e-8 // Rule: pv > L
+2021-10-20 20:25:38.719465 // WARNING // SI-02SB:VA-CCG-CAV:Pressure-Mon = 1.5e-08 // Limit: L=1e-8 // Rule: pv > L
+2021-10-20 20:26:09.738685 // WARNING // 1) SI-02SB:VA-CCG-CAV:Pressure-Mon > 1.4e-08 // Limit: L=1e-8 // Rule: pv > L // ^BO.+VA-CCG.+Pressure-Mon$ > - // Limit: L=1e-7 // Rule: pv > L
+2021-10-21 03:37:31.045267 // WARNING // 1) SI-13C4:DI-DCCT:Current-Mon < 0.01362418976 // Limit: L=5 // Rule: pv < L // AS-Glob:AP-MachShift:Mode-Sts = 0 // Limit: L=0 // Rule: pv == L
+2021-10-21 03:38:02.061051 // WARNING // 1) SI-Glob:AP-SOFB:LoopState-Sel != 0 // Limit: L=1 // Rule: pv != L // AS-Glob:AP-MachShift:Mode-Sts = 0 // Limit: L=0 // Rule: pv == L
+2021-10-21 03:38:33.080550 // WARNING // 1) SI-Glob:AP-SOFB:LoopState-Sts = 0 // Limit: L=0 // Rule: pv == L // AS-Glob:AP-MachShift:Mode-Sts = 0 // Limit: L=0 // Rule: pv == L
+2021-10-21 03:39:04.100559 // WARNING // 1) SI-Glob:AP-SOFB:LoopState-Sel = 0 // Limit: L=0 // Rule: pv == L // AS-Glob:AP-MachShift:Mode-Sts = 0 // Limit: L=0 // Rule: pv == L
+2021-10-21 03:39:35.118788 // WARNING // 1) SI-13C4:DI-DCCT:Current-Mon < 0.014237166472 // Limit: L=5 // Rule: pv < L // AS-Glob:AP-MachShift:Mode-Sts = 0 // Limit: L=0 // Rule: pv == L
+2021-10-21 03:45:16.281159 // WARNING // 1) SI-01SA:VA-CCG-BG:Pressure-Mon > 2.3e-08 // Limit: L=1e-8 // Rule: pv > L // ^BO.+VA-CCG.+Pressure-Mon$ > - // Limit: L=1e-7 // Rule: pv > L
+2021-10-21 03:47:43.355639 // WARNING // 1) SI-Glob:AP-SOFB:LoopState-Sel != 0 // Limit: L=1 // Rule: pv != L // AS-Glob:AP-MachShift:Mode-Sts = 0 // Limit: L=0 // Rule: pv == L
+2021-10-21 03:48:14.374550 // WARNING // 1) SI-Glob:AP-SOFB:LoopState-Sts = 0 // Limit: L=0 // Rule: pv == L // AS-Glob:AP-MachShift:Mode-Sts = 0 // Limit: L=0 // Rule: pv == L
+2021-10-21 03:48:45.392061 // WARNING // 1) SI-Glob:AP-SOFB:LoopState-Sel = 0 // Limit: L=0 // Rule: pv == L // AS-Glob:AP-MachShift:Mode-Sts = 0 // Limit: L=0 // Rule: pv == L
+2021-10-21 03:49:16.411133 // WARNING // 1) SI-13C4:DI-DCCT:Current-Mon < 0.014470358464 // Limit: L=5 // Rule: pv < L // AS-Glob:AP-MachShift:Mode-Sts = 0 // Limit: L=0 // Rule: pv == L
+2021-10-21 03:57:51.661220 // WARNING // 1) SI-Glob:AP-SOFB:LoopState-Sel != 0 // Limit: L=1 // Rule: pv != L // AS-Glob:AP-MachShift:Mode-Sts = 0 // Limit: L=0 // Rule: pv == L
+2021-10-21 03:58:22.677884 // WARNING // 1) SI-Glob:AP-SOFB:LoopState-Sts = 0 // Limit: L=0 // Rule: pv == L // AS-Glob:AP-MachShift:Mode-Sts = 0 // Limit: L=0 // Rule: pv == L
+2021-10-21 03:58:53.697210 // WARNING // 1) SI-Glob:AP-SOFB:LoopState-Sel = 0 // Limit: L=0 // Rule: pv == L // AS-Glob:AP-MachShift:Mode-Sts = 0 // Limit: L=0 // Rule: pv == L
+2021-10-21 03:59:24.717657 // WARNING // 1) SI-13C4:DI-DCCT:Current-Mon < 0.013310137011 // Limit: L=5 // Rule: pv < L // AS-Glob:AP-MachShift:Mode-Sts = 0 // Limit: L=0 // Rule: pv == L
+2021-10-21 04:07:59.957174 // WARNING // 1) SI-Glob:AP-SOFB:LoopState-Sel != 0 // Limit: L=1 // Rule: pv != L // AS-Glob:AP-MachShift:Mode-Sts = 0 // Limit: L=0 // Rule: pv == L
+2021-10-21 04:08:30.980022 // WARNING // 1) SI-Glob:AP-SOFB:LoopState-Sts = 0 // Limit: L=0 // Rule: pv == L // AS-Glob:AP-MachShift:Mode-Sts = 0 // Limit: L=0 // Rule: pv == L
+2021-10-21 04:09:02.005148 // WARNING // 1) SI-Glob:AP-SOFB:LoopState-Sel = 0 // Limit: L=0 // Rule: pv == L // AS-Glob:AP-MachShift:Mode-Sts = 0 // Limit: L=0 // Rule: pv == L
+2021-10-21 04:09:33.026052 // WARNING // 1) SI-13C4:DI-DCCT:Current-Mon < 0.013407691602 // Limit: L=5 // Rule: pv < L // AS-Glob:AP-MachShift:Mode-Sts = 0 // Limit: L=0 // Rule: pv == L
+2021-10-21 04:18:08.270713 // WARNING // 1) SI-Glob:AP-SOFB:LoopState-Sel != 0 // Limit: L=1 // Rule: pv != L // AS-Glob:AP-MachShift:Mode-Sts = 0 // Limit: L=0 // Rule: pv == L
+2021-10-21 04:18:39.296368 // WARNING // 1) SI-Glob:AP-SOFB:LoopState-Sts = 0 // Limit: L=0 // Rule: pv == L // AS-Glob:AP-MachShift:Mode-Sts = 0 // Limit: L=0 // Rule: pv == L
+2021-10-21 04:19:10.320422 // WARNING // 1) SI-Glob:AP-SOFB:LoopState-Sel = 0 // Limit: L=0 // Rule: pv == L // AS-Glob:AP-MachShift:Mode-Sts = 0 // Limit: L=0 // Rule: pv == L
+2021-10-21 04:19:41.340370 // WARNING // 1) SI-13C4:DI-DCCT:Current-Mon < 0.011869250476 // Limit: L=5 // Rule: pv < L // AS-Glob:AP-MachShift:Mode-Sts = 0 // Limit: L=0 // Rule: pv == L
+2021-10-21 05:26:52.289184 // WARNING // BO-01U:VA-CCG-BG:Pressure-Mon = 1.3e-08 // Limit: L=1e-8 // Rule: pv > L
+2021-10-21 05:27:25.313012 // WARNING // BO-01U:VA-CCG-BG:Pressure-Mon = 1.8e-08 // Limit: L=1e-8 // Rule: pv > L
+2021-10-21 05:37:08.630465 // WARNING // BO-19U:VA-CCG-BG:Pressure-Mon = 1.1e-08 // Limit: L=1e-8 // Rule: pv > L
+2021-10-21 05:37:41.645163 // WARNING // BO-01U:VA-CCG-BG:Pressure-Mon = 1.1e-08 // Limit: L=1e-8 // Rule: pv > L
+2021-10-21 05:42:38.798309 // WARNING // SI-02SB:VA-CCG-CAV:Pressure-Mon = 5.6e-08 // Limit: L=1e-8 // Rule: pv > L
+2021-10-21 05:43:09.821260 // WARNING // SI-02SB:VA-CCG-CAV:Pressure-Mon = 6.1e-08 // Limit: L=1e-8 // Rule: pv > L
+2021-10-21 05:43:40.845831 // WARNING // 1) SI-02SB:VA-CCG-CAV:Pressure-Mon > 5.7e-08 // Limit: L=1e-8 // Rule: pv > L // ^BO.+VA-CCG.+Pressure-Mon$ > - // Limit: L=1e-7 // Rule: pv > L
+2021-10-21 08:03:03.869450 // WARNING // BO-01U:VA-CCG-BG:Pressure-Mon = 1.1e-08 // Limit: L=1e-8 // Rule: pv > L
+2021-10-21 08:03:34.890083 // WARNING // BO-01U:VA-CCG-BG:Pressure-Mon = 1.8e-08 // Limit: L=1e-8 // Rule: pv > L
 

@@ -107,11 +107,11 @@ def watcherseye(queue, stop): #queue watcher
             elif int(n['numpvs']) == 1:
                 msg = prefix + '\n\r' + n['rule1']
                 msg = msg.replace('==', '=', 1)
+                msg = msg.replace('!=', '=', 1)
                 msg = msg.replace('>=', '=', 1)
                 msg = msg.replace('<=', '=', 1)
                 msg = msg.replace('>', '=', 1)
                 msg = msg.replace('<', '=', 1)
-                msg = msg.replace('!=', '=', 1)
                 msg = msg.replace('L', n['value1'], 1)
                 msg = msg.replace('pv', n['pv1'], 1)
                 msg = msg + '\n\r' + 'Limit: ' + n['limits1'] + '\n\rRule: ' + n['rule1']
@@ -125,6 +125,11 @@ def watcherseye(queue, stop): #queue watcher
                 elif (bool(re.search('^pv .+ L$', n['rule1']))) != -1: #other rules
                     msg1 = prefix + '\n\r1) ' + n['rule1']
                     msg1 = msg1.replace('==', '=', 1)
+                    msg1 = msg1.replace('!=', '=', 1)
+                    msg1 = msg1.replace('>=', '=', 1)
+                    msg1 = msg1.replace('<=', '=', 1)
+                    msg1 = msg1.replace('>', '=', 1)
+                    msg1 = msg1.replace('<', '=', 1)
                     msg1 = msg1.replace('L', n['value1'], 1)
                     msg1 = msg1.replace('pv', n['pv1'], 1)
                     msg1 = msg1 + '\n\r' + 'Limit: ' + n['limits1'] + '\n\rRule: ' + n['rule1']
@@ -135,8 +140,13 @@ def watcherseye(queue, stop): #queue watcher
                     msg2 = '\n\r2) ' + n['pv2'] + ' = ' + n['value2'] + '\n\r'+ 'Limits: ' + n['limits2'] + '\n\rRule: ' + n['rule2']
                     #print('pv2 within range')
                 elif (bool(re.search('^pv .+ L$', n['rule2']))): #other rules
-                    msg2 = '\n\r' + n['rule2']
+                    msg2 = '\n\r2)' + n['rule2']
                     msg2 = msg2.replace('==', '=', 1)
+                    msg2 = msg2.replace('!=', '=', 1)
+                    msg2 = msg2.replace('>=', '=', 1)
+                    msg2 = msg2.replace('<=', '=', 1)
+                    msg2 = msg2.replace('>', '=', 1)
+                    msg2 = msg2.replace('<', '=', 1)
                     msg2 = msg2.replace('L', n['value2'])
                     msg2 = msg2.replace('pv', n['pv2'])
                     msg2 = msg2 + '\n\r' + 'Limit: ' + n['limits2'] + '\n\rRule: ' + n['rule2']
