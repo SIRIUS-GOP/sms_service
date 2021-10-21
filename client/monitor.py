@@ -203,7 +203,7 @@ def evaluate():
                                                                       value1=check1[2][0],\
                                                                       phone=n.phone)
                             elif numpvs == 2:
-                                print("check1[0]:", check1[0], "check2[0]", check2[0])
+                                #print("check1[0]:", check1[0], "check2[0]", check2[0])
                                 if (check1[0] == True and check2[0] == True):
                                     msg = '{{"numpvs" : "{numpvs}",\
                                             "pv1" : "{pv1}",\
@@ -311,13 +311,13 @@ def evaluate():
                                 #print('client done persistence true')
                                 #print('r', r)
                                 if r[0]==False:
-                                    log = str(datetime.now()) + ' error sending message to server > ' + (check1[1])[0] + '\n\r'
+                                    log = str(datetime.now()) + ' error sending message to server > ' + n.pv1 + '\n\r'
                                     dir_path = path.dirname(path.realpath(__file__)) #current folder application path
                                     log_path = path.join(dir_path, 'log.txt')
                                     writer.write(log_path, log, 'a')
                                     print(log)
                                 else:
-                                    log = str(datetime.now()) + ' message to owner ' + n.owner + ' sent to server > ' + (check1[1])[0] + '\n\r'
+                                    log = str(datetime.now()) + ' message to owner ' + n.owner + ' sent to server > ' + n.pv1 + '\n\r'
                                     dir_path = path.dirname(path.realpath(__file__)) #current folder application path
                                     log_path = path.join(dir_path, 'log.txt')
                                     writer.write(log_path, log, 'a')
@@ -331,13 +331,13 @@ def evaluate():
                                     #print('client done persistence false')
                                     #print('r', r)
                                     if r[0]==False:
-                                        log = str(datetime.now()) + ' error sending message to server > ' + (check1[1])[0] + '\n\r'
+                                        log = str(datetime.now()) + ' error sending message to server > ' + n.pv1 + '\n\r'
                                         dir_path = path.dirname(path.realpath(__file__)) #current folder application path
                                         log_path = path.join(dir_path, 'log.txt')
                                         writer.write(log_path, log, 'a')
                                         print(log)
                                     else:
-                                        log = str(datetime.now()) + ' message to owner ' + n.owner + ' sent to server > ' + (check1[1])[0] + '\n\r'
+                                        log = str(datetime.now()) + ' message to owner ' + n.owner + ' sent to server > ' + n.pv1 + '\n\r'
                                         dir_path = path.dirname(path.realpath(__file__)) #current folder application path
                                         log_path = path.join(dir_path, 'log.txt')
                                         writer.write(log_path, log, 'a')
