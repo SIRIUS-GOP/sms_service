@@ -140,7 +140,7 @@ def watcherseye(queue, stop): #queue watcher
                     msg2 = '\n\r2) ' + n['pv2'] + ' = ' + n['value2'] + '\n\r'+ 'Limits: ' + n['limits2'] + '\n\rRule: ' + n['rule2']
                     #print('pv2 within range')
                 elif (bool(re.search('^pv .+ L$', n['rule2']))): #other rules
-                    msg2 = '\n\r2)' + n['rule2']
+                    msg2 = '\n\r2) ' + n['rule2']
                     msg2 = msg2.replace('==', '=', 1)
                     msg2 = msg2.replace('!=', '=', 1)
                     msg2 = msg2.replace('>=', '=', 1)
