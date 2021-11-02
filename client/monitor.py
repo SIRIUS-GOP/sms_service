@@ -91,6 +91,7 @@ def testpvlist(pvlist, rule, limits): #test pvs using rule and limits
     truelist = []
     pvvaluelist = []
     signal = False
+    cageterror = 1
     #print('pvlist, rule, limits:', pvlist, rule, limits)
     for pv_ in pvlist:
         #print('pv_:', pv_)

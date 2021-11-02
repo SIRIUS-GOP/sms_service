@@ -567,4 +567,170 @@
 2021-10-21 10:23:05.903040 message to owner rone.castro sent to server > BO-01D:PU-InjKckr:Pulse-Sel
 2021-10-21 10:34:05.179608 message to owner rone.castro sent to server > BO-01D:PU-InjKckr:Pulse-Sel
 2021-10-21 10:43:09.661699 message to owner rone.castro sent to server > BO-01D:PU-InjKckr:Pulse-Sel
+2021-10-21 20:05:51.438673 message to owner walter.junior sent to server > BO.+CCG.+Pressure-Mon$
+2021-10-21 20:05:53.284378 message to owner operador sent to server > BO.+CCG.+Pressure-Mon$
+2021-10-21 20:10:28.074948 message to owner walter.junior sent to server > SI.+CCG.+Pressure-Mon$
+2021-10-21 20:10:30.087842 message to owner operador sent to server > SI.+CCG.+Pressure-Mon$
+2021-10-21 20:10:32.092312 message to owner rone.castro sent to server > ^([ST][IBS])(.+VA-CCG.+Pressure-Mon)$
+2021-10-22 08:04:02.584171 message to owner walter.junior sent to server > BO.+CCG.+Pressure-Mon$
+2021-10-22 08:04:04.423737 message to owner operador sent to server > BO.+CCG.+Pressure-Mon$
+2021-10-22 08:06:43.884418 message to owner walter.junior sent to server > SI.+CCG.+Pressure-Mon$
+2021-10-22 08:06:45.891043 message to owner operador sent to server > SI.+CCG.+Pressure-Mon$
+2021-10-22 08:06:47.902452 message to owner rone.castro sent to server > ^([ST][IBS])(.+VA-CCG.+Pressure-Mon)$
+2021-10-23 08:02:35.456123 message to owner operador sent to server > BO.+CCG.+Pressure-Mon$
+2021-10-23 08:03:32.809513 message to owner walter.junior sent to server > BO.+CCG.+Pressure-Mon$
+2021-10-23 08:08:07.789547 message to owner walter.junior sent to server > SI.+CCG.+Pressure-Mon$
+2021-10-23 08:08:09.804355 message to owner operador sent to server > SI.+CCG.+Pressure-Mon$
+2021-10-23 08:08:11.812138 message to owner rone.castro sent to server > ^([ST][IBS])(.+VA-CCG.+Pressure-Mon)$
+2021-10-23 20:11:19.430279 message to owner operador sent to server > BO.+CCG.+Pressure-Mon$
+2021-10-23 20:11:30.714063 message to owner walter.junior sent to server > BO.+CCG.+Pressure-Mon$
+2021-10-23 20:13:37.900211 message to owner walter.junior sent to server > SI.+CCG.+Pressure-Mon$
+2021-10-23 20:13:39.914362 message to owner operador sent to server > SI.+CCG.+Pressure-Mon$
+2021-10-23 20:13:41.925800 message to owner rone.castro sent to server > ^([ST][IBS])(.+VA-CCG.+Pressure-Mon)$
+2021-10-24 07:06:44.978102 message to owner walter.junior sent to server > BO.+CCG.+Pressure-Mon$
+2021-10-24 07:06:57.479992 message to owner operador sent to server > BO.+CCG.+Pressure-Mon$
+2021-10-24 07:11:09.576603 message to owner walter.junior sent to server > SI.+CCG.+Pressure-Mon$
+2021-10-24 07:11:11.486568 message to owner operador sent to server > SI.+CCG.+Pressure-Mon$
+2021-10-24 07:11:13.499389 message to owner rone.castro sent to server > ^([ST][IBS])(.+VA-CCG.+Pressure-Mon)$
+2021-10-24 22:03:01.918151 message to owner rone.castro sent to server > SI-13C4:DI-DCCT:Current-Mon
+2021-10-24 22:03:02.040575 error sending message to server > SI-Glob:AP-SOFB:LoopState-Sel
+2021-10-24 22:03:02.508763 error sending message to server > SI-Glob:AP-SOFB:LoopState-Sts
+2021-10-24 22:03:05.299585 message to owner operador sent to server > SI-Glob:AP-SOFB:LoopState-Sel
+2021-10-24 22:03:07.314754 message to owner operador sent to server > SI-13C4:DI-DCCT:Current-Mon
+2021-10-25 08:43:39.320191 message to owner walter.junior sent to server > BO.+CCG.+Pressure-Mon$
+2021-10-25 08:48:39.413557 message to owner operador sent to server > BO.+CCG.+Pressure-Mon$
+2021-10-25 09:11:12.234035 message to owner operador sent to server > BO.+CCG.+Pressure-Mon$
+2021-10-25 09:29:00.323238 message to owner walter.junior sent to server > BO.+CCG.+Pressure-Mon$
+2021-10-25 09:29:02.133280 message to owner operador sent to server > BO.+CCG.+Pressure-Mon$
+2021-10-25 09:36:41.369709 message to owner walter.junior sent to server > SI.+CCG.+Pressure-Mon$
+2021-10-25 09:36:42.779208 message to owner operador sent to server > SI.+CCG.+Pressure-Mon$
+2021-10-25 09:37:18.793981 message to owner rone.castro sent to server > ^([ST][IBS])(.+VA-CCG.+Pressure-Mon)$
+2021-10-26 08:34:59.252261 message to owner walter.junior sent to server > SI.+CCG.+Pressure-Mon$
+2021-10-26 08:35:00.698946 message to owner operador sent to server > SI.+CCG.+Pressure-Mon$
+2021-10-26 08:41:31.015507 message to owner rone.castro sent to server > ^([ST][IBS])(.+VA-CCG.+Pressure-Mon)$
+2021-10-26 09:18:52.632022 message to owner walter.junior sent to server > SI.+CCG.+Pressure-Mon$
+2021-10-26 09:18:54.487073 message to owner operador sent to server > SI.+CCG.+Pressure-Mon$
+2021-10-26 11:03:16.177537 message to owner walter.junior sent to server > BO.+CCG.+Pressure-Mon$
+2021-10-26 11:04:14.121730 message to owner operador sent to server > BO.+CCG.+Pressure-Mon$
+2021-10-26 11:05:44.828753 message to owner walter.junior sent to server > SI.+CCG.+Pressure-Mon$
+2021-10-26 11:05:46.844263 message to owner operador sent to server > SI.+CCG.+Pressure-Mon$
+2021-10-26 11:05:48.849968 message to owner rone.castro sent to server > ^([ST][IBS])(.+VA-CCG.+Pressure-Mon)$
+2021-10-26 12:11:04.792835 message to owner walter.junior sent to server > BO.+CCG.+Pressure-Mon$
+2021-10-26 12:11:06.404207 message to owner operador sent to server > BO.+CCG.+Pressure-Mon$
+2021-10-26 12:32:55.494113 message to owner walter.junior sent to server > BO.+CCG.+Pressure-Mon$
+2021-10-26 12:32:56.918248 message to owner operador sent to server > BO.+CCG.+Pressure-Mon$
+2021-10-26 12:45:17.463436 message to owner walter.junior sent to server > BO.+CCG.+Pressure-Mon$
+2021-10-26 12:45:18.902992 message to owner operador sent to server > BO.+CCG.+Pressure-Mon$
+2021-10-26 20:29:36.327698 message to owner walter.junior sent to server > BO.+CCG.+Pressure-Mon$
+2021-10-26 20:29:37.731273 message to owner operador sent to server > BO.+CCG.+Pressure-Mon$
+2021-10-26 20:33:03.179516 message to owner walter.junior sent to server > SI.+CCG.+Pressure-Mon$
+2021-10-26 20:33:04.971061 message to owner operador sent to server > SI.+CCG.+Pressure-Mon$
+2021-10-26 20:33:06.985887 message to owner rone.castro sent to server > ^([ST][IBS])(.+VA-CCG.+Pressure-Mon)$
+2021-10-27 07:48:51.504851 message to owner operador sent to server > BO.+CCG.+Pressure-Mon$
+2021-10-27 07:56:04.752645 message to owner walter.junior sent to server > BO.+CCG.+Pressure-Mon$
+2021-10-27 07:58:56.517137 message to owner operador sent to server > BO.+CCG.+Pressure-Mon$
+2021-10-27 08:08:26.498463 message to owner walter.junior sent to server > BO.+CCG.+Pressure-Mon$
+2021-10-27 08:09:01.693487 message to owner operador sent to server > BO.+CCG.+Pressure-Mon$
+2021-10-27 08:12:26.670681 message to owner rone.castro sent to server > SI-Glob:AP-SOFB:LoopState-Sel
+2021-10-27 08:12:28.705538 message to owner walter.junior sent to server > SI-Glob:AP-SOFB:LoopState-Sts
+2021-10-27 08:12:30.692507 message to owner operador sent to server > SI-Glob:AP-SOFB:LoopState-Sel
+2021-10-27 08:24:44.107819 message to owner walter.junior sent to server > SI.+CCG.+Pressure-Mon$
+2021-10-27 08:25:30.676769 message to owner operador sent to server > SI.+CCG.+Pressure-Mon$
+2021-10-27 08:25:32.683503 message to owner rone.castro sent to server > ^([ST][IBS])(.+VA-CCG.+Pressure-Mon)$
+2021-10-27 08:46:20.895583 message to owner walter.junior sent to server > SI.+CCG.+Pressure-Mon$
+2021-10-27 08:46:22.756764 message to owner operador sent to server > SI.+CCG.+Pressure-Mon$
+2021-10-27 20:02:01.391025 message to owner operador sent to server > SI.+CCG.+Pressure-Mon$
+2021-10-27 20:02:48.245260 message to owner rone.castro sent to server > ^([ST][IBS])(.+VA-CCG.+Pressure-Mon)$
+2021-10-27 20:02:58.978713 message to owner walter.junior sent to server > SI.+CCG.+Pressure-Mon$
+2021-10-27 21:55:56.670235 message to owner walter.junior sent to server > BO.+CCG.+Pressure-Mon$
+2021-10-27 21:55:58.128368 message to owner operador sent to server > BO.+CCG.+Pressure-Mon$
+2021-10-27 21:57:29.206198 message to owner walter.junior sent to server > SI.+CCG.+Pressure-Mon$
+2021-10-27 21:57:31.225805 message to owner operador sent to server > SI.+CCG.+Pressure-Mon$
+2021-10-27 21:57:33.232998 message to owner rone.castro sent to server > ^([ST][IBS])(.+VA-CCG.+Pressure-Mon)$
+2021-10-28 08:02:35.026997 message to owner operador sent to server > BO.+CCG.+Pressure-Mon$
+2021-10-28 08:02:46.446189 message to owner walter.junior sent to server > BO.+CCG.+Pressure-Mon$
+2021-10-28 08:04:52.845429 message to owner walter.junior sent to server > SI.+CCG.+Pressure-Mon$
+2021-10-28 08:04:54.729577 message to owner operador sent to server > SI.+CCG.+Pressure-Mon$
+2021-10-28 08:04:56.742869 message to owner rone.castro sent to server > ^([ST][IBS])(.+VA-CCG.+Pressure-Mon)$
+2021-10-28 09:59:38.704991 message to owner fernanda.moura sent to server > SI-13C4:DI-DCCT:Current-Mon
+2021-10-28 10:19:40.400352 message to owner fernanda.moura sent to server > SI-13C4:DI-DCCT:Current-Mon
+2021-10-28 10:39:41.581420 message to owner fernanda.moura sent to server > SI-13C4:DI-DCCT:Current-Mon
+2021-10-28 10:59:43.681306 message to owner fernanda.moura sent to server > SI-13C4:DI-DCCT:Current-Mon
+2021-10-28 11:19:45.718723 message to owner fernanda.moura sent to server > SI-13C4:DI-DCCT:Current-Mon
+2021-10-28 11:39:48.350220 message to owner fernanda.moura sent to server > SI-13C4:DI-DCCT:Current-Mon
+2021-10-28 11:59:50.232607 message to owner fernanda.moura sent to server > SI-13C4:DI-DCCT:Current-Mon
+2021-10-28 12:19:51.852892 message to owner fernanda.moura sent to server > SI-13C4:DI-DCCT:Current-Mon
+2021-10-28 12:39:54.350622 message to owner fernanda.moura sent to server > SI-13C4:DI-DCCT:Current-Mon
+2021-10-28 12:59:57.377472 message to owner fernanda.moura sent to server > SI-13C4:DI-DCCT:Current-Mon
+2021-10-28 20:47:01.641542 message to owner walter.junior sent to server > BO.+CCG.+Pressure-Mon$
+2021-10-28 20:47:03.036439 message to owner operador sent to server > BO.+CCG.+Pressure-Mon$
+2021-10-28 20:52:18.046468 message to owner walter.junior sent to server > SI.+CCG.+Pressure-Mon$
+2021-10-28 20:52:20.032167 message to owner operador sent to server > SI.+CCG.+Pressure-Mon$
+2021-10-28 20:52:22.061412 message to owner rone.castro sent to server > ^([ST][IBS])(.+VA-CCG.+Pressure-Mon)$
+2021-10-29 08:02:28.556162 message to owner walter.junior sent to server > BO.+CCG.+Pressure-Mon$
+2021-10-29 08:02:29.966841 message to owner operador sent to server > BO.+CCG.+Pressure-Mon$
+2021-10-29 08:04:26.092640 message to owner walter.junior sent to server > SI.+CCG.+Pressure-Mon$
+2021-10-29 08:04:28.117878 message to owner operador sent to server > SI.+CCG.+Pressure-Mon$
+2021-10-29 08:04:30.139485 message to owner rone.castro sent to server > ^([ST][IBS])(.+VA-CCG.+Pressure-Mon)$
+2021-10-29 20:10:43.597511 message to owner walter.junior sent to server > BO.+CCG.+Pressure-Mon$
+2021-10-29 20:10:45.436557 message to owner operador sent to server > BO.+CCG.+Pressure-Mon$
+2021-10-29 20:13:40.388243 message to owner walter.junior sent to server > SI.+CCG.+Pressure-Mon$
+2021-10-29 20:13:42.397172 message to owner operador sent to server > SI.+CCG.+Pressure-Mon$
+2021-10-29 20:13:44.410404 message to owner rone.castro sent to server > ^([ST][IBS])(.+VA-CCG.+Pressure-Mon)$
+2021-10-30 08:12:10.202956 message to owner walter.junior sent to server > BO.+CCG.+Pressure-Mon$
+2021-10-30 08:12:11.705687 message to owner operador sent to server > BO.+CCG.+Pressure-Mon$
+2021-10-30 08:13:44.804358 message to owner walter.junior sent to server > SI.+CCG.+Pressure-Mon$
+2021-10-30 08:13:46.820486 message to owner operador sent to server > SI.+CCG.+Pressure-Mon$
+2021-10-30 08:13:48.828832 message to owner rone.castro sent to server > ^([ST][IBS])(.+VA-CCG.+Pressure-Mon)$
+2021-10-30 20:03:37.261072 message to owner walter.junior sent to server > BO.+CCG.+Pressure-Mon$
+2021-10-30 20:03:39.107820 message to owner operador sent to server > BO.+CCG.+Pressure-Mon$
+2021-10-30 20:05:00.986488 message to owner walter.junior sent to server > SI.+CCG.+Pressure-Mon$
+2021-10-30 20:05:02.980026 message to owner operador sent to server > SI.+CCG.+Pressure-Mon$
+2021-10-30 20:05:04.999003 message to owner rone.castro sent to server > ^([ST][IBS])(.+VA-CCG.+Pressure-Mon)$
+2021-10-30 20:15:33.157971 message to owner walter.junior sent to server > SI.+CCG.+Pressure-Mon$
+2021-10-30 20:15:35.037056 message to owner operador sent to server > SI.+CCG.+Pressure-Mon$
+2021-10-31 07:04:28.730951 message to owner walter.junior sent to server > BO.+CCG.+Pressure-Mon$
+2021-10-31 07:04:30.550617 message to owner operador sent to server > BO.+CCG.+Pressure-Mon$
+2021-10-31 07:06:50.141077 message to owner walter.junior sent to server > SI.+CCG.+Pressure-Mon$
+2021-10-31 07:06:52.150237 message to owner operador sent to server > SI.+CCG.+Pressure-Mon$
+2021-10-31 07:06:54.156056 message to owner rone.castro sent to server > ^([ST][IBS])(.+VA-CCG.+Pressure-Mon)$
+2021-10-31 07:23:49.841561 message to owner walter.junior sent to server > SI.+CCG.+Pressure-Mon$
+2021-10-31 07:23:51.719605 message to owner operador sent to server > SI.+CCG.+Pressure-Mon$
+2021-10-31 17:05:56.785381 message to owner rone.castro sent to server > SI-Glob:AP-SOFB:LoopState-Sel
+2021-10-31 17:05:58.558522 message to owner walter.junior sent to server > SI-Glob:AP-SOFB:LoopState-Sts
+2021-10-31 17:06:00.571231 message to owner operador sent to server > SI-Glob:AP-SOFB:LoopState-Sel
+2021-10-31 17:16:02.120756 message to owner rone.castro sent to server > SI-Glob:AP-SOFB:LoopState-Sel
+2021-10-31 17:16:03.524725 message to owner walter.junior sent to server > SI-Glob:AP-SOFB:LoopState-Sts
+2021-10-31 17:16:05.545816 message to owner operador sent to server > SI-Glob:AP-SOFB:LoopState-Sel
+2021-10-31 17:26:06.447024 message to owner rone.castro sent to server > SI-Glob:AP-SOFB:LoopState-Sel
+2021-10-31 17:26:08.463394 message to owner walter.junior sent to server > SI-Glob:AP-SOFB:LoopState-Sts
+2021-10-31 17:26:10.450241 message to owner operador sent to server > SI-Glob:AP-SOFB:LoopState-Sel
+2021-10-31 17:36:11.815103 message to owner rone.castro sent to server > SI-Glob:AP-SOFB:LoopState-Sel
+2021-10-31 17:36:13.684211 message to owner walter.junior sent to server > SI-Glob:AP-SOFB:LoopState-Sts
+2021-10-31 17:36:15.705138 message to owner operador sent to server > SI-Glob:AP-SOFB:LoopState-Sel
+2021-10-31 17:46:17.868771 message to owner rone.castro sent to server > SI-Glob:AP-SOFB:LoopState-Sel
+2021-10-31 17:46:19.638385 message to owner walter.junior sent to server > SI-Glob:AP-SOFB:LoopState-Sts
+2021-10-31 17:46:21.645661 message to owner operador sent to server > SI-Glob:AP-SOFB:LoopState-Sel
+2021-10-31 17:56:27.476768 message to owner rone.castro sent to server > SI-Glob:AP-SOFB:LoopState-Sel
+2021-10-31 17:56:29.287650 message to owner walter.junior sent to server > SI-Glob:AP-SOFB:LoopState-Sts
+2021-10-31 17:56:31.299354 message to owner operador sent to server > SI-Glob:AP-SOFB:LoopState-Sel
+2021-10-31 18:06:34.517842 message to owner rone.castro sent to server > SI-Glob:AP-SOFB:LoopState-Sel
+2021-10-31 18:06:36.372743 message to owner walter.junior sent to server > SI-Glob:AP-SOFB:LoopState-Sts
+2021-10-31 18:06:38.390771 message to owner operador sent to server > SI-Glob:AP-SOFB:LoopState-Sel
+2021-11-01 08:00:48.949951 message to owner rone.castro sent to server > SI-Glob:AP-SOFB:LoopState-Sel
+2021-11-01 08:00:50.769712 message to owner walter.junior sent to server > SI-Glob:AP-SOFB:LoopState-Sts
+2021-11-01 08:00:52.780174 message to owner operador sent to server > SI-Glob:AP-SOFB:LoopState-Sel
+2021-11-01 09:31:49.426461 message to owner walter.junior sent to server > BO.+CCG.+Pressure-Mon$
+2021-11-01 09:32:37.791346 message to owner operador sent to server > BO.+CCG.+Pressure-Mon$
+2021-11-01 11:41:30.684323 message to owner walter.junior sent to server > BO.+CCG.+Pressure-Mon$
+2021-11-01 11:41:55.127545 message to owner operador sent to server > BO.+CCG.+Pressure-Mon$
+2021-11-01 11:43:28.302300 message to owner walter.junior sent to server > SI.+CCG.+Pressure-Mon$
+2021-11-01 11:43:30.158598 message to owner operador sent to server > SI.+CCG.+Pressure-Mon$
+2021-11-01 11:43:32.171872 message to owner rone.castro sent to server > ^([ST][IBS])(.+VA-CCG.+Pressure-Mon)$
+2021-11-02 08:19:50.115493 error sending message to server > TB-04:PU-InjSept:Pulse-Sel
+2021-11-02 08:20:01.896820 error sending message to server > TB-04:PU-InjSept:Pulse-Sel
+2021-11-02 08:20:13.591184 error sending message to server > TB-04:PU-InjSept:Pulse-Sel
+2021-11-02 08:20:25.225160 error sending message to server > TB-04:PU-InjSept:Pulse-Sel
+2021-11-02 08:20:36.850272 error sending message to server > TB-04:PU-InjSept:Pulse-Sel
+2021-11-02 08:20:48.711812 message to owner rone.castro sent to server > TB-04:PU-InjSept:Pulse-Sel
 
