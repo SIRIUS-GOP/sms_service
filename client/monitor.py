@@ -78,7 +78,7 @@ def read(section,key):
         return 0
     return r
 
-def getfullpvlist(): # gets the list from fullpvlist_db
+def pvlistfromdb(): # gets the list from fullpvlist_db
     conn_fullpvlist = get_fullpvlist_connection()
     fullpvlist = conn_fullpvlist.execute('SELECT pv FROM fullpvlist_db').fetchall()
     m = []
@@ -121,7 +121,7 @@ def testpvlist(pvlist, rule, limits): #test pvs using rule and limits
 
 def evaluate():
     if update_db():
-        fullpvlist = getfullpvlist()
+        fullpvlist = pvlistfromdb()
         while True:
             now = datetime.now()
             notifications = get_notifications_db()
