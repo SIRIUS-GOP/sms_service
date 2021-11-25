@@ -2,12 +2,12 @@
 #It will receive orders to send SMS, queueing them
 #and sending accordingly
 
-import socket, sys, json, sendsms, writer, config, re
+import socket, sys, json, sendsms, writer, config, re, psutil
 from multiprocessing import Process, Queue, Pool, Manager, Value
 from time import sleep
 from datetime import datetime
 from re import sub
-from ctypes import c_bool
+from ctypes import c_bool, windll
 from systray import systray_run
 
 sock = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
@@ -24,12 +24,12 @@ def on_new_client(connection, client_address, queue):
             if (client_address[0] == ip1):# or client_address[0] == ip2 or client_address[0] == ip3 or client_address[0] == ip4):
                 #Receive the data in small chunks and retransmit it
                 data = connection.recv(1024)
-                print(datetime.now(),' received "%s"' % data, type(data))
+                #print(datetime.now(),' received "%s"' % data, type(data))
                 if data:
                     #print('sending data back to the client')
                     connection.sendall(data) #echo
                     to_sms = data.decode()
-                    print('to_sms: ', to_sms, type(to_sms))
+                    #print('to_sms: ', to_sms, type(to_sms))
                     queue.put_nowait(json.loads(to_sms)) #increment queue
                 else:
                     #print('no data from ', client_address)
@@ -71,7 +71,7 @@ def server(sock, queue, stop):
     data = ''
     while True:
         if stop.value:
-            #print('server OFF')
+            print('server OFF')
             exit()
         sleep(1)
         # Wait for a connection
@@ -93,7 +93,7 @@ def server(sock, queue, stop):
 def watcherseye(queue, stop): #queue watcher
     while True:
         if stop.value:
-            #print('watcherseye OFF')
+            print('watcherseye OFF')
             exit()
         sleep(1)
         if queue.empty() == False:
@@ -156,42 +156,68 @@ def watcherseye(queue, stop): #queue watcher
             elif int(n['numpvs']) == 3:
                 pass
             r = sendsms.sendSMS(sub("[^0-9]", "", n['phone']), msg)
-            print('r', r)
+            #print('r', r)
             if r==True:
                 writer.write(msg)
             else:
                 writer.write('Modem error: ' + str(r))
         else:
             sleep(1)
+            
+def search(list, pname):
+    pnum = 0
+    for i in range(len(list)):
+        if list[i] == pname:
+            pnum += 1
+    if pnum > 1:
+        return True
+    return False
 
 def main():
-    sock = init()
-    q = Queue()
-    start = Value(c_bool, False)
-    stop = Value(c_bool, False)
-    exit = Value(c_bool, False)
-    #t = systray_run(stop, exit)
-    p1 = Process(target=systray_run, args=(start, stop, exit))
-    p1.start()
-    #print('systray_run ok')
-    p2 = Process(target=server, args=(sock, q, stop))
-    p2.start()
-    #print('server ok')
-    p3 = Process(target=watcherseye, args=(q, stop))
-    p3.start()
-    #print('watcherseye ok')
-    while exit.value == False:
-        if (start.value == True and stop.value == True):
-            stop.value = False
-            sock = init()
-            p2 = Process(target=server, args=(sock, q, stop))
-            p2.start()
-            #print(start, '\np2 ok')
-            p3 = Process(target=watcherseye, args=(q, stop))
-            p3.start()
-            #print('p3 ok')
-            start.value = False
-        sleep(1)
+    proc = "pythonw.exe"
+    processlist = []
+    for p in psutil.process_iter():
+        try:
+            processlist.append(p.name())
+            #print(p.name())
+        except psutil.AccessDenied:
+           # print("======= Access Denied ======= ")
+            pass
+    if search(processlist, proc):
+        userclick = windll.user32.MessageBoxW(0, "SMS Service Server already running!", "Warning", 0)
+        runserver = False
+        sys.exit()
+    else:
+        runserver = True
+    #print(processlist)
+    if runserver:
+        sock = init()
+        q = Queue()
+        start = Value(c_bool, False)
+        stop = Value(c_bool, False)
+        exit = Value(c_bool, False)
+        #t = systray_run(stop, exit)
+        p1 = Process(target=systray_run, args=(start, stop, exit))#
+        p1.start()
+        print('systray_run ok')
+        p2 = Process(target=server, args=(sock, q, stop))
+        p2.start()
+        print('server ok')
+        p3 = Process(target=watcherseye, args=(q, stop))
+        p3.start()
+        print('watcherseye ok')
+#        while bool(exit.value) == False:
+#            if (bool(start.value) == True and bool(stop.value) == True):
+#                stop = Value(c_bool, False)
+#                sock = init()
+#                p2 = Process(target=server, args=(sock, q, stop))
+#                p2.start()
+#                #print(start, '\np2 ok')
+#                p3 = Process(target=watcherseye, args=(q, stop))
+#                p3.start()
+#                #print('p3 ok')
+#                start = False
+#            sleep(1)
 
 if __name__ == '__main__':
     main()

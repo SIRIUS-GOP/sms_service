@@ -85,4 +85,636 @@
 2021-10-21 05:43:40.845831 // WARNING // 1) SI-02SB:VA-CCG-CAV:Pressure-Mon > 5.7e-08 // Limit: L=1e-8 // Rule: pv > L // ^BO.+VA-CCG.+Pressure-Mon$ > - // Limit: L=1e-7 // Rule: pv > L
 2021-10-21 08:03:03.869450 // WARNING // BO-01U:VA-CCG-BG:Pressure-Mon = 1.1e-08 // Limit: L=1e-8 // Rule: pv > L
 2021-10-21 08:03:34.890083 // WARNING // BO-01U:VA-CCG-BG:Pressure-Mon = 1.8e-08 // Limit: L=1e-8 // Rule: pv > L
+2021-10-21 09:31:42.376307 // WARNING // 1) BO-01D:PU-InjKckr:Pulse-Sel = 1 // Limit: L=1 // Rule: pv == L // BO-48D:PU-EjeKckr:Pulse-Sel = - // Limit: L=1 // Rule: pv == L
+2021-10-21 09:42:49.708231 // WARNING // 1) BO-01D:PU-InjKckr:Pulse-Sel = 1 // Limit: L=1 // Rule: pv == L // BO-48D:PU-EjeKckr:Pulse-Sel = - // Limit: L=1 // Rule: pv == L
+2021-10-21 10:03:49.310554 // WARNING // 1) - = - // Limit: L=1 // Rule: pv == L // BO-48D:PU-EjeKckr:Pulse-Sel = 1 // Limit: L=1 // Rule: pv == L
+2021-10-21 10:23:36.445549 // WARNING // 1) BO-01D:PU-InjKckr:Pulse-Sel = 1 // Limit: L=1 // Rule: pv == L // 2)BO-48D:PU-EjeKckr:Pulse-Sel = - // Limit: L=1 // Rule: pv == L
+2021-10-21 10:34:35.767884 // WARNING // 1) BO-01D:PU-InjKckr:Pulse-Sel = 1 // Limit: L=1 // Rule: pv == L // 2)BO-48D:PU-EjeKckr:Pulse-Sel = - // Limit: L=1 // Rule: pv == L
+2021-10-21 10:39:49.914722 // WARNING // 1) BO-01D:PU-InjKckr:Pulse-Sel = - // Limit: L=1 // Rule: pv == L // 2) BO-48D:PU-EjeKckr:Pulse-Sel = 1 // Limit: L=1 // Rule: pv == L
+2021-10-21 10:43:11.023001 // WARNING // 1) BO-01D:PU-InjKckr:Pulse-Sel = - // Limit: L=1 // Rule: pv == L // 2) BO-48D:PU-EjeKckr:Pulse-Sel = 1 // Limit: L=1 // Rule: pv == L
+2021-10-21 10:43:42.047715 // WARNING // 1) BO-01D:PU-InjKckr:Pulse-Sel = - // Limit: L=1 // Rule: pv == L // 2) BO-48D:PU-EjeKckr:Pulse-Sel = 1 // Limit: L=1 // Rule: pv == L
+2021-10-21 20:06:22.860053 // WARNING // BO-01U:VA-CCG-BG:Pressure-Mon = 2e-08 // Limit: L=1e-8 // Rule: pv > L
+2021-10-21 20:06:53.884056 // WARNING // BO-01U:VA-CCG-BG:Pressure-Mon = 1.9e-08 // Limit: L=1e-8 // Rule: pv > L
+2021-10-21 20:10:59.013649 // WARNING // SI-02SB:VA-CCG-CAV:Pressure-Mon = 4.1e-08 // Limit: L=1e-8 // Rule: pv > L
+2021-10-21 20:11:30.046576 // WARNING // SI-02SB:VA-CCG-CAV:Pressure-Mon = 5.2e-08 // Limit: L=1e-8 // Rule: pv > L
+2021-10-21 20:12:01.077455 // WARNING // 1) SI-02SB:VA-CCG-BG:Pressure-Mon = 1.3e-08 // Limit: L=1e-8 // Rule: pv > L // 2) ^BO.+VA-CCG.+Pressure-Mon$ = - // Limit: L=1e-7 // Rule: pv > L
+2021-10-22 08:04:33.972036 // WARNING // BO-01U:VA-CCG-BG:Pressure-Mon = 2.3e-08 // Limit: L=1e-8 // Rule: pv > L
+2021-10-22 08:05:04.989620 // WARNING // BO-01U:VA-CCG-BG:Pressure-Mon = 2.5e-08 // Limit: L=1e-8 // Rule: pv > L
+2021-10-22 08:07:14.058308 // WARNING // SI-02SB:VA-CCG-CAV:Pressure-Mon = 3.3e-08 // Limit: L=1e-8 // Rule: pv > L
+2021-10-22 08:07:45.076034 // WARNING // SI-02SB:VA-CCG-CAV:Pressure-Mon = 3.2e-08 // Limit: L=1e-8 // Rule: pv > L
+2021-10-22 08:08:16.094581 // WARNING // 1) SI-02SB:VA-CCG-CAV:Pressure-Mon = 2.8e-08 // Limit: L=1e-8 // Rule: pv > L // 2) ^BO.+VA-CCG.+Pressure-Mon$ = - // Limit: L=1e-7 // Rule: pv > L
+2021-10-23 08:03:06.215348 // WARNING // BO-01U:VA-CCG-BG:Pressure-Mon = 1.1e-08 // Limit: L=1e-8 // Rule: pv > L
+2021-10-23 08:04:03.252676 // WARNING // BO-09U:VA-CCG-BG:Pressure-Mon = 1.1e-08 // Limit: L=1e-8 // Rule: pv > L
+2021-10-23 08:08:38.383575 // WARNING // SI-02SB:VA-CCG-CAV:Pressure-Mon = 5e-08 // Limit: L=1e-8 // Rule: pv > L
+2021-10-23 08:09:09.405199 // WARNING // SI-02SB:VA-CCG-CAV:Pressure-Mon = 4.4e-08 // Limit: L=1e-8 // Rule: pv > L
+2021-10-23 08:09:40.423072 // WARNING // 1) SI-02SB:VA-CCG-CAV:Pressure-Mon = 3.9e-08 // Limit: L=1e-8 // Rule: pv > L // 2) ^BO.+VA-CCG.+Pressure-Mon$ = - // Limit: L=1e-7 // Rule: pv > L
+2021-10-23 20:11:50.002635 // WARNING // BO-01U:VA-CCG-BG:Pressure-Mon = 2e-08 // Limit: L=1e-8 // Rule: pv > L
+2021-10-23 20:12:21.023914 // WARNING // BO-01U:VA-CCG-BG:Pressure-Mon = 1.7e-08 // Limit: L=1e-8 // Rule: pv > L
+2021-10-23 20:14:08.080164 // WARNING // SI-02SB:VA-CCG-CAV:Pressure-Mon = 1.5e-08 // Limit: L=1e-8 // Rule: pv > L
+2021-10-23 20:14:39.100706 // WARNING // SI-02SB:VA-CCG-CAV:Pressure-Mon = 3.1e-08 // Limit: L=1e-8 // Rule: pv > L
+2021-10-23 20:15:10.119661 // WARNING // 1) SI-02SB:VA-CCG-CAV:Pressure-Mon = 6.4e-08 // Limit: L=1e-8 // Rule: pv > L // 2) ^BO.+VA-CCG.+Pressure-Mon$ = - // Limit: L=1e-7 // Rule: pv > L
+2021-10-24 07:07:15.654838 // WARNING // BO-09U:VA-CCG-BG:Pressure-Mon = 1.2e-08 // Limit: L=1e-8 // Rule: pv > L
+2021-10-24 07:07:46.687040 // WARNING // BO-09U:VA-CCG-BG:Pressure-Mon = 1.4e-08 // Limit: L=1e-8 // Rule: pv > L
+2021-10-24 07:11:39.804415 // WARNING // SI-02SB:VA-CCG-CAV:Pressure-Mon = 2.5e-08 // Limit: L=1e-8 // Rule: pv > L
+2021-10-24 07:12:10.832805 // WARNING // SI-02SB:VA-CCG-CAV:Pressure-Mon = 2.3e-08 // Limit: L=1e-8 // Rule: pv > L
+2021-10-24 07:12:41.850047 // WARNING // 1) SI-02SB:VA-CCG-CAV:Pressure-Mon = 2.1e-08 // Limit: L=1e-8 // Rule: pv > L // 2) ^BO.+VA-CCG.+Pressure-Mon$ = - // Limit: L=1e-7 // Rule: pv > L
+2021-10-24 22:03:32.209273 // WARNING // 1) SI-13C4:DI-DCCT:Current-Mon = 0.011505116224 // Limit: L=5 // Rule: pv < L // 2) AS-Glob:AP-MachShift:Mode-Sts = 0 // Limit: L=0 // Rule: pv == L
+2021-10-24 22:04:03.230118 // WARNING // 1) SI-Glob:AP-SOFB:LoopState-Sel = 0 // Limit: L=0 // Rule: pv == L // 2) AS-Glob:AP-MachShift:Mode-Sts = 0 // Limit: L=0 // Rule: pv == L
+2021-10-24 22:04:34.256746 // WARNING // 1) SI-13C4:DI-DCCT:Current-Mon = 0.0098143438635 // Limit: L=5 // Rule: pv < L // 2) AS-Glob:AP-MachShift:Mode-Sts = 0 // Limit: L=0 // Rule: pv == L
+2021-10-25 08:44:11.320269 // WARNING // BO-19U:VA-CCG-BG:Pressure-Mon = 1.1e-08 // Limit: L=1e-8 // Rule: pv > L
+2021-10-25 08:49:10.454778 // WARNING // BO-19U:VA-CCG-BG:Pressure-Mon = 1.1e-08 // Limit: L=1e-8 // Rule: pv > L
+2021-10-25 09:11:44.099106 // WARNING // BO-19U:VA-CCG-BG:Pressure-Mon = 1.2e-08 // Limit: L=1e-8 // Rule: pv > L
+2021-10-25 09:29:31.630096 // WARNING // BO-24U:VA-CCG-BG:Pressure-Mon = 1.2e-08 // Limit: L=1e-8 // Rule: pv > L
+2021-10-25 09:30:02.649861 // WARNING // BO-01U:VA-CCG-BG:Pressure-Mon = 1.1e-08 // Limit: L=1e-8 // Rule: pv > L
+2021-10-25 09:37:11.865584 // WARNING // SI-02SB:VA-CCG-CAV:Pressure-Mon = 1.5e-08 // Limit: L=1e-8 // Rule: pv > L
+2021-10-25 09:37:42.884067 // WARNING // SI-02SB:VA-CCG-CAV:Pressure-Mon = 1.1e-08 // Limit: L=1e-8 // Rule: pv > L
+2021-10-25 09:38:13.908398 // WARNING // 1) SI-02SB:VA-CCG-BG:Pressure-Mon = 3.1e-08 // Limit: L=1e-8 // Rule: pv > L // 2) ^BO.+VA-CCG.+Pressure-Mon$ = - // Limit: L=1e-7 // Rule: pv > L
+2021-10-26 08:35:30.821141 // WARNING // SI-02SB:VA-CCG-CAV:Pressure-Mon = 3.5e-08 // Limit: L=1e-8 // Rule: pv > L
+2021-10-26 08:36:01.844586 // WARNING // SI-02SB:VA-CCG-CAV:Pressure-Mon = 3.5e-08 // Limit: L=1e-8 // Rule: pv > L
+2021-10-26 08:42:01.020099 // WARNING // 1) SI-02SB:VA-CCG-CAV:Pressure-Mon = 1.4e-08 // Limit: L=1e-8 // Rule: pv > L // 2) ^BO.+VA-CCG.+Pressure-Mon$ = - // Limit: L=1e-7 // Rule: pv > L
+2021-10-26 09:19:23.061075 // WARNING // SI-02SB:VA-CCG-CAV:Pressure-Mon = 1.1e-08 // Limit: L=1e-8 // Rule: pv > L
+2021-10-26 09:19:54.079963 // WARNING // SI-02SB:VA-CCG-CAV:Pressure-Mon = 1.1e-08 // Limit: L=1e-8 // Rule: pv > L
+2021-10-26 11:03:48.093309 // WARNING // BO-01U:VA-CCG-BG:Pressure-Mon = 1.2e-08 // Limit: L=1e-8 // Rule: pv > L
+2021-10-26 11:04:45.129499 // WARNING // BO-01U:VA-CCG-BG:Pressure-Mon = 1.8e-08 // Limit: L=1e-8 // Rule: pv > L
+2021-10-26 11:06:16.182912 // WARNING // SI-02SB:VA-CCG-CAV:Pressure-Mon = 2.7e-08 // Limit: L=1e-8 // Rule: pv > L
+2021-10-26 11:06:47.204910 // WARNING // SI-02SB:VA-CCG-CAV:Pressure-Mon = 2.5e-08 // Limit: L=1e-8 // Rule: pv > L
+2021-10-26 11:06:56.555940 // Modem error: AT
+2021-10-26 12:11:35.386122 // WARNING // BO-01U:VA-CCG-BG:Pressure-Mon = 1.3e-08 // Limit: L=1e-8 // Rule: pv > L
+2021-10-26 12:12:06.413201 // WARNING // BO-19U:VA-CCG-BG:Pressure-Mon = 1.3e-08 // Limit: L=1e-8 // Rule: pv > L
+2021-10-26 12:33:26.029952 // WARNING // BO-09U:VA-CCG-BG:Pressure-Mon = 1.3e-08 // Limit: L=1e-8 // Rule: pv > L
+2021-10-26 12:33:57.046735 // WARNING // BO-09U:VA-CCG-BG:Pressure-Mon = 1.3e-08 // Limit: L=1e-8 // Rule: pv > L
+2021-10-26 12:45:48.372893 // WARNING // BO-01U:VA-CCG-BG:Pressure-Mon = 1.1e-08 // Limit: L=1e-8 // Rule: pv > L
+2021-10-26 12:46:19.392406 // WARNING // BO-01U:VA-CCG-BG:Pressure-Mon = 1.4e-08 // Limit: L=1e-8 // Rule: pv > L
+2021-10-26 20:30:07.695590 // WARNING // BO-01U:VA-CCG-BG:Pressure-Mon = 1.8e-08 // Limit: L=1e-8 // Rule: pv > L
+2021-10-26 20:30:38.715259 // WARNING // BO-01U:VA-CCG-BG:Pressure-Mon = 1.5e-08 // Limit: L=1e-8 // Rule: pv > L
+2021-10-26 20:33:33.798162 // WARNING // SI-02SB:VA-CCG-CAV:Pressure-Mon = 5.8e-08 // Limit: L=1e-8 // Rule: pv > L
+2021-10-26 20:34:04.815452 // WARNING // SI-02SB:VA-CCG-CAV:Pressure-Mon = 5.5e-08 // Limit: L=1e-8 // Rule: pv > L
+2021-10-26 20:34:35.833010 // WARNING // 1) SI-02SB:VA-CCG-CAV:Pressure-Mon = 5.1e-08 // Limit: L=1e-8 // Rule: pv > L // 2) ^BO.+VA-CCG.+Pressure-Mon$ = - // Limit: L=1e-7 // Rule: pv > L
+2021-10-27 07:49:22.076431 // WARNING // BO-19U:VA-CCG-BG:Pressure-Mon = 1.1e-08 // Limit: L=1e-8 // Rule: pv > L
+2021-10-27 07:56:35.287284 // WARNING // BO-09U:VA-CCG-BG:Pressure-Mon = 2.6e-08 // Limit: L=1e-8 // Rule: pv > L
+2021-10-27 07:59:28.391330 // WARNING // BO-01U:VA-CCG-BG:Pressure-Mon = 3.1e-08 // Limit: L=1e-8 // Rule: pv > L
+2021-10-27 08:08:57.661886 // WARNING // BO-01U:VA-CCG-BG:Pressure-Mon = 1.1e-08 // Limit: L=1e-8 // Rule: pv > L
+2021-10-27 08:09:32.691512 // WARNING // BO-01U:VA-CCG-BG:Pressure-Mon = 1.2e-08 // Limit: L=1e-8 // Rule: pv > L
+2021-10-27 08:12:57.793904 // WARNING // 1) SI-Glob:AP-SOFB:LoopState-Sel = 0 // Limit: L=1 // Rule: pv != L // 2) AS-Glob:AP-MachShift:Mode-Sts = 0 // Limit: L=0 // Rule: pv == L
+2021-10-27 08:13:28.821300 // WARNING // 1) SI-Glob:AP-SOFB:LoopState-Sts = 0 // Limit: L=0 // Rule: pv == L // 2) AS-Glob:AP-MachShift:Mode-Sts = 0 // Limit: L=0 // Rule: pv == L
+2021-10-27 08:13:59.853241 // WARNING // 1) SI-Glob:AP-SOFB:LoopState-Sel = 0 // Limit: L=0 // Rule: pv == L // 2) AS-Glob:AP-MachShift:Mode-Sts = 0 // Limit: L=0 // Rule: pv == L
+2021-10-27 08:25:15.186758 // WARNING // SI-02SB:VA-CCG-CAV:Pressure-Mon = 1.1e-08 // Limit: L=1e-8 // Rule: pv > L
+2021-10-27 08:26:02.218375 // WARNING // SI-02SB:VA-CCG-CAV:Pressure-Mon = 1.2e-08 // Limit: L=1e-8 // Rule: pv > L
+2021-10-27 08:26:33.244271 // WARNING // 1) SI-02SB:VA-CCG-CAV:Pressure-Mon = 1.2e-08 // Limit: L=1e-8 // Rule: pv > L // 2) ^BO.+VA-CCG.+Pressure-Mon$ = - // Limit: L=1e-7 // Rule: pv > L
+2021-10-27 08:46:52.844870 // WARNING // SI-02SB:VA-CCG-CAV:Pressure-Mon = 1.2e-08 // Limit: L=1e-8 // Rule: pv > L
+2021-10-27 08:47:23.864094 // WARNING // SI-02SB:VA-CCG-CAV:Pressure-Mon = 1.2e-08 // Limit: L=1e-8 // Rule: pv > L
+2021-10-27 20:02:32.517754 // WARNING // SI-02SB:VA-CCG-CAV:Pressure-Mon = 1.2e-08 // Limit: L=1e-8 // Rule: pv > L
+2021-10-27 20:03:19.544407 // WARNING // 1) SI-02SB:VA-CCG-CAV:Pressure-Mon = 1.1e-08 // Limit: L=1e-8 // Rule: pv > L // 2) ^BO.+VA-CCG.+Pressure-Mon$ = - // Limit: L=1e-7 // Rule: pv > L
+2021-10-27 20:03:50.561833 // WARNING // SI-02SB:VA-CCG-CAV:Pressure-Mon = 1.1e-08 // Limit: L=1e-8 // Rule: pv > L
+2021-10-27 21:56:26.843151 // WARNING // BO-01U:VA-CCG-BG:Pressure-Mon = 2.6e-08 // Limit: L=1e-8 // Rule: pv > L
+2021-10-27 21:56:57.863693 // WARNING // BO-01U:VA-CCG-BG:Pressure-Mon = 2.6e-08 // Limit: L=1e-8 // Rule: pv > L
+2021-10-27 21:58:00.896475 // WARNING // SI-02SB:VA-CCG-CAV:Pressure-Mon = 2.9e-08 // Limit: L=1e-8 // Rule: pv > L
+2021-10-27 21:58:31.916405 // WARNING // SI-02SB:VA-CCG-CAV:Pressure-Mon = 2.6e-08 // Limit: L=1e-8 // Rule: pv > L
+2021-10-27 21:59:02.937147 // WARNING // 1) SI-02SB:VA-CCG-CAV:Pressure-Mon = 2.1e-08 // Limit: L=1e-8 // Rule: pv > L // 2) ^BO.+VA-CCG.+Pressure-Mon$ = - // Limit: L=1e-7 // Rule: pv > L
+2021-10-28 08:03:05.200486 // WARNING // BO-01U:VA-CCG-BG:Pressure-Mon = 1.5e-08 // Limit: L=1e-8 // Rule: pv > L
+2021-10-28 08:03:36.216475 // WARNING // BO-01U:VA-CCG-BG:Pressure-Mon = 2.9e-08 // Limit: L=1e-8 // Rule: pv > L
+2021-10-28 08:05:23.277954 // WARNING // SI-02SB:VA-CCG-CAV:Pressure-Mon = 2.1e-08 // Limit: L=1e-8 // Rule: pv > L
+2021-10-28 08:05:54.296161 // WARNING // SI-02SB:VA-CCG-CAV:Pressure-Mon = 2.8e-08 // Limit: L=1e-8 // Rule: pv > L
+2021-10-28 08:06:25.318090 // WARNING // 1) SI-02SB:VA-CCG-CAV:Pressure-Mon = 2.8e-08 // Limit: L=1e-8 // Rule: pv > L // 2) ^BO.+VA-CCG.+Pressure-Mon$ = - // Limit: L=1e-7 // Rule: pv > L
+2021-10-28 10:00:09.609315 // WARNING // SI-13C4:DI-DCCT:Current-Mon = 65.697301881 // Limit: L=70 // Rule: pv < L
+2021-10-28 10:20:11.190696 // WARNING // SI-13C4:DI-DCCT:Current-Mon = 64.977348386 // Limit: L=70 // Rule: pv < L
+2021-10-28 10:40:12.801509 // WARNING // SI-13C4:DI-DCCT:Current-Mon = 64.270320571 // Limit: L=70 // Rule: pv < L
+2021-10-28 11:00:14.401321 // WARNING // SI-13C4:DI-DCCT:Current-Mon = 63.585986397 // Limit: L=70 // Rule: pv < L
+2021-10-28 11:20:15.990495 // WARNING // SI-13C4:DI-DCCT:Current-Mon = 62.911635623 // Limit: L=70 // Rule: pv < L
+2021-10-28 11:40:19.577916 // WARNING // SI-13C4:DI-DCCT:Current-Mon = 62.251675413 // Limit: L=70 // Rule: pv < L
+2021-10-28 12:00:21.196176 // WARNING // SI-13C4:DI-DCCT:Current-Mon = 61.606082814 // Limit: L=70 // Rule: pv < L
+2021-10-28 12:20:22.821390 // WARNING // SI-13C4:DI-DCCT:Current-Mon = 60.974782704 // Limit: L=70 // Rule: pv < L
+2021-10-28 12:40:24.456918 // WARNING // SI-13C4:DI-DCCT:Current-Mon = 60.351220682 // Limit: L=70 // Rule: pv < L
+2021-10-28 13:00:28.040021 // WARNING // SI-13C4:DI-DCCT:Current-Mon = 59.738930093 // Limit: L=70 // Rule: pv < L
+2021-10-28 20:47:32.007948 // WARNING // BO-01U:VA-CCG-BG:Pressure-Mon = 3.2e-08 // Limit: L=1e-8 // Rule: pv > L
+2021-10-28 20:48:03.027011 // WARNING // BO-01U:VA-CCG-BG:Pressure-Mon = 3.5e-08 // Limit: L=1e-8 // Rule: pv > L
+2021-10-28 20:52:48.158232 // WARNING // SI-02SB:VA-CCG-CAV:Pressure-Mon = 2.8e-08 // Limit: L=1e-8 // Rule: pv > L
+2021-10-28 20:53:19.177178 // WARNING // SI-02SB:VA-CCG-CAV:Pressure-Mon = 3.2e-08 // Limit: L=1e-8 // Rule: pv > L
+2021-10-28 20:53:50.197987 // WARNING // 1) SI-02SB:VA-CCG-CAV:Pressure-Mon = 4.8e-08 // Limit: L=1e-8 // Rule: pv > L // 2) ^BO.+VA-CCG.+Pressure-Mon$ = - // Limit: L=1e-7 // Rule: pv > L
+2021-10-29 08:03:00.030601 // WARNING // BO-01U:VA-CCG-BG:Pressure-Mon = 1.2e-08 // Limit: L=1e-8 // Rule: pv > L
+2021-10-29 08:03:31.055555 // WARNING // BO-01U:VA-CCG-BG:Pressure-Mon = 1.9e-08 // Limit: L=1e-8 // Rule: pv > L
+2021-10-29 08:04:56.111208 // WARNING // SI-02SB:VA-CCG-BG:Pressure-Mon = 1.1e-08 // Limit: L=1e-8 // Rule: pv > L
+2021-10-29 08:05:27.138172 // WARNING // SI-02SB:VA-CCG-BG:Pressure-Mon = 1.1e-08 // Limit: L=1e-8 // Rule: pv > L
+2021-10-29 08:05:58.160966 // WARNING // 1) SI-02SB:VA-CCG-CAV:Pressure-Mon = 3.9e-08 // Limit: L=1e-8 // Rule: pv > L // 2) ^BO.+VA-CCG.+Pressure-Mon$ = - // Limit: L=1e-7 // Rule: pv > L
+2021-10-29 20:11:14.038440 // WARNING // BO-01U:VA-CCG-BG:Pressure-Mon = 1.1e-08 // Limit: L=1e-8 // Rule: pv > L
+2021-10-29 20:11:45.057360 // WARNING // BO-01U:VA-CCG-BG:Pressure-Mon = 2.1e-08 // Limit: L=1e-8 // Rule: pv > L
+2021-10-29 20:14:12.128805 // WARNING // SI-02SB:VA-CCG-BG:Pressure-Mon = 1.2e-08 // Limit: L=1e-8 // Rule: pv > L
+2021-10-29 20:14:43.150535 // WARNING // SI-02SB:VA-CCG-BG:Pressure-Mon = 1.2e-08 // Limit: L=1e-8 // Rule: pv > L
+2021-10-29 20:15:14.169119 // WARNING // 1) SI-02SB:VA-CCG-BG:Pressure-Mon = 1.2e-08 // Limit: L=1e-8 // Rule: pv > L // 2) ^BO.+VA-CCG.+Pressure-Mon$ = - // Limit: L=1e-7 // Rule: pv > L
+2021-10-30 08:12:41.634319 // WARNING // BO-01U:VA-CCG-BG:Pressure-Mon = 1.3e-08 // Limit: L=1e-8 // Rule: pv > L
+2021-10-30 08:13:12.656957 // WARNING // BO-01U:VA-CCG-BG:Pressure-Mon = 1.4e-08 // Limit: L=1e-8 // Rule: pv > L
+2021-10-30 08:14:15.689478 // WARNING // SI-02SB:VA-CCG-CAV:Pressure-Mon = 1.1e-08 // Limit: L=1e-8 // Rule: pv > L
+2021-10-30 08:14:46.708605 // WARNING // SI-02SB:VA-CCG-CAV:Pressure-Mon = 2.1e-08 // Limit: L=1e-8 // Rule: pv > L
+2021-10-30 08:15:17.729476 // WARNING // 1) SI-02SB:VA-CCG-CAV:Pressure-Mon = 1.6e-08 // Limit: L=1e-8 // Rule: pv > L // 2) ^BO.+VA-CCG.+Pressure-Mon$ = - // Limit: L=1e-7 // Rule: pv > L
+2021-10-30 20:04:09.058983 // WARNING // BO-01U:VA-CCG-BG:Pressure-Mon = 3.8e-08 // Limit: L=1e-8 // Rule: pv > L
+2021-10-30 20:04:40.080582 // WARNING // BO-01U:VA-CCG-BG:Pressure-Mon = 2.4e-08 // Limit: L=1e-8 // Rule: pv > L
+2021-10-30 20:05:31.117164 // WARNING // SI-02SB:VA-CCG-CAV:Pressure-Mon = 2.2e-08 // Limit: L=1e-8 // Rule: pv > L
+2021-10-30 20:06:02.146042 // WARNING // SI-02SB:VA-CCG-CAV:Pressure-Mon = 2e-08 // Limit: L=1e-8 // Rule: pv > L
+2021-10-30 20:06:33.174161 // WARNING // 1) SI-02SB:VA-CCG-CAV:Pressure-Mon = 1.4e-08 // Limit: L=1e-8 // Rule: pv > L // 2) ^BO.+VA-CCG.+Pressure-Mon$ = - // Limit: L=1e-7 // Rule: pv > L
+2021-10-30 20:16:04.460224 // WARNING // SI-02SB:VA-CCG-CAV:Pressure-Mon = 1.4e-08 // Limit: L=1e-8 // Rule: pv > L
+2021-10-30 20:16:35.483211 // WARNING // SI-02SB:VA-CCG-CAV:Pressure-Mon = 3.5e-08 // Limit: L=1e-8 // Rule: pv > L
+2021-10-31 07:04:58.892514 // WARNING // BO-01U:VA-CCG-BG:Pressure-Mon = 1.3e-08 // Limit: L=1e-8 // Rule: pv > L
+2021-10-31 07:05:29.914504 // WARNING // BO-01U:VA-CCG-BG:Pressure-Mon = 1.1e-08 // Limit: L=1e-8 // Rule: pv > L
+2021-10-31 07:07:20.982245 // WARNING // SI-02SB:VA-CCG-CAV:Pressure-Mon = 1.5e-08 // Limit: L=1e-8 // Rule: pv > L
+2021-10-31 07:07:52.003030 // WARNING // SI-02SB:VA-CCG-CAV:Pressure-Mon = 2.8e-08 // Limit: L=1e-8 // Rule: pv > L
+2021-10-31 07:08:23.020456 // WARNING // 1) SI-02SB:VA-CCG-CAV:Pressure-Mon = 5.9e-08 // Limit: L=1e-8 // Rule: pv > L // 2) ^BO.+VA-CCG.+Pressure-Mon$ = - // Limit: L=1e-7 // Rule: pv > L
+2021-10-31 07:24:20.442586 // WARNING // SI-02SB:VA-CCG-CAV:Pressure-Mon = 1.1e-08 // Limit: L=1e-8 // Rule: pv > L
+2021-10-31 07:24:51.463682 // WARNING // SI-02SB:VA-CCG-CAV:Pressure-Mon = 1.1e-08 // Limit: L=1e-8 // Rule: pv > L
+2021-10-31 17:06:27.302113 // WARNING // 1) SI-Glob:AP-SOFB:LoopState-Sel = 0 // Limit: L=1 // Rule: pv != L // 2) AS-Glob:AP-MachShift:Mode-Sts = 0 // Limit: L=0 // Rule: pv == L
+2021-10-31 17:06:58.326313 // WARNING // 1) SI-Glob:AP-SOFB:LoopState-Sts = 0 // Limit: L=0 // Rule: pv == L // 2) AS-Glob:AP-MachShift:Mode-Sts = 0 // Limit: L=0 // Rule: pv == L
+2021-10-31 17:07:29.360233 // WARNING // 1) SI-Glob:AP-SOFB:LoopState-Sel = 0 // Limit: L=0 // Rule: pv == L // 2) AS-Glob:AP-MachShift:Mode-Sts = 0 // Limit: L=0 // Rule: pv == L
+2021-10-31 17:16:32.656754 // WARNING // 1) SI-Glob:AP-SOFB:LoopState-Sel = 0 // Limit: L=1 // Rule: pv != L // 2) AS-Glob:AP-MachShift:Mode-Sts = 0 // Limit: L=0 // Rule: pv == L
+2021-10-31 17:17:03.681522 // WARNING // 1) SI-Glob:AP-SOFB:LoopState-Sts = 0 // Limit: L=0 // Rule: pv == L // 2) AS-Glob:AP-MachShift:Mode-Sts = 0 // Limit: L=0 // Rule: pv == L
+2021-10-31 17:17:34.708959 // WARNING // 1) SI-Glob:AP-SOFB:LoopState-Sel = 0 // Limit: L=0 // Rule: pv == L // 2) AS-Glob:AP-MachShift:Mode-Sts = 0 // Limit: L=0 // Rule: pv == L
+2021-10-31 17:26:37.990567 // WARNING // 1) SI-Glob:AP-SOFB:LoopState-Sel = 0 // Limit: L=1 // Rule: pv != L // 2) AS-Glob:AP-MachShift:Mode-Sts = 0 // Limit: L=0 // Rule: pv == L
+2021-10-31 17:27:09.016288 // WARNING // 1) SI-Glob:AP-SOFB:LoopState-Sts = 0 // Limit: L=0 // Rule: pv == L // 2) AS-Glob:AP-MachShift:Mode-Sts = 0 // Limit: L=0 // Rule: pv == L
+2021-10-31 17:27:40.052786 // WARNING // 1) SI-Glob:AP-SOFB:LoopState-Sel = 0 // Limit: L=0 // Rule: pv == L // 2) AS-Glob:AP-MachShift:Mode-Sts = 0 // Limit: L=0 // Rule: pv == L
+2021-10-31 17:36:43.322512 // WARNING // 1) SI-Glob:AP-SOFB:LoopState-Sel = 0 // Limit: L=1 // Rule: pv != L // 2) AS-Glob:AP-MachShift:Mode-Sts = 0 // Limit: L=0 // Rule: pv == L
+2021-10-31 17:37:14.357321 // WARNING // 1) SI-Glob:AP-SOFB:LoopState-Sts = 0 // Limit: L=0 // Rule: pv == L // 2) AS-Glob:AP-MachShift:Mode-Sts = 0 // Limit: L=0 // Rule: pv == L
+2021-10-31 17:37:45.381295 // WARNING // 1) SI-Glob:AP-SOFB:LoopState-Sel = 0 // Limit: L=0 // Rule: pv == L // 2) AS-Glob:AP-MachShift:Mode-Sts = 0 // Limit: L=0 // Rule: pv == L
+2021-10-31 17:46:48.660489 // WARNING // 1) SI-Glob:AP-SOFB:LoopState-Sel = 0 // Limit: L=1 // Rule: pv != L // 2) AS-Glob:AP-MachShift:Mode-Sts = 0 // Limit: L=0 // Rule: pv == L
+2021-10-31 17:47:19.685332 // WARNING // 1) SI-Glob:AP-SOFB:LoopState-Sts = 0 // Limit: L=0 // Rule: pv == L // 2) AS-Glob:AP-MachShift:Mode-Sts = 0 // Limit: L=0 // Rule: pv == L
+2021-10-31 17:47:50.706844 // WARNING // 1) SI-Glob:AP-SOFB:LoopState-Sel = 0 // Limit: L=0 // Rule: pv == L // 2) AS-Glob:AP-MachShift:Mode-Sts = 0 // Limit: L=0 // Rule: pv == L
+2021-10-31 17:56:57.988438 // WARNING // 1) SI-Glob:AP-SOFB:LoopState-Sel = 0 // Limit: L=1 // Rule: pv != L // 2) AS-Glob:AP-MachShift:Mode-Sts = 0 // Limit: L=0 // Rule: pv == L
+2021-10-31 17:57:29.010193 // WARNING // 1) SI-Glob:AP-SOFB:LoopState-Sts = 0 // Limit: L=0 // Rule: pv == L // 2) AS-Glob:AP-MachShift:Mode-Sts = 0 // Limit: L=0 // Rule: pv == L
+2021-10-31 17:58:00.032668 // WARNING // 1) SI-Glob:AP-SOFB:LoopState-Sel = 0 // Limit: L=0 // Rule: pv == L // 2) AS-Glob:AP-MachShift:Mode-Sts = 0 // Limit: L=0 // Rule: pv == L
+2021-10-31 18:07:05.326764 // WARNING // 1) SI-Glob:AP-SOFB:LoopState-Sel = 0 // Limit: L=1 // Rule: pv != L // 2) AS-Glob:AP-MachShift:Mode-Sts = 0 // Limit: L=0 // Rule: pv == L
+2021-10-31 18:07:36.351376 // WARNING // 1) SI-Glob:AP-SOFB:LoopState-Sts = 0 // Limit: L=0 // Rule: pv == L // 2) AS-Glob:AP-MachShift:Mode-Sts = 0 // Limit: L=0 // Rule: pv == L
+2021-10-31 18:08:07.375247 // WARNING // 1) SI-Glob:AP-SOFB:LoopState-Sel = 0 // Limit: L=0 // Rule: pv == L // 2) AS-Glob:AP-MachShift:Mode-Sts = 0 // Limit: L=0 // Rule: pv == L
+2021-11-01 08:01:20.679216 // WARNING // 1) SI-Glob:AP-SOFB:LoopState-Sel = 0 // Limit: L=1 // Rule: pv != L // 2) AS-Glob:AP-MachShift:Mode-Sts = 0 // Limit: L=0 // Rule: pv == L
+2021-11-01 08:01:51.699938 // WARNING // 1) SI-Glob:AP-SOFB:LoopState-Sts = 0 // Limit: L=0 // Rule: pv == L // 2) AS-Glob:AP-MachShift:Mode-Sts = 0 // Limit: L=0 // Rule: pv == L
+2021-11-01 08:02:22.720871 // WARNING // 1) SI-Glob:AP-SOFB:LoopState-Sel = 0 // Limit: L=0 // Rule: pv == L // 2) AS-Glob:AP-MachShift:Mode-Sts = 0 // Limit: L=0 // Rule: pv == L
+2021-11-01 09:32:20.241502 // WARNING // BO-19U:VA-CCG-BG:Pressure-Mon = 1.1e-08 // Limit: L=1e-8 // Rule: pv > L
+2021-11-01 09:33:09.264798 // WARNING // BO-19U:VA-CCG-BG:Pressure-Mon = 1.2e-08 // Limit: L=1e-8 // Rule: pv > L
+2021-11-01 11:42:01.979347 // WARNING // BO-01U:VA-CCG-BG:Pressure-Mon = 1.7e-08 // Limit: L=1e-8 // Rule: pv > L
+2021-11-01 11:42:32.997168 // WARNING // BO-01U:VA-CCG-BG:Pressure-Mon = 1.3e-08 // Limit: L=1e-8 // Rule: pv > L
+2021-11-01 11:44:00.041084 // WARNING // SI-02SB:VA-CCG-CAV:Pressure-Mon = 2.6e-08 // Limit: L=1e-8 // Rule: pv > L
+2021-11-01 11:44:31.057744 // WARNING // SI-02SB:VA-CCG-CAV:Pressure-Mon = 2.6e-08 // Limit: L=1e-8 // Rule: pv > L
+2021-11-01 11:45:02.076911 // WARNING // 1) SI-02SB:VA-CCG-CAV:Pressure-Mon = 2.3e-08 // Limit: L=1e-8 // Rule: pv > L // 2) ^BO.+VA-CCG.+Pressure-Mon$ = - // Limit: L=1e-7 // Rule: pv > L
+2021-11-02 08:21:19.265467 // WARNING // TB-04:PU-InjSept:Pulse-Sel = 1 // Limit: L=1 // Rule: pv == L
+2021-11-02 10:03:21.072393 // WARNING // BO-01U:VA-CCG-BG:Pressure-Mon = 1.2e-08 // Limit: L=1e-8 // Rule: pv > L
+2021-11-02 10:03:52.101751 // WARNING // BO-01U:VA-CCG-BG:Pressure-Mon = 1.1e-08 // Limit: L=1e-8 // Rule: pv > L
+2021-11-02 10:50:28.412225 // WARNING // BO-34U:VA-CCG-BG:Pressure-Mon = 1.6e-08 // Limit: L=1e-8 // Rule: pv > L
+2021-11-02 10:50:59.432380 // WARNING // BO-34U:VA-CCG-BG:Pressure-Mon = 1.6e-08 // Limit: L=1e-8 // Rule: pv > L
+2021-11-02 11:08:34.924682 // WARNING // BO-01U:VA-CCG-BG:Pressure-Mon = 1.1e-08 // Limit: L=1e-8 // Rule: pv > L
+2021-11-02 11:09:05.949486 // WARNING // BO-01U:VA-CCG-BG:Pressure-Mon = 1.3e-08 // Limit: L=1e-8 // Rule: pv > L
+2021-11-02 11:29:19.527282 // WARNING // BO-01U:VA-CCG-BG:Pressure-Mon = 1.3e-08 // Limit: L=1e-8 // Rule: pv > L
+2021-11-02 11:29:50.548998 // WARNING // BO-01U:VA-CCG-BG:Pressure-Mon = 1.1e-08 // Limit: L=1e-8 // Rule: pv > L
+2021-11-02 11:47:00.041309 // WARNING // BO-19U:VA-CCG-BG:Pressure-Mon = 1.3e-08 // Limit: L=1e-8 // Rule: pv > L
+2021-11-02 12:08:53.651104 // WARNING // BO-19U:VA-CCG-BG:Pressure-Mon = 1.4e-08 // Limit: L=1e-8 // Rule: pv > L
+2021-11-02 12:09:24.675089 // WARNING // BO-14U:VA-CCG-BG:Pressure-Mon = 1.1e-08 // Limit: L=1e-8 // Rule: pv > L
+2021-11-02 12:15:21.847451 // WARNING // 1) RAD:Thermo9:TotalDoseRate:Dose = 1.0002435722444476 // Limit: L=1 // Rule: pv > L // 2) RAD:ELSE:TotalDoseRate:Dose$ = - // Limit: L=1 // Rule: pv > L
+2021-11-02 12:25:25.128362 // WARNING // 1) RAD:Thermo9:TotalDoseRate:Dose = 1.040594207020836 // Limit: L=1 // Rule: pv > L // 2) RAD:ELSE:TotalDoseRate:Dose$ = - // Limit: L=1 // Rule: pv > L
+2021-11-02 12:34:20.384218 // WARNING // BO-01U:VA-CCG-BG:Pressure-Mon = 1.1e-08 // Limit: L=1e-8 // Rule: pv > L
+2021-11-02 12:34:51.403913 // WARNING // BO-01U:VA-CCG-BG:Pressure-Mon = 1.4e-08 // Limit: L=1e-8 // Rule: pv > L
+2021-11-02 12:35:34.426802 // WARNING // 1) RAD:Thermo15:TotalDoseRate:Dose = 1.0053182699168255 // Limit: L=1 // Rule: pv > L // 2) RAD:ELSE:TotalDoseRate:Dose$ = - // Limit: L=1 // Rule: pv > L
+2021-11-02 12:45:37.690851 // WARNING // 1) RAD:Thermo15:TotalDoseRate:Dose = 1.0058863126209905 // Limit: L=1 // Rule: pv > L // 2) RAD:ELSE:TotalDoseRate:Dose$ = - // Limit: L=1 // Rule: pv > L
+2021-11-02 12:55:44.997503 // WARNING // 1) RAD:Thermo15:TotalDoseRate:Dose = 1.0069542739973798 // Limit: L=1 // Rule: pv > L // 2) RAD:ELSE:TotalDoseRate:Dose$ = - // Limit: L=1 // Rule: pv > L
+2021-11-02 13:05:48.288620 // WARNING // 1) RAD:Thermo15:TotalDoseRate:Dose = 1.0066709206057152 // Limit: L=1 // Rule: pv > L // 2) RAD:ELSE:TotalDoseRate:Dose$ = - // Limit: L=1 // Rule: pv > L
+2021-11-02 13:10:49.441199 // WARNING // BO-01U:VA-CCG-BG:Pressure-Mon = 1.3e-08 // Limit: L=1e-8 // Rule: pv > L
+2021-11-02 13:11:20.463591 // WARNING // BO-01U:VA-CCG-BG:Pressure-Mon = 1.3e-08 // Limit: L=1e-8 // Rule: pv > L
+2021-11-02 13:15:55.596796 // WARNING // 1) RAD:Thermo15:TotalDoseRate:Dose = 1.0131989971932194 // Limit: L=1 // Rule: pv > L // 2) RAD:ELSE:TotalDoseRate:Dose$ = - // Limit: L=1 // Rule: pv > L
+2021-11-02 13:25:58.871173 // WARNING // 1) RAD:Thermo15:TotalDoseRate:Dose = 1.012620656566831 // Limit: L=1 // Rule: pv > L // 2) RAD:ELSE:TotalDoseRate:Dose$ = - // Limit: L=1 // Rule: pv > L
+2021-11-02 13:36:04.171127 // WARNING // 1) RAD:Thermo15:TotalDoseRate:Dose = 1.0142953721293315 // Limit: L=1 // Rule: pv > L // 2) RAD:ELSE:TotalDoseRate:Dose$ = - // Limit: L=1 // Rule: pv > L
+2021-11-02 13:46:07.466834 // WARNING // 1) RAD:Thermo15:TotalDoseRate:Dose = 1.0158214676543316 // Limit: L=1 // Rule: pv > L // 2) RAD:ELSE:TotalDoseRate:Dose$ = - // Limit: L=1 // Rule: pv > L
+2021-11-02 13:56:07.779515 // Modem error: ATZ
+2021-11-02 14:06:19.098486 // WARNING // 1) RAD:Thermo15:TotalDoseRate:Dose = 1.0138966818834922 // Limit: L=1 // Rule: pv > L // 2) RAD:ELSE:TotalDoseRate:Dose$ = - // Limit: L=1 // Rule: pv > L
+2021-11-02 14:16:24.414475 // WARNING // 1) RAD:Thermo15:TotalDoseRate:Dose = 1.0141259519307155 // Limit: L=1 // Rule: pv > L // 2) RAD:ELSE:TotalDoseRate:Dose$ = - // Limit: L=1 // Rule: pv > L
+2021-11-02 14:26:29.722731 // WARNING // 1) RAD:Thermo15:TotalDoseRate:Dose = 1.0135852590098824 // Limit: L=1 // Rule: pv > L // 2) RAD:ELSE:TotalDoseRate:Dose$ = - // Limit: L=1 // Rule: pv > L
+2021-11-02 14:36:35.021580 // WARNING // 1) RAD:Thermo9:TotalDoseRate:Dose = 1.0519340031166637 // Limit: L=1 // Rule: pv > L // 2) RAD:ELSE:TotalDoseRate:Dose$ = - // Limit: L=1 // Rule: pv > L
+2021-11-02 14:46:40.307504 // WARNING // 1) RAD:Thermo9:TotalDoseRate:Dose = 1.0506292737319414 // Limit: L=1 // Rule: pv > L // 2) RAD:ELSE:TotalDoseRate:Dose$ = - // Limit: L=1 // Rule: pv > L
+2021-11-02 16:09:07.638159 // WARNING // SI-02SB:VA-CCG-BG:Pressure-Mon = 1.3e-08 // Limit: L=1e-8 // Rule: pv > L
+2021-11-02 16:09:38.664415 // WARNING // SI-02SB:VA-CCG-CAV:Pressure-Mon = 2.8e-08 // Limit: L=1e-8 // Rule: pv > L
+2021-11-02 16:09:44.677959 // Modem error: ATZ
+2021-11-02 16:21:46.018407 // WARNING // BO-01U:VA-CCG-BG:Pressure-Mon = 1.6e-08 // Limit: L=1e-8 // Rule: pv > L
+2021-11-02 16:22:21.042606 // WARNING // BO-01U:VA-CCG-BG:Pressure-Mon = 2.3e-08 // Limit: L=1e-8 // Rule: pv > L
+2021-11-02 16:32:14.345174 // WARNING // BO-01U:VA-CCG-BG:Pressure-Mon = 2.4e-08 // Limit: L=1e-8 // Rule: pv > L
+2021-11-02 16:32:45.374310 // WARNING // BO-01U:VA-CCG-BG:Pressure-Mon = 3e-08 // Limit: L=1e-8 // Rule: pv > L
+2021-11-02 18:22:25.539769 // WARNING // BO-01U:VA-CCG-BG:Pressure-Mon = 1.4e-08 // Limit: L=1e-8 // Rule: pv > L
+2021-11-02 18:22:56.565337 // WARNING // BO-01U:VA-CCG-BG:Pressure-Mon = 1.4e-08 // Limit: L=1e-8 // Rule: pv > L
+2021-11-02 18:33:53.874040 // WARNING // 1) RAD:Thermo9:TotalDoseRate:Dose = 1.0005793133444412 // Limit: L=1 // Rule: pv > L // 2) RAD:ELSE:TotalDoseRate:Dose$ = - // Limit: L=1 // Rule: pv > L
+2021-11-02 18:39:07.036398 // WARNING // BO-19U:VA-CCG-BG:Pressure-Mon = 1.1e-08 // Limit: L=1e-8 // Rule: pv > L
+2021-11-02 18:39:38.061480 // WARNING // BO-09U:VA-CCG-BG:Pressure-Mon = 1.1e-08 // Limit: L=1e-8 // Rule: pv > L
+2021-11-02 18:44:01.187481 // WARNING // 1) RAD:Thermo9:TotalDoseRate:Dose = 1.079212469781942 // Limit: L=1 // Rule: pv > L // 2) RAD:ELSE:TotalDoseRate:Dose$ = - // Limit: L=1 // Rule: pv > L
+2021-11-02 18:50:06.369766 // WARNING // BO-01U:VA-CCG-BG:Pressure-Mon = 1.1e-08 // Limit: L=1e-8 // Rule: pv > L
+2021-11-02 18:50:37.385252 // WARNING // BO-01U:VA-CCG-BG:Pressure-Mon = 1.1e-08 // Limit: L=1e-8 // Rule: pv > L
+2021-11-02 18:54:02.481062 // WARNING // 1) RAD:Thermo9:TotalDoseRate:Dose = 1.1065302615749986 // Limit: L=1 // Rule: pv > L // 2) RAD:ELSE:TotalDoseRate:Dose$ = - // Limit: L=1 // Rule: pv > L
+2021-11-02 19:04:07.773784 // WARNING // 1) RAD:Thermo9:TotalDoseRate:Dose = 1.109843630206942 // Limit: L=1 // Rule: pv > L // 2) RAD:ELSE:TotalDoseRate:Dose$ = - // Limit: L=1 // Rule: pv > L
+2021-11-02 19:14:15.057038 // WARNING // 1) RAD:Thermo9:TotalDoseRate:Dose = 1.1997696440222176 // Limit: L=1 // Rule: pv > L // 2) RAD:ELSE:TotalDoseRate:Dose$ = - // Limit: L=1 // Rule: pv > L
+2021-11-02 19:17:10.151953 // WARNING // BO-09U:VA-CCG-BG:Pressure-Mon = 1.2e-08 // Limit: L=1e-8 // Rule: pv > L
+2021-11-02 19:18:07.181038 // WARNING // BO-09U:VA-CCG-BG:Pressure-Mon = 1.6e-08 // Limit: L=1e-8 // Rule: pv > L
+2021-11-02 19:24:26.366640 // WARNING // 1) RAD:Thermo9:TotalDoseRate:Dose = 1.2034183567888828 // Limit: L=1 // Rule: pv > L // 2) RAD:ELSE:TotalDoseRate:Dose$ = - // Limit: L=1 // Rule: pv > L
+2021-11-02 19:34:29.655802 // WARNING // 1) RAD:Thermo9:TotalDoseRate:Dose = 1.2039652919611024 // Limit: L=1 // Rule: pv > L // 2) RAD:ELSE:TotalDoseRate:Dose$ = - // Limit: L=1 // Rule: pv > L
+2021-11-02 19:44:34.936306 // WARNING // 1) RAD:Thermo9:TotalDoseRate:Dose = 1.205045515849991 // Limit: L=1 // Rule: pv > L // 2) RAD:ELSE:TotalDoseRate:Dose$ = - // Limit: L=1 // Rule: pv > L
+2021-11-02 19:54:38.221466 // WARNING // 1) RAD:Thermo9:TotalDoseRate:Dose = 1.2064456362999922 // Limit: L=1 // Rule: pv > L // 2) RAD:ELSE:TotalDoseRate:Dose$ = - // Limit: L=1 // Rule: pv > L
+2021-11-02 20:04:47.513346 // WARNING // 1) RAD:Thermo9:TotalDoseRate:Dose = 1.206923963579157 // Limit: L=1 // Rule: pv > L // 2) RAD:ELSE:TotalDoseRate:Dose$ = - // Limit: L=1 // Rule: pv > L
+2021-11-02 20:14:54.785227 // WARNING // 1) RAD:Thermo9:TotalDoseRate:Dose = 1.1402971065097147 // Limit: L=1 // Rule: pv > L // 2) RAD:ELSE:TotalDoseRate:Dose$ = - // Limit: L=1 // Rule: pv > L
+2021-11-02 20:24:58.073443 // WARNING // 1) RAD:Thermo9:TotalDoseRate:Dose = 1.1165084590083263 // Limit: L=1 // Rule: pv > L // 2) RAD:ELSE:TotalDoseRate:Dose$ = - // Limit: L=1 // Rule: pv > L
+2021-11-02 20:35:03.360271 // WARNING // 1) RAD:Thermo9:TotalDoseRate:Dose = 1.1120060765152715 // Limit: L=1 // Rule: pv > L // 2) RAD:ELSE:TotalDoseRate:Dose$ = - // Limit: L=1 // Rule: pv > L
+2021-11-02 20:45:12.642834 // WARNING // 1) RAD:Thermo9:TotalDoseRate:Dose = 1.111800149565272 // Limit: L=1 // Rule: pv > L // 2) RAD:ELSE:TotalDoseRate:Dose$ = - // Limit: L=1 // Rule: pv > L
+2021-11-02 20:55:15.925328 // WARNING // 1) RAD:Thermo9:TotalDoseRate:Dose = 1.1112044386291637 // Limit: L=1 // Rule: pv > L // 2) RAD:ELSE:TotalDoseRate:Dose$ = - // Limit: L=1 // Rule: pv > L
+2021-11-02 21:05:19.218331 // WARNING // 1) RAD:Thermo9:TotalDoseRate:Dose = 1.110157654743052 // Limit: L=1 // Rule: pv > L // 2) RAD:ELSE:TotalDoseRate:Dose$ = - // Limit: L=1 // Rule: pv > L
+2021-11-02 21:15:24.503365 // WARNING // 1) RAD:Thermo9:TotalDoseRate:Dose = 1.1096558808944417 // Limit: L=1 // Rule: pv > L // 2) RAD:ELSE:TotalDoseRate:Dose$ = - // Limit: L=1 // Rule: pv > L
+2021-11-02 21:25:27.802345 // WARNING // 1) RAD:Thermo9:TotalDoseRate:Dose = 1.1107154477138848 // Limit: L=1 // Rule: pv > L // 2) RAD:ELSE:TotalDoseRate:Dose$ = - // Limit: L=1 // Rule: pv > L
+2021-11-02 21:35:33.098870 // WARNING // 1) RAD:Thermo9:TotalDoseRate:Dose = 1.1107564248277748 // Limit: L=1 // Rule: pv > L // 2) RAD:ELSE:TotalDoseRate:Dose$ = - // Limit: L=1 // Rule: pv > L
+2021-11-02 21:45:38.386620 // WARNING // 1) RAD:Thermo9:TotalDoseRate:Dose = 1.1094869282416646 // Limit: L=1 // Rule: pv > L // 2) RAD:ELSE:TotalDoseRate:Dose$ = - // Limit: L=1 // Rule: pv > L
+2021-11-02 21:55:43.692232 // WARNING // 1) RAD:Thermo9:TotalDoseRate:Dose = 1.1074656406611076 // Limit: L=1 // Rule: pv > L // 2) RAD:ELSE:TotalDoseRate:Dose$ = - // Limit: L=1 // Rule: pv > L
+2021-11-02 22:05:48.995053 // WARNING // 1) RAD:Thermo9:TotalDoseRate:Dose = 1.1051540198555518 // Limit: L=1 // Rule: pv > L // 2) RAD:ELSE:TotalDoseRate:Dose$ = - // Limit: L=1 // Rule: pv > L
+2021-11-02 22:15:54.293155 // WARNING // 1) RAD:Thermo9:TotalDoseRate:Dose = 1.0562895404472172 // Limit: L=1 // Rule: pv > L // 2) RAD:ELSE:TotalDoseRate:Dose$ = - // Limit: L=1 // Rule: pv > L
+2021-11-03 02:21:24.194879 // WARNING // BO-01U:VA-CCG-BG:Pressure-Mon = 1.4e-08 // Limit: L=1e-8 // Rule: pv > L
+2021-11-03 02:21:55.213907 // WARNING // BO-01U:VA-CCG-BG:Pressure-Mon = 1.4e-08 // Limit: L=1e-8 // Rule: pv > L
+2021-11-03 02:31:28.476065 // WARNING // BO-19U:VA-CCG-BG:Pressure-Mon = 1.5e-08 // Limit: L=1e-8 // Rule: pv > L
+2021-11-03 02:31:59.492625 // WARNING // BO-19U:VA-CCG-BG:Pressure-Mon = 1.5e-08 // Limit: L=1e-8 // Rule: pv > L
+2021-11-03 02:37:54.663872 // WARNING // SI-02SB:VA-CCG-CAV:Pressure-Mon = 2.9e-08 // Limit: L=1e-8 // Rule: pv > L
+2021-11-03 02:38:25.680413 // WARNING // SI-02SB:VA-CCG-CAV:Pressure-Mon = 2.3e-08 // Limit: L=1e-8 // Rule: pv > L
+2021-11-03 02:38:56.699497 // WARNING // 1) SI-02SB:VA-CCG-CAV:Pressure-Mon = 1.3e-08 // Limit: L=1e-8 // Rule: pv > L // 2) ^BO.+VA-CCG.+Pressure-Mon$ = - // Limit: L=1e-7 // Rule: pv > L
+2021-11-03 07:57:00.663136 // WARNING // BO-01U:VA-CCG-BG:Pressure-Mon = 1.1e-08 // Limit: L=1e-8 // Rule: pv > L
+2021-11-03 07:57:31.681124 // WARNING // BO-09U:VA-CCG-BG:Pressure-Mon = 1.1e-08 // Limit: L=1e-8 // Rule: pv > L
+2021-11-03 07:59:08.725047 // WARNING // SI-02SB:VA-CCG-CAV:Pressure-Mon = 2.4e-08 // Limit: L=1e-8 // Rule: pv > L
+2021-11-03 07:59:39.744244 // WARNING // SI-02SB:VA-CCG-CAV:Pressure-Mon = 2.5e-08 // Limit: L=1e-8 // Rule: pv > L
+2021-11-03 08:00:10.761862 // WARNING // 1) SI-02SB:VA-CCG-CAV:Pressure-Mon = 2.1e-08 // Limit: L=1e-8 // Rule: pv > L // 2) ^BO.+VA-CCG.+Pressure-Mon$ = - // Limit: L=1e-7 // Rule: pv > L
+2021-11-03 20:12:54.669219 // WARNING // BO-09U:VA-CCG-BG:Pressure-Mon = 1.1e-08 // Limit: L=1e-8 // Rule: pv > L
+2021-11-03 20:13:25.688596 // WARNING // BO-01U:VA-CCG-BG:Pressure-Mon = 2.4e-08 // Limit: L=1e-8 // Rule: pv > L
+2021-11-03 20:16:48.794559 // WARNING // SI-02SB:VA-CCG-BG:Pressure-Mon = 1.1e-08 // Limit: L=1e-8 // Rule: pv > L
+2021-11-03 20:17:19.816044 // WARNING // SI-02SB:VA-CCG-BG:Pressure-Mon = 1.1e-08 // Limit: L=1e-8 // Rule: pv > L
+2021-11-03 20:17:50.834087 // WARNING // 1) SI-02SB:VA-CCG-CAV:Pressure-Mon = 3.6e-08 // Limit: L=1e-8 // Rule: pv > L // 2) ^BO.+VA-CCG.+Pressure-Mon$ = - // Limit: L=1e-7 // Rule: pv > L
+2021-11-04 08:03:03.857844 // WARNING // BO-01U:VA-CCG-BG:Pressure-Mon = 2e-08 // Limit: L=1e-8 // Rule: pv > L
+2021-11-04 08:03:34.880893 // WARNING // BO-01U:VA-CCG-BG:Pressure-Mon = 1.5e-08 // Limit: L=1e-8 // Rule: pv > L
+2021-11-04 08:06:57.985024 // WARNING // SI-02SB:VA-CCG-CAV:Pressure-Mon = 2.1e-08 // Limit: L=1e-8 // Rule: pv > L
+2021-11-04 08:07:29.005624 // WARNING // SI-02SB:VA-CCG-CAV:Pressure-Mon = 3.9e-08 // Limit: L=1e-8 // Rule: pv > L
+2021-11-04 08:08:00.028343 // WARNING // 1) SI-02SB:VA-CCG-BG:Pressure-Mon = 1.3e-08 // Limit: L=1e-8 // Rule: pv > L // 2) ^BO.+VA-CCG.+Pressure-Mon$ = - // Limit: L=1e-7 // Rule: pv > L
+2021-11-04 20:05:11.803566 // WARNING // BO-19U:VA-CCG-BG:Pressure-Mon = 3.1e-08 // Limit: L=1e-8 // Rule: pv > L
+2021-11-04 20:05:42.831971 // WARNING // BO-01U:VA-CCG-BG:Pressure-Mon = 1.2e-08 // Limit: L=1e-8 // Rule: pv > L
+2021-11-04 20:12:00.028382 // WARNING // SI-02SB:VA-CCG-BG:Pressure-Mon = 1.2e-08 // Limit: L=1e-8 // Rule: pv > L
+2021-11-04 20:12:31.050292 // WARNING // SI-02SB:VA-CCG-BG:Pressure-Mon = 1.2e-08 // Limit: L=1e-8 // Rule: pv > L
+2021-11-06 20:02:51.614568 // WARNING // BO-01U:VA-CCG-BG:Pressure-Mon = 1.7e-08 // Limit: L=1e-8 // Rule: pv > L
+2021-11-06 20:03:22.632302 // WARNING // BO-01U:VA-CCG-BG:Pressure-Mon = 2.2e-08 // Limit: L=1e-8 // Rule: pv > L
+2021-11-06 20:07:45.778371 // WARNING // SI-02SB:VA-CCG-CAV:Pressure-Mon = 3.3e-08 // Limit: L=1e-8 // Rule: pv > L
+2021-11-06 20:08:16.800634 // WARNING // SI-02SB:VA-CCG-CAV:Pressure-Mon = 6.4e-08 // Limit: L=1e-8 // Rule: pv > L
+2021-11-06 20:08:47.821818 // WARNING // 1) SI-02SB:VA-CCG-CAV:Pressure-Mon = 6.5e-08 // Limit: L=1e-8 // Rule: pv > L // 2) ^BO.+VA-CCG.+Pressure-Mon$ = - // Limit: L=1e-7 // Rule: pv > L
+2021-11-06 23:29:20.587579 // WARNING // 1) SI-Glob:AP-SOFB:LoopState-Sts = 0 // Limit: L=0 // Rule: pv == L // 2) AS-Glob:AP-MachShift:Mode-Sts = 0 // Limit: L=0 // Rule: pv == L
+2021-11-06 23:29:51.606186 // WARNING // 1) SI-Glob:AP-SOFB:LoopState-Sel = 0 // Limit: L=0 // Rule: pv == L // 2) AS-Glob:AP-MachShift:Mode-Sts = 0 // Limit: L=0 // Rule: pv == L
+2021-11-06 23:30:22.629361 // WARNING // 1) SI-Glob:AP-SOFB:LoopState-Sel = 0 // Limit: L=1 // Rule: pv != L // 2) AS-Glob:AP-MachShift:Mode-Sts = 0 // Limit: L=0 // Rule: pv == L
+2021-11-06 23:39:29.892329 // WARNING // 1) SI-Glob:AP-SOFB:LoopState-Sts = 0 // Limit: L=0 // Rule: pv == L // 2) AS-Glob:AP-MachShift:Mode-Sts = 0 // Limit: L=0 // Rule: pv == L
+2021-11-06 23:40:00.920121 // WARNING // 1) SI-Glob:AP-SOFB:LoopState-Sel = 0 // Limit: L=0 // Rule: pv == L // 2) AS-Glob:AP-MachShift:Mode-Sts = 0 // Limit: L=0 // Rule: pv == L
+2021-11-06 23:40:31.952952 // WARNING // 1) SI-Glob:AP-SOFB:LoopState-Sel = 0 // Limit: L=1 // Rule: pv != L // 2) AS-Glob:AP-MachShift:Mode-Sts = 0 // Limit: L=0 // Rule: pv == L
+2021-11-06 23:49:41.225773 // WARNING // 1) SI-Glob:AP-SOFB:LoopState-Sts = 0 // Limit: L=0 // Rule: pv == L // 2) AS-Glob:AP-MachShift:Mode-Sts = 0 // Limit: L=0 // Rule: pv == L
+2021-11-06 23:50:12.251745 // WARNING // 1) SI-Glob:AP-SOFB:LoopState-Sel = 0 // Limit: L=0 // Rule: pv == L // 2) AS-Glob:AP-MachShift:Mode-Sts = 0 // Limit: L=0 // Rule: pv == L
+2021-11-06 23:50:43.282294 // WARNING // 1) SI-Glob:AP-SOFB:LoopState-Sel = 0 // Limit: L=1 // Rule: pv != L // 2) AS-Glob:AP-MachShift:Mode-Sts = 0 // Limit: L=0 // Rule: pv == L
+2021-11-07 07:04:19.526705 // WARNING // BO-34U:VA-CCG-BG:Pressure-Mon = 1.3e-08 // Limit: L=1e-8 // Rule: pv > L
+2021-11-07 07:04:50.543560 // WARNING // BO-01U:VA-CCG-BG:Pressure-Mon = 2.1e-08 // Limit: L=1e-8 // Rule: pv > L
+2021-11-07 07:06:29.598781 // WARNING // SI-02SB:VA-CCG-CAV:Pressure-Mon = 5e-08 // Limit: L=1e-8 // Rule: pv > L
+2021-11-07 07:07:00.622504 // WARNING // SI-02SB:VA-CCG-CAV:Pressure-Mon = 6.6e-08 // Limit: L=1e-8 // Rule: pv > L
+2021-11-07 07:07:31.646378 // WARNING // 1) SI-02SB:VA-CCG-BG:Pressure-Mon = 1.1e-08 // Limit: L=1e-8 // Rule: pv > L // 2) ^BO.+VA-CCG.+Pressure-Mon$ = - // Limit: L=1e-7 // Rule: pv > L
+2021-11-09 09:34:29.203811 // WARNING // 1) RAD:Thermo5:TotalDoseRate:Dose = 1.8132031685472367 // Limit: L=1 // Rule: pv > L // 2) RAD:ELSE:TotalDoseRate:Dose$ = - // Limit: L=1 // Rule: pv > L
+2021-11-09 09:46:56.454642 // WARNING // 1) RAD:Thermo5:TotalDoseRate:Dose = 1.8151800507805695 // Limit: L=1 // Rule: pv > L // 2) RAD:ELSE:TotalDoseRate:Dose$ = - // Limit: L=1 // Rule: pv > L
+2021-11-09 09:56:53.230877 // WARNING // 1) RAD:Thermo5:TotalDoseRate:Dose = 1.8156357331889033 // Limit: L=1 // Rule: pv > L // 2) RAD:ELSE:TotalDoseRate:Dose$ = - // Limit: L=1 // Rule: pv > L
+2021-11-09 10:06:56.518177 // WARNING // 1) RAD:Thermo5:TotalDoseRate:Dose = 1.8164560058152885 // Limit: L=1 // Rule: pv > L // 2) RAD:ELSE:TotalDoseRate:Dose$ = - // Limit: L=1 // Rule: pv > L
+2021-11-09 10:17:03.816742 // WARNING // 1) RAD:Thermo5:TotalDoseRate:Dose = 1.8179837959458465 // Limit: L=1 // Rule: pv > L // 2) RAD:ELSE:TotalDoseRate:Dose$ = - // Limit: L=1 // Rule: pv > L
+2021-11-09 10:58:53.260267 // WARNING // 1) RAD:Thermo5:TotalDoseRate:Dose = 1.819208107219458 // Limit: L=1 // Rule: pv > L // 2) RAD:ELSE:TotalDoseRate:Dose$ = - // Limit: L=1 // Rule: pv > L
+2021-11-09 11:08:58.538823 // WARNING // 1) RAD:Thermo5:TotalDoseRate:Dose = 1.8198319210194567 // Limit: L=1 // Rule: pv > L // 2) RAD:ELSE:TotalDoseRate:Dose$ = - // Limit: L=1 // Rule: pv > L
+2021-11-09 11:19:05.835063 // WARNING // 1) RAD:Thermo5:TotalDoseRate:Dose = 1.8188087450833452 // Limit: L=1 // Rule: pv > L // 2) RAD:ELSE:TotalDoseRate:Dose$ = - // Limit: L=1 // Rule: pv > L
+2021-11-09 11:29:13.112133 // WARNING // 1) RAD:Thermo5:TotalDoseRate:Dose = 1.8187517135958475 // Limit: L=1 // Rule: pv > L // 2) RAD:ELSE:TotalDoseRate:Dose$ = - // Limit: L=1 // Rule: pv > L
+2021-11-09 11:39:18.405640 // WARNING // 1) RAD:Thermo5:TotalDoseRate:Dose = 1.8196242807625134 // Limit: L=1 // Rule: pv > L // 2) RAD:ELSE:TotalDoseRate:Dose$ = - // Limit: L=1 // Rule: pv > L
+2021-11-09 11:49:25.701051 // WARNING // 1) RAD:Thermo5:TotalDoseRate:Dose = 1.820336753100015 // Limit: L=1 // Rule: pv > L // 2) RAD:ELSE:TotalDoseRate:Dose$ = - // Limit: L=1 // Rule: pv > L
+2021-11-09 11:59:30.990768 // WARNING // 1) RAD:Thermo5:TotalDoseRate:Dose = 1.8225030145750183 // Limit: L=1 // Rule: pv > L // 2) RAD:ELSE:TotalDoseRate:Dose$ = - // Limit: L=1 // Rule: pv > L
+2021-11-09 12:09:40.272386 // WARNING // 1) RAD:Thermo5:TotalDoseRate:Dose = 1.8238549186333528 // Limit: L=1 // Rule: pv > L // 2) RAD:ELSE:TotalDoseRate:Dose$ = - // Limit: L=1 // Rule: pv > L
+2021-11-09 12:19:47.544661 // WARNING // 1) RAD:Thermo5:TotalDoseRate:Dose = 1.4281295211930765 // Limit: L=1 // Rule: pv > L // 2) RAD:ELSE:TotalDoseRate:Dose$ = - // Limit: L=1 // Rule: pv > L
+2021-11-09 20:10:55.684222 // WARNING // 1) SI-02SB:VA-CCG-BG:Pressure-Mon = 2.7e-08 // Limit: L=1e-8 // Rule: pv > L // 2) ^BO.+VA-CCG.+Pressure-Mon$ = - // Limit: L=1e-7 // Rule: pv > L
+2021-11-09 23:48:49.066943 // WARNING // 1) RAD:Thermo5:TotalDoseRate:Dose = 1.0071688325111265 // Limit: L=1 // Rule: pv > L // 2) RAD:ELSE:TotalDoseRate:Dose$ = - // Limit: L=1 // Rule: pv > L
+2021-11-09 23:58:58.365171 // WARNING // 1) RAD:Thermo5:TotalDoseRate:Dose = 1.176441338063904 // Limit: L=1 // Rule: pv > L // 2) RAD:ELSE:TotalDoseRate:Dose$ = - // Limit: L=1 // Rule: pv > L
+2021-11-10 00:09:03.652019 // WARNING // 1) RAD:Thermo5:TotalDoseRate:Dose = 1.2330679258361286 // Limit: L=1 // Rule: pv > L // 2) RAD:ELSE:TotalDoseRate:Dose$ = - // Limit: L=1 // Rule: pv > L
+2021-11-10 00:10:24.692485 // WARNING // 1) SI-02SB:VA-CCG-CAV:Pressure-Mon = 1.1e-08 // Limit: L=1e-8 // Rule: pv > L // 2) ^BO.+VA-CCG.+Pressure-Mon$ = - // Limit: L=1e-7 // Rule: pv > L
+2021-11-10 00:19:11.967735 // WARNING // 1) RAD:Thermo5:TotalDoseRate:Dose = 1.5081988008555738 // Limit: L=1 // Rule: pv > L // 2) RAD:ELSE:TotalDoseRate:Dose$ = - // Limit: L=1 // Rule: pv > L
+2021-11-10 00:29:17.270728 // WARNING // 1) RAD:Thermo5:TotalDoseRate:Dose = 1.5081143330277957 // Limit: L=1 // Rule: pv > L // 2) RAD:ELSE:TotalDoseRate:Dose$ = - // Limit: L=1 // Rule: pv > L
+2021-11-10 00:39:22.574255 // WARNING // 1) RAD:Thermo5:TotalDoseRate:Dose = 1.507724304644464 // Limit: L=1 // Rule: pv > L // 2) RAD:ELSE:TotalDoseRate:Dose$ = - // Limit: L=1 // Rule: pv > L
+2021-11-10 00:49:27.876508 // WARNING // 1) RAD:Thermo5:TotalDoseRate:Dose = 1.507898993663908 // Limit: L=1 // Rule: pv > L // 2) RAD:ELSE:TotalDoseRate:Dose$ = - // Limit: L=1 // Rule: pv > L
+2021-11-10 00:59:37.173308 // WARNING // 1) RAD:Thermo5:TotalDoseRate:Dose = 1.7465141226250211 // Limit: L=1 // Rule: pv > L // 2) RAD:ELSE:TotalDoseRate:Dose$ = - // Limit: L=1 // Rule: pv > L
+2021-11-10 01:09:42.447322 // WARNING // 1) RAD:Thermo5:TotalDoseRate:Dose = 1.751372089294466 // Limit: L=1 // Rule: pv > L // 2) RAD:ELSE:TotalDoseRate:Dose$ = - // Limit: L=1 // Rule: pv > L
+2021-11-10 01:10:27.471017 // WARNING // 1) SI-02SB:VA-CCG-CAV:Pressure-Mon = 1.5e-08 // Limit: L=1e-8 // Rule: pv > L // 2) ^BO.+VA-CCG.+Pressure-Mon$ = - // Limit: L=1e-7 // Rule: pv > L
+2021-11-10 01:19:48.739585 // WARNING // 1) RAD:Thermo5:TotalDoseRate:Dose = 1.7499980857305748 // Limit: L=1 // Rule: pv > L // 2) RAD:ELSE:TotalDoseRate:Dose$ = - // Limit: L=1 // Rule: pv > L
+2021-11-10 01:29:56.050271 // WARNING // 1) RAD:Thermo5:TotalDoseRate:Dose = 1.7534984164597405 // Limit: L=1 // Rule: pv > L // 2) RAD:ELSE:TotalDoseRate:Dose$ = - // Limit: L=1 // Rule: pv > L
+2021-11-10 01:40:03.344211 // WARNING // 1) RAD:Thermo5:TotalDoseRate:Dose = 2.002927342977795 // Limit: L=1 // Rule: pv > L // 2) RAD:ELSE:TotalDoseRate:Dose$ = - // Limit: L=1 // Rule: pv > L
+2021-11-10 01:50:12.641027 // WARNING // 1) RAD:Thermo5:TotalDoseRate:Dose = 2.002657075325021 // Limit: L=1 // Rule: pv > L // 2) RAD:ELSE:TotalDoseRate:Dose$ = - // Limit: L=1 // Rule: pv > L
+2021-11-10 02:00:21.944947 // WARNING // 1) RAD:Thermo5:TotalDoseRate:Dose = 2.0016575700861288 // Limit: L=1 // Rule: pv > L // 2) RAD:ELSE:TotalDoseRate:Dose$ = - // Limit: L=1 // Rule: pv > L
+2021-11-10 02:10:31.262718 // WARNING // 1) RAD:Thermo5:TotalDoseRate:Dose = 2.001019617813907 // Limit: L=1 // Rule: pv > L // 2) RAD:ELSE:TotalDoseRate:Dose$ = - // Limit: L=1 // Rule: pv > L
+2021-11-10 02:20:36.553870 // WARNING // 1) RAD:Thermo5:TotalDoseRate:Dose = 2.0021044481930748 // Limit: L=1 // Rule: pv > L // 2) RAD:ELSE:TotalDoseRate:Dose$ = - // Limit: L=1 // Rule: pv > L
+2021-11-10 02:30:43.863360 // WARNING // 1) RAD:Thermo5:TotalDoseRate:Dose = 2.0006588882097374 // Limit: L=1 // Rule: pv > L // 2) RAD:ELSE:TotalDoseRate:Dose$ = - // Limit: L=1 // Rule: pv > L
+2021-11-10 02:40:49.150652 // WARNING // 1) RAD:Thermo5:TotalDoseRate:Dose = 2.0003456819889065 // Limit: L=1 // Rule: pv > L // 2) RAD:ELSE:TotalDoseRate:Dose$ = - // Limit: L=1 // Rule: pv > L
+2021-11-10 02:50:56.450782 // WARNING // 1) RAD:Thermo5:TotalDoseRate:Dose = 1.9991759163555745 // Limit: L=1 // Rule: pv > L // 2) RAD:ELSE:TotalDoseRate:Dose$ = - // Limit: L=1 // Rule: pv > L
+2021-11-10 03:01:01.719057 // WARNING // 1) RAD:Thermo5:TotalDoseRate:Dose = 1.9986589199125144 // Limit: L=1 // Rule: pv > L // 2) RAD:ELSE:TotalDoseRate:Dose$ = - // Limit: L=1 // Rule: pv > L
+2021-11-10 03:11:09.018917 // WARNING // 1) RAD:Thermo5:TotalDoseRate:Dose = 1.9970101393514026 // Limit: L=1 // Rule: pv > L // 2) RAD:ELSE:TotalDoseRate:Dose$ = - // Limit: L=1 // Rule: pv > L
+2021-11-10 03:21:16.299725 // WARNING // 1) RAD:Thermo5:TotalDoseRate:Dose = 1.9961383288875132 // Limit: L=1 // Rule: pv > L // 2) RAD:ELSE:TotalDoseRate:Dose$ = - // Limit: L=1 // Rule: pv > L
+2021-11-10 03:31:23.602506 // WARNING // 1) RAD:Thermo5:TotalDoseRate:Dose = 1.9970005435041813 // Limit: L=1 // Rule: pv > L // 2) RAD:ELSE:TotalDoseRate:Dose$ = - // Limit: L=1 // Rule: pv > L
+2021-11-10 03:41:34.907770 // WARNING // 1) RAD:Thermo5:TotalDoseRate:Dose = 1.3934692997041815 // Limit: L=1 // Rule: pv > L // 2) RAD:ELSE:TotalDoseRate:Dose$ = - // Limit: L=1 // Rule: pv > L
+2021-11-10 03:51:42.210134 // WARNING // 1) RAD:Thermo5:TotalDoseRate:Dose = 1.2642907192264063 // Limit: L=1 // Rule: pv > L // 2) RAD:ELSE:TotalDoseRate:Dose$ = - // Limit: L=1 // Rule: pv > L
+2021-11-10 04:01:47.505427 // WARNING // 1) RAD:Thermo5:TotalDoseRate:Dose = 1.2034241900264062 // Limit: L=1 // Rule: pv > L // 2) RAD:ELSE:TotalDoseRate:Dose$ = - // Limit: L=1 // Rule: pv > L
+2021-11-10 04:56:16.113761 // WARNING // 1) RAD:Thermo5:TotalDoseRate:Dose = 1.0222534127305738 // Limit: L=1 // Rule: pv > L // 2) RAD:ELSE:TotalDoseRate:Dose$ = - // Limit: L=1 // Rule: pv > L
+2021-11-10 05:06:23.407412 // WARNING // 1) RAD:Thermo5:TotalDoseRate:Dose = 1.466885552597243 // Limit: L=1 // Rule: pv > L // 2) RAD:ELSE:TotalDoseRate:Dose$ = - // Limit: L=1 // Rule: pv > L
+2021-11-10 05:16:34.704877 // WARNING // 1) RAD:Thermo5:TotalDoseRate:Dose = 1.4677380657236323 // Limit: L=1 // Rule: pv > L // 2) RAD:ELSE:TotalDoseRate:Dose$ = - // Limit: L=1 // Rule: pv > L
+2021-11-10 05:26:39.992417 // WARNING // 1) RAD:Thermo5:TotalDoseRate:Dose = 1.4642862826583536 // Limit: L=1 // Rule: pv > L // 2) RAD:ELSE:TotalDoseRate:Dose$ = - // Limit: L=1 // Rule: pv > L
+2021-11-10 05:36:47.285003 // WARNING // 1) RAD:Thermo5:TotalDoseRate:Dose = 1.2155026339722415 // Limit: L=1 // Rule: pv > L // 2) RAD:ELSE:TotalDoseRate:Dose$ = - // Limit: L=1 // Rule: pv > L
+2021-11-10 05:46:52.585840 // WARNING // 1) RAD:Thermo5:TotalDoseRate:Dose = 1.2156221254347415 // Limit: L=1 // Rule: pv > L // 2) RAD:ELSE:TotalDoseRate:Dose$ = - // Limit: L=1 // Rule: pv > L
+2021-11-10 05:56:57.875131 // WARNING // 1) RAD:Thermo5:TotalDoseRate:Dose = 1.2165330357541888 // Limit: L=1 // Rule: pv > L // 2) RAD:ELSE:TotalDoseRate:Dose$ = - // Limit: L=1 // Rule: pv > L
+2021-11-10 06:07:07.174342 // WARNING // 1) RAD:Thermo5:TotalDoseRate:Dose = 1.2164088765680776 // Limit: L=1 // Rule: pv > L // 2) RAD:ELSE:TotalDoseRate:Dose$ = - // Limit: L=1 // Rule: pv > L
+2021-11-10 06:17:12.471193 // WARNING // 1) RAD:Thermo5:TotalDoseRate:Dose = 1.2150822185889114 // Limit: L=1 // Rule: pv > L // 2) RAD:ELSE:TotalDoseRate:Dose$ = - // Limit: L=1 // Rule: pv > L
+2021-11-10 06:27:21.777605 // WARNING // 1) RAD:Thermo5:TotalDoseRate:Dose = 1.2149980378597451 // Limit: L=1 // Rule: pv > L // 2) RAD:ELSE:TotalDoseRate:Dose$ = - // Limit: L=1 // Rule: pv > L
+2021-11-10 06:37:29.072894 // WARNING // 1) RAD:Thermo5:TotalDoseRate:Dose = 1.2166608166083617 // Limit: L=1 // Rule: pv > L // 2) RAD:ELSE:TotalDoseRate:Dose$ = - // Limit: L=1 // Rule: pv > L
+2021-11-10 06:47:34.373509 // WARNING // 1) RAD:Thermo5:TotalDoseRate:Dose = 1.2171901219528052 // Limit: L=1 // Rule: pv > L // 2) RAD:ELSE:TotalDoseRate:Dose$ = - // Limit: L=1 // Rule: pv > L
+2021-11-10 06:57:39.658902 // WARNING // 1) RAD:Thermo5:TotalDoseRate:Dose = 1.2178367163819737 // Limit: L=1 // Rule: pv > L // 2) RAD:ELSE:TotalDoseRate:Dose$ = - // Limit: L=1 // Rule: pv > L
+2021-11-10 07:07:48.957406 // WARNING // 1) RAD:Thermo5:TotalDoseRate:Dose = 1.217860083291698 // Limit: L=1 // Rule: pv > L // 2) RAD:ELSE:TotalDoseRate:Dose$ = - // Limit: L=1 // Rule: pv > L
+2021-11-10 07:17:54.244306 // WARNING // 1) RAD:Thermo5:TotalDoseRate:Dose = 1.2202608078111437 // Limit: L=1 // Rule: pv > L // 2) RAD:ELSE:TotalDoseRate:Dose$ = - // Limit: L=1 // Rule: pv > L
+2021-11-10 07:28:01.540527 // WARNING // 1) RAD:Thermo5:TotalDoseRate:Dose = 1.2211287684222525 // Limit: L=1 // Rule: pv > L // 2) RAD:ELSE:TotalDoseRate:Dose$ = - // Limit: L=1 // Rule: pv > L
+2021-11-10 07:38:08.832255 // WARNING // 1) RAD:Thermo5:TotalDoseRate:Dose = 1.2221530917208618 // Limit: L=1 // Rule: pv > L // 2) RAD:ELSE:TotalDoseRate:Dose$ = - // Limit: L=1 // Rule: pv > L
+2021-11-10 07:48:14.078576 // WARNING // 1) RAD:Thermo5:TotalDoseRate:Dose = 1.2234552456111414 // Limit: L=1 // Rule: pv > L // 2) RAD:ELSE:TotalDoseRate:Dose$ = - // Limit: L=1 // Rule: pv > L
+2021-11-10 07:58:23.283793 // WARNING // 1) RAD:Thermo5:TotalDoseRate:Dose = 1.223632872638919 // Limit: L=1 // Rule: pv > L // 2) RAD:ELSE:TotalDoseRate:Dose$ = - // Limit: L=1 // Rule: pv > L
+2021-11-10 08:08:28.488385 // WARNING // 1) RAD:Thermo5:TotalDoseRate:Dose = 1.3715699318861418 // Limit: L=1 // Rule: pv > L // 2) RAD:ELSE:TotalDoseRate:Dose$ = - // Limit: L=1 // Rule: pv > L
+2021-11-10 08:18:37.697509 // WARNING // 1) RAD:Thermo5:TotalDoseRate:Dose = 1.3723393845889198 // Limit: L=1 // Rule: pv > L // 2) RAD:ELSE:TotalDoseRate:Dose$ = - // Limit: L=1 // Rule: pv > L
+2021-11-10 08:28:45.007059 // WARNING // 1) RAD:Thermo5:TotalDoseRate:Dose = 1.372482189323639 // Limit: L=1 // Rule: pv > L // 2) RAD:ELSE:TotalDoseRate:Dose$ = - // Limit: L=1 // Rule: pv > L
+2021-11-10 08:35:18.191595 // WARNING // 1) SI-02SB:VA-CCG-CAV:Pressure-Mon = 1.1e-08 // Limit: L=1e-8 // Rule: pv > L // 2) ^BO.+VA-CCG.+Pressure-Mon$ = - // Limit: L=1e-7 // Rule: pv > L
+2021-11-10 08:38:53.304967 // WARNING // 1) RAD:Thermo5:TotalDoseRate:Dose = 1.3716780676903046 // Limit: L=1 // Rule: pv > L // 2) RAD:ELSE:TotalDoseRate:Dose$ = - // Limit: L=1 // Rule: pv > L
+2021-11-10 08:48:58.599765 // WARNING // 1) RAD:Thermo5:TotalDoseRate:Dose = 1.3724401478375285 // Limit: L=1 // Rule: pv > L // 2) RAD:ELSE:TotalDoseRate:Dose$ = - // Limit: L=1 // Rule: pv > L
+2021-11-10 18:10:11.732795 // WARNING // 1) SI-Glob:AP-SOFB:LoopState-Sel = 0 // Limit: L=1 // Rule: pv != L // 2) AS-Glob:AP-MachShift:Mode-Sts = 0 // Limit: L=0 // Rule: pv == L
+2021-11-10 18:16:34.912056 // WARNING // 1) SI-02SB:VA-CCG-CAV:Pressure-Mon = 3.8e-08 // Limit: L=1e-8 // Rule: pv > L // 2) ^BO.+VA-CCG.+Pressure-Mon$ = - // Limit: L=1e-7 // Rule: pv > L
+2021-11-11 08:04:07.672681 // WARNING // 1) SI-02SB:VA-CCG-CAV:Pressure-Mon = 6.7e-08 // Limit: L=1e-8 // Rule: pv > L // 2) ^BO.+VA-CCG.+Pressure-Mon$ = - // Limit: L=1e-7 // Rule: pv > L
+2021-11-11 18:08:11.880676 // WARNING // 1) SI-02SB:VA-CCG-CAV:Pressure-Mon = 3.2e-08 // Limit: L=1e-8 // Rule: pv > L // 2) ^BO.+VA-CCG.+Pressure-Mon$ = - // Limit: L=1e-7 // Rule: pv > L
+2021-11-12 08:06:12.363115 // WARNING // 1) SI-02SB:VA-CCG-CAV:Pressure-Mon = 1.1e-08 // Limit: L=1e-8 // Rule: pv > L // 2) ^BO.+VA-CCG.+Pressure-Mon$ = - // Limit: L=1e-7 // Rule: pv > L
+2021-11-12 18:07:26.808393 // WARNING // 1) SI-02SB:VA-CCG-CAV:Pressure-Mon = 2.3e-08 // Limit: L=1e-8 // Rule: pv > L // 2) ^BO.+VA-CCG.+Pressure-Mon$ = - // Limit: L=1e-7 // Rule: pv > L
+2021-11-13 08:05:50.047071 // WARNING // 1) SI-02SB:VA-CCG-CAV:Pressure-Mon = 1.2e-08 // Limit: L=1e-8 // Rule: pv > L // 2) ^BO.+VA-CCG.+Pressure-Mon$ = - // Limit: L=1e-7 // Rule: pv > L
+2021-11-14 07:04:23.039072 // WARNING // 1) SI-02SB:VA-CCG-CAV:Pressure-Mon = 1.2e-08 // Limit: L=1e-8 // Rule: pv > L // 2) ^BO.+VA-CCG.+Pressure-Mon$ = - // Limit: L=1e-7 // Rule: pv > L
+2021-11-15 08:07:26.027630 // Modem error: ATZ
+2021-11-15 08:08:05.047461 // WARNING // 1) RAD:Thermo5:TotalDoseRate:Dose = 1.0547281001194808 // Limit: L=1 // Rule: pv > L // 2) RAD:ELSE:TotalDoseRate:Dose$ = - // Limit: L=1 // Rule: pv > L
+2021-11-15 08:18:14.345021 // WARNING // 1) RAD:Thermo5:TotalDoseRate:Dose = 1.09578020489726 // Limit: L=1 // Rule: pv > L // 2) RAD:ELSE:TotalDoseRate:Dose$ = - // Limit: L=1 // Rule: pv > L
+2021-11-15 08:28:21.637167 // WARNING // 1) RAD:Thermo5:TotalDoseRate:Dose = 1.0962139949972598 // Limit: L=1 // Rule: pv > L // 2) RAD:ELSE:TotalDoseRate:Dose$ = - // Limit: L=1 // Rule: pv > L
+2021-11-15 08:38:28.949639 // WARNING // 1) RAD:Thermo5:TotalDoseRate:Dose = 1.0979833857583732 // Limit: L=1 // Rule: pv > L // 2) RAD:ELSE:TotalDoseRate:Dose$ = - // Limit: L=1 // Rule: pv > L
+2021-11-15 08:48:34.250222 // WARNING // 1) RAD:Thermo5:TotalDoseRate:Dose = 1.0983465725805974 // Limit: L=1 // Rule: pv > L // 2) RAD:ELSE:TotalDoseRate:Dose$ = - // Limit: L=1 // Rule: pv > L
+2021-11-15 08:58:39.553115 // WARNING // 1) RAD:Thermo5:TotalDoseRate:Dose = 1.0973835933208769 // Limit: L=1 // Rule: pv > L // 2) RAD:ELSE:TotalDoseRate:Dose$ = - // Limit: L=1 // Rule: pv > L
+2021-11-15 09:08:46.843601 // WARNING // 1) RAD:Thermo5:TotalDoseRate:Dose = 1.0983302345014305 // Limit: L=1 // Rule: pv > L // 2) RAD:ELSE:TotalDoseRate:Dose$ = - // Limit: L=1 // Rule: pv > L
+2021-11-15 09:19:25.684783 // WARNING // 1) RAD:Thermo5:TotalDoseRate:Dose = 1.098758773683374 // Limit: L=1 // Rule: pv > L // 2) RAD:ELSE:TotalDoseRate:Dose$ = - // Limit: L=1 // Rule: pv > L
+2021-11-15 09:29:37.076462 // WARNING // 1) RAD:Thermo5:TotalDoseRate:Dose = 1.0987356989319854 // Limit: L=1 // Rule: pv > L // 2) RAD:ELSE:TotalDoseRate:Dose$ = - // Limit: L=1 // Rule: pv > L
+2021-11-15 09:39:40.881655 // Modem error: ATZ
+2021-11-15 09:49:50.181387 // WARNING // 1) RAD:Thermo5:TotalDoseRate:Dose = 1.0976688897861564 // Limit: L=1 // Rule: pv > L // 2) RAD:ELSE:TotalDoseRate:Dose$ = - // Limit: L=1 // Rule: pv > L
+2021-11-15 09:59:57.481087 // WARNING // 1) RAD:Thermo5:TotalDoseRate:Dose = 1.0974793363194908 // Limit: L=1 // Rule: pv > L // 2) RAD:ELSE:TotalDoseRate:Dose$ = - // Limit: L=1 // Rule: pv > L
+2021-11-15 10:10:04.751713 // WARNING // 1) RAD:Thermo5:TotalDoseRate:Dose = 1.0991129658292123 // Limit: L=1 // Rule: pv > L // 2) RAD:ELSE:TotalDoseRate:Dose$ = - // Limit: L=1 // Rule: pv > L
+2021-11-15 10:20:10.035812 // WARNING // 1) RAD:Thermo5:TotalDoseRate:Dose = 1.0987943195500458 // Limit: L=1 // Rule: pv > L // 2) RAD:ELSE:TotalDoseRate:Dose$ = - // Limit: L=1 // Rule: pv > L
+2021-11-15 10:30:17.328704 // WARNING // 1) RAD:Thermo5:TotalDoseRate:Dose = 1.1000007335847672 // Limit: L=1 // Rule: pv > L // 2) RAD:ELSE:TotalDoseRate:Dose$ = - // Limit: L=1 // Rule: pv > L
+2021-11-15 10:40:24.616464 // WARNING // 1) RAD:Thermo5:TotalDoseRate:Dose = 1.1031153092875454 // Limit: L=1 // Rule: pv > L // 2) RAD:ELSE:TotalDoseRate:Dose$ = - // Limit: L=1 // Rule: pv > L
+2021-11-15 10:50:31.907795 // WARNING // 1) RAD:Thermo5:TotalDoseRate:Dose = 1.1048620818639348 // Limit: L=1 // Rule: pv > L // 2) RAD:ELSE:TotalDoseRate:Dose$ = - // Limit: L=1 // Rule: pv > L
+2021-11-15 11:00:37.208324 // WARNING // 1) RAD:Thermo5:TotalDoseRate:Dose = 1.1030010673972692 // Limit: L=1 // Rule: pv > L // 2) RAD:ELSE:TotalDoseRate:Dose$ = - // Limit: L=1 // Rule: pv > L
+2021-11-15 11:10:44.503838 // WARNING // 1) RAD:Thermo5:TotalDoseRate:Dose = 1.1046461711986573 // Limit: L=1 // Rule: pv > L // 2) RAD:ELSE:TotalDoseRate:Dose$ = - // Limit: L=1 // Rule: pv > L
+2021-11-15 11:20:49.787752 // WARNING // 1) RAD:Thermo5:TotalDoseRate:Dose = 1.1062477390694887 // Limit: L=1 // Rule: pv > L // 2) RAD:ELSE:TotalDoseRate:Dose$ = - // Limit: L=1 // Rule: pv > L
+2021-11-15 11:30:55.079880 // WARNING // 1) RAD:Thermo5:TotalDoseRate:Dose = 1.1061242433694862 // Limit: L=1 // Rule: pv > L // 2) RAD:ELSE:TotalDoseRate:Dose$ = - // Limit: L=1 // Rule: pv > L
+2021-11-15 11:41:02.385230 // WARNING // 1) RAD:Thermo5:TotalDoseRate:Dose = 1.1064121330514305 // Limit: L=1 // Rule: pv > L // 2) RAD:ELSE:TotalDoseRate:Dose$ = - // Limit: L=1 // Rule: pv > L
+2021-11-15 11:51:07.699941 // WARNING // 1) RAD:Thermo5:TotalDoseRate:Dose = 1.1068053334736538 // Limit: L=1 // Rule: pv > L // 2) RAD:ELSE:TotalDoseRate:Dose$ = - // Limit: L=1 // Rule: pv > L
+2021-11-15 12:01:13.013483 // WARNING // 1) RAD:Thermo5:TotalDoseRate:Dose = 1.1080194351097645 // Limit: L=1 // Rule: pv > L // 2) RAD:ELSE:TotalDoseRate:Dose$ = - // Limit: L=1 // Rule: pv > L
+2021-11-16 09:51:09.547802 // WARNING // 1) RAD:Thermo9:TotalDoseRate:Dose = 1.1080337015860782 // Limit: L=1 // Rule: pv > L // 2) RAD:ELSE:TotalDoseRate:Dose$ = - // Limit: L=1 // Rule: pv > L
+2021-11-16 10:01:18.840552 // WARNING // 1) RAD:Thermo9:TotalDoseRate:Dose = 2.0504892630249674 // Limit: L=1 // Rule: pv > L // 2) RAD:ELSE:TotalDoseRate:Dose$ = - // Limit: L=1 // Rule: pv > L
+2021-11-16 10:11:28.123256 // WARNING // 1) RAD:Thermo9:TotalDoseRate:Dose = 2.0500297893458006 // Limit: L=1 // Rule: pv > L // 2) RAD:ELSE:TotalDoseRate:Dose$ = - // Limit: L=1 // Rule: pv > L
+2021-11-16 10:21:37.418481 // WARNING // 1) RAD:Thermo9:TotalDoseRate:Dose = 2.0507433024333004 // Limit: L=1 // Rule: pv > L // 2) RAD:ELSE:TotalDoseRate:Dose$ = - // Limit: L=1 // Rule: pv > L
+2021-11-16 10:31:38.704102 // WARNING // 1) RAD:Thermo9:TotalDoseRate:Dose = 2.0691637972221892 // Limit: L=1 // Rule: pv > L // 2) RAD:ELSE:TotalDoseRate:Dose$ = - // Limit: L=1 // Rule: pv > L
+2021-11-16 10:41:37.978532 // WARNING // 1) RAD:Thermo9:TotalDoseRate:Dose = 2.2063240548569163 // Limit: L=1 // Rule: pv > L // 2) RAD:ELSE:TotalDoseRate:Dose$ = - // Limit: L=1 // Rule: pv > L
+2021-11-16 10:51:49.279121 // WARNING // 1) RAD:Thermo9:TotalDoseRate:Dose = 2.2594299131333013 // Limit: L=1 // Rule: pv > L // 2) RAD:ELSE:TotalDoseRate:Dose$ = - // Limit: L=1 // Rule: pv > L
+2021-11-16 11:01:58.570292 // WARNING // 1) RAD:Thermo9:TotalDoseRate:Dose = 2.2909215495832993 // Limit: L=1 // Rule: pv > L // 2) RAD:ELSE:TotalDoseRate:Dose$ = - // Limit: L=1 // Rule: pv > L
+2021-11-16 11:12:09.860676 // WARNING // 1) RAD:Thermo9:TotalDoseRate:Dose = 2.403246232772188 // Limit: L=1 // Rule: pv > L // 2) RAD:ELSE:TotalDoseRate:Dose$ = - // Limit: L=1 // Rule: pv > L
+2021-11-16 11:22:19.156450 // WARNING // 1) RAD:Thermo5:TotalDoseRate:Dose = 1.2913127258000345 // Limit: L=1 // Rule: pv > L // 2) RAD:ELSE:TotalDoseRate:Dose$ = - // Limit: L=1 // Rule: pv > L
+2021-11-16 11:32:26.457283 // WARNING // 1) RAD:Thermo5:TotalDoseRate:Dose = 1.2924845034903154 // Limit: L=1 // Rule: pv > L // 2) RAD:ELSE:TotalDoseRate:Dose$ = - // Limit: L=1 // Rule: pv > L
+2021-11-16 11:42:33.776395 // WARNING // 1) RAD:Thermo5:TotalDoseRate:Dose = 1.2935908554375415 // Limit: L=1 // Rule: pv > L // 2) RAD:ELSE:TotalDoseRate:Dose$ = - // Limit: L=1 // Rule: pv > L
+2021-11-16 11:43:28.810285 // WARNING // 1) SI-02SB:VA-CCG-CAV:Pressure-Mon = 1.1e-08 // Limit: L=1e-8 // Rule: pv > L // 2) ^BO.+VA-CCG.+Pressure-Mon$ = - // Limit: L=1e-7 // Rule: pv > L
+2021-11-16 11:52:42.088192 // WARNING // 1) RAD:Thermo5:TotalDoseRate:Dose = 1.2926769525167086 // Limit: L=1 // Rule: pv > L // 2) RAD:ELSE:TotalDoseRate:Dose$ = - // Limit: L=1 // Rule: pv > L
+2021-11-16 12:02:47.405555 // WARNING // 1) RAD:Thermo5:TotalDoseRate:Dose = 1.2920973133722637 // Limit: L=1 // Rule: pv > L // 2) RAD:ELSE:TotalDoseRate:Dose$ = - // Limit: L=1 // Rule: pv > L
+2021-11-16 12:12:54.720844 // WARNING // 1) RAD:Thermo5:TotalDoseRate:Dose = 1.2937813844833743 // Limit: L=1 // Rule: pv > L // 2) RAD:ELSE:TotalDoseRate:Dose$ = - // Limit: L=1 // Rule: pv > L
+2021-11-16 12:23:02.026338 // WARNING // 1) RAD:Thermo5:TotalDoseRate:Dose = 1.29288691518754 // Limit: L=1 // Rule: pv > L // 2) RAD:ELSE:TotalDoseRate:Dose$ = - // Limit: L=1 // Rule: pv > L
+2021-11-16 12:33:11.325522 // WARNING // 1) RAD:Thermo5:TotalDoseRate:Dose = 1.291767395465318 // Limit: L=1 // Rule: pv > L // 2) RAD:ELSE:TotalDoseRate:Dose$ = - // Limit: L=1 // Rule: pv > L
+2021-11-16 12:43:20.623963 // WARNING // 1) RAD:Thermo5:TotalDoseRate:Dose = 1.291812236927819 // Limit: L=1 // Rule: pv > L // 2) RAD:ELSE:TotalDoseRate:Dose$ = - // Limit: L=1 // Rule: pv > L
+2021-11-16 12:53:27.919049 // WARNING // 1) RAD:Thermo5:TotalDoseRate:Dose = 1.2935722023805953 // Limit: L=1 // Rule: pv > L // 2) RAD:ELSE:TotalDoseRate:Dose$ = - // Limit: L=1 // Rule: pv > L
+2021-11-16 13:03:37.235798 // WARNING // 1) RAD:Thermo5:TotalDoseRate:Dose = 1.2932504572750445 // Limit: L=1 // Rule: pv > L // 2) RAD:ELSE:TotalDoseRate:Dose$ = - // Limit: L=1 // Rule: pv > L
+2021-11-16 13:13:44.540214 // WARNING // 1) RAD:Thermo5:TotalDoseRate:Dose = 1.2745462384278226 // Limit: L=1 // Rule: pv > L // 2) RAD:ELSE:TotalDoseRate:Dose$ = - // Limit: L=1 // Rule: pv > L
+2021-11-16 13:23:53.835412 // WARNING // 1) RAD:Thermo5:TotalDoseRate:Dose = 1.2757601111555992 // Limit: L=1 // Rule: pv > L // 2) RAD:ELSE:TotalDoseRate:Dose$ = - // Limit: L=1 // Rule: pv > L
+2021-11-16 13:34:03.136551 // WARNING // 1) RAD:Thermo5:TotalDoseRate:Dose = 1.2736104513569881 // Limit: L=1 // Rule: pv > L // 2) RAD:ELSE:TotalDoseRate:Dose$ = - // Limit: L=1 // Rule: pv > L
+2021-11-16 13:44:05.934536 // Modem error: ATZ
+2021-11-16 13:54:19.245387 // WARNING // 1) RAD:Thermo5:TotalDoseRate:Dose = 1.1450580384250444 // Limit: L=1 // Rule: pv > L // 2) RAD:ELSE:TotalDoseRate:Dose$ = - // Limit: L=1 // Rule: pv > L
+2021-11-16 14:04:24.551350 // WARNING // 1) RAD:Thermo5:TotalDoseRate:Dose = 1.1454511298639327 // Limit: L=1 // Rule: pv > L // 2) RAD:ELSE:TotalDoseRate:Dose$ = - // Limit: L=1 // Rule: pv > L
+2021-11-16 14:14:33.859105 // WARNING // 1) RAD:Thermo5:TotalDoseRate:Dose = 1.1456062220625438 // Limit: L=1 // Rule: pv > L // 2) RAD:ELSE:TotalDoseRate:Dose$ = - // Limit: L=1 // Rule: pv > L
+2021-11-16 14:24:43.157525 // WARNING // 1) RAD:Thermo5:TotalDoseRate:Dose = 1.1463776848805982 // Limit: L=1 // Rule: pv > L // 2) RAD:ELSE:TotalDoseRate:Dose$ = - // Limit: L=1 // Rule: pv > L
+2021-11-16 14:34:52.465316 // WARNING // 1) RAD:Thermo5:TotalDoseRate:Dose = 1.1462967632111545 // Limit: L=1 // Rule: pv > L // 2) RAD:ELSE:TotalDoseRate:Dose$ = - // Limit: L=1 // Rule: pv > L
+2021-11-16 14:44:59.777672 // WARNING // 1) RAD:Thermo5:TotalDoseRate:Dose = 1.1384872526069898 // Limit: L=1 // Rule: pv > L // 2) RAD:ELSE:TotalDoseRate:Dose$ = - // Limit: L=1 // Rule: pv > L
+2021-11-16 14:55:09.079823 // WARNING // 1) RAD:Thermo5:TotalDoseRate:Dose = 1.1349290759542119 // Limit: L=1 // Rule: pv > L // 2) RAD:ELSE:TotalDoseRate:Dose$ = - // Limit: L=1 // Rule: pv > L
+2021-11-16 15:05:16.376596 // WARNING // 1) RAD:Thermo5:TotalDoseRate:Dose = 1.0980651952417104 // Limit: L=1 // Rule: pv > L // 2) RAD:ELSE:TotalDoseRate:Dose$ = - // Limit: L=1 // Rule: pv > L
+2021-11-16 19:50:45.459199 // WARNING // 1) RAD:Thermo9:TotalDoseRate:Dose = 1.0021405763249873 // Limit: L=1 // Rule: pv > L // 2) RAD:ELSE:TotalDoseRate:Dose$ = - // Limit: L=1 // Rule: pv > L
+2021-11-16 20:00:52.738648 // WARNING // 1) RAD:Thermo9:TotalDoseRate:Dose = 1.1790822478999885 // Limit: L=1 // Rule: pv > L // 2) RAD:ELSE:TotalDoseRate:Dose$ = - // Limit: L=1 // Rule: pv > L
+2021-11-16 20:11:00.029921 // WARNING // 1) RAD:Thermo9:TotalDoseRate:Dose = 1.485783483888878 // Limit: L=1 // Rule: pv > L // 2) RAD:ELSE:TotalDoseRate:Dose$ = - // Limit: L=1 // Rule: pv > L
+2021-11-16 20:21:05.322761 // WARNING // 1) RAD:Thermo9:TotalDoseRate:Dose = 1.523810113331934 // Limit: L=1 // Rule: pv > L // 2) RAD:ELSE:TotalDoseRate:Dose$ = - // Limit: L=1 // Rule: pv > L
+2021-11-16 20:31:12.615973 // WARNING // 1) RAD:Thermo9:TotalDoseRate:Dose = 1.5319564754597137 // Limit: L=1 // Rule: pv > L // 2) RAD:ELSE:TotalDoseRate:Dose$ = - // Limit: L=1 // Rule: pv > L
+2021-11-16 20:41:19.900695 // WARNING // 1) RAD:Thermo9:TotalDoseRate:Dose = 1.5621571319097123 // Limit: L=1 // Rule: pv > L // 2) RAD:ELSE:TotalDoseRate:Dose$ = - // Limit: L=1 // Rule: pv > L
+2021-11-16 20:51:27.176575 // WARNING // 1) RAD:Thermo9:TotalDoseRate:Dose = 1.5639727908527647 // Limit: L=1 // Rule: pv > L // 2) RAD:ELSE:TotalDoseRate:Dose$ = - // Limit: L=1 // Rule: pv > L
+2021-11-16 21:01:34.481556 // WARNING // 1) RAD:Thermo9:TotalDoseRate:Dose = 1.5620820698999898 // Limit: L=1 // Rule: pv > L // 2) RAD:ELSE:TotalDoseRate:Dose$ = - // Limit: L=1 // Rule: pv > L
+2021-11-16 21:11:41.780570 // WARNING // 1) RAD:Thermo9:TotalDoseRate:Dose = 1.5635480323722142 // Limit: L=1 // Rule: pv > L // 2) RAD:ELSE:TotalDoseRate:Dose$ = - // Limit: L=1 // Rule: pv > L
+2021-11-16 21:21:49.064645 // WARNING // 1) RAD:Thermo9:TotalDoseRate:Dose = 1.5627753931111041 // Limit: L=1 // Rule: pv > L // 2) RAD:ELSE:TotalDoseRate:Dose$ = - // Limit: L=1 // Rule: pv > L
+2021-11-16 21:31:50.359656 // WARNING // 1) RAD:Thermo9:TotalDoseRate:Dose = 1.565296094047215 // Limit: L=1 // Rule: pv > L // 2) RAD:ELSE:TotalDoseRate:Dose$ = - // Limit: L=1 // Rule: pv > L
+2021-11-16 21:35:01.454751 // WARNING // 1) SI-01SAFE:VA-CCG-MD:Pressure-Mon = 2.3 // Limit: L=1e-8 // Rule: pv > L // 2) ^BO.+VA-CCG.+Pressure-Mon$ = - // Limit: L=1e-7 // Rule: pv > L
+2021-11-16 21:41:58.647828 // WARNING // 1) RAD:Thermo9:TotalDoseRate:Dose = 1.6024497922249914 // Limit: L=1 // Rule: pv > L // 2) RAD:ELSE:TotalDoseRate:Dose$ = - // Limit: L=1 // Rule: pv > L
+2021-11-16 21:52:03.929109 // WARNING // 1) RAD:Thermo9:TotalDoseRate:Dose = 1.6038495221194367 // Limit: L=1 // Rule: pv > L // 2) RAD:ELSE:TotalDoseRate:Dose$ = - // Limit: L=1 // Rule: pv > L
+2021-11-16 22:02:11.209431 // WARNING // 1) RAD:Thermo9:TotalDoseRate:Dose = 1.604572605509714 // Limit: L=1 // Rule: pv > L // 2) RAD:ELSE:TotalDoseRate:Dose$ = - // Limit: L=1 // Rule: pv > L
+2021-11-16 22:12:18.499455 // WARNING // 1) RAD:Thermo9:TotalDoseRate:Dose = 1.606394558486103 // Limit: L=1 // Rule: pv > L // 2) RAD:ELSE:TotalDoseRate:Dose$ = - // Limit: L=1 // Rule: pv > L
+2021-11-16 22:22:23.803104 // WARNING // 1) RAD:Thermo9:TotalDoseRate:Dose = 1.606879744198604 // Limit: L=1 // Rule: pv > L // 2) RAD:ELSE:TotalDoseRate:Dose$ = - // Limit: L=1 // Rule: pv > L
+2021-11-16 22:32:31.117005 // WARNING // 1) RAD:Thermo9:TotalDoseRate:Dose = 1.6078859355499948 // Limit: L=1 // Rule: pv > L // 2) RAD:ELSE:TotalDoseRate:Dose$ = - // Limit: L=1 // Rule: pv > L
+2021-11-16 22:42:36.435461 // WARNING // 1) RAD:Thermo9:TotalDoseRate:Dose = 1.6086157555930505 // Limit: L=1 // Rule: pv > L // 2) RAD:ELSE:TotalDoseRate:Dose$ = - // Limit: L=1 // Rule: pv > L
+2021-11-16 22:52:43.746494 // WARNING // 1) RAD:Thermo9:TotalDoseRate:Dose = 1.6164795960013822 // Limit: L=1 // Rule: pv > L // 2) RAD:ELSE:TotalDoseRate:Dose$ = - // Limit: L=1 // Rule: pv > L
+2021-11-16 22:53:16.771337 // WARNING // 1) SI-02SB:VA-CCG-CAV:Pressure-Mon = 2.6e-08 // Limit: L=1e-8 // Rule: pv > L // 2) ^BO.+VA-CCG.+Pressure-Mon$ = - // Limit: L=1e-7 // Rule: pv > L
+2021-11-16 23:02:52.073926 // WARNING // 1) RAD:Thermo5:TotalDoseRate:Dose = 1.3123338565694949 // Limit: L=1 // Rule: pv > L // 2) RAD:ELSE:TotalDoseRate:Dose$ = - // Limit: L=1 // Rule: pv > L
+2021-11-16 23:12:57.364003 // WARNING // 1) RAD:Thermo5:TotalDoseRate:Dose = 1.3401659483569923 // Limit: L=1 // Rule: pv > L // 2) RAD:ELSE:TotalDoseRate:Dose$ = - // Limit: L=1 // Rule: pv > L
+2021-11-16 23:23:06.650340 // WARNING // 1) RAD:Thermo5:TotalDoseRate:Dose = 1.336476266890326 // Limit: L=1 // Rule: pv > L // 2) RAD:ELSE:TotalDoseRate:Dose$ = - // Limit: L=1 // Rule: pv > L
+2021-11-16 23:33:11.951180 // WARNING // 1) RAD:Thermo5:TotalDoseRate:Dose = 1.803315023388937 // Limit: L=1 // Rule: pv > L // 2) RAD:ELSE:TotalDoseRate:Dose$ = - // Limit: L=1 // Rule: pv > L
+2021-11-16 23:43:19.261458 // WARNING // 1) RAD:Thermo5:TotalDoseRate:Dose = 1.8663042151722686 // Limit: L=1 // Rule: pv > L // 2) RAD:ELSE:TotalDoseRate:Dose$ = - // Limit: L=1 // Rule: pv > L
+2021-11-16 23:53:26.553162 // WARNING // 1) SI-02SB:VA-CCG-BG:Pressure-Mon = 1.2e-08 // Limit: L=1e-8 // Rule: pv > L // 2) ^BO.+VA-CCG.+Pressure-Mon$ = - // Limit: L=1e-7 // Rule: pv > L
+2021-11-16 23:53:57.570599 // WARNING // 1) RAD:Thermo5:TotalDoseRate:Dose = 1.8755481308028248 // Limit: L=1 // Rule: pv > L // 2) RAD:ELSE:TotalDoseRate:Dose$ = - // Limit: L=1 // Rule: pv > L
+2021-11-17 00:03:36.863786 // WARNING // 1) RAD:Thermo5:TotalDoseRate:Dose = 1.8763599254139363 // Limit: L=1 // Rule: pv > L // 2) RAD:ELSE:TotalDoseRate:Dose$ = - // Limit: L=1 // Rule: pv > L
+2021-11-17 00:13:44.167615 // WARNING // 1) RAD:Thermo5:TotalDoseRate:Dose = 1.8990473981556022 // Limit: L=1 // Rule: pv > L // 2) RAD:ELSE:TotalDoseRate:Dose$ = - // Limit: L=1 // Rule: pv > L
+2021-11-17 00:23:51.470468 // WARNING // 1) RAD:Thermo5:TotalDoseRate:Dose = 1.917498151738935 // Limit: L=1 // Rule: pv > L // 2) RAD:ELSE:TotalDoseRate:Dose$ = - // Limit: L=1 // Rule: pv > L
+2021-11-17 00:33:58.771303 // WARNING // 1) RAD:Thermo5:TotalDoseRate:Dose = 1.9122473052611584 // Limit: L=1 // Rule: pv > L // 2) RAD:ELSE:TotalDoseRate:Dose$ = - // Limit: L=1 // Rule: pv > L
+2021-11-17 00:44:04.080244 // WARNING // 1) RAD:Thermo5:TotalDoseRate:Dose = 1.913635090386159 // Limit: L=1 // Rule: pv > L // 2) RAD:ELSE:TotalDoseRate:Dose$ = - // Limit: L=1 // Rule: pv > L
+2021-11-17 00:53:37.354291 // WARNING // 1) SI-02SB:VA-CCG-CAV:Pressure-Mon = 1.9e-08 // Limit: L=1e-8 // Rule: pv > L // 2) ^BO.+VA-CCG.+Pressure-Mon$ = - // Limit: L=1e-7 // Rule: pv > L
+2021-11-17 00:54:12.382457 // WARNING // 1) RAD:Thermo5:TotalDoseRate:Dose = 1.9165210763292135 // Limit: L=1 // Rule: pv > L // 2) RAD:ELSE:TotalDoseRate:Dose$ = - // Limit: L=1 // Rule: pv > L
+2021-11-17 01:04:17.676475 // WARNING // 1) RAD:Thermo5:TotalDoseRate:Dose = 1.9138759294931011 // Limit: L=1 // Rule: pv > L // 2) RAD:ELSE:TotalDoseRate:Dose$ = - // Limit: L=1 // Rule: pv > L
+2021-11-17 01:14:26.963395 // WARNING // 1) RAD:Thermo5:TotalDoseRate:Dose = 1.9009366770958793 // Limit: L=1 // Rule: pv > L // 2) RAD:ELSE:TotalDoseRate:Dose$ = - // Limit: L=1 // Rule: pv > L
+2021-11-17 01:24:32.279564 // WARNING // 1) RAD:Thermo5:TotalDoseRate:Dose = 1.8861985823333787 // Limit: L=1 // Rule: pv > L // 2) RAD:ELSE:TotalDoseRate:Dose$ = - // Limit: L=1 // Rule: pv > L
+2021-11-17 01:34:41.567917 // WARNING // 1) RAD:Thermo5:TotalDoseRate:Dose = 1.8582663263333792 // Limit: L=1 // Rule: pv > L // 2) RAD:ELSE:TotalDoseRate:Dose$ = - // Limit: L=1 // Rule: pv > L
+2021-11-17 01:44:48.869316 // WARNING // 1) RAD:Thermo5:TotalDoseRate:Dose = 1.4995285323333776 // Limit: L=1 // Rule: pv > L // 2) RAD:ELSE:TotalDoseRate:Dose$ = - // Limit: L=1 // Rule: pv > L
+2021-11-17 01:54:00.151682 // WARNING // 1) SI-02SB:VA-CCG-CAV:Pressure-Mon = 1.1e-08 // Limit: L=1e-8 // Rule: pv > L // 2) ^BO.+VA-CCG.+Pressure-Mon$ = - // Limit: L=1e-7 // Rule: pv > L
+2021-11-17 01:54:57.188490 // WARNING // 1) RAD:Thermo5:TotalDoseRate:Dose = 1.4994079502833761 // Limit: L=1 // Rule: pv > L // 2) RAD:ELSE:TotalDoseRate:Dose$ = - // Limit: L=1 // Rule: pv > L
+2021-11-17 02:05:04.510751 // WARNING // 1) RAD:Thermo5:TotalDoseRate:Dose = 1.4999231806375437 // Limit: L=1 // Rule: pv > L // 2) RAD:ELSE:TotalDoseRate:Dose$ = - // Limit: L=1 // Rule: pv > L
+2021-11-17 02:15:11.822755 // WARNING // 1) RAD:Thermo5:TotalDoseRate:Dose = 1.5004459646458759 // Limit: L=1 // Rule: pv > L // 2) RAD:ELSE:TotalDoseRate:Dose$ = - // Limit: L=1 // Rule: pv > L
+2021-11-17 02:25:17.136654 // WARNING // 1) RAD:Thermo5:TotalDoseRate:Dose = 1.502029496469489 // Limit: L=1 // Rule: pv > L // 2) RAD:ELSE:TotalDoseRate:Dose$ = - // Limit: L=1 // Rule: pv > L
+2021-11-17 02:35:24.440684 // WARNING // 1) RAD:Thermo5:TotalDoseRate:Dose = 1.5185202951667105 // Limit: L=1 // Rule: pv > L // 2) RAD:ELSE:TotalDoseRate:Dose$ = - // Limit: L=1 // Rule: pv > L
+2021-11-17 02:45:29.746646 // WARNING // 1) RAD:Thermo5:TotalDoseRate:Dose = 1.519260032962545 // Limit: L=1 // Rule: pv > L // 2) RAD:ELSE:TotalDoseRate:Dose$ = - // Limit: L=1 // Rule: pv > L
+2021-11-17 02:55:25.049950 // WARNING // 1) SI-02SB:VA-CCG-CAV:Pressure-Mon = 1.1e-08 // Limit: L=1e-8 // Rule: pv > L // 2) ^BO.+VA-CCG.+Pressure-Mon$ = - // Limit: L=1e-7 // Rule: pv > L
+2021-11-17 02:55:56.071682 // WARNING // 1) RAD:Thermo5:TotalDoseRate:Dose = 1.3722309186055996 // Limit: L=1 // Rule: pv > L // 2) RAD:ELSE:TotalDoseRate:Dose$ = - // Limit: L=1 // Rule: pv > L
+2021-11-17 03:05:43.355427 // WARNING // 1) RAD:Thermo5:TotalDoseRate:Dose = 1.012428369136152 // Limit: L=1 // Rule: pv > L // 2) RAD:ELSE:TotalDoseRate:Dose$ = - // Limit: L=1 // Rule: pv > L
+2021-11-17 03:15:52.664256 // WARNING // 1) RAD:Thermo5:TotalDoseRate:Dose = 1.014848652686151 // Limit: L=1 // Rule: pv > L // 2) RAD:ELSE:TotalDoseRate:Dose$ = - // Limit: L=1 // Rule: pv > L
+2021-11-17 03:25:59.950454 // WARNING // 1) RAD:Thermo5:TotalDoseRate:Dose = 1.0166220429111488 // Limit: L=1 // Rule: pv > L // 2) RAD:ELSE:TotalDoseRate:Dose$ = - // Limit: L=1 // Rule: pv > L
+2021-11-17 03:59:43.926933 // WARNING // 1) SI-02SB:VA-CCG-CAV:Pressure-Mon = 1.2e-08 // Limit: L=1e-8 // Rule: pv > L // 2) ^BO.+VA-CCG.+Pressure-Mon$ = - // Limit: L=1e-7 // Rule: pv > L
+2021-11-17 08:45:41.008398 // WARNING // 1) SI-02SB:VA-CCG-CAV:Pressure-Mon = 1.2e-08 // Limit: L=1e-8 // Rule: pv > L // 2) ^BO.+VA-CCG.+Pressure-Mon$ = - // Limit: L=1e-7 // Rule: pv > L
+2021-11-17 11:03:11.882206 // WARNING // BO-01U:VA-CCG-BG:Pressure-Mon = 1.5e-08 // Limit: L=1e-8 // Rule: pv > L
+2021-11-17 11:03:42.902286 // WARNING // BO-01U:VA-CCG-BG:Pressure-Mon = 1.5e-08 // Limit: L=1e-8 // Rule: pv > L
+2021-11-17 18:12:07.211439 // Modem error: ATZ
+2021-11-17 18:12:38.232300 // WARNING // BO-05D:VA-CCG-RFC:Pressure-Mon = 1.1e-08 // Limit: L=1e-8 // Rule: pv > L
+2021-11-17 18:15:21.322506 // WARNING // SI-02SB:VA-CCG-CAV:Pressure-Mon = 1.4e-08 // Limit: L=1e-8 // Rule: pv > L
+2021-11-17 18:15:52.342024 // WARNING // SI-02SB:VA-CCG-CAV:Pressure-Mon = 1.5e-08 // Limit: L=1e-8 // Rule: pv > L
+2021-11-17 18:16:23.359554 // WARNING // 1) SI-02SB:VA-CCG-CAV:Pressure-Mon = 1.7e-08 // Limit: L=1e-8 // Rule: pv > L // 2) ^BO.+VA-CCG.+Pressure-Mon$ = - // Limit: L=1e-7 // Rule: pv > L
+2021-11-18 08:02:33.969025 // WARNING // BO-01U:VA-CCG-BG:Pressure-Mon = 1.1e-08 // Limit: L=1e-8 // Rule: pv > L
+2021-11-18 08:03:04.987554 // WARNING // BO-01U:VA-CCG-BG:Pressure-Mon = 2.1e-08 // Limit: L=1e-8 // Rule: pv > L
+2021-11-18 08:04:54.047913 // WARNING // SI-02SB:VA-CCG-CAV:Pressure-Mon = 1.2e-08 // Limit: L=1e-8 // Rule: pv > L
+2021-11-18 08:05:25.069031 // WARNING // 1) SI-02SB:VA-CCG-CAV:Pressure-Mon = 1.1e-08 // Limit: L=1e-8 // Rule: pv > L // 2) ^BO.+VA-CCG.+Pressure-Mon$ = - // Limit: L=1e-7 // Rule: pv > L
+2021-11-18 08:07:16.124167 // WARNING // SI-02SB:VA-CCG-CAV:Pressure-Mon = 1.1e-08 // Limit: L=1e-8 // Rule: pv > L
+2021-11-18 18:07:10.355518 // WARNING // BO-01U:VA-CCG-BG:Pressure-Mon = 1.1e-08 // Limit: L=1e-8 // Rule: pv > L
+2021-11-18 18:07:41.384416 // WARNING // BO-01U:VA-CCG-BG:Pressure-Mon = 1.5e-08 // Limit: L=1e-8 // Rule: pv > L
+2021-11-18 18:09:18.442887 // WARNING // SI-02SB:VA-CCG-CAV:Pressure-Mon = 1.1e-08 // Limit: L=1e-8 // Rule: pv > L
+2021-11-18 18:09:49.471841 // WARNING // SI-02SB:VA-CCG-CAV:Pressure-Mon = 1.1e-08 // Limit: L=1e-8 // Rule: pv > L
+2021-11-18 18:11:04.523275 // WARNING // 1) SI-02SB:VA-CCG-CAV:Pressure-Mon = 1.1e-08 // Limit: L=1e-8 // Rule: pv > L // 2) ^BO.+VA-CCG.+Pressure-Mon$ = - // Limit: L=1e-7 // Rule: pv > L
+2021-11-19 03:51:25.611371 // WARNING // 1) SI-13C4:DI-DCCT:Current-Mon = 0.0014619276803 // Limit: L=5 // Rule: pv < L // 2) AS-Glob:AP-MachShift:Mode-Sts = 0 // Limit: L=0 // Rule: pv == L
+2021-11-19 03:51:56.634129 // WARNING // 1) SI-Glob:AP-SOFB:LoopState-Sel = 0 // Limit: L=1 // Rule: pv != L // 2) AS-Glob:AP-MachShift:Mode-Sts = 0 // Limit: L=0 // Rule: pv == L
+2021-11-19 03:52:27.651453 // WARNING // 1) SI-Glob:AP-SOFB:LoopState-Sts = 0 // Limit: L=0 // Rule: pv == L // 2) AS-Glob:AP-MachShift:Mode-Sts = 0 // Limit: L=0 // Rule: pv == L
+2021-11-19 03:52:35.453514 // Modem error: ATZ
+2021-11-19 03:53:06.469809 // WARNING // 1) SI-13C4:DI-DCCT:Current-Mon = 0.0016199974197 // Limit: L=5 // Rule: pv < L // 2) AS-Glob:AP-MachShift:Mode-Sts = 0 // Limit: L=0 // Rule: pv == L
+2021-11-19 10:52:43.560517 // WARNING // BO-09U:VA-CCG-BG:Pressure-Mon = 1.3e-08 // Limit: L=1e-8 // Rule: pv > L
+2021-11-19 11:08:23.014903 // WARNING // BO-01U:VA-CCG-BG:Pressure-Mon = 1.1e-08 // Limit: L=1e-8 // Rule: pv > L
+2021-11-19 11:19:05.342461 // Modem error: ATZ
+2021-11-19 11:19:36.364284 // WARNING // BO-01U:VA-CCG-BG:Pressure-Mon = 1.8e-08 // Limit: L=1e-8 // Rule: pv > L
+2021-11-19 11:27:07.568878 // WARNING // SI-02SB:VA-CCG-CAV:Pressure-Mon = 1.1e-08 // Limit: L=1e-8 // Rule: pv > L
+2021-11-19 11:27:38.587393 // WARNING // SI-02SB:VA-CCG-CAV:Pressure-Mon = 1.1e-08 // Limit: L=1e-8 // Rule: pv > L
+2021-11-19 11:28:09.608984 // WARNING // 1) SI-02SB:VA-CCG-CAV:Pressure-Mon = 1.1e-08 // Limit: L=1e-8 // Rule: pv > L // 2) ^BO.+VA-CCG.+Pressure-Mon$ = - // Limit: L=1e-7 // Rule: pv > L
+2021-11-19 11:29:18.647662 // WARNING // BO-01U:VA-CCG-BG:Pressure-Mon = 2.1e-08 // Limit: L=1e-8 // Rule: pv > L
+2021-11-19 11:29:49.669415 // WARNING // BO-01U:VA-CCG-BG:Pressure-Mon = 2.2e-08 // Limit: L=1e-8 // Rule: pv > L
+2021-11-19 11:53:23.376773 // WARNING // SI-02SB:VA-CCG-CAV:Pressure-Mon = 1.1e-08 // Limit: L=1e-8 // Rule: pv > L
+2021-11-19 18:02:45.264235 // WARNING // BO-01U:VA-CCG-BG:Pressure-Mon = 1.1e-08 // Limit: L=1e-8 // Rule: pv > L
+2021-11-19 18:03:16.289554 // WARNING // BO-01U:VA-CCG-BG:Pressure-Mon = 1.3e-08 // Limit: L=1e-8 // Rule: pv > L
+2021-11-19 18:06:03.380152 // WARNING // SI-02SB:VA-CCG-CAV:Pressure-Mon = 1.1e-08 // Limit: L=1e-8 // Rule: pv > L
+2021-11-19 18:06:34.407193 // WARNING // SI-02SB:VA-CCG-CAV:Pressure-Mon = 1.1e-08 // Limit: L=1e-8 // Rule: pv > L
+2021-11-19 18:07:05.434695 // WARNING // 1) SI-02SB:VA-CCG-CAV:Pressure-Mon = 1.1e-08 // Limit: L=1e-8 // Rule: pv > L // 2) ^BO.+VA-CCG.+Pressure-Mon$ = - // Limit: L=1e-7 // Rule: pv > L
+2021-11-20 08:02:20.583978 // WARNING // BO-01U:VA-CCG-BG:Pressure-Mon = 2e-08 // Limit: L=1e-8 // Rule: pv > L
+2021-11-20 08:02:51.603803 // WARNING // BO-01U:VA-CCG-BG:Pressure-Mon = 2.4e-08 // Limit: L=1e-8 // Rule: pv > L
+2021-11-20 08:05:16.675875 // WARNING // SI-02SB:VA-CCG-CAV:Pressure-Mon = 1.1e-08 // Limit: L=1e-8 // Rule: pv > L
+2021-11-20 08:05:47.697637 // WARNING // 1) SI-02SB:VA-CCG-CAV:Pressure-Mon = 1.1e-08 // Limit: L=1e-8 // Rule: pv > L // 2) ^BO.+VA-CCG.+Pressure-Mon$ = - // Limit: L=1e-7 // Rule: pv > L
+2021-11-20 08:06:18.716865 // WARNING // SI-02SB:VA-CCG-CAV:Pressure-Mon = 1.1e-08 // Limit: L=1e-8 // Rule: pv > L
+2021-11-20 08:15:17.962659 // WARNING // SI-02SB:VA-CCG-CAV:Pressure-Mon = 1.9e-08 // Limit: L=1e-8 // Rule: pv > L
+2021-11-20 08:15:48.984632 // WARNING // SI-02SB:VA-CCG-CAV:Pressure-Mon = 1.6e-08 // Limit: L=1e-8 // Rule: pv > L
+2021-11-20 20:03:06.379790 // WARNING // BO-19U:VA-CCG-BG:Pressure-Mon = 1.5e-08 // Limit: L=1e-8 // Rule: pv > L
+2021-11-20 20:03:37.403681 // WARNING // BO-19U:VA-CCG-BG:Pressure-Mon = 1.2e-08 // Limit: L=1e-8 // Rule: pv > L
+2021-11-20 20:17:12.814288 // WARNING // SI-02SB:VA-CCG-CAV:Pressure-Mon = 1.2e-08 // Limit: L=1e-8 // Rule: pv > L
+2021-11-20 20:17:43.840960 // WARNING // SI-02SB:VA-CCG-CAV:Pressure-Mon = 1.1e-08 // Limit: L=1e-8 // Rule: pv > L
+2021-11-20 20:18:14.864343 // WARNING // 1) SI-02SB:VA-CCG-CAV:Pressure-Mon = 1.3e-08 // Limit: L=1e-8 // Rule: pv > L // 2) ^BO.+VA-CCG.+Pressure-Mon$ = - // Limit: L=1e-7 // Rule: pv > L
+2021-11-21 07:04:12.279321 // WARNING // BO-01U:VA-CCG-BG:Pressure-Mon = 1.6e-08 // Limit: L=1e-8 // Rule: pv > L
+2021-11-21 07:04:43.299055 // WARNING // BO-19U:VA-CCG-BG:Pressure-Mon = 1.1e-08 // Limit: L=1e-8 // Rule: pv > L
+2021-11-21 07:20:04.728321 // WARNING // SI-02SB:VA-CCG-CAV:Pressure-Mon = 1.2e-08 // Limit: L=1e-8 // Rule: pv > L
+2021-11-21 07:20:35.746337 // WARNING // 1) SI-02SB:VA-CCG-CAV:Pressure-Mon = 1.1e-08 // Limit: L=1e-8 // Rule: pv > L // 2) ^BO.+VA-CCG.+Pressure-Mon$ = - // Limit: L=1e-7 // Rule: pv > L
+2021-11-21 07:21:06.764504 // WARNING // SI-02SB:VA-CCG-CAV:Pressure-Mon = 1.6e-08 // Limit: L=1e-8 // Rule: pv > L
+2021-11-22 13:01:18.041829 // WARNING // BO-01U:VA-CCG-BG:Pressure-Mon = 1.2e-08 // Limit: L=1e-8 // Rule: pv > L
+2021-11-22 13:06:19.189120 // WARNING // BO-01U:VA-CCG-BG:Pressure-Mon = 1.3e-08 // Limit: L=1e-8 // Rule: pv > L
+2021-11-22 13:41:41.198223 // WARNING // BO-01U:VA-CCG-BG:Pressure-Mon = 1.5e-08 // Limit: L=1e-8 // Rule: pv > L
+2021-11-22 13:42:07.219681 // Modem error: ATZ
+2021-11-22 13:44:46.311935 // WARNING // SI-02SB:VA-CCG-CAV:Pressure-Mon = 1.4e-08 // Limit: L=1e-8 // Rule: pv > L
+2021-11-22 13:45:17.344493 // WARNING // SI-02SB:VA-CCG-CAV:Pressure-Mon = 1.4e-08 // Limit: L=1e-8 // Rule: pv > L
+2021-11-22 13:45:48.375477 // WARNING // 1) SI-02SB:VA-CCG-CAV:Pressure-Mon = 1.3e-08 // Limit: L=1e-8 // Rule: pv > L // 2) ^BO.+VA-CCG.+Pressure-Mon$ = - // Limit: L=1e-7 // Rule: pv > L
+2021-11-22 20:54:23.107367 // WARNING // BO-01U:VA-CCG-BG:Pressure-Mon = 2e-08 // Limit: L=1e-8 // Rule: pv > L
+2021-11-22 20:54:54.124393 // WARNING // BO-01U:VA-CCG-BG:Pressure-Mon = 2e-08 // Limit: L=1e-8 // Rule: pv > L
+2021-11-22 23:29:56.376861 // WARNING // BO-01U:VA-CCG-BG:Pressure-Mon = 1.3e-08 // Limit: L=1e-8 // Rule: pv > L
+2021-11-22 23:30:27.396276 // WARNING // BO-01U:VA-CCG-BG:Pressure-Mon = 1.9e-08 // Limit: L=1e-8 // Rule: pv > L
+2021-11-23 00:24:45.555613 // WARNING // BO-01U:VA-CCG-BG:Pressure-Mon = 2.8e-08 // Limit: L=1e-8 // Rule: pv > L
+2021-11-23 00:25:16.576814 // WARNING // BO-01U:VA-CCG-BG:Pressure-Mon = 2e-08 // Limit: L=1e-8 // Rule: pv > L
+2021-11-23 00:28:19.647951 // WARNING // 1) RAD:Thermo5:TotalDoseRate:Dose = 1.0415617615722566 // Limit: L=1 // Rule: pv > L // 2) RAD:ELSE:TotalDoseRate:Dose$ = - // Limit: L=1 // Rule: pv > L
+2021-11-23 00:38:20.863760 // WARNING // 1) RAD:Thermo5:TotalDoseRate:Dose = 1.2898902552958675 // Limit: L=1 // Rule: pv > L // 2) RAD:ELSE:TotalDoseRate:Dose$ = - // Limit: L=1 // Rule: pv > L
+2021-11-23 00:48:26.085249 // WARNING // 1) RAD:Thermo5:TotalDoseRate:Dose = 1.2730913234597565 // Limit: L=1 // Rule: pv > L // 2) RAD:ELSE:TotalDoseRate:Dose$ = - // Limit: L=1 // Rule: pv > L
+2021-11-23 00:58:27.313881 // WARNING // 1) RAD:Thermo5:TotalDoseRate:Dose = 1.237230486797256 // Limit: L=1 // Rule: pv > L // 2) RAD:ELSE:TotalDoseRate:Dose$ = - // Limit: L=1 // Rule: pv > L
+2021-11-23 01:08:28.529447 // WARNING // 1) RAD:Thermo5:TotalDoseRate:Dose = 1.237437142704201 // Limit: L=1 // Rule: pv > L // 2) RAD:ELSE:TotalDoseRate:Dose$ = - // Limit: L=1 // Rule: pv > L
+2021-11-23 01:18:37.754312 // WARNING // 1) RAD:Thermo5:TotalDoseRate:Dose = 1.2370923096319804 // Limit: L=1 // Rule: pv > L // 2) RAD:ELSE:TotalDoseRate:Dose$ = - // Limit: L=1 // Rule: pv > L
+2021-11-23 01:28:48.974796 // WARNING // 1) RAD:Thermo5:TotalDoseRate:Dose = 1.2381153634930915 // Limit: L=1 // Rule: pv > L // 2) RAD:ELSE:TotalDoseRate:Dose$ = - // Limit: L=1 // Rule: pv > L
+2021-11-23 01:39:00.203201 // WARNING // 1) RAD:Thermo5:TotalDoseRate:Dose = 1.2394338519444834 // Limit: L=1 // Rule: pv > L // 2) RAD:ELSE:TotalDoseRate:Dose$ = - // Limit: L=1 // Rule: pv > L
+2021-11-23 01:49:01.421766 // WARNING // 1) RAD:Thermo5:TotalDoseRate:Dose = 1.2401641868708715 // Limit: L=1 // Rule: pv > L // 2) RAD:ELSE:TotalDoseRate:Dose$ = - // Limit: L=1 // Rule: pv > L
+2021-11-23 01:58:55.634101 // Modem error: ATZ
+2021-11-23 02:09:07.848609 // Modem error: ATZ
+2021-11-23 02:19:15.063021 // WARNING // 1) RAD:Thermo5:TotalDoseRate:Dose = 1.241513724686151 // Limit: L=1 // Rule: pv > L // 2) RAD:ELSE:TotalDoseRate:Dose$ = - // Limit: L=1 // Rule: pv > L
+2021-11-23 02:29:16.275846 // WARNING // 1) RAD:Thermo5:TotalDoseRate:Dose = 1.2419102067389285 // Limit: L=1 // Rule: pv > L // 2) RAD:ELSE:TotalDoseRate:Dose$ = - // Limit: L=1 // Rule: pv > L
+2021-11-23 02:39:19.490947 // WARNING // 1) RAD:Thermo5:TotalDoseRate:Dose = 1.2428855811167072 // Limit: L=1 // Rule: pv > L // 2) RAD:ELSE:TotalDoseRate:Dose$ = - // Limit: L=1 // Rule: pv > L
+2021-11-23 02:49:18.701588 // WARNING // 1) RAD:Thermo5:TotalDoseRate:Dose = 1.244703047237541 // Limit: L=1 // Rule: pv > L // 2) RAD:ELSE:TotalDoseRate:Dose$ = - // Limit: L=1 // Rule: pv > L
+2021-11-23 02:59:29.919447 // WARNING // 1) RAD:Thermo5:TotalDoseRate:Dose = 1.246378818788929 // Limit: L=1 // Rule: pv > L // 2) RAD:ELSE:TotalDoseRate:Dose$ = - // Limit: L=1 // Rule: pv > L
+2021-11-23 03:09:31.131401 // WARNING // 1) RAD:Thermo5:TotalDoseRate:Dose = 1.2471281711417073 // Limit: L=1 // Rule: pv > L // 2) RAD:ELSE:TotalDoseRate:Dose$ = - // Limit: L=1 // Rule: pv > L
+2021-11-23 03:19:42.347223 // WARNING // 1) RAD:Thermo5:TotalDoseRate:Dose = 1.2481699925055951 // Limit: L=1 // Rule: pv > L // 2) RAD:ELSE:TotalDoseRate:Dose$ = - // Limit: L=1 // Rule: pv > L
+2021-11-23 03:29:43.555806 // WARNING // 1) RAD:Thermo5:TotalDoseRate:Dose = 1.2504379656014284 // Limit: L=1 // Rule: pv > L // 2) RAD:ELSE:TotalDoseRate:Dose$ = - // Limit: L=1 // Rule: pv > L
+2021-11-23 03:39:39.767946 // Modem error: ATZ
+2021-11-23 03:49:49.983682 // Modem error: ATZ
+2021-11-23 04:00:07.203403 // WARNING // 1) RAD:Thermo5:TotalDoseRate:Dose = 1.1120700875208744 // Limit: L=1 // Rule: pv > L // 2) RAD:ELSE:TotalDoseRate:Dose$ = - // Limit: L=1 // Rule: pv > L
+2021-11-23 04:10:08.473622 // WARNING // 1) RAD:Thermo5:TotalDoseRate:Dose = 1.1140124974500405 // Limit: L=1 // Rule: pv > L // 2) RAD:ELSE:TotalDoseRate:Dose$ = - // Limit: L=1 // Rule: pv > L
+2021-11-23 04:20:09.691586 // WARNING // 1) RAD:Thermo5:TotalDoseRate:Dose = 1.1143016993305963 // Limit: L=1 // Rule: pv > L // 2) RAD:ELSE:TotalDoseRate:Dose$ = - // Limit: L=1 // Rule: pv > L
+2021-11-23 05:11:15.731456 // WARNING // BO-01U:VA-CCG-BG:Pressure-Mon = 1.1e-08 // Limit: L=1e-8 // Rule: pv > L
+2021-11-23 05:11:46.750564 // WARNING // BO-01U:VA-CCG-BG:Pressure-Mon = 1.2e-08 // Limit: L=1e-8 // Rule: pv > L
+2021-11-23 05:14:21.813060 // WARNING // SI-02SB:VA-CCG-CAV:Pressure-Mon = 1.1e-08 // Limit: L=1e-8 // Rule: pv > L
+2021-11-23 05:17:50.893602 // WARNING // SI-02SB:VA-CCG-CAV:Pressure-Mon = 1.1e-08 // Limit: L=1e-8 // Rule: pv > L
+2021-11-23 05:18:21.912703 // WARNING // 1) SI-02SB:VA-CCG-CAV:Pressure-Mon = 1.2e-08 // Limit: L=1e-8 // Rule: pv > L // 2) ^BO.+VA-CCG.+Pressure-Mon$ = - // Limit: L=1e-7 // Rule: pv > L
+2021-11-23 08:05:17.110949 // WARNING // BO-01U:VA-CCG-BG:Pressure-Mon = 1.4e-08 // Limit: L=1e-8 // Rule: pv > L
+2021-11-23 08:05:43.196849 // Modem error: ATZ
+2021-11-23 08:06:30.222327 // WARNING // 1) RAD:Thermo5:TotalDoseRate:Dose = 1.0000439641958734 // Limit: L=1 // Rule: pv > L // 2) RAD:ELSE:TotalDoseRate:Dose$ = - // Limit: L=1 // Rule: pv > L
+2021-11-23 08:16:29.533464 // WARNING // 1) RAD:Thermo5:TotalDoseRate:Dose = 1.0012014139875394 // Limit: L=1 // Rule: pv > L // 2) RAD:ELSE:TotalDoseRate:Dose$ = - // Limit: L=1 // Rule: pv > L
+2021-11-23 08:26:30.845267 // WARNING // 1) RAD:Thermo5:TotalDoseRate:Dose = 1.0013989401319838 // Limit: L=1 // Rule: pv > L // 2) RAD:ELSE:TotalDoseRate:Dose$ = - // Limit: L=1 // Rule: pv > L
+2021-11-23 08:36:32.156104 // WARNING // 1) RAD:Thermo5:TotalDoseRate:Dose = 1.0022738961389268 // Limit: L=1 // Rule: pv > L // 2) RAD:ELSE:TotalDoseRate:Dose$ = - // Limit: L=1 // Rule: pv > L
+2021-11-23 08:46:33.458358 // WARNING // 1) RAD:Thermo5:TotalDoseRate:Dose = 1.0036624142347597 // Limit: L=1 // Rule: pv > L // 2) RAD:ELSE:TotalDoseRate:Dose$ = - // Limit: L=1 // Rule: pv > L
+2021-11-23 08:56:32.756713 // WARNING // 1) RAD:Thermo5:TotalDoseRate:Dose = 1.0050799447069811 // Limit: L=1 // Rule: pv > L // 2) RAD:ELSE:TotalDoseRate:Dose$ = - // Limit: L=1 // Rule: pv > L
+2021-11-23 09:06:36.050593 // WARNING // 1) RAD:Thermo5:TotalDoseRate:Dose = 1.0053270151097593 // Limit: L=1 // Rule: pv > L // 2) RAD:ELSE:TotalDoseRate:Dose$ = - // Limit: L=1 // Rule: pv > L
+2021-11-24 00:53:30.614343 // WARNING // BO-39U:VA-CCG-BG:Pressure-Mon = 1.2e-08 // Limit: L=1e-8 // Rule: pv > L
+2021-11-24 00:54:01.636056 // WARNING // BO-01U:VA-CCG-BG:Pressure-Mon = 1.1e-08 // Limit: L=1e-8 // Rule: pv > L
+2021-11-24 01:45:34.131415 // WARNING // BO-01U:VA-CCG-BG:Pressure-Mon = 1.1e-08 // Limit: L=1e-8 // Rule: pv > L
+2021-11-24 01:46:05.151264 // WARNING // BO-01U:VA-CCG-BG:Pressure-Mon = 1.4e-08 // Limit: L=1e-8 // Rule: pv > L
+2021-11-24 01:50:50.290880 // WARNING // 1) RAD:Thermo5:TotalDoseRate:Dose = 1.0058829166750367 // Limit: L=1 // Rule: pv > L // 2) RAD:ELSE:TotalDoseRate:Dose$ = ok // Limit: L=1 // Rule: pv > L
+2021-11-24 01:52:45.343945 // WARNING // SI-02SB:VA-CCG-CAV:Pressure-Mon = 1.8e-08 // Limit: L=1e-8 // Rule: pv > L
+2021-11-24 01:53:16.366356 // WARNING // SI-02SB:VA-CCG-CAV:Pressure-Mon = 1.7e-08 // Limit: L=1e-8 // Rule: pv > L
+2021-11-24 01:53:47.384018 // WARNING // 1) SI-02SB:VA-CCG-CAV:Pressure-Mon = 1.6e-08 // Limit: L=1e-8 // Rule: pv > L // 2) ^BO.+VA-CCG.+Pressure-Mon$ = ok // Limit: L=1e-7 // Rule: pv > L
+2021-11-24 01:55:54.450301 // WARNING // BO-01U:VA-CCG-BG:Pressure-Mon = 1.4e-08 // Limit: L=1e-8 // Rule: pv > L
+2021-11-24 01:56:25.468418 // WARNING // BO-01U:VA-CCG-BG:Pressure-Mon = 1.1e-08 // Limit: L=1e-8 // Rule: pv > L
+2021-11-24 02:00:56.612953 // WARNING // 1) RAD:Thermo5:TotalDoseRate:Dose = 1.4238974659028165 // Limit: L=1 // Rule: pv > L // 2) RAD:ELSE:TotalDoseRate:Dose$ = ok // Limit: L=1 // Rule: pv > L
+2021-11-24 02:08:27.830186 // WARNING // SI-02SB:VA-CCG-CAV:Pressure-Mon = 1.1e-08 // Limit: L=1e-8 // Rule: pv > L
+2021-11-24 02:08:58.848758 // WARNING // SI-02SB:VA-CCG-CAV:Pressure-Mon = 1.1e-08 // Limit: L=1e-8 // Rule: pv > L
+2021-11-24 02:10:59.916158 // WARNING // 1) RAD:Thermo5:TotalDoseRate:Dose = 1.4261105069639288 // Limit: L=1 // Rule: pv > L // 2) RAD:ELSE:TotalDoseRate:Dose$ = ok // Limit: L=1 // Rule: pv > L
+2021-11-24 02:21:03.204932 // WARNING // 1) RAD:Thermo5:TotalDoseRate:Dose = 1.4279150257583715 // Limit: L=1 // Rule: pv > L // 2) RAD:ELSE:TotalDoseRate:Dose$ = ok // Limit: L=1 // Rule: pv > L
+2021-11-24 02:31:06.512927 // WARNING // 1) RAD:Thermo5:TotalDoseRate:Dose = 1.4281166284069822 // Limit: L=1 // Rule: pv > L // 2) RAD:ELSE:TotalDoseRate:Dose$ = ok // Limit: L=1 // Rule: pv > L
+2021-11-24 02:41:07.804999 // WARNING // 1) RAD:Thermo5:TotalDoseRate:Dose = 1.4292883748903158 // Limit: L=1 // Rule: pv > L // 2) RAD:ELSE:TotalDoseRate:Dose$ = ok // Limit: L=1 // Rule: pv > L
+2021-11-24 02:51:09.096577 // WARNING // 1) RAD:Thermo5:TotalDoseRate:Dose = 1.4311475872736485 // Limit: L=1 // Rule: pv > L // 2) RAD:ELSE:TotalDoseRate:Dose$ = ok // Limit: L=1 // Rule: pv > L
+2021-11-24 03:01:10.418793 // WARNING // 1) RAD:Thermo5:TotalDoseRate:Dose = 1.4327892715333705 // Limit: L=1 // Rule: pv > L // 2) RAD:ELSE:TotalDoseRate:Dose$ = ok // Limit: L=1 // Rule: pv > L
+2021-11-24 03:11:13.729820 // WARNING // 1) RAD:Thermo5:TotalDoseRate:Dose = 1.4335285370555944 // Limit: L=1 // Rule: pv > L // 2) RAD:ELSE:TotalDoseRate:Dose$ = ok // Limit: L=1 // Rule: pv > L
+2021-11-24 03:21:25.023845 // WARNING // 1) RAD:Thermo5:TotalDoseRate:Dose = 1.4344344488069845 // Limit: L=1 // Rule: pv > L // 2) RAD:ELSE:TotalDoseRate:Dose$ = ok // Limit: L=1 // Rule: pv > L
+2021-11-24 03:31:26.330660 // WARNING // 1) RAD:Thermo5:TotalDoseRate:Dose = 1.4359186080875397 // Limit: L=1 // Rule: pv > L // 2) RAD:ELSE:TotalDoseRate:Dose$ = ok // Limit: L=1 // Rule: pv > L
+2021-11-24 03:41:29.619335 // WARNING // 1) RAD:Thermo5:TotalDoseRate:Dose = 1.4385778169750414 // Limit: L=1 // Rule: pv > L // 2) RAD:ELSE:TotalDoseRate:Dose$ = ok // Limit: L=1 // Rule: pv > L
+2021-11-24 03:51:30.909374 // WARNING // 1) RAD:Thermo5:TotalDoseRate:Dose = 1.4383685403333757 // Limit: L=1 // Rule: pv > L // 2) RAD:ELSE:TotalDoseRate:Dose$ = ok // Limit: L=1 // Rule: pv > L
+2021-11-24 04:01:34.227381 // WARNING // 1) RAD:Thermo5:TotalDoseRate:Dose = 1.4387693336167096 // Limit: L=1 // Rule: pv > L // 2) RAD:ELSE:TotalDoseRate:Dose$ = ok // Limit: L=1 // Rule: pv > L
+2021-11-24 04:11:35.524242 // WARNING // 1) RAD:Thermo5:TotalDoseRate:Dose = 1.4376154191778192 // Limit: L=1 // Rule: pv > L // 2) RAD:ELSE:TotalDoseRate:Dose$ = ok // Limit: L=1 // Rule: pv > L
+2021-11-24 04:21:36.785116 // WARNING // 1) RAD:Thermo5:TotalDoseRate:Dose = 1.4382131717861497 // Limit: L=1 // Rule: pv > L // 2) RAD:ELSE:TotalDoseRate:Dose$ = ok // Limit: L=1 // Rule: pv > L
+2021-11-24 04:31:38.073196 // WARNING // 1) RAD:Thermo5:TotalDoseRate:Dose = 1.4393391036611483 // Limit: L=1 // Rule: pv > L // 2) RAD:ELSE:TotalDoseRate:Dose$ = ok // Limit: L=1 // Rule: pv > L
+2021-11-24 04:41:39.386646 // WARNING // 1) RAD:Thermo5:TotalDoseRate:Dose = 1.4392806392639286 // Limit: L=1 // Rule: pv > L // 2) RAD:ELSE:TotalDoseRate:Dose$ = ok // Limit: L=1 // Rule: pv > L
+2021-11-24 04:51:44.699895 // WARNING // 1) RAD:Thermo5:TotalDoseRate:Dose = 1.4406022832180958 // Limit: L=1 // Rule: pv > L // 2) RAD:ELSE:TotalDoseRate:Dose$ = ok // Limit: L=1 // Rule: pv > L
+2021-11-24 05:01:45.988330 // WARNING // 1) RAD:Thermo5:TotalDoseRate:Dose = 1.4173402035805944 // Limit: L=1 // Rule: pv > L // 2) RAD:ELSE:TotalDoseRate:Dose$ = ok // Limit: L=1 // Rule: pv > L
+2021-11-24 05:11:49.283709 // WARNING // 1) RAD:Thermo5:TotalDoseRate:Dose = 1.417876120737539 // Limit: L=1 // Rule: pv > L // 2) RAD:ELSE:TotalDoseRate:Dose$ = ok // Limit: L=1 // Rule: pv > L
+2021-11-24 05:21:54.583047 // WARNING // 1) RAD:Thermo5:TotalDoseRate:Dose = 1.4176086778167063 // Limit: L=1 // Rule: pv > L // 2) RAD:ELSE:TotalDoseRate:Dose$ = ok // Limit: L=1 // Rule: pv > L
+2021-11-24 05:29:13.815293 // WARNING // SI-13C2FE:VA-CCG-MD:Pressure-Mon = 1.1e-08 // Limit: L=1e-8 // Rule: pv > L
+2021-11-24 05:29:44.840538 // WARNING // SI-13C2FE:VA-CCG-MD:Pressure-Mon = 1.1e-08 // Limit: L=1e-8 // Rule: pv > L
+2021-11-24 05:30:15.864292 // WARNING // 1) SI-13C2FE:VA-CCG-MD:Pressure-Mon = 1.1e-08 // Limit: L=1e-8 // Rule: pv > L // 2) ^BO.+VA-CCG.+Pressure-Mon$ = ok // Limit: L=1e-7 // Rule: pv > L
+2021-11-24 05:32:00.923643 // WARNING // 1) RAD:Thermo5:TotalDoseRate:Dose = 1.4177947293097601 // Limit: L=1 // Rule: pv > L // 2) RAD:ELSE:TotalDoseRate:Dose$ = ok // Limit: L=1 // Rule: pv > L
+2021-11-24 05:39:18.155858 // WARNING // SI-13C2FE:VA-CCG-MD:Pressure-Mon = 1.2e-08 // Limit: L=1e-8 // Rule: pv > L
+2021-11-24 05:39:49.177250 // WARNING // SI-13C2FE:VA-CCG-MD:Pressure-Mon = 1.2e-08 // Limit: L=1e-8 // Rule: pv > L
+2021-11-24 05:42:02.249828 // WARNING // 1) RAD:Thermo5:TotalDoseRate:Dose = 1.417990567872261 // Limit: L=1 // Rule: pv > L // 2) RAD:ELSE:TotalDoseRate:Dose$ = ok // Limit: L=1 // Rule: pv > L
+2021-11-24 08:03:19.315392 // WARNING // BO-01U:VA-CCG-BG:Pressure-Mon = 1.2e-08 // Limit: L=1e-8 // Rule: pv > L
+2021-11-24 08:03:50.333181 // WARNING // BO-01U:VA-CCG-BG:Pressure-Mon = 2e-08 // Limit: L=1e-8 // Rule: pv > L
+2021-11-24 08:07:57.468732 // WARNING // SI-02SB:VA-CCG-CAV:Pressure-Mon = 1.1e-08 // Limit: L=1e-8 // Rule: pv > L
+2021-11-24 08:08:28.494849 // WARNING // 1) SI-02SB:VA-CCG-CAV:Pressure-Mon = 1.2e-08 // Limit: L=1e-8 // Rule: pv > L // 2) ^BO.+VA-CCG.+Pressure-Mon$ = ok // Limit: L=1e-7 // Rule: pv > L
+2021-11-24 08:08:59.515362 // WARNING // SI-02SB:VA-CCG-CAV:Pressure-Mon = 1.6e-08 // Limit: L=1e-8 // Rule: pv > L
+2021-11-24 18:02:29.693712 // WARNING // BO-09U:VA-CCG-BG:Pressure-Mon = 1.2e-08 // Limit: L=1e-8 // Rule: pv > L
+2021-11-24 18:02:55.929831 // Modem error: ATZ
+2021-11-24 18:06:23.033396 // WARNING // SI-02SB:VA-CCG-CAV:Pressure-Mon = 1.3e-08 // Limit: L=1e-8 // Rule: pv > L
+2021-11-24 18:06:54.059862 // WARNING // SI-02SB:VA-CCG-CAV:Pressure-Mon = 1.3e-08 // Limit: L=1e-8 // Rule: pv > L
+2021-11-24 18:07:25.086829 // WARNING // 1) SI-02SB:VA-CCG-CAV:Pressure-Mon = 1.3e-08 // Limit: L=1e-8 // Rule: pv > L // 2) ^BO.+VA-CCG.+Pressure-Mon$ = ok // Limit: L=1e-7 // Rule: pv > L
+2021-11-25 08:02:02.417730 // WARNING // BO-01U:VA-CCG-BG:Pressure-Mon = 1.1e-08 // Limit: L=1e-8 // Rule: pv > L
+2021-11-25 08:02:33.437757 // WARNING // BO-01U:VA-CCG-BG:Pressure-Mon = 1.1e-08 // Limit: L=1e-8 // Rule: pv > L
+2021-11-25 08:04:24.495552 // WARNING // 1) SI-02SB:VA-CCG-CAV:Pressure-Mon = 1.1e-08 // Limit: L=1e-8 // Rule: pv > L // 2) ^BO.+VA-CCG.+Pressure-Mon$ = ok // Limit: L=1e-7 // Rule: pv > L
+2021-11-25 08:04:55.520054 // WARNING // SI-02SB:VA-CCG-CAV:Pressure-Mon = 1.1e-08 // Limit: L=1e-8 // Rule: pv > L
+2021-11-25 08:05:26.540520 // WARNING // SI-02SB:VA-CCG-CAV:Pressure-Mon = 1.1e-08 // Limit: L=1e-8 // Rule: pv > L
+2021-11-25 08:15:09.897847 // Modem error: ATZ
+2021-11-25 14:48:15.272258 // Modem error: ATZ
+2021-11-25 15:48:37.161092 // WARNING // SI-13C4:DI-DCCT:Current-Mon = 74.76143917 // Limit: L=100 // Rule: pv < L
 
