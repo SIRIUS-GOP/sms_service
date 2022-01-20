@@ -17,11 +17,11 @@ def on_new_client(connection, client_address, queue):
         try:
             #print('connection from', client_address)
             ip1 = config.read("IP", "client_ip4") #changed to get connections only from optiplex-sc-02
-            #ip2 = config.read("IP", "client_ip2")
-            #ip3 = config.read("IP", "client_ip3")
-            #ip4 = config.read("IP", "client_ip4")
+            ip2 = config.read("IP", "client_ip2")
+            ip3 = config.read("IP", "client_ip3")
+            ip4 = config.read("IP", "client_ip4")
             data = ''
-            if (client_address[0] == ip1):# or client_address[0] == ip2 or client_address[0] == ip3 or client_address[0] == ip4):
+            if (client_address[0] == ip1 or client_address[0] == ip2 or client_address[0] == ip3 or client_address[0] == ip4):
                 #Receive the data in small chunks and retransmit it
                 data = connection.recv(1024)
                 #print(datetime.now(),' received "%s"' % data, type(data))
