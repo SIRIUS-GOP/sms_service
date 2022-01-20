@@ -1,13 +1,15 @@
 
 import pystray, socket, config
 from pystray import MenuItem as item
+from multiprocessing import Value
+from ctypes import c_bool
 from PIL import Image
 from time import sleep
 from os import path
 
 class tray:
     c_icon = None
-    def __init__(self, vstart=None, vstop=None, vexit=None):
+    def __init__(self, vstart=None, vstop=None, vexit=None): #
         self.vstart = vstart
         self.vstop = vstop
         self.vexit = vexit
@@ -28,6 +30,7 @@ class tray:
         finally:
             self.vstart.value = False
             self.vstop.value = True
+            #print("Exit")
 
     def exit(self):
         #print('systray_run OFF')
@@ -40,7 +43,7 @@ class tray:
             dir_path = path.dirname(path.realpath(__file__)) #current folder application path
             image_path = path.join(dir_path, 'smartphone.png')
             image = Image.open(image_path)
-            menu = (item('Start Server', self.start), item('Stop Server', self.stop), item('Exit Service', self.exit))
+            menu = (item('Exit Service', self.exit),)#(item('Start Server', self.start), item('Stop Server', self.stop), 
             icon = pystray.Icon("sms", image, "SMS Service", menu)
             self.c_icon = icon
             icon.run()
@@ -48,7 +51,7 @@ class tray:
             #print('Icon creation error')
             exit()
 
-def systray_run(vstart, vstop, vexit):
-    t = tray(vstart, vstop, vexit)
+def systray_run(vstart, vstop, vexit):#
+    t = tray(vstart, vstop, vexit)#
     #print('icon created')
     t.run_icon()
