@@ -1,0 +1,1304 @@
+2021-11-24 00:52:59.058522 message to owner walter.junior sent to server > BO.+CCG.+Pressure-Mon$
+2021-11-24 00:53:00.927236 message to owner operador sent to server > BO.+CCG.+Pressure-Mon$
+2021-11-24 01:45:02.850213 message to owner walter.junior sent to server > BO.+CCG.+Pressure-Mon$
+2021-11-24 01:45:04.434760 message to owner operador sent to server > BO.+CCG.+Pressure-Mon$
+2021-11-24 01:50:19.500166 message to owner fernanda.moura sent to server > ^RAD:Thermo.+:TotalDoseRate:Dose$
+2021-11-24 01:52:14.444769 message to owner walter.junior sent to server > SI.+CCG.+Pressure-Mon$
+2021-11-24 01:52:16.459894 message to owner operador sent to server > SI.+CCG.+Pressure-Mon$
+2021-11-24 01:52:18.472735 message to owner rone.castro sent to server > ^([ST][IBS])(.+VA-CCG.+Pressure-Mon)$
+2021-11-24 01:55:22.476547 message to owner walter.junior sent to server > BO.+CCG.+Pressure-Mon$
+2021-11-24 01:55:24.489953 message to owner operador sent to server > BO.+CCG.+Pressure-Mon$
+2021-11-24 02:00:26.089485 message to owner fernanda.moura sent to server > ^RAD:Thermo.+:TotalDoseRate:Dose$
+2021-11-24 02:07:56.529572 message to owner walter.junior sent to server > SI.+CCG.+Pressure-Mon$
+2021-11-24 02:07:58.540769 message to owner operador sent to server > SI.+CCG.+Pressure-Mon$
+2021-11-24 02:10:28.783861 message to owner fernanda.moura sent to server > ^RAD:Thermo.+:TotalDoseRate:Dose$
+2021-11-24 02:20:31.507312 message to owner fernanda.moura sent to server > ^RAD:Thermo.+:TotalDoseRate:Dose$
+2021-11-24 02:30:34.871867 message to owner fernanda.moura sent to server > ^RAD:Thermo.+:TotalDoseRate:Dose$
+2021-11-24 02:40:36.753864 message to owner fernanda.moura sent to server > ^RAD:Thermo.+:TotalDoseRate:Dose$
+2021-11-24 02:50:38.918371 message to owner fernanda.moura sent to server > ^RAD:Thermo.+:TotalDoseRate:Dose$
+2021-11-24 03:00:38.525001 message to owner fernanda.moura sent to server > ^RAD:Thermo.+:TotalDoseRate:Dose$
+2021-11-24 03:10:43.321750 message to owner fernanda.moura sent to server > ^RAD:Thermo.+:TotalDoseRate:Dose$
+2021-11-24 03:20:54.779275 message to owner fernanda.moura sent to server > ^RAD:Thermo.+:TotalDoseRate:Dose$
+2021-11-24 03:30:55.748834 message to owner fernanda.moura sent to server > ^RAD:Thermo.+:TotalDoseRate:Dose$
+2021-11-24 03:40:57.861909 message to owner fernanda.moura sent to server > ^RAD:Thermo.+:TotalDoseRate:Dose$
+2021-11-24 03:51:00.278670 message to owner fernanda.moura sent to server > ^RAD:Thermo.+:TotalDoseRate:Dose$
+2021-11-24 04:01:02.818522 message to owner fernanda.moura sent to server > ^RAD:Thermo.+:TotalDoseRate:Dose$
+2021-11-24 04:11:04.329056 message to owner fernanda.moura sent to server > ^RAD:Thermo.+:TotalDoseRate:Dose$
+2021-11-24 04:21:05.795597 message to owner fernanda.moura sent to server > ^RAD:Thermo.+:TotalDoseRate:Dose$
+2021-11-24 04:31:06.479532 message to owner fernanda.moura sent to server > ^RAD:Thermo.+:TotalDoseRate:Dose$
+2021-11-24 04:41:08.480080 message to owner fernanda.moura sent to server > ^RAD:Thermo.+:TotalDoseRate:Dose$
+2021-11-24 04:51:13.285146 message to owner fernanda.moura sent to server > ^RAD:Thermo.+:TotalDoseRate:Dose$
+2021-11-24 05:01:15.888347 message to owner fernanda.moura sent to server > ^RAD:Thermo.+:TotalDoseRate:Dose$
+2021-11-24 05:11:18.858676 message to owner fernanda.moura sent to server > ^RAD:Thermo.+:TotalDoseRate:Dose$
+2021-11-24 05:21:22.614487 message to owner fernanda.moura sent to server > ^RAD:Thermo.+:TotalDoseRate:Dose$
+2021-11-24 05:28:42.843761 message to owner walter.junior sent to server > SI.+CCG.+Pressure-Mon$
+2021-11-24 05:28:44.838205 message to owner operador sent to server > SI.+CCG.+Pressure-Mon$
+2021-11-24 05:28:46.851941 message to owner rone.castro sent to server > ^([ST][IBS])(.+VA-CCG.+Pressure-Mon)$
+2021-11-24 05:31:30.231722 message to owner fernanda.moura sent to server > ^RAD:Thermo.+:TotalDoseRate:Dose$
+2021-11-24 05:38:47.111253 message to owner walter.junior sent to server > SI.+CCG.+Pressure-Mon$
+2021-11-24 05:38:49.124786 message to owner operador sent to server > SI.+CCG.+Pressure-Mon$
+2021-11-24 05:41:31.418018 message to owner fernanda.moura sent to server > ^RAD:Thermo.+:TotalDoseRate:Dose$
+2021-11-24 08:02:49.315433 message to owner operador sent to server > BO.+CCG.+Pressure-Mon$
+2021-11-24 08:03:00.859434 message to owner walter.junior sent to server > BO.+CCG.+Pressure-Mon$
+2021-11-24 08:07:26.613557 message to owner walter.junior sent to server > SI.+CCG.+Pressure-Mon$
+2021-11-24 08:07:28.627459 message to owner rone.castro sent to server > ^([ST][IBS])(.+VA-CCG.+Pressure-Mon)$
+2021-11-24 08:07:39.991564 message to owner operador sent to server > SI.+CCG.+Pressure-Mon$
+2021-11-24 18:01:59.350362 message to owner walter.junior sent to server > BO.+CCG.+Pressure-Mon$
+2021-11-24 18:02:23.451610 message to owner operador sent to server > BO.+CCG.+Pressure-Mon$
+2021-11-24 18:05:51.841358 message to owner walter.junior sent to server > SI.+CCG.+Pressure-Mon$
+2021-11-24 18:05:53.834694 message to owner operador sent to server > SI.+CCG.+Pressure-Mon$
+2021-11-24 18:05:55.842806 message to owner rone.castro sent to server > ^([ST][IBS])(.+VA-CCG.+Pressure-Mon)$
+2021-11-25 08:01:30.962892 message to owner walter.junior sent to server > BO.+CCG.+Pressure-Mon$
+2021-11-25 08:01:32.571054 message to owner operador sent to server > BO.+CCG.+Pressure-Mon$
+2021-11-25 08:03:52.857282 message to owner rone.castro sent to server > ^([ST][IBS])(.+VA-CCG.+Pressure-Mon)$
+2021-11-25 08:04:03.713071 message to owner walter.junior sent to server > SI.+CCG.+Pressure-Mon$
+2021-11-25 08:04:05.728129 message to owner operador sent to server > SI.+CCG.+Pressure-Mon$
+2021-11-25 08:14:42.547222 message to owner walter.junior sent to server > SI.+CCG.+Pressure-Mon$
+2021-11-25 13:57:48.844784 error sending message to server > SI-13C4:DI-DCCT:Current-Mon
+2021-11-25 13:58:00.418472 error sending message to server > SI-13C4:DI-DCCT:Current-Mon
+2021-11-25 13:58:12.047411 error sending message to server > SI-13C4:DI-DCCT:Current-Mon
+2021-11-25 13:58:23.663382 error sending message to server > SI-13C4:DI-DCCT:Current-Mon
+2021-11-25 13:58:35.333140 error sending message to server > SI-13C4:DI-DCCT:Current-Mon
+2021-11-25 13:58:46.910535 error sending message to server > SI-13C4:DI-DCCT:Current-Mon
+2021-11-25 14:47:49.255179 message to owner rone.castro sent to server > SI-13C4:DI-DCCT:Current-Mon
+2021-11-25 15:48:06.694553 message to owner rone.castro sent to server > SI-13C4:DI-DCCT:Current-Mon
+2021-11-25 18:07:22.967247 message to owner walter.junior sent to server > BO.+CCG.+Pressure-Mon$
+2021-11-25 18:07:24.564894 message to owner operador sent to server > BO.+CCG.+Pressure-Mon$
+2021-11-25 18:13:58.197725 message to owner walter.junior sent to server > SI.+CCG.+Pressure-Mon$
+2021-11-25 18:14:10.671909 message to owner operador sent to server > SI.+CCG.+Pressure-Mon$
+2021-11-25 18:14:12.685799 message to owner rone.castro sent to server > ^([ST][IBS])(.+VA-CCG.+Pressure-Mon)$
+2021-11-26 08:03:08.083792 message to owner walter.junior sent to server > BO.+CCG.+Pressure-Mon$
+2021-11-26 08:03:09.870559 message to owner operador sent to server > BO.+CCG.+Pressure-Mon$
+2021-11-26 08:11:38.349151 message to owner walter.junior sent to server > SI.+CCG.+Pressure-Mon$
+2021-11-26 08:11:40.358602 message to owner operador sent to server > SI.+CCG.+Pressure-Mon$
+2021-11-26 08:11:42.371047 message to owner rone.castro sent to server > ^([ST][IBS])(.+VA-CCG.+Pressure-Mon)$
+2021-11-26 17:57:01.829028 message to owner walter.junior sent to server > BO.+CCG.+Pressure-Mon$
+2021-11-26 17:57:03.345352 message to owner operador sent to server > BO.+CCG.+Pressure-Mon$
+2021-11-26 18:04:00.206181 message to owner walter.junior sent to server > SI.+CCG.+Pressure-Mon$
+2021-11-26 18:04:02.221506 message to owner operador sent to server > SI.+CCG.+Pressure-Mon$
+2021-11-26 18:04:37.922395 message to owner rone.castro sent to server > ^([ST][IBS])(.+VA-CCG.+Pressure-Mon)$
+2021-11-27 08:00:46.538063 message to owner rone.castro sent to server > SI-Glob:AP-SOFB:LoopState-Sel
+2021-11-27 08:00:48.121239 message to owner walter.junior sent to server > SI-Glob:AP-SOFB:LoopState-Sts
+2021-11-27 08:00:50.135417 message to owner operador sent to server > SI-Glob:AP-SOFB:LoopState-Sel
+2021-11-27 08:27:56.803817 message to owner walter.junior sent to server > BO.+CCG.+Pressure-Mon$
+2021-11-27 08:27:58.298424 message to owner operador sent to server > BO.+CCG.+Pressure-Mon$
+2021-11-27 08:37:13.749456 message to owner rone.castro sent to server > ^([ST][IBS])(.+VA-CCG.+Pressure-Mon)$
+2021-11-27 08:37:25.002730 message to owner operador sent to server > SI.+CCG.+Pressure-Mon$
+2021-11-27 08:37:48.098770 message to owner walter.junior sent to server > SI.+CCG.+Pressure-Mon$
+2021-11-27 17:51:27.184669 message to owner walter.junior sent to server > BO.+CCG.+Pressure-Mon$
+2021-11-27 17:51:29.001463 message to owner operador sent to server > BO.+CCG.+Pressure-Mon$
+2021-11-27 17:57:04.708931 message to owner walter.junior sent to server > SI.+CCG.+Pressure-Mon$
+2021-11-27 17:57:06.721580 message to owner operador sent to server > SI.+CCG.+Pressure-Mon$
+2021-11-27 17:57:08.727728 message to owner rone.castro sent to server > ^([ST][IBS])(.+VA-CCG.+Pressure-Mon)$
+2021-11-28 07:02:47.577835 message to owner walter.junior sent to server > BO.+CCG.+Pressure-Mon$
+2021-11-28 07:02:49.419620 message to owner operador sent to server > BO.+CCG.+Pressure-Mon$
+2021-11-28 07:12:02.917191 message to owner walter.junior sent to server > SI.+CCG.+Pressure-Mon$
+2021-11-28 07:12:04.796182 message to owner operador sent to server > SI.+CCG.+Pressure-Mon$
+2021-11-28 07:12:06.807121 message to owner rone.castro sent to server > ^([ST][IBS])(.+VA-CCG.+Pressure-Mon)$
+2021-11-29 09:04:05.834636 error sending message to server > SI.+CCG.+Pressure-Mon$
+2021-11-29 10:40:10.268528 message to owner operador sent to server > BO.+CCG.+Pressure-Mon$
+2021-11-29 10:40:56.283901 message to owner walter.junior sent to server > BO.+CCG.+Pressure-Mon$
+2021-11-29 10:41:20.516794 message to owner rone.castro sent to server > ^([ST][IBS])(.+VA-CCG.+Pressure-Mon)$
+2021-11-29 11:22:33.354982 message to owner walter.junior sent to server > SI.+CCG.+Pressure-Mon$
+2021-11-29 11:22:34.887072 message to owner operador sent to server > SI.+CCG.+Pressure-Mon$
+2021-11-29 12:39:27.093714 message to owner walter.junior sent to server > SI.+CCG.+Pressure-Mon$
+2021-11-29 12:39:28.635224 message to owner operador sent to server > SI.+CCG.+Pressure-Mon$
+2021-11-29 15:26:13.698511 message to owner walter.junior sent to server > BO.+CCG.+Pressure-Mon$
+2021-11-29 15:29:18.418981 message to owner operador sent to server > BO.+CCG.+Pressure-Mon$
+2021-11-29 15:36:24.412084 message to owner walter.junior sent to server > BO.+CCG.+Pressure-Mon$
+2021-11-29 15:39:29.179410 message to owner operador sent to server > BO.+CCG.+Pressure-Mon$
+2021-11-29 15:40:04.264717 message to owner rone.castro sent to server > ^([ST][IBS])(.+VA-CCG.+Pressure-Mon)$
+2021-11-29 15:40:15.127053 message to owner walter.junior sent to server > SI.+CCG.+Pressure-Mon$
+2021-11-29 15:40:17.137180 message to owner operador sent to server > SI.+CCG.+Pressure-Mon$
+2021-11-29 16:02:22.210668 message to owner walter.junior sent to server > SI.+CCG.+Pressure-Mon$
+2021-11-29 16:02:23.843334 message to owner operador sent to server > SI.+CCG.+Pressure-Mon$
+2021-11-30 01:47:02.866347 message to owner operador sent to server > BO.+CCG.+Pressure-Mon$
+2021-11-30 01:47:25.845760 message to owner walter.junior sent to server > BO.+CCG.+Pressure-Mon$
+2021-11-30 01:55:23.165764 message to owner fernanda.moura sent to server > ^RAD:Thermo.+:TotalDoseRate:Dose$
+2021-11-30 01:57:07.177031 message to owner operador sent to server > BO.+CCG.+Pressure-Mon$
+2021-11-30 01:57:18.941829 message to owner operador sent to server > SI.+CCG.+Pressure-Mon$
+2021-11-30 01:57:20.953559 message to owner rone.castro sent to server > ^([ST][IBS])(.+VA-CCG.+Pressure-Mon)$
+2021-11-30 01:57:31.815700 message to owner walter.junior sent to server > SI.+CCG.+Pressure-Mon$
+2021-11-30 01:57:33.829900 message to owner walter.junior sent to server > BO.+CCG.+Pressure-Mon$
+2021-11-30 02:05:27.311134 message to owner fernanda.moura sent to server > ^RAD:Thermo.+:TotalDoseRate:Dose$
+2021-11-30 02:15:38.027145 message to owner fernanda.moura sent to server > ^RAD:Thermo.+:TotalDoseRate:Dose$
+2021-11-30 02:19:50.555882 message to owner walter.junior sent to server > SI.+CCG.+Pressure-Mon$
+2021-11-30 02:20:03.058150 message to owner operador sent to server > SI.+CCG.+Pressure-Mon$
+2021-11-30 02:25:38.351182 message to owner fernanda.moura sent to server > ^RAD:Thermo.+:TotalDoseRate:Dose$
+2021-11-30 02:35:50.090085 message to owner fernanda.moura sent to server > ^RAD:Thermo.+:TotalDoseRate:Dose$
+2021-11-30 02:45:49.964386 message to owner fernanda.moura sent to server > ^RAD:Thermo.+:TotalDoseRate:Dose$
+2021-11-30 02:56:00.421070 message to owner fernanda.moura sent to server > ^RAD:Thermo.+:TotalDoseRate:Dose$
+2021-11-30 03:06:01.876940 message to owner fernanda.moura sent to server > ^RAD:Thermo.+:TotalDoseRate:Dose$
+2021-11-30 03:16:12.484551 message to owner fernanda.moura sent to server > ^RAD:Thermo.+:TotalDoseRate:Dose$
+2021-11-30 03:26:23.617590 message to owner fernanda.moura sent to server > ^RAD:Thermo.+:TotalDoseRate:Dose$
+2021-11-30 03:36:34.030973 message to owner fernanda.moura sent to server > ^RAD:Thermo.+:TotalDoseRate:Dose$
+2021-11-30 03:46:45.275787 message to owner fernanda.moura sent to server > ^RAD:Thermo.+:TotalDoseRate:Dose$
+2021-11-30 03:56:46.231603 message to owner fernanda.moura sent to server > ^RAD:Thermo.+:TotalDoseRate:Dose$
+2021-11-30 04:06:45.908576 message to owner fernanda.moura sent to server > ^RAD:Thermo.+:TotalDoseRate:Dose$
+2021-11-30 04:16:46.038097 message to owner fernanda.moura sent to server > ^RAD:Thermo.+:TotalDoseRate:Dose$
+2021-11-30 04:26:57.231074 message to owner fernanda.moura sent to server > ^RAD:Thermo.+:TotalDoseRate:Dose$
+2021-11-30 04:37:07.893727 message to owner fernanda.moura sent to server > ^RAD:Thermo.+:TotalDoseRate:Dose$
+2021-11-30 04:47:19.112769 message to owner fernanda.moura sent to server > ^RAD:Thermo.+:TotalDoseRate:Dose$
+2021-11-30 04:57:29.346568 message to owner fernanda.moura sent to server > ^RAD:Thermo.+:TotalDoseRate:Dose$
+2021-11-30 05:07:38.465246 message to owner fernanda.moura sent to server > ^RAD:Thermo.+:TotalDoseRate:Dose$
+2021-11-30 05:17:39.567515 message to owner fernanda.moura sent to server > ^RAD:Thermo.+:TotalDoseRate:Dose$
+2021-11-30 05:27:49.614831 message to owner fernanda.moura sent to server > ^RAD:Thermo.+:TotalDoseRate:Dose$
+2021-11-30 05:37:50.778972 message to owner fernanda.moura sent to server > ^RAD:Thermo.+:TotalDoseRate:Dose$
+2021-11-30 05:48:01.772873 message to owner fernanda.moura sent to server > ^RAD:Thermo.+:TotalDoseRate:Dose$
+2021-11-30 08:01:18.235508 message to owner walter.junior sent to server > BO.+CCG.+Pressure-Mon$
+2021-11-30 08:01:19.851916 message to owner operador sent to server > BO.+CCG.+Pressure-Mon$
+2021-11-30 08:02:05.602842 message to owner walter.junior sent to server > SI.+CCG.+Pressure-Mon$
+2021-11-30 08:02:07.618344 message to owner operador sent to server > SI.+CCG.+Pressure-Mon$
+2021-11-30 08:02:09.623829 message to owner rone.castro sent to server > ^([ST][IBS])(.+VA-CCG.+Pressure-Mon)$
+2021-11-30 10:07:00.380518 message to owner walter.junior sent to server > BO.+CCG.+Pressure-Mon$
+2021-11-30 10:07:01.994609 message to owner operador sent to server > BO.+CCG.+Pressure-Mon$
+2021-11-30 10:10:07.874841 message to owner fernanda.moura sent to server > ^RAD:Thermo.+:TotalDoseRate:Dose$
+2021-11-30 10:17:03.067989 message to owner walter.junior sent to server > BO.+CCG.+Pressure-Mon$
+2021-11-30 10:17:04.580587 message to owner operador sent to server > BO.+CCG.+Pressure-Mon$
+2021-11-30 10:20:09.868117 message to owner fernanda.moura sent to server > ^RAD:Thermo.+:TotalDoseRate:Dose$
+2021-11-30 10:30:10.679997 message to owner fernanda.moura sent to server > ^RAD:Thermo.+:TotalDoseRate:Dose$
+2021-11-30 10:40:11.316376 message to owner fernanda.moura sent to server > ^RAD:Thermo.+:TotalDoseRate:Dose$
+2021-11-30 10:50:13.829911 message to owner fernanda.moura sent to server > ^RAD:Thermo.+:TotalDoseRate:Dose$
+2021-11-30 11:00:19.596924 message to owner fernanda.moura sent to server > ^RAD:Thermo.+:TotalDoseRate:Dose$
+2021-11-30 11:10:25.050939 message to owner fernanda.moura sent to server > ^RAD:Thermo.+:TotalDoseRate:Dose$
+2021-11-30 11:20:30.934985 message to owner fernanda.moura sent to server > ^RAD:Thermo.+:TotalDoseRate:Dose$
+2021-11-30 11:30:36.228296 message to owner fernanda.moura sent to server > ^RAD:Thermo.+:TotalDoseRate:Dose$
+2021-11-30 11:40:41.873217 message to owner fernanda.moura sent to server > ^RAD:Thermo.+:TotalDoseRate:Dose$
+2021-11-30 11:50:46.664872 message to owner fernanda.moura sent to server > ^RAD:Thermo.+:TotalDoseRate:Dose$
+2021-11-30 12:00:52.720039 message to owner fernanda.moura sent to server > ^RAD:Thermo.+:TotalDoseRate:Dose$
+2021-11-30 12:10:58.610266 message to owner fernanda.moura sent to server > ^RAD:Thermo.+:TotalDoseRate:Dose$
+2021-11-30 12:21:03.050321 message to owner fernanda.moura sent to server > ^RAD:Thermo.+:TotalDoseRate:Dose$
+2021-11-30 12:31:08.597705 message to owner fernanda.moura sent to server > ^RAD:Thermo.+:TotalDoseRate:Dose$
+2021-11-30 12:41:14.389701 message to owner fernanda.moura sent to server > ^RAD:Thermo.+:TotalDoseRate:Dose$
+2021-11-30 12:51:19.675017 message to owner fernanda.moura sent to server > ^RAD:Thermo.+:TotalDoseRate:Dose$
+2021-11-30 13:01:25.491188 message to owner fernanda.moura sent to server > ^RAD:Thermo.+:TotalDoseRate:Dose$
+2021-11-30 13:11:31.329060 message to owner fernanda.moura sent to server > ^RAD:Thermo.+:TotalDoseRate:Dose$
+2021-11-30 13:21:37.249440 message to owner fernanda.moura sent to server > ^RAD:Thermo.+:TotalDoseRate:Dose$
+2021-11-30 13:31:42.902269 message to owner fernanda.moura sent to server > ^RAD:Thermo.+:TotalDoseRate:Dose$
+2021-11-30 13:41:50.509148 message to owner fernanda.moura sent to server > ^RAD:Thermo.+:TotalDoseRate:Dose$
+2021-11-30 13:51:56.870511 message to owner fernanda.moura sent to server > ^RAD:Thermo.+:TotalDoseRate:Dose$
+2021-11-30 14:02:02.175493 message to owner fernanda.moura sent to server > ^RAD:Thermo.+:TotalDoseRate:Dose$
+2021-11-30 20:17:47.449241 message to owner walter.junior sent to server > BO.+CCG.+Pressure-Mon$
+2021-11-30 20:19:08.559622 message to owner operador sent to server > BO.+CCG.+Pressure-Mon$
+2021-11-30 21:38:43.119130 message to owner walter.junior sent to server > BO.+CCG.+Pressure-Mon$
+2021-11-30 21:38:44.960563 message to owner operador sent to server > BO.+CCG.+Pressure-Mon$
+2021-11-30 22:33:28.497895 message to owner walter.junior sent to server > BO.+CCG.+Pressure-Mon$
+2021-11-30 22:33:30.341533 message to owner operador sent to server > BO.+CCG.+Pressure-Mon$
+2021-11-30 23:51:24.608480 message to owner walter.junior sent to server > BO.+CCG.+Pressure-Mon$
+2021-11-30 23:51:26.386721 message to owner operador sent to server > BO.+CCG.+Pressure-Mon$
+2021-12-01 04:57:37.863564 message to owner walter.junior sent to server > BO.+CCG.+Pressure-Mon$
+2021-12-01 04:57:39.723989 message to owner operador sent to server > BO.+CCG.+Pressure-Mon$
+2021-12-01 05:00:53.634406 message to owner fernanda.moura sent to server > ^RAD:Thermo.+:TotalDoseRate:Dose$
+2021-12-01 05:04:29.506032 message to owner walter.junior sent to server > SI.+CCG.+Pressure-Mon$
+2021-12-01 05:04:31.388113 message to owner operador sent to server > SI.+CCG.+Pressure-Mon$
+2021-12-01 05:10:59.377017 message to owner fernanda.moura sent to server > ^RAD:Thermo.+:TotalDoseRate:Dose$
+2021-12-01 05:21:02.141814 message to owner fernanda.moura sent to server > ^RAD:Thermo.+:TotalDoseRate:Dose$
+2021-12-01 05:21:13.496451 message to owner operador sent to server > SI.+CCG.+Pressure-Mon$
+2021-12-01 05:22:10.440106 message to owner walter.junior sent to server > SI.+CCG.+Pressure-Mon$
+2021-12-01 05:31:06.110656 message to owner fernanda.moura sent to server > ^RAD:Thermo.+:TotalDoseRate:Dose$
+2021-12-01 05:41:11.951363 message to owner fernanda.moura sent to server > ^RAD:Thermo.+:TotalDoseRate:Dose$
+2021-12-01 05:51:15.034672 message to owner fernanda.moura sent to server > ^RAD:Thermo.+:TotalDoseRate:Dose$
+2021-12-01 06:01:17.791063 message to owner fernanda.moura sent to server > ^RAD:Thermo.+:TotalDoseRate:Dose$
+2021-12-01 06:11:20.625884 message to owner fernanda.moura sent to server > ^RAD:Thermo.+:TotalDoseRate:Dose$
+2021-12-01 06:21:22.642846 message to owner fernanda.moura sent to server > ^RAD:Thermo.+:TotalDoseRate:Dose$
+2021-12-01 06:31:25.189425 message to owner fernanda.moura sent to server > ^RAD:Thermo.+:TotalDoseRate:Dose$
+2021-12-01 06:41:27.279005 message to owner fernanda.moura sent to server > ^RAD:Thermo.+:TotalDoseRate:Dose$
+2021-12-01 06:51:29.424760 message to owner fernanda.moura sent to server > ^RAD:Thermo.+:TotalDoseRate:Dose$
+2021-12-01 07:01:31.734750 message to owner fernanda.moura sent to server > ^RAD:Thermo.+:TotalDoseRate:Dose$
+2021-12-01 07:11:33.879924 message to owner fernanda.moura sent to server > ^RAD:Thermo.+:TotalDoseRate:Dose$
+2021-12-01 07:21:36.604017 message to owner fernanda.moura sent to server > ^RAD:Thermo.+:TotalDoseRate:Dose$
+2021-12-01 07:31:41.042818 message to owner fernanda.moura sent to server > ^RAD:Thermo.+:TotalDoseRate:Dose$
+2021-12-01 07:41:42.904708 message to owner fernanda.moura sent to server > ^RAD:Thermo.+:TotalDoseRate:Dose$
+2021-12-01 07:51:46.623092 message to owner fernanda.moura sent to server > ^RAD:Thermo.+:TotalDoseRate:Dose$
+2021-12-01 08:01:48.832380 message to owner fernanda.moura sent to server > ^RAD:Thermo.+:TotalDoseRate:Dose$
+2021-12-01 08:03:42.052904 message to owner walter.junior sent to server > BO.+CCG.+Pressure-Mon$
+2021-12-01 08:03:44.064920 message to owner operador sent to server > BO.+CCG.+Pressure-Mon$
+2021-12-01 08:11:53.226410 message to owner fernanda.moura sent to server > ^RAD:Thermo.+:TotalDoseRate:Dose$
+2021-12-01 08:21:56.044669 message to owner fernanda.moura sent to server > ^RAD:Thermo.+:TotalDoseRate:Dose$
+2021-12-01 08:31:58.557970 message to owner fernanda.moura sent to server > ^RAD:Thermo.+:TotalDoseRate:Dose$
+2021-12-01 08:42:02.073164 message to owner fernanda.moura sent to server > ^RAD:Thermo.+:TotalDoseRate:Dose$
+2021-12-01 08:52:04.731529 message to owner fernanda.moura sent to server > ^RAD:Thermo.+:TotalDoseRate:Dose$
+2021-12-01 18:02:47.616037 message to owner operador sent to server > BO.+CCG.+Pressure-Mon$
+2021-12-01 18:02:58.929310 message to owner walter.junior sent to server > BO.+CCG.+Pressure-Mon$
+2021-12-01 18:06:36.291133 message to owner walter.junior sent to server > SI.+CCG.+Pressure-Mon$
+2021-12-01 18:06:38.176184 message to owner operador sent to server > SI.+CCG.+Pressure-Mon$
+2021-12-02 08:04:23.546887 message to owner walter.junior sent to server > BO.+CCG.+Pressure-Mon$
+2021-12-02 08:04:25.101003 message to owner operador sent to server > BO.+CCG.+Pressure-Mon$
+2021-12-02 08:09:45.466583 message to owner walter.junior sent to server > SI.+CCG.+Pressure-Mon$
+2021-12-02 08:09:47.344774 message to owner operador sent to server > SI.+CCG.+Pressure-Mon$
+2021-12-02 17:54:24.191523 message to owner operador sent to server > BO.+CCG.+Pressure-Mon$
+2021-12-02 17:54:35.505280 message to owner walter.junior sent to server > BO.+CCG.+Pressure-Mon$
+2021-12-02 17:59:10.468781 message to owner walter.junior sent to server > SI.+CCG.+Pressure-Mon$
+2021-12-02 17:59:57.270103 message to owner operador sent to server > SI.+CCG.+Pressure-Mon$
+2021-12-03 08:01:56.631447 message to owner walter.junior sent to server > BO.+CCG.+Pressure-Mon$
+2021-12-03 08:01:58.468291 message to owner operador sent to server > BO.+CCG.+Pressure-Mon$
+2021-12-03 08:18:24.448867 message to owner walter.junior sent to server > SI.+CCG.+Pressure-Mon$
+2021-12-03 08:18:26.225399 message to owner operador sent to server > SI.+CCG.+Pressure-Mon$
+2021-12-03 18:05:05.989573 message to owner walter.junior sent to server > BO.+CCG.+Pressure-Mon$
+2021-12-03 18:05:07.837760 message to owner operador sent to server > BO.+CCG.+Pressure-Mon$
+2021-12-03 18:11:48.518296 message to owner walter.junior sent to server > SI.+CCG.+Pressure-Mon$
+2021-12-03 18:11:50.388771 message to owner operador sent to server > SI.+CCG.+Pressure-Mon$
+2021-12-04 08:03:22.019608 message to owner walter.junior sent to server > BO.+CCG.+Pressure-Mon$
+2021-12-04 08:03:23.837109 message to owner operador sent to server > BO.+CCG.+Pressure-Mon$
+2021-12-04 08:16:46.879732 message to owner walter.junior sent to server > SI.+CCG.+Pressure-Mon$
+2021-12-04 08:16:59.023893 message to owner operador sent to server > SI.+CCG.+Pressure-Mon$
+2021-12-04 17:53:27.002729 message to owner walter.junior sent to server > BO.+CCG.+Pressure-Mon$
+2021-12-04 17:53:28.815966 message to owner operador sent to server > BO.+CCG.+Pressure-Mon$
+2021-12-04 17:56:44.272966 message to owner walter.junior sent to server > SI.+CCG.+Pressure-Mon$
+2021-12-04 17:56:46.305804 message to owner operador sent to server > SI.+CCG.+Pressure-Mon$
+2021-12-04 23:08:53.300974 message to owner walter.junior sent to server > SI.+CCG.+Pressure-Mon$
+2021-12-05 07:03:36.741808 message to owner walter.junior sent to server > BO.+CCG.+Pressure-Mon$
+2021-12-05 07:03:38.304725 message to owner operador sent to server > BO.+CCG.+Pressure-Mon$
+2021-12-05 07:17:09.534472 message to owner walter.junior sent to server > SI.+CCG.+Pressure-Mon$
+2021-12-05 07:17:11.358879 message to owner operador sent to server > SI.+CCG.+Pressure-Mon$
+2021-12-05 22:04:50.069159 message to owner walter.junior sent to server > SI-13C4:DI-DCCT:Current-Mon
+2021-12-05 22:15:00.323264 message to owner walter.junior sent to server > SI-13C4:DI-DCCT:Current-Mon
+2021-12-05 22:25:07.522884 message to owner walter.junior sent to server > SI-13C4:DI-DCCT:Current-Mon
+2021-12-05 22:35:15.147891 message to owner walter.junior sent to server > SI-13C4:DI-DCCT:Current-Mon
+2021-12-05 22:45:22.913257 message to owner walter.junior sent to server > SI-13C4:DI-DCCT:Current-Mon
+2021-12-05 22:55:30.880530 message to owner walter.junior sent to server > SI-13C4:DI-DCCT:Current-Mon
+2021-12-05 23:05:37.851164 message to owner walter.junior sent to server > SI-13C4:DI-DCCT:Current-Mon
+2021-12-05 23:15:44.912131 message to owner walter.junior sent to server > SI-13C4:DI-DCCT:Current-Mon
+2021-12-05 23:25:51.758711 message to owner walter.junior sent to server > SI-13C4:DI-DCCT:Current-Mon
+2021-12-05 23:36:01.223194 message to owner walter.junior sent to server > SI-13C4:DI-DCCT:Current-Mon
+2021-12-05 23:46:08.214879 message to owner walter.junior sent to server > SI-13C4:DI-DCCT:Current-Mon
+2021-12-05 23:56:14.542931 message to owner walter.junior sent to server > SI-13C4:DI-DCCT:Current-Mon
+2021-12-06 00:06:22.173140 message to owner walter.junior sent to server > SI-13C4:DI-DCCT:Current-Mon
+2021-12-06 00:16:27.829245 message to owner walter.junior sent to server > SI-13C4:DI-DCCT:Current-Mon
+2021-12-06 00:26:34.331072 message to owner walter.junior sent to server > SI-13C4:DI-DCCT:Current-Mon
+2021-12-06 00:36:42.124766 message to owner walter.junior sent to server > SI-13C4:DI-DCCT:Current-Mon
+2021-12-06 00:46:49.893744 message to owner walter.junior sent to server > SI-13C4:DI-DCCT:Current-Mon
+2021-12-06 00:56:57.402069 message to owner walter.junior sent to server > SI-13C4:DI-DCCT:Current-Mon
+2021-12-06 01:07:02.860894 message to owner walter.junior sent to server > SI-13C4:DI-DCCT:Current-Mon
+2021-12-06 01:17:10.105472 message to owner walter.junior sent to server > SI-13C4:DI-DCCT:Current-Mon
+2021-12-06 01:27:17.501803 message to owner walter.junior sent to server > SI-13C4:DI-DCCT:Current-Mon
+2021-12-06 01:37:23.551486 message to owner walter.junior sent to server > SI-13C4:DI-DCCT:Current-Mon
+2021-12-06 01:47:30.408100 message to owner walter.junior sent to server > SI-13C4:DI-DCCT:Current-Mon
+2021-12-06 01:57:36.652384 message to owner walter.junior sent to server > SI-13C4:DI-DCCT:Current-Mon
+2021-12-06 02:07:43.717666 message to owner walter.junior sent to server > SI-13C4:DI-DCCT:Current-Mon
+2021-12-06 02:17:50.642364 message to owner walter.junior sent to server > SI-13C4:DI-DCCT:Current-Mon
+2021-12-06 02:27:56.938767 message to owner walter.junior sent to server > SI-13C4:DI-DCCT:Current-Mon
+2021-12-06 02:38:04.205966 message to owner walter.junior sent to server > SI-13C4:DI-DCCT:Current-Mon
+2021-12-06 02:48:11.904880 message to owner walter.junior sent to server > SI-13C4:DI-DCCT:Current-Mon
+2021-12-06 02:58:18.482037 message to owner walter.junior sent to server > SI-13C4:DI-DCCT:Current-Mon
+2021-12-06 03:08:26.275443 message to owner walter.junior sent to server > SI-13C4:DI-DCCT:Current-Mon
+2021-12-06 03:18:33.335587 message to owner walter.junior sent to server > SI-13C4:DI-DCCT:Current-Mon
+2021-12-06 03:28:41.903412 message to owner walter.junior sent to server > SI-13C4:DI-DCCT:Current-Mon
+2021-12-06 03:38:41.686520 message to owner walter.junior sent to server > SI-13C4:DI-DCCT:Current-Mon
+2021-12-06 03:48:47.796999 message to owner walter.junior sent to server > SI-13C4:DI-DCCT:Current-Mon
+2021-12-06 03:58:54.320523 message to owner walter.junior sent to server > SI-13C4:DI-DCCT:Current-Mon
+2021-12-06 04:09:00.659804 message to owner walter.junior sent to server > SI-13C4:DI-DCCT:Current-Mon
+2021-12-06 04:19:08.136937 message to owner walter.junior sent to server > SI-13C4:DI-DCCT:Current-Mon
+2021-12-06 04:29:16.071951 message to owner walter.junior sent to server > SI-13C4:DI-DCCT:Current-Mon
+2021-12-06 04:39:24.321756 message to owner walter.junior sent to server > SI-13C4:DI-DCCT:Current-Mon
+2021-12-06 04:49:33.405636 message to owner walter.junior sent to server > SI-13C4:DI-DCCT:Current-Mon
+2021-12-06 04:59:40.551921 message to owner walter.junior sent to server > SI-13C4:DI-DCCT:Current-Mon
+2021-12-06 05:09:45.366000 message to owner walter.junior sent to server > SI-13C4:DI-DCCT:Current-Mon
+2021-12-06 05:19:52.739986 message to owner walter.junior sent to server > SI-13C4:DI-DCCT:Current-Mon
+2021-12-06 05:29:59.452753 message to owner walter.junior sent to server > SI-13C4:DI-DCCT:Current-Mon
+2021-12-06 05:40:05.621246 message to owner walter.junior sent to server > SI-13C4:DI-DCCT:Current-Mon
+2021-12-06 05:50:12.672263 message to owner walter.junior sent to server > SI-13C4:DI-DCCT:Current-Mon
+2021-12-06 06:00:19.919937 message to owner walter.junior sent to server > SI-13C4:DI-DCCT:Current-Mon
+2021-12-06 06:10:25.933738 message to owner walter.junior sent to server > SI-13C4:DI-DCCT:Current-Mon
+2021-12-06 06:20:33.056945 message to owner walter.junior sent to server > SI-13C4:DI-DCCT:Current-Mon
+2021-12-06 06:30:40.875904 message to owner walter.junior sent to server > SI-13C4:DI-DCCT:Current-Mon
+2021-12-06 06:40:46.670244 message to owner walter.junior sent to server > SI-13C4:DI-DCCT:Current-Mon
+2021-12-06 06:50:53.491884 message to owner walter.junior sent to server > SI-13C4:DI-DCCT:Current-Mon
+2021-12-06 07:00:59.593805 message to owner walter.junior sent to server > SI-13C4:DI-DCCT:Current-Mon
+2021-12-06 07:11:07.996339 message to owner walter.junior sent to server > SI-13C4:DI-DCCT:Current-Mon
+2021-12-06 07:21:14.565205 message to owner walter.junior sent to server > SI-13C4:DI-DCCT:Current-Mon
+2021-12-06 07:31:22.011541 message to owner walter.junior sent to server > SI-13C4:DI-DCCT:Current-Mon
+2021-12-06 07:41:30.238527 message to owner walter.junior sent to server > SI-13C4:DI-DCCT:Current-Mon
+2021-12-06 07:51:37.045107 message to owner walter.junior sent to server > SI-13C4:DI-DCCT:Current-Mon
+2021-12-06 08:01:43.323393 message to owner walter.junior sent to server > SI-13C4:DI-DCCT:Current-Mon
+2021-12-06 08:11:51.301089 message to owner walter.junior sent to server > SI-13C4:DI-DCCT:Current-Mon
+2021-12-06 16:13:43.211972 message to owner walter.junior sent to server > BO.+CCG.+Pressure-Mon$
+2021-12-06 16:36:38.626614 message to owner walter.junior sent to server > BO.+CCG.+Pressure-Mon$
+2021-12-06 16:36:40.206593 message to owner operador sent to server > BO.+CCG.+Pressure-Mon$
+2021-12-06 16:44:40.546637 message to owner walter.junior sent to server > SI.+CCG.+Pressure-Mon$
+2021-12-06 16:44:42.410201 message to owner operador sent to server > SI.+CCG.+Pressure-Mon$
+2021-12-06 19:06:46.233482 message to owner fernanda.moura sent to server > ^RAD:Thermo.+:TotalDoseRate:Dose$
+2021-12-06 19:08:05.732192 message to owner walter.junior sent to server > BO.+CCG.+Pressure-Mon$
+2021-12-06 19:12:51.443854 message to owner operador sent to server > BO.+CCG.+Pressure-Mon$
+2021-12-06 19:16:52.338760 message to owner fernanda.moura sent to server > ^RAD:Thermo.+:TotalDoseRate:Dose$
+2021-12-06 19:18:12.026006 message to owner walter.junior sent to server > BO.+CCG.+Pressure-Mon$
+2021-12-06 19:18:46.686709 message to owner walter.junior sent to server > SI.+CCG.+Pressure-Mon$
+2021-12-06 19:18:48.590721 message to owner operador sent to server > SI.+CCG.+Pressure-Mon$
+2021-12-06 19:27:00.204458 message to owner fernanda.moura sent to server > ^RAD:Thermo.+:TotalDoseRate:Dose$
+2021-12-06 19:34:34.830164 message to owner walter.junior sent to server > SI.+CCG.+Pressure-Mon$
+2021-12-06 19:34:36.692303 message to owner walter.junior sent to server > TS.+CCG.+Pressure-Mon$
+2021-12-06 19:37:05.840488 message to owner fernanda.moura sent to server > ^RAD:Thermo.+:TotalDoseRate:Dose$
+2021-12-06 19:47:11.726220 message to owner fernanda.moura sent to server > ^RAD:Thermo.+:TotalDoseRate:Dose$
+2021-12-06 19:57:16.106503 message to owner fernanda.moura sent to server > ^RAD:Thermo.+:TotalDoseRate:Dose$
+2021-12-06 20:07:09.035993 message to owner operador sent to server > BO.+CCG.+Pressure-Mon$
+2021-12-06 20:07:21.297528 message to owner fernanda.moura sent to server > ^RAD:Thermo.+:TotalDoseRate:Dose$
+2021-12-06 20:08:06.405745 message to owner walter.junior sent to server > BO.+CCG.+Pressure-Mon$
+2021-12-06 20:15:33.117803 message to owner walter.junior sent to server > SI.+CCG.+Pressure-Mon$
+2021-12-06 20:15:34.073631 message to owner operador sent to server > SI.+CCG.+Pressure-Mon$
+2021-12-06 20:17:29.666987 message to owner fernanda.moura sent to server > ^RAD:Thermo.+:TotalDoseRate:Dose$
+2021-12-06 20:18:38.013100 message to owner operador sent to server > BO.+CCG.+Pressure-Mon$
+2021-12-06 20:19:00.829521 message to owner walter.junior sent to server > BO.+CCG.+Pressure-Mon$
+2021-12-06 20:27:24.875692 message to owner walter.junior sent to server > SI.+CCG.+Pressure-Mon$
+2021-12-06 20:27:26.314044 message to owner operador sent to server > SI.+CCG.+Pressure-Mon$
+2021-12-06 20:27:38.560094 message to owner fernanda.moura sent to server > ^RAD:Thermo.+:TotalDoseRate:Dose$
+2021-12-06 20:37:33.062218 message to owner walter.junior sent to server > SI.+CCG.+Pressure-Mon$
+2021-12-06 20:37:34.942590 message to owner operador sent to server > SI.+CCG.+Pressure-Mon$
+2021-12-06 20:37:46.387297 message to owner walter.junior sent to server > BO.+CCG.+Pressure-Mon$
+2021-12-06 20:37:48.392735 message to owner fernanda.moura sent to server > ^RAD:Thermo.+:TotalDoseRate:Dose$
+2021-12-06 20:41:13.727729 message to owner walter.junior sent to server > TS.+CCG.+Pressure-Mon$
+2021-12-06 20:47:54.078993 message to owner fernanda.moura sent to server > ^RAD:Thermo.+:TotalDoseRate:Dose$
+2021-12-06 20:57:59.062483 message to owner fernanda.moura sent to server > ^RAD:Thermo.+:TotalDoseRate:Dose$
+2021-12-06 21:08:04.020087 message to owner fernanda.moura sent to server > ^RAD:Thermo.+:TotalDoseRate:Dose$
+2021-12-06 21:13:35.838644 message to owner walter.junior sent to server > BO.+CCG.+Pressure-Mon$
+2021-12-06 21:13:37.667850 message to owner operador sent to server > BO.+CCG.+Pressure-Mon$
+2021-12-06 21:18:13.067975 message to owner fernanda.moura sent to server > ^RAD:Thermo.+:TotalDoseRate:Dose$
+2021-12-06 21:25:03.995753 message to owner walter.junior sent to server > BO.+CCG.+Pressure-Mon$
+2021-12-06 21:25:16.531663 message to owner operador sent to server > BO.+CCG.+Pressure-Mon$
+2021-12-06 21:26:36.498170 message to owner walter.junior sent to server > SI.+CCG.+Pressure-Mon$
+2021-12-06 21:26:48.915083 message to owner operador sent to server > SI.+CCG.+Pressure-Mon$
+2021-12-06 21:28:21.411738 message to owner fernanda.moura sent to server > ^RAD:Thermo.+:TotalDoseRate:Dose$
+2021-12-06 21:38:27.945919 message to owner fernanda.moura sent to server > ^RAD:Thermo.+:TotalDoseRate:Dose$
+2021-12-06 21:38:38.858460 message to owner walter.junior sent to server > SI.+CCG.+Pressure-Mon$
+2021-12-06 21:38:40.866423 message to owner operador sent to server > SI.+CCG.+Pressure-Mon$
+2021-12-06 21:48:37.639477 message to owner fernanda.moura sent to server > ^RAD:Thermo.+:TotalDoseRate:Dose$
+2021-12-06 21:48:48.640354 message to owner walter.junior sent to server > SI.+CCG.+Pressure-Mon$
+2021-12-06 21:48:50.546721 message to owner operador sent to server > SI.+CCG.+Pressure-Mon$
+2021-12-06 21:58:44.960220 message to owner fernanda.moura sent to server > ^RAD:Thermo.+:TotalDoseRate:Dose$
+2021-12-06 22:00:27.892834 message to owner operador sent to server > BO.+CCG.+Pressure-Mon$
+2021-12-06 22:00:39.439088 message to owner walter.junior sent to server > BO.+CCG.+Pressure-Mon$
+2021-12-06 22:00:51.638412 message to owner operador sent to server > SI.+CCG.+Pressure-Mon$
+2021-12-06 22:01:02.990172 message to owner walter.junior sent to server > SI.+CCG.+Pressure-Mon$
+2021-12-06 22:08:52.059259 message to owner fernanda.moura sent to server > ^RAD:Thermo.+:TotalDoseRate:Dose$
+2021-12-06 22:10:57.517836 message to owner walter.junior sent to server > BO.+CCG.+Pressure-Mon$
+2021-12-06 22:12:06.641792 message to owner operador sent to server > BO.+CCG.+Pressure-Mon$
+2021-12-06 22:18:58.472103 message to owner walter.junior sent to server > SI.+CCG.+Pressure-Mon$
+2021-12-06 22:19:00.520794 message to owner operador sent to server > SI.+CCG.+Pressure-Mon$
+2021-12-06 22:19:02.498447 message to owner fernanda.moura sent to server > ^RAD:Thermo.+:TotalDoseRate:Dose$
+2021-12-06 22:21:30.435357 message to owner walter.junior sent to server > BO.+CCG.+Pressure-Mon$
+2021-12-06 22:28:23.337375 message to owner operador sent to server > BO.+CCG.+Pressure-Mon$
+2021-12-06 22:29:09.960326 message to owner fernanda.moura sent to server > ^RAD:Thermo.+:TotalDoseRate:Dose$
+2021-12-06 22:29:43.785637 message to owner walter.junior sent to server > SI.+CCG.+Pressure-Mon$
+2021-12-06 22:29:45.798091 message to owner operador sent to server > SI.+CCG.+Pressure-Mon$
+2021-12-06 22:36:13.718012 message to owner walter.junior sent to server > BO.+CCG.+Pressure-Mon$
+2021-12-06 22:38:31.266462 message to owner operador sent to server > BO.+CCG.+Pressure-Mon$
+2021-12-06 22:39:17.909688 message to owner fernanda.moura sent to server > ^RAD:Thermo.+:TotalDoseRate:Dose$
+2021-12-06 22:49:24.582144 message to owner fernanda.moura sent to server > ^RAD:Thermo.+:TotalDoseRate:Dose$
+2021-12-06 22:54:33.114554 message to owner walter.junior sent to server > BO.+CCG.+Pressure-Mon$
+2021-12-06 22:54:34.615134 message to owner operador sent to server > BO.+CCG.+Pressure-Mon$
+2021-12-06 22:59:32.578353 message to owner fernanda.moura sent to server > ^RAD:Thermo.+:TotalDoseRate:Dose$
+2021-12-06 23:00:17.830418 message to owner walter.junior sent to server > SI.+CCG.+Pressure-Mon$
+2021-12-06 23:00:19.839453 message to owner operador sent to server > SI.+CCG.+Pressure-Mon$
+2021-12-06 23:09:40.062942 message to owner fernanda.moura sent to server > ^RAD:Thermo.+:TotalDoseRate:Dose$
+2021-12-06 23:19:46.542207 message to owner fernanda.moura sent to server > ^RAD:Thermo.+:TotalDoseRate:Dose$
+2021-12-06 23:29:53.221149 message to owner fernanda.moura sent to server > ^RAD:Thermo.+:TotalDoseRate:Dose$
+2021-12-06 23:40:00.334957 message to owner fernanda.moura sent to server > ^RAD:Thermo.+:TotalDoseRate:Dose$
+2021-12-06 23:42:17.893566 message to owner operador sent to server > BO.+CCG.+Pressure-Mon$
+2021-12-06 23:50:08.627782 message to owner fernanda.moura sent to server > ^RAD:Thermo.+:TotalDoseRate:Dose$
+2021-12-06 23:56:26.309157 message to owner operador sent to server > BO.+CCG.+Pressure-Mon$
+2021-12-06 23:58:31.526875 message to owner walter.junior sent to server > BO.+CCG.+Pressure-Mon$
+2021-12-07 00:00:15.268619 message to owner fernanda.moura sent to server > ^RAD:Thermo.+:TotalDoseRate:Dose$
+2021-12-07 00:10:20.893211 message to owner fernanda.moura sent to server > ^RAD:Thermo.+:TotalDoseRate:Dose$
+2021-12-07 00:20:27.901469 message to owner fernanda.moura sent to server > ^RAD:Thermo.+:TotalDoseRate:Dose$
+2021-12-07 00:30:33.868171 message to owner fernanda.moura sent to server > ^RAD:Thermo.+:TotalDoseRate:Dose$
+2021-12-07 00:40:40.507554 message to owner fernanda.moura sent to server > ^RAD:Thermo.+:TotalDoseRate:Dose$
+2021-12-07 00:50:46.180790 message to owner fernanda.moura sent to server > ^RAD:Thermo.+:TotalDoseRate:Dose$
+2021-12-07 01:00:51.730353 message to owner fernanda.moura sent to server > ^RAD:Thermo.+:TotalDoseRate:Dose$
+2021-12-07 01:01:14.523417 message to owner operador sent to server > BO.+CCG.+Pressure-Mon$
+2021-12-07 01:03:20.721069 message to owner walter.junior sent to server > BO.+CCG.+Pressure-Mon$
+2021-12-07 01:10:58.809404 message to owner fernanda.moura sent to server > ^RAD:Thermo.+:TotalDoseRate:Dose$
+2021-12-07 01:21:04.385409 message to owner fernanda.moura sent to server > ^RAD:Thermo.+:TotalDoseRate:Dose$
+2021-12-07 01:26:36.981282 message to owner walter.junior sent to server > BO.+CCG.+Pressure-Mon$
+2021-12-07 01:26:38.896653 message to owner operador sent to server > BO.+CCG.+Pressure-Mon$
+2021-12-07 01:30:51.136928 message to owner walter.junior sent to server > SI.+CCG.+Pressure-Mon$
+2021-12-07 01:30:52.604168 message to owner operador sent to server > SI.+CCG.+Pressure-Mon$
+2021-12-07 01:31:04.873680 message to owner fernanda.moura sent to server > ^RAD:Thermo.+:TotalDoseRate:Dose$
+2021-12-07 01:41:10.113463 message to owner fernanda.moura sent to server > ^RAD:Thermo.+:TotalDoseRate:Dose$
+2021-12-07 01:51:17.105222 message to owner fernanda.moura sent to server > ^RAD:Thermo.+:TotalDoseRate:Dose$
+2021-12-07 01:53:33.857879 message to owner walter.junior sent to server > BO.+CCG.+Pressure-Mon$
+2021-12-07 01:53:35.866595 message to owner operador sent to server > BO.+CCG.+Pressure-Mon$
+2021-12-07 02:01:24.947094 message to owner fernanda.moura sent to server > ^RAD:Thermo.+:TotalDoseRate:Dose$
+2021-12-07 02:06:33.397518 message to owner walter.junior sent to server > BO.+CCG.+Pressure-Mon$
+2021-12-07 02:06:45.740351 message to owner operador sent to server > BO.+CCG.+Pressure-Mon$
+2021-12-07 02:07:31.320463 message to owner walter.junior sent to server > SI.+CCG.+Pressure-Mon$
+2021-12-07 02:07:33.346832 message to owner operador sent to server > SI.+CCG.+Pressure-Mon$
+2021-12-07 02:11:34.428197 message to owner fernanda.moura sent to server > ^RAD:Thermo.+:TotalDoseRate:Dose$
+2021-12-07 02:21:39.745444 message to owner fernanda.moura sent to server > ^RAD:Thermo.+:TotalDoseRate:Dose$
+2021-12-07 02:24:30.294575 message to owner walter.junior sent to server > BO.+CCG.+Pressure-Mon$
+2021-12-07 02:24:32.305047 message to owner operador sent to server > BO.+CCG.+Pressure-Mon$
+2021-12-07 02:31:47.472015 message to owner fernanda.moura sent to server > ^RAD:Thermo.+:TotalDoseRate:Dose$
+2021-12-07 02:34:38.653438 message to owner walter.junior sent to server > BO.+CCG.+Pressure-Mon$
+2021-12-07 02:34:40.111868 message to owner operador sent to server > BO.+CCG.+Pressure-Mon$
+2021-12-07 02:41:54.800818 message to owner fernanda.moura sent to server > ^RAD:Thermo.+:TotalDoseRate:Dose$
+2021-12-07 02:47:25.582936 message to owner walter.junior sent to server > BO.+CCG.+Pressure-Mon$
+2021-12-07 02:47:27.599196 message to owner operador sent to server > BO.+CCG.+Pressure-Mon$
+2021-12-07 02:52:02.624618 message to owner fernanda.moura sent to server > ^RAD:Thermo.+:TotalDoseRate:Dose$
+2021-12-07 03:02:08.136028 message to owner fernanda.moura sent to server > ^RAD:Thermo.+:TotalDoseRate:Dose$
+2021-12-07 03:20:13.281532 message to owner fernanda.moura sent to server > ^RAD:Thermo.+:TotalDoseRate:Dose$
+2021-12-07 03:30:19.360539 message to owner fernanda.moura sent to server > ^RAD:Thermo.+:TotalDoseRate:Dose$
+2021-12-07 03:40:24.312615 message to owner fernanda.moura sent to server > ^RAD:Thermo.+:TotalDoseRate:Dose$
+2021-12-07 04:17:29.653769 message to owner fernanda.moura sent to server > ^RAD:Thermo.+:TotalDoseRate:Dose$
+2021-12-07 04:27:34.983693 message to owner fernanda.moura sent to server > ^RAD:Thermo.+:TotalDoseRate:Dose$
+2021-12-07 04:37:41.160887 message to owner fernanda.moura sent to server > ^RAD:Thermo.+:TotalDoseRate:Dose$
+2021-12-07 04:47:47.359008 message to owner fernanda.moura sent to server > ^RAD:Thermo.+:TotalDoseRate:Dose$
+2021-12-07 04:57:53.720843 message to owner fernanda.moura sent to server > ^RAD:Thermo.+:TotalDoseRate:Dose$
+2021-12-07 05:07:59.627437 message to owner fernanda.moura sent to server > ^RAD:Thermo.+:TotalDoseRate:Dose$
+2021-12-07 05:18:04.292061 message to owner fernanda.moura sent to server > ^RAD:Thermo.+:TotalDoseRate:Dose$
+2021-12-07 09:35:53.102714 message to owner walter.junior sent to server > BO.+CCG.+Pressure-Mon$
+2021-12-07 09:35:54.667672 message to owner operador sent to server > BO.+CCG.+Pressure-Mon$
+2021-12-07 09:47:32.733660 message to owner walter.junior sent to server > SI.+CCG.+Pressure-Mon$
+2021-12-07 09:47:34.317775 message to owner operador sent to server > SI.+CCG.+Pressure-Mon$
+2021-12-07 09:58:49.159427 message to owner walter.junior sent to server > BO.+CCG.+Pressure-Mon$
+2021-12-07 09:58:51.175811 message to owner operador sent to server > BO.+CCG.+Pressure-Mon$
+2021-12-07 12:12:51.264903 message to owner walter.junior sent to server > BO.+CCG.+Pressure-Mon$
+2021-12-07 12:12:52.780119 message to owner operador sent to server > BO.+CCG.+Pressure-Mon$
+2021-12-07 12:37:18.155221 message to owner walter.junior sent to server > BO.+CCG.+Pressure-Mon$
+2021-12-07 12:37:19.620265 message to owner operador sent to server > BO.+CCG.+Pressure-Mon$
+2021-12-07 12:52:23.164073 message to owner walter.junior sent to server > BO.+CCG.+Pressure-Mon$
+2021-12-07 12:52:25.015063 message to owner operador sent to server > BO.+CCG.+Pressure-Mon$
+2021-12-07 13:08:47.954532 message to owner walter.junior sent to server > BO.+CCG.+Pressure-Mon$
+2021-12-07 13:08:49.864185 message to owner operador sent to server > BO.+CCG.+Pressure-Mon$
+2021-12-07 13:22:45.426304 message to owner walter.junior sent to server > BO.+CCG.+Pressure-Mon$
+2021-12-07 13:22:46.901349 message to owner operador sent to server > BO.+CCG.+Pressure-Mon$
+2021-12-07 13:23:09.623204 message to owner walter.junior sent to server > SI.+CCG.+Pressure-Mon$
+2021-12-07 13:23:11.633760 message to owner operador sent to server > SI.+CCG.+Pressure-Mon$
+2021-12-07 15:56:08.112410 message to owner walter.junior sent to server > BO.+CCG.+Pressure-Mon$
+2021-12-07 15:56:09.633778 message to owner operador sent to server > BO.+CCG.+Pressure-Mon$
+2021-12-07 16:16:22.324355 message to owner walter.junior sent to server > SI.+CCG.+Pressure-Mon$
+2021-12-07 16:17:20.251297 message to owner operador sent to server > SI.+CCG.+Pressure-Mon$
+2021-12-07 16:40:11.844924 message to owner walter.junior sent to server > SI.+CCG.+Pressure-Mon$
+2021-12-07 16:40:13.642988 message to owner operador sent to server > SI.+CCG.+Pressure-Mon$
+2021-12-07 16:50:19.354105 message to owner walter.junior sent to server > SI.+CCG.+Pressure-Mon$
+2021-12-07 16:50:21.214837 message to owner operador sent to server > SI.+CCG.+Pressure-Mon$
+2021-12-07 17:00:27.936005 message to owner operador sent to server > SI.+CCG.+Pressure-Mon$
+2021-12-07 17:01:25.238355 message to owner walter.junior sent to server > SI.+CCG.+Pressure-Mon$
+2021-12-07 22:10:57.316294 message to owner walter.junior sent to server > BO.+CCG.+Pressure-Mon$
+2021-12-07 22:10:59.162166 message to owner operador sent to server > BO.+CCG.+Pressure-Mon$
+2021-12-07 22:30:27.514170 message to owner operador sent to server > BO.+CCG.+Pressure-Mon$
+2021-12-07 22:30:50.239452 message to owner walter.junior sent to server > BO.+CCG.+Pressure-Mon$
+2021-12-08 02:21:28.837364 message to owner walter.junior sent to server > BO.+CCG.+Pressure-Mon$
+2021-12-08 02:21:30.299822 message to owner operador sent to server > BO.+CCG.+Pressure-Mon$
+2021-12-08 02:28:32.888926 message to owner walter.junior sent to server > SI.+CCG.+Pressure-Mon$
+2021-12-08 02:28:34.329558 message to owner operador sent to server > SI.+CCG.+Pressure-Mon$
+2021-12-08 02:32:34.028313 message to owner walter.junior sent to server > BO.+CCG.+Pressure-Mon$
+2021-12-08 02:32:35.884392 message to owner operador sent to server > BO.+CCG.+Pressure-Mon$
+2021-12-08 08:03:19.997856 message to owner operador sent to server > BO.+CCG.+Pressure-Mon$
+2021-12-08 08:03:31.368320 message to owner walter.junior sent to server > BO.+CCG.+Pressure-Mon$
+2021-12-08 08:10:00.869805 message to owner walter.junior sent to server > SI.+CCG.+Pressure-Mon$
+2021-12-08 08:10:02.862462 message to owner operador sent to server > SI.+CCG.+Pressure-Mon$
+2021-12-08 18:02:54.168566 message to owner walter.junior sent to server > BO.+CCG.+Pressure-Mon$
+2021-12-08 18:02:56.024846 message to owner operador sent to server > BO.+CCG.+Pressure-Mon$
+2021-12-08 18:17:17.482172 message to owner walter.junior sent to server > SI.+CCG.+Pressure-Mon$
+2021-12-08 18:17:18.998691 message to owner operador sent to server > SI.+CCG.+Pressure-Mon$
+2021-12-09 08:03:01.431150 message to owner walter.junior sent to server > BO.+CCG.+Pressure-Mon$
+2021-12-09 08:03:03.031799 message to owner operador sent to server > BO.+CCG.+Pressure-Mon$
+2021-12-09 08:05:20.604086 message to owner walter.junior sent to server > SI.+CCG.+Pressure-Mon$
+2021-12-09 08:05:22.621897 message to owner operador sent to server > SI.+CCG.+Pressure-Mon$
+2021-12-09 08:24:40.481270 message to owner walter.junior sent to server > SI.+CCG.+Pressure-Mon$
+2021-12-09 08:24:42.364468 message to owner operador sent to server > SI.+CCG.+Pressure-Mon$
+2021-12-09 17:54:14.160969 message to owner walter.junior sent to server > BO.+CCG.+Pressure-Mon$
+2021-12-09 17:54:15.731411 message to owner operador sent to server > BO.+CCG.+Pressure-Mon$
+2021-12-09 17:58:17.193238 message to owner walter.junior sent to server > SI.+CCG.+Pressure-Mon$
+2021-12-09 17:58:19.056642 message to owner operador sent to server > SI.+CCG.+Pressure-Mon$
+2021-12-10 08:03:15.207847 message to owner walter.junior sent to server > BO.+CCG.+Pressure-Mon$
+2021-12-10 08:03:16.689743 message to owner operador sent to server > BO.+CCG.+Pressure-Mon$
+2021-12-10 08:05:57.193336 message to owner walter.junior sent to server > SI.+CCG.+Pressure-Mon$
+2021-12-10 08:05:59.175515 message to owner operador sent to server > SI.+CCG.+Pressure-Mon$
+2021-12-10 08:18:59.491517 message to owner operador sent to server > SI.+CCG.+Pressure-Mon$
+2021-12-10 08:19:11.255443 message to owner walter.junior sent to server > SI.+CCG.+Pressure-Mon$
+2021-12-10 18:03:51.747538 message to owner walter.junior sent to server > BO.+CCG.+Pressure-Mon$
+2021-12-10 18:03:53.294361 message to owner operador sent to server > BO.+CCG.+Pressure-Mon$
+2021-12-10 18:08:51.346168 message to owner walter.junior sent to server > SI.+CCG.+Pressure-Mon$
+2021-12-10 18:09:03.590887 message to owner operador sent to server > SI.+CCG.+Pressure-Mon$
+2021-12-11 08:04:28.881290 message to owner walter.junior sent to server > BO.+CCG.+Pressure-Mon$
+2021-12-11 08:04:30.369585 message to owner operador sent to server > BO.+CCG.+Pressure-Mon$
+2021-12-11 08:17:45.220235 message to owner walter.junior sent to server > SI.+CCG.+Pressure-Mon$
+2021-12-11 08:17:47.075935 message to owner operador sent to server > SI.+CCG.+Pressure-Mon$
+2021-12-11 17:54:21.385614 message to owner operador sent to server > BO.+CCG.+Pressure-Mon$
+2021-12-11 17:54:32.798588 message to owner walter.junior sent to server > BO.+CCG.+Pressure-Mon$
+2021-12-11 17:58:23.289679 message to owner walter.junior sent to server > SI.+CCG.+Pressure-Mon$
+2021-12-11 17:58:25.297286 message to owner operador sent to server > SI.+CCG.+Pressure-Mon$
+2021-12-12 07:03:56.645473 message to owner walter.junior sent to server > BO.+CCG.+Pressure-Mon$
+2021-12-12 07:03:58.149637 message to owner operador sent to server > BO.+CCG.+Pressure-Mon$
+2021-12-12 07:09:20.665018 message to owner operador sent to server > SI.+CCG.+Pressure-Mon$
+2021-12-12 07:11:38.706599 message to owner walter.junior sent to server > SI.+CCG.+Pressure-Mon$
+2021-12-13 13:15:52.557152 message to owner walter.junior sent to server > BO.+CCG.+Pressure-Mon$
+2021-12-13 13:15:54.409561 message to owner operador sent to server > BO.+CCG.+Pressure-Mon$
+2021-12-13 13:26:02.483122 message to owner walter.junior sent to server > BO.+CCG.+Pressure-Mon$
+2021-12-13 13:26:03.908151 message to owner operador sent to server > BO.+CCG.+Pressure-Mon$
+2021-12-13 13:28:56.841080 message to owner walter.junior sent to server > SI.+CCG.+Pressure-Mon$
+2021-12-13 13:28:58.847883 message to owner operador sent to server > SI.+CCG.+Pressure-Mon$
+2021-12-13 17:25:00.867376 message to owner walter.junior sent to server > SI.+CCG.+Pressure-Mon$
+2021-12-13 17:25:02.702511 message to owner operador sent to server > SI.+CCG.+Pressure-Mon$
+2021-12-13 17:52:14.542847 message to owner walter.junior sent to server > BO.+CCG.+Pressure-Mon$
+2021-12-13 17:52:16.404066 message to owner operador sent to server > BO.+CCG.+Pressure-Mon$
+2021-12-13 17:53:13.956056 message to owner operador sent to server > SI.+CCG.+Pressure-Mon$
+2021-12-13 17:53:25.501192 message to owner walter.junior sent to server > SI.+CCG.+Pressure-Mon$
+2021-12-14 08:03:21.153611 message to owner walter.junior sent to server > BO.+CCG.+Pressure-Mon$
+2021-12-14 08:03:22.972591 message to owner operador sent to server > BO.+CCG.+Pressure-Mon$
+2021-12-14 08:16:02.046686 message to owner walter.junior sent to server > SI.+CCG.+Pressure-Mon$
+2021-12-14 08:16:03.833077 message to owner operador sent to server > SI.+CCG.+Pressure-Mon$
+2021-12-14 11:36:35.768372 message to owner walter.junior sent to server > SI-13C4:DI-DCCT:Current-Mon
+2021-12-14 11:46:47.449072 message to owner walter.junior sent to server > SI-13C4:DI-DCCT:Current-Mon
+2021-12-14 11:56:55.911412 message to owner walter.junior sent to server > SI-13C4:DI-DCCT:Current-Mon
+2021-12-14 12:07:05.252290 message to owner walter.junior sent to server > SI-13C4:DI-DCCT:Current-Mon
+2021-12-14 12:17:14.004506 message to owner walter.junior sent to server > SI-13C4:DI-DCCT:Current-Mon
+2021-12-14 12:20:28.345040 message to owner operador sent to server > BO.+CCG.+Pressure-Mon$
+2021-12-14 12:20:51.372634 message to owner walter.junior sent to server > BO.+CCG.+Pressure-Mon$
+2021-12-14 12:38:55.583796 message to owner walter.junior sent to server > SI-13C4:DI-DCCT:Current-Mon
+2021-12-14 12:49:04.272825 message to owner walter.junior sent to server > SI-13C4:DI-DCCT:Current-Mon
+2021-12-14 12:49:26.734751 message to owner walter.junior sent to server > BO.+CCG.+Pressure-Mon$
+2021-12-14 12:49:29.080721 message to owner operador sent to server > BO.+CCG.+Pressure-Mon$
+2021-12-14 12:59:15.468897 message to owner walter.junior sent to server > SI-13C4:DI-DCCT:Current-Mon
+2021-12-14 13:09:22.861077 message to owner walter.junior sent to server > SI-13C4:DI-DCCT:Current-Mon
+2021-12-14 13:10:54.517222 message to owner walter.junior sent to server > BO.+CCG.+Pressure-Mon$
+2021-12-14 13:10:56.537411 message to owner operador sent to server > BO.+CCG.+Pressure-Mon$
+2021-12-14 13:21:06.216860 message to owner walter.junior sent to server > BO.+CCG.+Pressure-Mon$
+2021-12-14 13:21:07.809790 message to owner operador sent to server > BO.+CCG.+Pressure-Mon$
+2021-12-14 13:21:54.481353 message to owner walter.junior sent to server > SI-13C4:DI-DCCT:Current-Mon
+2021-12-14 13:22:41.150282 message to owner fernanda.moura sent to server > ^RAD:Thermo.+:TotalDoseRate:Dose$
+2021-12-14 13:32:04.457665 message to owner walter.junior sent to server > SI-13C4:DI-DCCT:Current-Mon
+2021-12-14 13:32:50.715783 message to owner fernanda.moura sent to server > ^RAD:Thermo.+:TotalDoseRate:Dose$
+2021-12-14 13:42:14.327691 message to owner walter.junior sent to server > SI-13C4:DI-DCCT:Current-Mon
+2021-12-14 13:43:00.171345 message to owner fernanda.moura sent to server > ^RAD:Thermo.+:TotalDoseRate:Dose$
+2021-12-14 13:46:03.151803 message to owner walter.junior sent to server > BO.+CCG.+Pressure-Mon$
+2021-12-14 13:46:05.160558 message to owner operador sent to server > BO.+CCG.+Pressure-Mon$
+2021-12-14 13:53:11.377520 message to owner fernanda.moura sent to server > ^RAD:Thermo.+:TotalDoseRate:Dose$
+2021-12-14 14:03:19.746114 message to owner fernanda.moura sent to server > ^RAD:Thermo.+:TotalDoseRate:Dose$
+2021-12-14 14:13:28.822798 message to owner fernanda.moura sent to server > ^RAD:Thermo.+:TotalDoseRate:Dose$
+2021-12-14 14:23:36.919253 message to owner fernanda.moura sent to server > ^RAD:Thermo.+:TotalDoseRate:Dose$
+2021-12-14 14:33:47.092134 message to owner fernanda.moura sent to server > ^RAD:Thermo.+:TotalDoseRate:Dose$
+2021-12-14 14:43:58.387994 message to owner fernanda.moura sent to server > ^RAD:Thermo.+:TotalDoseRate:Dose$
+2021-12-14 14:54:10.104504 message to owner fernanda.moura sent to server > ^RAD:Thermo.+:TotalDoseRate:Dose$
+2021-12-14 15:04:18.051272 message to owner fernanda.moura sent to server > ^RAD:Thermo.+:TotalDoseRate:Dose$
+2021-12-14 15:14:27.853459 message to owner fernanda.moura sent to server > ^RAD:Thermo.+:TotalDoseRate:Dose$
+2021-12-14 15:24:37.220456 message to owner fernanda.moura sent to server > ^RAD:Thermo.+:TotalDoseRate:Dose$
+2021-12-14 15:34:45.529157 message to owner fernanda.moura sent to server > ^RAD:Thermo.+:TotalDoseRate:Dose$
+2021-12-14 17:52:50.501288 message to owner walter.junior sent to server > BO.+CCG.+Pressure-Mon$
+2021-12-14 17:52:52.298607 message to owner operador sent to server > BO.+CCG.+Pressure-Mon$
+2021-12-14 17:54:47.171453 message to owner walter.junior sent to server > SI.+CCG.+Pressure-Mon$
+2021-12-14 17:54:49.175755 message to owner operador sent to server > SI.+CCG.+Pressure-Mon$
+2021-12-15 08:08:47.404739 message to owner walter.junior sent to server > BO.+CCG.+Pressure-Mon$
+2021-12-15 08:08:48.779809 message to owner operador sent to server > BO.+CCG.+Pressure-Mon$
+2021-12-15 08:18:00.949519 message to owner walter.junior sent to server > SI.+CCG.+Pressure-Mon$
+2021-12-15 08:18:02.830127 message to owner operador sent to server > SI.+CCG.+Pressure-Mon$
+2021-12-15 17:54:02.012933 message to owner walter.junior sent to server > BO.+CCG.+Pressure-Mon$
+2021-12-15 17:54:03.802776 message to owner operador sent to server > BO.+CCG.+Pressure-Mon$
+2021-12-15 17:58:51.631672 message to owner walter.junior sent to server > SI.+CCG.+Pressure-Mon$
+2021-12-15 17:58:53.640205 message to owner operador sent to server > SI.+CCG.+Pressure-Mon$
+2021-12-16 08:03:18.249798 message to owner walter.junior sent to server > BO.+CCG.+Pressure-Mon$
+2021-12-16 08:03:20.098327 message to owner operador sent to server > BO.+CCG.+Pressure-Mon$
+2021-12-16 08:04:30.012154 message to owner fernanda.moura sent to server > ^RAD:Thermo.+:TotalDoseRate:Dose$
+2021-12-16 08:14:40.291948 message to owner fernanda.moura sent to server > ^RAD:Thermo.+:TotalDoseRate:Dose$
+2021-12-16 08:16:47.447066 message to owner walter.junior sent to server > SI-13C4:DI-DCCT:Current-Mon
+2021-12-16 08:18:52.913140 message to owner walter.junior sent to server > BO.+CCG.+Pressure-Mon$
+2021-12-16 08:18:54.927751 message to owner operador sent to server > BO.+CCG.+Pressure-Mon$
+2021-12-16 08:24:41.191895 message to owner fernanda.moura sent to server > ^RAD:Thermo.+:TotalDoseRate:Dose$
+2021-12-16 08:31:11.793915 message to owner walter.junior sent to server > BO.+CCG.+Pressure-Mon$
+2021-12-16 08:31:13.753553 message to owner operador sent to server > BO.+CCG.+Pressure-Mon$
+2021-12-16 08:34:42.019416 message to owner fernanda.moura sent to server > ^RAD:Thermo.+:TotalDoseRate:Dose$
+2021-12-16 08:44:04.787992 message to owner walter.junior sent to server > BO.+CCG.+Pressure-Mon$
+2021-12-16 08:44:06.181434 message to owner operador sent to server > BO.+CCG.+Pressure-Mon$
+2021-12-16 08:44:52.858131 message to owner fernanda.moura sent to server > ^RAD:Thermo.+:TotalDoseRate:Dose$
+2021-12-16 08:55:01.109188 message to owner fernanda.moura sent to server > ^RAD:Thermo.+:TotalDoseRate:Dose$
+2021-12-16 09:01:43.645869 message to owner walter.junior sent to server > BO.+CCG.+Pressure-Mon$
+2021-12-16 09:01:45.431143 message to owner operador sent to server > BO.+CCG.+Pressure-Mon$
+2021-12-16 09:05:02.658021 message to owner fernanda.moura sent to server > ^RAD:Thermo.+:TotalDoseRate:Dose$
+2021-12-16 09:15:13.612350 message to owner fernanda.moura sent to server > ^RAD:Thermo.+:TotalDoseRate:Dose$
+2021-12-16 09:15:35.980493 message to owner walter.junior sent to server > BO.+CCG.+Pressure-Mon$
+2021-12-16 09:15:37.976434 message to owner operador sent to server > BO.+CCG.+Pressure-Mon$
+2021-12-16 09:25:24.868299 message to owner fernanda.moura sent to server > ^RAD:Thermo.+:TotalDoseRate:Dose$
+2021-12-16 09:25:58.847176 message to owner walter.junior sent to server > BO.+CCG.+Pressure-Mon$
+2021-12-16 09:26:00.835553 message to owner operador sent to server > BO.+CCG.+Pressure-Mon$
+2021-12-16 09:35:25.957958 message to owner fernanda.moura sent to server > ^RAD:Thermo.+:TotalDoseRate:Dose$
+2021-12-16 09:45:37.143628 message to owner fernanda.moura sent to server > ^RAD:Thermo.+:TotalDoseRate:Dose$
+2021-12-16 09:49:39.257305 message to owner walter.junior sent to server > BO.+CCG.+Pressure-Mon$
+2021-12-16 09:49:40.421562 message to owner operador sent to server > BO.+CCG.+Pressure-Mon$
+2021-12-16 09:50:04.054477 message to owner walter.junior sent to server > SI.+CCG.+Pressure-Mon$
+2021-12-16 09:50:05.420555 message to owner operador sent to server > SI.+CCG.+Pressure-Mon$
+2021-12-16 09:55:40.220919 message to owner fernanda.moura sent to server > ^RAD:Thermo.+:TotalDoseRate:Dose$
+2021-12-16 10:05:51.481657 message to owner fernanda.moura sent to server > ^RAD:Thermo.+:TotalDoseRate:Dose$
+2021-12-16 10:16:01.577472 message to owner fernanda.moura sent to server > ^RAD:Thermo.+:TotalDoseRate:Dose$
+2021-12-16 10:16:03.581737 message to owner walter.junior sent to server > SI-13C4:DI-DCCT:Current-Mon
+2021-12-16 10:22:23.449277 message to owner operador sent to server > BO.+CCG.+Pressure-Mon$
+2021-12-16 10:22:57.998592 message to owner walter.junior sent to server > BO.+CCG.+Pressure-Mon$
+2021-12-16 10:26:03.282144 message to owner fernanda.moura sent to server > ^RAD:Thermo.+:TotalDoseRate:Dose$
+2021-12-16 10:36:12.532012 message to owner fernanda.moura sent to server > ^RAD:Thermo.+:TotalDoseRate:Dose$
+2021-12-16 10:46:23.834304 message to owner fernanda.moura sent to server > ^RAD:Thermo.+:TotalDoseRate:Dose$
+2021-12-16 10:56:33.032794 message to owner fernanda.moura sent to server > ^RAD:Thermo.+:TotalDoseRate:Dose$
+2021-12-16 11:06:42.566216 message to owner fernanda.moura sent to server > ^RAD:Thermo.+:TotalDoseRate:Dose$
+2021-12-16 11:16:52.546279 message to owner fernanda.moura sent to server > ^RAD:Thermo.+:TotalDoseRate:Dose$
+2021-12-16 11:27:02.812783 message to owner fernanda.moura sent to server > ^RAD:Thermo.+:TotalDoseRate:Dose$
+2021-12-16 11:37:14.072249 message to owner fernanda.moura sent to server > ^RAD:Thermo.+:TotalDoseRate:Dose$
+2021-12-16 11:47:22.729113 message to owner fernanda.moura sent to server > ^RAD:Thermo.+:TotalDoseRate:Dose$
+2021-12-16 11:57:31.239604 message to owner fernanda.moura sent to server > ^RAD:Thermo.+:TotalDoseRate:Dose$
+2021-12-16 12:07:39.480320 message to owner fernanda.moura sent to server > ^RAD:Thermo.+:TotalDoseRate:Dose$
+2021-12-16 12:17:41.680184 message to owner fernanda.moura sent to server > ^RAD:Thermo.+:TotalDoseRate:Dose$
+2021-12-16 12:52:07.627275 message to owner fernanda.moura sent to server > ^RAD:Thermo.+:TotalDoseRate:Dose$
+2021-12-16 13:02:10.213646 message to owner fernanda.moura sent to server > ^RAD:Thermo.+:TotalDoseRate:Dose$
+2021-12-16 13:09:15.847680 message to owner walter.junior sent to server > SI-13C4:DI-DCCT:Current-Mon
+2021-12-16 13:19:24.649379 message to owner walter.junior sent to server > SI-13C4:DI-DCCT:Current-Mon
+2021-12-16 13:29:33.842571 message to owner walter.junior sent to server > SI-13C4:DI-DCCT:Current-Mon
+2021-12-16 13:30:43.181243 message to owner fernanda.moura sent to server > ^RAD:Thermo.+:TotalDoseRate:Dose$
+2021-12-16 13:39:43.109967 message to owner walter.junior sent to server > SI-13C4:DI-DCCT:Current-Mon
+2021-12-16 13:40:05.676537 message to owner operador sent to server > BO.+CCG.+Pressure-Mon$
+2021-12-16 13:40:52.230385 message to owner fernanda.moura sent to server > ^RAD:Thermo.+:TotalDoseRate:Dose$
+2021-12-16 13:41:49.449149 message to owner walter.junior sent to server > BO.+CCG.+Pressure-Mon$
+2021-12-16 13:51:03.194104 message to owner fernanda.moura sent to server > ^RAD:Thermo.+:TotalDoseRate:Dose$
+2021-12-16 14:01:12.265665 message to owner fernanda.moura sent to server > ^RAD:Thermo.+:TotalDoseRate:Dose$
+2021-12-16 14:11:18.789551 message to owner fernanda.moura sent to server > ^RAD:Thermo.+:TotalDoseRate:Dose$
+2021-12-16 14:21:27.853700 message to owner fernanda.moura sent to server > ^RAD:Thermo.+:TotalDoseRate:Dose$
+2021-12-16 14:31:34.934791 message to owner fernanda.moura sent to server > ^RAD:Thermo.+:TotalDoseRate:Dose$
+2021-12-16 14:41:43.575768 message to owner fernanda.moura sent to server > ^RAD:Thermo.+:TotalDoseRate:Dose$
+2021-12-16 14:51:52.575475 message to owner fernanda.moura sent to server > ^RAD:Thermo.+:TotalDoseRate:Dose$
+2021-12-16 15:02:01.318673 message to owner fernanda.moura sent to server > ^RAD:Thermo.+:TotalDoseRate:Dose$
+2021-12-16 15:12:09.888099 message to owner fernanda.moura sent to server > ^RAD:Thermo.+:TotalDoseRate:Dose$
+2021-12-16 15:22:19.746436 message to owner fernanda.moura sent to server > ^RAD:Thermo.+:TotalDoseRate:Dose$
+2021-12-16 15:32:31.205559 message to owner fernanda.moura sent to server > ^RAD:Thermo.+:TotalDoseRate:Dose$
+2021-12-16 15:39:02.205877 message to owner walter.junior sent to server > BO.+CCG.+Pressure-Mon$
+2021-12-16 15:40:35.205892 message to owner operador sent to server > BO.+CCG.+Pressure-Mon$
+2021-12-16 15:42:41.730701 message to owner fernanda.moura sent to server > ^RAD:Thermo.+:TotalDoseRate:Dose$
+2021-12-16 15:52:48.380665 message to owner fernanda.moura sent to server > ^RAD:Thermo.+:TotalDoseRate:Dose$
+2021-12-16 16:02:57.127942 message to owner fernanda.moura sent to server > ^RAD:Thermo.+:TotalDoseRate:Dose$
+2021-12-16 16:13:07.430510 message to owner fernanda.moura sent to server > ^RAD:Thermo.+:TotalDoseRate:Dose$
+2021-12-16 16:15:49.707415 message to owner operador sent to server > BO.+CCG.+Pressure-Mon$
+2021-12-16 16:16:12.739754 message to owner walter.junior sent to server > BO.+CCG.+Pressure-Mon$
+2021-12-16 16:23:08.764287 message to owner fernanda.moura sent to server > ^RAD:Thermo.+:TotalDoseRate:Dose$
+2021-12-16 16:33:16.002897 message to owner fernanda.moura sent to server > ^RAD:Thermo.+:TotalDoseRate:Dose$
+2021-12-16 16:43:24.315880 message to owner fernanda.moura sent to server > ^RAD:Thermo.+:TotalDoseRate:Dose$
+2021-12-16 16:53:31.142589 message to owner fernanda.moura sent to server > ^RAD:Thermo.+:TotalDoseRate:Dose$
+2021-12-16 17:03:39.571598 message to owner fernanda.moura sent to server > ^RAD:Thermo.+:TotalDoseRate:Dose$
+2021-12-16 17:13:46.954489 message to owner fernanda.moura sent to server > ^RAD:Thermo.+:TotalDoseRate:Dose$
+2021-12-16 17:23:54.973701 message to owner fernanda.moura sent to server > ^RAD:Thermo.+:TotalDoseRate:Dose$
+2021-12-16 18:05:02.621108 message to owner walter.junior sent to server > BO.+CCG.+Pressure-Mon$
+2021-12-16 18:05:03.931547 message to owner operador sent to server > BO.+CCG.+Pressure-Mon$
+2021-12-16 18:21:37.946215 message to owner operador sent to server > SI.+CCG.+Pressure-Mon$
+2021-12-16 18:22:35.347541 message to owner walter.junior sent to server > SI.+CCG.+Pressure-Mon$
+2021-12-16 18:33:10.234375 message to owner walter.junior sent to server > SI-13C4:DI-DCCT:Current-Mon
+2021-12-16 18:41:25.707819 message to owner walter.junior sent to server > BO.+CCG.+Pressure-Mon$
+2021-12-16 18:41:27.023730 message to owner operador sent to server > BO.+CCG.+Pressure-Mon$
+2021-12-16 18:56:47.563386 message to owner walter.junior sent to server > SI-13C4:DI-DCCT:Current-Mon
+2021-12-16 19:06:32.001290 message to owner walter.junior sent to server > BO.+CCG.+Pressure-Mon$
+2021-12-16 19:06:33.868488 message to owner operador sent to server > BO.+CCG.+Pressure-Mon$
+2021-12-16 19:06:57.624397 message to owner walter.junior sent to server > SI-13C4:DI-DCCT:Current-Mon
+2021-12-17 08:28:03.505591 message to owner walter.junior sent to server > BO.+CCG.+Pressure-Mon$
+2021-12-17 08:28:05.328359 message to owner operador sent to server > BO.+CCG.+Pressure-Mon$
+2021-12-17 10:24:12.231124 message to owner walter.junior sent to server > TS.+CCG.+Pressure-Mon$
+2021-12-17 10:24:13.729657 message to owner operador sent to server > TS.+CCG.+Pressure-Mon$
+2021-12-18 08:59:00.341151 message to owner walter.junior sent to server > SI.+CCG.+Pressure-Mon$
+2021-12-18 09:09:09.434426 message to owner walter.junior sent to server > SI.+CCG.+Pressure-Mon$
+2021-12-18 09:19:18.257259 message to owner walter.junior sent to server > SI.+CCG.+Pressure-Mon$
+2021-12-18 09:29:27.013885 message to owner walter.junior sent to server > SI.+CCG.+Pressure-Mon$
+2021-12-18 09:39:36.208815 message to owner walter.junior sent to server > SI.+CCG.+Pressure-Mon$
+2021-12-18 09:49:44.739426 message to owner walter.junior sent to server > SI.+CCG.+Pressure-Mon$
+2021-12-18 09:59:53.852128 message to owner walter.junior sent to server > SI.+CCG.+Pressure-Mon$
+2021-12-18 10:10:02.819854 message to owner walter.junior sent to server > SI.+CCG.+Pressure-Mon$
+2021-12-18 10:20:11.342529 message to owner walter.junior sent to server > SI.+CCG.+Pressure-Mon$
+2021-12-18 10:30:19.905470 message to owner walter.junior sent to server > SI.+CCG.+Pressure-Mon$
+2021-12-18 10:40:28.898390 message to owner walter.junior sent to server > SI.+CCG.+Pressure-Mon$
+2021-12-18 10:50:37.546242 message to owner walter.junior sent to server > SI.+CCG.+Pressure-Mon$
+2021-12-18 11:00:46.512666 message to owner walter.junior sent to server > SI.+CCG.+Pressure-Mon$
+2021-12-18 11:10:55.011848 message to owner walter.junior sent to server > SI.+CCG.+Pressure-Mon$
+2021-12-18 11:21:03.500246 message to owner walter.junior sent to server > SI.+CCG.+Pressure-Mon$
+2021-12-18 11:31:11.936588 message to owner walter.junior sent to server > SI.+CCG.+Pressure-Mon$
+2021-12-18 11:41:21.373287 message to owner walter.junior sent to server > SI.+CCG.+Pressure-Mon$
+2021-12-18 11:51:30.199558 message to owner walter.junior sent to server > SI.+CCG.+Pressure-Mon$
+2021-12-18 12:01:38.529481 message to owner walter.junior sent to server > SI.+CCG.+Pressure-Mon$
+2021-12-18 12:11:47.304487 message to owner walter.junior sent to server > SI.+CCG.+Pressure-Mon$
+2021-12-18 12:21:55.836198 message to owner walter.junior sent to server > SI.+CCG.+Pressure-Mon$
+2021-12-18 12:32:04.359183 message to owner walter.junior sent to server > SI.+CCG.+Pressure-Mon$
+2021-12-18 12:42:13.395306 message to owner walter.junior sent to server > SI.+CCG.+Pressure-Mon$
+2021-12-18 12:52:22.066795 message to owner walter.junior sent to server > SI.+CCG.+Pressure-Mon$
+2021-12-18 13:02:30.514066 message to owner walter.junior sent to server > SI.+CCG.+Pressure-Mon$
+2021-12-18 13:12:39.007293 message to owner walter.junior sent to server > SI.+CCG.+Pressure-Mon$
+2021-12-18 13:22:47.698448 message to owner walter.junior sent to server > SI.+CCG.+Pressure-Mon$
+2021-12-18 13:32:56.231548 message to owner walter.junior sent to server > SI.+CCG.+Pressure-Mon$
+2021-12-18 13:43:04.924371 message to owner walter.junior sent to server > SI.+CCG.+Pressure-Mon$
+2021-12-18 13:53:13.914197 message to owner walter.junior sent to server > SI.+CCG.+Pressure-Mon$
+2021-12-18 14:03:23.386496 message to owner walter.junior sent to server > SI.+CCG.+Pressure-Mon$
+2021-12-18 14:13:31.918389 message to owner walter.junior sent to server > SI.+CCG.+Pressure-Mon$
+2021-12-18 14:23:40.173174 message to owner walter.junior sent to server > SI.+CCG.+Pressure-Mon$
+2021-12-18 14:33:49.032946 message to owner walter.junior sent to server > SI.+CCG.+Pressure-Mon$
+2021-12-18 14:43:57.563308 message to owner walter.junior sent to server > SI.+CCG.+Pressure-Mon$
+2021-12-18 14:54:06.151244 message to owner walter.junior sent to server > SI.+CCG.+Pressure-Mon$
+2021-12-18 15:04:14.564971 message to owner walter.junior sent to server > SI.+CCG.+Pressure-Mon$
+2021-12-18 15:14:23.076087 message to owner walter.junior sent to server > SI.+CCG.+Pressure-Mon$
+2021-12-18 15:24:31.649466 message to owner walter.junior sent to server > SI.+CCG.+Pressure-Mon$
+2021-12-18 15:34:40.925749 message to owner walter.junior sent to server > SI.+CCG.+Pressure-Mon$
+2021-12-18 15:44:49.749297 message to owner walter.junior sent to server > SI.+CCG.+Pressure-Mon$
+2021-12-18 15:54:58.234927 message to owner walter.junior sent to server > SI.+CCG.+Pressure-Mon$
+2021-12-18 16:05:07.075850 message to owner walter.junior sent to server > SI.+CCG.+Pressure-Mon$
+2021-12-18 16:15:15.388277 message to owner walter.junior sent to server > SI.+CCG.+Pressure-Mon$
+2021-12-18 16:25:23.821638 message to owner walter.junior sent to server > SI.+CCG.+Pressure-Mon$
+2021-12-18 16:35:32.296520 message to owner walter.junior sent to server > SI.+CCG.+Pressure-Mon$
+2021-12-18 16:45:41.026685 message to owner walter.junior sent to server > SI.+CCG.+Pressure-Mon$
+2021-12-18 16:55:49.399098 message to owner walter.junior sent to server > SI.+CCG.+Pressure-Mon$
+2021-12-18 17:05:58.549807 message to owner walter.junior sent to server > SI.+CCG.+Pressure-Mon$
+2021-12-18 17:16:07.012204 message to owner walter.junior sent to server > SI.+CCG.+Pressure-Mon$
+2021-12-18 17:26:15.603525 message to owner walter.junior sent to server > SI.+CCG.+Pressure-Mon$
+2021-12-18 17:36:24.727242 message to owner walter.junior sent to server > SI.+CCG.+Pressure-Mon$
+2021-12-18 17:46:33.103145 message to owner walter.junior sent to server > SI.+CCG.+Pressure-Mon$
+2021-12-18 17:56:42.287136 message to owner walter.junior sent to server > SI.+CCG.+Pressure-Mon$
+2021-12-18 18:06:50.738376 message to owner walter.junior sent to server > SI.+CCG.+Pressure-Mon$
+2021-12-18 18:16:58.941185 message to owner walter.junior sent to server > SI.+CCG.+Pressure-Mon$
+2021-12-18 18:27:07.806948 message to owner walter.junior sent to server > SI.+CCG.+Pressure-Mon$
+2021-12-18 18:37:16.726766 message to owner walter.junior sent to server > SI.+CCG.+Pressure-Mon$
+2021-12-18 18:47:25.509895 message to owner walter.junior sent to server > SI.+CCG.+Pressure-Mon$
+2021-12-18 18:57:34.876435 message to owner walter.junior sent to server > SI.+CCG.+Pressure-Mon$
+2021-12-18 19:07:43.769802 message to owner walter.junior sent to server > SI.+CCG.+Pressure-Mon$
+2021-12-18 19:17:52.589161 message to owner walter.junior sent to server > SI.+CCG.+Pressure-Mon$
+2021-12-18 19:28:01.477101 message to owner walter.junior sent to server > SI.+CCG.+Pressure-Mon$
+2021-12-18 19:38:10.056896 message to owner walter.junior sent to server > SI.+CCG.+Pressure-Mon$
+2021-12-18 19:48:18.994697 message to owner walter.junior sent to server > SI.+CCG.+Pressure-Mon$
+2021-12-18 19:58:27.294889 message to owner walter.junior sent to server > SI.+CCG.+Pressure-Mon$
+2021-12-18 20:08:36.262190 message to owner walter.junior sent to server > SI.+CCG.+Pressure-Mon$
+2021-12-18 20:18:44.986893 message to owner walter.junior sent to server > SI.+CCG.+Pressure-Mon$
+2021-12-18 20:28:53.788823 message to owner walter.junior sent to server > SI.+CCG.+Pressure-Mon$
+2021-12-18 20:39:02.870960 message to owner walter.junior sent to server > SI.+CCG.+Pressure-Mon$
+2021-12-18 20:49:12.407813 message to owner walter.junior sent to server > SI.+CCG.+Pressure-Mon$
+2021-12-18 20:59:21.535824 message to owner walter.junior sent to server > SI.+CCG.+Pressure-Mon$
+2021-12-18 21:09:30.274971 message to owner walter.junior sent to server > SI.+CCG.+Pressure-Mon$
+2021-12-18 21:19:38.961409 message to owner walter.junior sent to server > SI.+CCG.+Pressure-Mon$
+2021-12-18 21:29:47.471822 message to owner walter.junior sent to server > SI.+CCG.+Pressure-Mon$
+2021-12-18 21:39:56.465021 message to owner walter.junior sent to server > SI.+CCG.+Pressure-Mon$
+2021-12-18 21:50:05.039895 message to owner walter.junior sent to server > SI.+CCG.+Pressure-Mon$
+2021-12-18 22:00:14.132633 message to owner walter.junior sent to server > SI.+CCG.+Pressure-Mon$
+2021-12-18 22:10:22.827961 message to owner walter.junior sent to server > SI.+CCG.+Pressure-Mon$
+2021-12-18 22:20:31.335992 message to owner walter.junior sent to server > SI.+CCG.+Pressure-Mon$
+2021-12-18 22:30:39.692436 message to owner walter.junior sent to server > SI.+CCG.+Pressure-Mon$
+2021-12-18 22:40:48.620656 message to owner walter.junior sent to server > SI.+CCG.+Pressure-Mon$
+2021-12-18 22:50:57.302934 message to owner walter.junior sent to server > SI.+CCG.+Pressure-Mon$
+2021-12-18 23:01:06.520912 message to owner walter.junior sent to server > SI.+CCG.+Pressure-Mon$
+2021-12-18 23:11:15.515828 message to owner walter.junior sent to server > SI.+CCG.+Pressure-Mon$
+2021-12-18 23:21:24.080115 message to owner walter.junior sent to server > SI.+CCG.+Pressure-Mon$
+2021-12-18 23:31:32.689532 message to owner walter.junior sent to server > SI.+CCG.+Pressure-Mon$
+2021-12-18 23:41:41.099247 message to owner walter.junior sent to server > SI.+CCG.+Pressure-Mon$
+2021-12-18 23:51:50.200581 message to owner walter.junior sent to server > SI.+CCG.+Pressure-Mon$
+2021-12-19 00:01:58.924958 message to owner walter.junior sent to server > SI.+CCG.+Pressure-Mon$
+2021-12-19 00:12:07.358484 message to owner walter.junior sent to server > SI.+CCG.+Pressure-Mon$
+2021-12-19 00:22:16.028041 message to owner walter.junior sent to server > SI.+CCG.+Pressure-Mon$
+2021-12-19 00:32:24.517452 message to owner walter.junior sent to server > SI.+CCG.+Pressure-Mon$
+2021-12-19 00:42:33.129300 message to owner walter.junior sent to server > SI.+CCG.+Pressure-Mon$
+2021-12-19 00:52:41.813624 message to owner walter.junior sent to server > SI.+CCG.+Pressure-Mon$
+2021-12-19 01:02:50.428141 message to owner walter.junior sent to server > SI.+CCG.+Pressure-Mon$
+2021-12-19 01:12:58.988457 message to owner walter.junior sent to server > SI.+CCG.+Pressure-Mon$
+2021-12-19 01:23:07.735170 message to owner walter.junior sent to server > SI.+CCG.+Pressure-Mon$
+2021-12-19 01:33:16.100087 message to owner walter.junior sent to server > SI.+CCG.+Pressure-Mon$
+2021-12-19 01:43:25.085850 message to owner walter.junior sent to server > SI.+CCG.+Pressure-Mon$
+2021-12-19 01:53:33.277052 message to owner walter.junior sent to server > SI.+CCG.+Pressure-Mon$
+2021-12-19 02:03:42.269887 message to owner walter.junior sent to server > SI.+CCG.+Pressure-Mon$
+2021-12-19 02:13:50.672522 message to owner walter.junior sent to server > SI.+CCG.+Pressure-Mon$
+2021-12-19 02:23:59.067211 message to owner walter.junior sent to server > SI.+CCG.+Pressure-Mon$
+2021-12-19 02:34:07.590045 message to owner walter.junior sent to server > SI.+CCG.+Pressure-Mon$
+2021-12-19 02:44:16.622723 message to owner walter.junior sent to server > SI.+CCG.+Pressure-Mon$
+2021-12-19 02:54:25.892175 message to owner walter.junior sent to server > SI.+CCG.+Pressure-Mon$
+2021-12-19 03:04:34.509278 message to owner walter.junior sent to server > SI.+CCG.+Pressure-Mon$
+2021-12-19 03:14:43.851134 message to owner walter.junior sent to server > SI.+CCG.+Pressure-Mon$
+2021-12-19 03:24:52.913267 message to owner walter.junior sent to server > SI.+CCG.+Pressure-Mon$
+2021-12-19 03:35:01.455748 message to owner walter.junior sent to server > SI.+CCG.+Pressure-Mon$
+2021-12-19 03:45:10.332824 message to owner walter.junior sent to server > SI.+CCG.+Pressure-Mon$
+2021-12-19 03:55:19.484275 message to owner walter.junior sent to server > SI.+CCG.+Pressure-Mon$
+2021-12-19 04:05:27.880362 message to owner walter.junior sent to server > SI.+CCG.+Pressure-Mon$
+2021-12-19 04:15:36.979793 message to owner walter.junior sent to server > SI.+CCG.+Pressure-Mon$
+2021-12-19 04:25:45.453838 message to owner walter.junior sent to server > SI.+CCG.+Pressure-Mon$
+2021-12-19 04:35:54.045643 message to owner walter.junior sent to server > SI.+CCG.+Pressure-Mon$
+2021-12-19 04:46:02.703351 message to owner walter.junior sent to server > SI.+CCG.+Pressure-Mon$
+2021-12-19 04:56:11.799481 message to owner walter.junior sent to server > SI.+CCG.+Pressure-Mon$
+2021-12-19 05:06:20.655246 message to owner walter.junior sent to server > SI.+CCG.+Pressure-Mon$
+2021-12-19 05:16:29.692362 message to owner walter.junior sent to server > SI.+CCG.+Pressure-Mon$
+2021-12-19 05:26:38.574233 message to owner walter.junior sent to server > SI.+CCG.+Pressure-Mon$
+2021-12-19 05:36:47.146403 message to owner walter.junior sent to server > SI.+CCG.+Pressure-Mon$
+2021-12-19 05:46:55.424346 message to owner walter.junior sent to server > SI.+CCG.+Pressure-Mon$
+2021-12-19 05:57:04.505180 message to owner walter.junior sent to server > SI.+CCG.+Pressure-Mon$
+2021-12-19 06:07:13.343686 message to owner walter.junior sent to server > SI.+CCG.+Pressure-Mon$
+2021-12-19 06:17:21.937649 message to owner walter.junior sent to server > SI.+CCG.+Pressure-Mon$
+2021-12-19 06:27:30.979196 message to owner walter.junior sent to server > SI.+CCG.+Pressure-Mon$
+2021-12-19 06:37:39.714839 message to owner walter.junior sent to server > SI.+CCG.+Pressure-Mon$
+2021-12-19 06:47:49.037852 message to owner walter.junior sent to server > SI.+CCG.+Pressure-Mon$
+2021-12-19 06:57:57.859029 message to owner walter.junior sent to server > SI.+CCG.+Pressure-Mon$
+2021-12-19 07:08:06.928220 message to owner walter.junior sent to server > SI.+CCG.+Pressure-Mon$
+2021-12-19 07:18:15.477132 message to owner walter.junior sent to server > SI.+CCG.+Pressure-Mon$
+2021-12-19 07:28:24.632905 message to owner walter.junior sent to server > SI.+CCG.+Pressure-Mon$
+2021-12-19 07:38:33.707871 message to owner walter.junior sent to server > SI.+CCG.+Pressure-Mon$
+2021-12-19 07:48:42.277134 message to owner walter.junior sent to server > SI.+CCG.+Pressure-Mon$
+2021-12-19 07:58:50.663945 message to owner walter.junior sent to server > SI.+CCG.+Pressure-Mon$
+2021-12-19 08:08:58.838922 message to owner walter.junior sent to server > SI.+CCG.+Pressure-Mon$
+2021-12-19 08:19:07.268588 message to owner walter.junior sent to server > SI.+CCG.+Pressure-Mon$
+2021-12-19 08:29:15.470815 message to owner walter.junior sent to server > SI.+CCG.+Pressure-Mon$
+2021-12-19 08:39:24.736113 message to owner walter.junior sent to server > SI.+CCG.+Pressure-Mon$
+2021-12-19 08:49:33.586854 message to owner walter.junior sent to server > SI.+CCG.+Pressure-Mon$
+2021-12-19 08:59:42.188950 message to owner walter.junior sent to server > SI.+CCG.+Pressure-Mon$
+2021-12-19 09:09:50.660635 message to owner walter.junior sent to server > SI.+CCG.+Pressure-Mon$
+2021-12-19 09:19:59.310095 message to owner walter.junior sent to server > SI.+CCG.+Pressure-Mon$
+2021-12-19 09:30:07.649100 message to owner walter.junior sent to server > SI.+CCG.+Pressure-Mon$
+2021-12-19 09:40:16.124525 message to owner walter.junior sent to server > SI.+CCG.+Pressure-Mon$
+2021-12-19 09:50:24.824433 message to owner walter.junior sent to server > SI.+CCG.+Pressure-Mon$
+2021-12-19 10:00:33.725323 message to owner walter.junior sent to server > SI.+CCG.+Pressure-Mon$
+2021-12-19 10:10:42.728811 message to owner walter.junior sent to server > SI.+CCG.+Pressure-Mon$
+2021-12-19 10:20:51.277944 message to owner walter.junior sent to server > SI.+CCG.+Pressure-Mon$
+2021-12-19 10:30:59.773593 message to owner walter.junior sent to server > SI.+CCG.+Pressure-Mon$
+2021-12-19 10:41:08.962971 message to owner walter.junior sent to server > SI.+CCG.+Pressure-Mon$
+2021-12-19 10:51:17.209289 message to owner walter.junior sent to server > SI.+CCG.+Pressure-Mon$
+2021-12-19 11:01:25.626332 message to owner walter.junior sent to server > SI.+CCG.+Pressure-Mon$
+2021-12-19 11:11:34.958696 message to owner walter.junior sent to server > SI.+CCG.+Pressure-Mon$
+2021-12-19 11:21:44.342489 message to owner walter.junior sent to server > SI.+CCG.+Pressure-Mon$
+2021-12-19 11:31:52.736212 message to owner walter.junior sent to server > SI.+CCG.+Pressure-Mon$
+2021-12-19 11:42:01.352018 message to owner walter.junior sent to server > SI.+CCG.+Pressure-Mon$
+2021-12-19 11:52:10.647843 message to owner walter.junior sent to server > SI.+CCG.+Pressure-Mon$
+2021-12-19 12:02:19.298966 message to owner walter.junior sent to server > SI.+CCG.+Pressure-Mon$
+2021-12-19 12:12:27.652528 message to owner walter.junior sent to server > SI.+CCG.+Pressure-Mon$
+2021-12-19 12:22:37.158496 message to owner walter.junior sent to server > SI.+CCG.+Pressure-Mon$
+2021-12-19 12:32:45.656163 message to owner walter.junior sent to server > SI.+CCG.+Pressure-Mon$
+2021-12-19 12:42:54.650155 message to owner walter.junior sent to server > SI.+CCG.+Pressure-Mon$
+2021-12-19 12:53:03.586540 message to owner walter.junior sent to server > SI.+CCG.+Pressure-Mon$
+2021-12-19 13:03:12.012967 message to owner walter.junior sent to server > SI.+CCG.+Pressure-Mon$
+2021-12-19 13:13:20.625869 message to owner walter.junior sent to server > SI.+CCG.+Pressure-Mon$
+2021-12-19 13:23:30.263572 message to owner walter.junior sent to server > SI.+CCG.+Pressure-Mon$
+2021-12-19 13:33:38.657241 message to owner walter.junior sent to server > SI.+CCG.+Pressure-Mon$
+2021-12-19 13:43:48.106823 message to owner walter.junior sent to server > SI.+CCG.+Pressure-Mon$
+2021-12-19 13:53:56.763744 message to owner walter.junior sent to server > SI.+CCG.+Pressure-Mon$
+2021-12-19 14:04:05.151258 message to owner walter.junior sent to server > SI.+CCG.+Pressure-Mon$
+2021-12-19 14:14:13.699967 message to owner walter.junior sent to server > SI.+CCG.+Pressure-Mon$
+2021-12-19 14:24:22.257304 message to owner walter.junior sent to server > SI.+CCG.+Pressure-Mon$
+2021-12-19 14:34:31.150947 message to owner walter.junior sent to server > SI.+CCG.+Pressure-Mon$
+2021-12-19 14:44:40.553048 message to owner walter.junior sent to server > SI.+CCG.+Pressure-Mon$
+2021-12-19 14:54:49.506893 message to owner walter.junior sent to server > SI.+CCG.+Pressure-Mon$
+2021-12-19 15:04:58.237546 message to owner walter.junior sent to server > SI.+CCG.+Pressure-Mon$
+2021-12-19 15:15:07.039114 message to owner walter.junior sent to server > SI.+CCG.+Pressure-Mon$
+2021-12-19 15:25:15.682400 message to owner walter.junior sent to server > SI.+CCG.+Pressure-Mon$
+2021-12-19 15:35:24.708865 message to owner walter.junior sent to server > SI.+CCG.+Pressure-Mon$
+2021-12-19 15:45:33.151657 message to owner walter.junior sent to server > SI.+CCG.+Pressure-Mon$
+2021-12-19 15:55:41.537098 message to owner walter.junior sent to server > SI.+CCG.+Pressure-Mon$
+2021-12-19 16:05:50.684079 message to owner walter.junior sent to server > SI.+CCG.+Pressure-Mon$
+2021-12-19 16:15:59.207114 message to owner walter.junior sent to server > SI.+CCG.+Pressure-Mon$
+2021-12-19 16:26:07.745826 message to owner walter.junior sent to server > SI.+CCG.+Pressure-Mon$
+2021-12-19 16:36:16.873227 message to owner walter.junior sent to server > SI.+CCG.+Pressure-Mon$
+2021-12-19 16:46:25.741608 message to owner walter.junior sent to server > SI.+CCG.+Pressure-Mon$
+2021-12-19 16:56:34.552404 message to owner walter.junior sent to server > SI.+CCG.+Pressure-Mon$
+2021-12-19 17:06:43.639518 message to owner walter.junior sent to server > SI.+CCG.+Pressure-Mon$
+2021-12-19 17:16:52.151606 message to owner walter.junior sent to server > SI.+CCG.+Pressure-Mon$
+2021-12-19 17:27:01.042821 message to owner walter.junior sent to server > SI.+CCG.+Pressure-Mon$
+2021-12-19 17:37:09.640947 message to owner walter.junior sent to server > SI.+CCG.+Pressure-Mon$
+2021-12-19 17:47:18.482908 message to owner walter.junior sent to server > SI.+CCG.+Pressure-Mon$
+2021-12-19 17:57:27.706184 message to owner walter.junior sent to server > SI.+CCG.+Pressure-Mon$
+2021-12-19 18:07:36.952408 message to owner walter.junior sent to server > SI.+CCG.+Pressure-Mon$
+2021-12-19 18:17:45.608672 message to owner walter.junior sent to server > SI.+CCG.+Pressure-Mon$
+2021-12-19 18:27:54.140068 message to owner walter.junior sent to server > SI.+CCG.+Pressure-Mon$
+2021-12-19 18:38:03.067045 message to owner walter.junior sent to server > SI.+CCG.+Pressure-Mon$
+2021-12-19 18:48:11.680948 message to owner walter.junior sent to server > SI.+CCG.+Pressure-Mon$
+2021-12-19 18:58:20.825560 message to owner walter.junior sent to server > SI.+CCG.+Pressure-Mon$
+2021-12-19 19:08:29.264496 message to owner walter.junior sent to server > SI.+CCG.+Pressure-Mon$
+2021-12-19 19:18:37.882686 message to owner walter.junior sent to server > SI.+CCG.+Pressure-Mon$
+2021-12-19 19:28:46.237119 message to owner walter.junior sent to server > SI.+CCG.+Pressure-Mon$
+2021-12-19 19:38:55.334538 message to owner walter.junior sent to server > SI.+CCG.+Pressure-Mon$
+2021-12-19 19:49:04.363416 message to owner walter.junior sent to server > SI.+CCG.+Pressure-Mon$
+2021-12-19 19:59:12.769358 message to owner walter.junior sent to server > SI.+CCG.+Pressure-Mon$
+2021-12-19 20:09:21.803671 message to owner walter.junior sent to server > SI.+CCG.+Pressure-Mon$
+2021-12-19 20:19:30.598326 message to owner walter.junior sent to server > SI.+CCG.+Pressure-Mon$
+2021-12-19 20:29:38.856107 message to owner walter.junior sent to server > SI.+CCG.+Pressure-Mon$
+2021-12-19 20:39:47.226898 message to owner walter.junior sent to server > SI.+CCG.+Pressure-Mon$
+2021-12-19 20:49:55.909042 message to owner walter.junior sent to server > SI.+CCG.+Pressure-Mon$
+2021-12-19 21:00:04.265805 message to owner walter.junior sent to server > SI.+CCG.+Pressure-Mon$
+2021-12-19 21:10:13.473853 message to owner walter.junior sent to server > SI.+CCG.+Pressure-Mon$
+2021-12-19 21:20:22.342894 message to owner walter.junior sent to server > SI.+CCG.+Pressure-Mon$
+2021-12-19 21:30:30.709885 message to owner walter.junior sent to server > SI.+CCG.+Pressure-Mon$
+2021-12-19 21:40:39.827179 message to owner walter.junior sent to server > SI.+CCG.+Pressure-Mon$
+2021-12-19 21:50:48.237381 message to owner walter.junior sent to server > SI.+CCG.+Pressure-Mon$
+2021-12-19 22:00:57.804275 message to owner walter.junior sent to server > SI.+CCG.+Pressure-Mon$
+2021-12-19 22:11:06.300416 message to owner walter.junior sent to server > SI.+CCG.+Pressure-Mon$
+2021-12-19 22:21:15.200296 message to owner walter.junior sent to server > SI.+CCG.+Pressure-Mon$
+2021-12-19 22:31:23.613208 message to owner walter.junior sent to server > SI.+CCG.+Pressure-Mon$
+2021-12-19 22:41:33.203941 message to owner walter.junior sent to server > SI.+CCG.+Pressure-Mon$
+2021-12-19 22:51:41.529414 message to owner walter.junior sent to server > SI.+CCG.+Pressure-Mon$
+2021-12-19 23:01:50.751504 message to owner walter.junior sent to server > SI.+CCG.+Pressure-Mon$
+2021-12-19 23:11:59.314081 message to owner walter.junior sent to server > SI.+CCG.+Pressure-Mon$
+2021-12-19 23:22:08.026095 message to owner walter.junior sent to server > SI.+CCG.+Pressure-Mon$
+2021-12-19 23:32:16.951962 message to owner walter.junior sent to server > SI.+CCG.+Pressure-Mon$
+2021-12-19 23:42:25.457803 message to owner walter.junior sent to server > SI.+CCG.+Pressure-Mon$
+2021-12-19 23:52:34.367860 message to owner walter.junior sent to server > SI.+CCG.+Pressure-Mon$
+2021-12-20 00:02:43.055738 message to owner walter.junior sent to server > SI.+CCG.+Pressure-Mon$
+2021-12-20 00:12:51.481874 message to owner walter.junior sent to server > SI.+CCG.+Pressure-Mon$
+2021-12-20 00:22:59.870805 message to owner walter.junior sent to server > SI.+CCG.+Pressure-Mon$
+2021-12-20 00:33:09.020576 message to owner walter.junior sent to server > SI.+CCG.+Pressure-Mon$
+2021-12-20 00:43:17.541003 message to owner walter.junior sent to server > SI.+CCG.+Pressure-Mon$
+2021-12-20 00:53:26.092055 message to owner walter.junior sent to server > SI.+CCG.+Pressure-Mon$
+2021-12-20 01:03:34.752684 message to owner walter.junior sent to server > SI.+CCG.+Pressure-Mon$
+2021-12-20 01:13:43.379044 message to owner walter.junior sent to server > SI.+CCG.+Pressure-Mon$
+2021-12-20 01:23:52.253522 message to owner walter.junior sent to server > SI.+CCG.+Pressure-Mon$
+2021-12-20 01:34:00.691221 message to owner walter.junior sent to server > SI.+CCG.+Pressure-Mon$
+2021-12-20 01:44:09.106616 message to owner walter.junior sent to server > SI.+CCG.+Pressure-Mon$
+2021-12-20 01:54:17.729323 message to owner walter.junior sent to server > SI.+CCG.+Pressure-Mon$
+2021-12-20 02:04:26.788739 message to owner walter.junior sent to server > SI.+CCG.+Pressure-Mon$
+2021-12-20 02:14:35.513810 message to owner walter.junior sent to server > SI.+CCG.+Pressure-Mon$
+2021-12-20 02:24:43.903929 message to owner walter.junior sent to server > SI.+CCG.+Pressure-Mon$
+2021-12-20 02:34:52.849785 message to owner walter.junior sent to server > SI.+CCG.+Pressure-Mon$
+2021-12-20 02:45:01.837758 message to owner walter.junior sent to server > SI.+CCG.+Pressure-Mon$
+2021-12-20 02:55:10.554792 message to owner walter.junior sent to server > SI.+CCG.+Pressure-Mon$
+2021-12-20 03:05:19.790817 message to owner walter.junior sent to server > SI.+CCG.+Pressure-Mon$
+2021-12-20 03:15:28.676240 message to owner walter.junior sent to server > SI.+CCG.+Pressure-Mon$
+2021-12-20 03:25:37.147774 message to owner walter.junior sent to server > SI.+CCG.+Pressure-Mon$
+2021-12-20 03:35:45.874158 message to owner walter.junior sent to server > SI.+CCG.+Pressure-Mon$
+2021-12-20 03:45:54.967866 message to owner walter.junior sent to server > SI.+CCG.+Pressure-Mon$
+2021-12-20 03:56:04.009596 message to owner walter.junior sent to server > SI.+CCG.+Pressure-Mon$
+2021-12-20 04:06:13.144890 message to owner walter.junior sent to server > SI.+CCG.+Pressure-Mon$
+2021-12-20 04:16:21.600716 message to owner walter.junior sent to server > SI.+CCG.+Pressure-Mon$
+2021-12-20 04:26:30.022888 message to owner walter.junior sent to server > SI.+CCG.+Pressure-Mon$
+2021-12-20 04:36:39.319258 message to owner walter.junior sent to server > SI.+CCG.+Pressure-Mon$
+2021-12-20 04:46:48.079338 message to owner walter.junior sent to server > SI.+CCG.+Pressure-Mon$
+2021-12-20 04:56:56.643633 message to owner walter.junior sent to server > SI.+CCG.+Pressure-Mon$
+2021-12-20 05:07:04.999972 message to owner walter.junior sent to server > SI.+CCG.+Pressure-Mon$
+2021-12-20 05:17:13.634321 message to owner walter.junior sent to server > SI.+CCG.+Pressure-Mon$
+2021-12-20 05:27:22.225343 message to owner walter.junior sent to server > SI.+CCG.+Pressure-Mon$
+2021-12-20 05:37:31.649646 message to owner walter.junior sent to server > SI.+CCG.+Pressure-Mon$
+2021-12-20 05:47:40.392540 message to owner walter.junior sent to server > SI.+CCG.+Pressure-Mon$
+2021-12-20 05:57:48.755607 message to owner walter.junior sent to server > SI.+CCG.+Pressure-Mon$
+2021-12-20 06:07:57.434732 message to owner walter.junior sent to server > SI.+CCG.+Pressure-Mon$
+2021-12-20 06:18:06.416173 message to owner walter.junior sent to server > SI.+CCG.+Pressure-Mon$
+2021-12-20 06:28:15.209268 message to owner walter.junior sent to server > SI.+CCG.+Pressure-Mon$
+2021-12-20 06:38:24.537320 message to owner walter.junior sent to server > SI.+CCG.+Pressure-Mon$
+2021-12-20 06:48:33.408800 message to owner walter.junior sent to server > SI.+CCG.+Pressure-Mon$
+2021-12-20 06:58:42.131691 message to owner walter.junior sent to server > SI.+CCG.+Pressure-Mon$
+2021-12-20 07:08:50.587151 message to owner walter.junior sent to server > SI.+CCG.+Pressure-Mon$
+2021-12-20 07:18:59.627178 message to owner walter.junior sent to server > SI.+CCG.+Pressure-Mon$
+2021-12-20 07:29:08.749443 message to owner walter.junior sent to server > SI.+CCG.+Pressure-Mon$
+2021-12-20 07:39:17.394420 message to owner walter.junior sent to server > SI.+CCG.+Pressure-Mon$
+2021-12-20 07:49:25.982615 message to owner walter.junior sent to server > SI.+CCG.+Pressure-Mon$
+2021-12-20 07:59:34.771088 message to owner walter.junior sent to server > SI.+CCG.+Pressure-Mon$
+2021-12-20 08:09:44.004692 message to owner walter.junior sent to server > SI.+CCG.+Pressure-Mon$
+2021-12-20 08:19:52.986351 message to owner walter.junior sent to server > SI.+CCG.+Pressure-Mon$
+2021-12-20 08:30:01.459476 message to owner walter.junior sent to server > SI.+CCG.+Pressure-Mon$
+2021-12-20 08:40:10.318793 message to owner walter.junior sent to server > SI.+CCG.+Pressure-Mon$
+2021-12-20 08:50:18.688830 message to owner walter.junior sent to server > SI.+CCG.+Pressure-Mon$
+2021-12-20 09:00:27.667304 message to owner walter.junior sent to server > SI.+CCG.+Pressure-Mon$
+2021-12-20 09:10:36.772696 message to owner walter.junior sent to server > SI.+CCG.+Pressure-Mon$
+2021-12-20 09:20:44.996164 message to owner walter.junior sent to server > SI.+CCG.+Pressure-Mon$
+2021-12-20 09:30:54.425599 message to owner walter.junior sent to server > SI.+CCG.+Pressure-Mon$
+2021-12-20 09:41:03.561418 message to owner walter.junior sent to server > SI.+CCG.+Pressure-Mon$
+2021-12-20 09:51:12.443550 message to owner walter.junior sent to server > SI.+CCG.+Pressure-Mon$
+2021-12-20 10:01:21.054388 message to owner walter.junior sent to server > SI.+CCG.+Pressure-Mon$
+2021-12-20 10:11:29.516282 message to owner walter.junior sent to server > SI.+CCG.+Pressure-Mon$
+2021-12-20 10:21:38.441136 message to owner walter.junior sent to server > SI.+CCG.+Pressure-Mon$
+2021-12-20 10:31:47.578830 message to owner walter.junior sent to server > SI.+CCG.+Pressure-Mon$
+2021-12-20 10:41:56.666947 message to owner walter.junior sent to server > SI.+CCG.+Pressure-Mon$
+2021-12-20 10:52:05.365667 message to owner walter.junior sent to server > SI.+CCG.+Pressure-Mon$
+2021-12-20 11:02:13.716034 message to owner walter.junior sent to server > SI.+CCG.+Pressure-Mon$
+2021-12-20 11:12:22.709780 message to owner walter.junior sent to server > SI.+CCG.+Pressure-Mon$
+2021-12-20 11:22:31.393363 message to owner walter.junior sent to server > SI.+CCG.+Pressure-Mon$
+2021-12-20 11:32:39.856664 message to owner walter.junior sent to server > SI.+CCG.+Pressure-Mon$
+2021-12-20 11:42:49.132449 message to owner walter.junior sent to server > SI.+CCG.+Pressure-Mon$
+2021-12-20 11:52:57.890077 message to owner walter.junior sent to server > SI.+CCG.+Pressure-Mon$
+2021-12-20 12:03:07.316378 message to owner walter.junior sent to server > SI.+CCG.+Pressure-Mon$
+2021-12-20 12:13:16.817909 message to owner walter.junior sent to server > SI.+CCG.+Pressure-Mon$
+2021-12-20 12:23:25.351207 message to owner walter.junior sent to server > SI.+CCG.+Pressure-Mon$
+2021-12-20 12:33:33.658839 message to owner walter.junior sent to server > SI.+CCG.+Pressure-Mon$
+2021-12-20 12:43:42.280002 message to owner walter.junior sent to server > SI.+CCG.+Pressure-Mon$
+2021-12-20 12:53:51.350616 message to owner walter.junior sent to server > SI.+CCG.+Pressure-Mon$
+2021-12-20 13:03:59.744135 message to owner walter.junior sent to server > SI.+CCG.+Pressure-Mon$
+2021-12-20 13:14:09.012208 message to owner walter.junior sent to server > SI.+CCG.+Pressure-Mon$
+2021-12-20 13:24:18.122828 message to owner walter.junior sent to server > SI.+CCG.+Pressure-Mon$
+2021-12-20 13:34:26.413358 message to owner walter.junior sent to server > SI.+CCG.+Pressure-Mon$
+2021-12-20 13:44:35.669855 message to owner walter.junior sent to server > SI.+CCG.+Pressure-Mon$
+2021-12-20 13:54:43.961233 message to owner walter.junior sent to server > SI.+CCG.+Pressure-Mon$
+2021-12-20 14:04:52.386388 message to owner walter.junior sent to server > SI.+CCG.+Pressure-Mon$
+2021-12-20 14:15:01.430483 message to owner walter.junior sent to server > SI.+CCG.+Pressure-Mon$
+2021-12-20 14:25:10.192850 message to owner walter.junior sent to server > SI.+CCG.+Pressure-Mon$
+2021-12-20 14:35:19.505320 message to owner walter.junior sent to server > SI.+CCG.+Pressure-Mon$
+2021-12-20 14:45:29.030127 message to owner walter.junior sent to server > SI.+CCG.+Pressure-Mon$
+2021-12-20 14:55:37.855687 message to owner walter.junior sent to server > SI.+CCG.+Pressure-Mon$
+2021-12-20 15:05:46.898150 message to owner walter.junior sent to server > SI.+CCG.+Pressure-Mon$
+2021-12-20 15:15:55.856227 message to owner walter.junior sent to server > SI.+CCG.+Pressure-Mon$
+2021-12-20 15:26:04.327148 message to owner walter.junior sent to server > SI.+CCG.+Pressure-Mon$
+2021-12-20 15:36:13.160398 message to owner walter.junior sent to server > SI.+CCG.+Pressure-Mon$
+2021-12-20 15:46:22.195722 message to owner walter.junior sent to server > SI.+CCG.+Pressure-Mon$
+2021-12-20 15:56:30.903008 message to owner walter.junior sent to server > SI.+CCG.+Pressure-Mon$
+2021-12-20 16:06:39.431703 message to owner walter.junior sent to server > SI.+CCG.+Pressure-Mon$
+2021-12-20 16:16:48.363700 message to owner walter.junior sent to server > SI.+CCG.+Pressure-Mon$
+2021-12-20 16:26:56.966767 message to owner walter.junior sent to server > SI.+CCG.+Pressure-Mon$
+2021-12-20 16:37:05.749173 message to owner walter.junior sent to server > SI.+CCG.+Pressure-Mon$
+2021-12-20 16:47:14.757590 message to owner walter.junior sent to server > SI.+CCG.+Pressure-Mon$
+2021-12-20 16:57:23.113391 message to owner walter.junior sent to server > SI.+CCG.+Pressure-Mon$
+2021-12-20 17:07:32.134007 message to owner walter.junior sent to server > SI.+CCG.+Pressure-Mon$
+2021-12-20 17:17:41.910707 message to owner walter.junior sent to server > SI.+CCG.+Pressure-Mon$
+2021-12-20 17:27:51.117283 message to owner walter.junior sent to server > SI.+CCG.+Pressure-Mon$
+2021-12-20 17:38:00.258390 message to owner walter.junior sent to server > SI.+CCG.+Pressure-Mon$
+2021-12-20 17:48:10.082807 message to owner walter.junior sent to server > SI.+CCG.+Pressure-Mon$
+2021-12-20 17:58:18.601890 message to owner walter.junior sent to server > SI.+CCG.+Pressure-Mon$
+2021-12-20 18:08:26.865243 message to owner walter.junior sent to server > SI.+CCG.+Pressure-Mon$
+2021-12-20 18:18:35.656626 message to owner walter.junior sent to server > SI.+CCG.+Pressure-Mon$
+2021-12-20 18:28:44.956403 message to owner walter.junior sent to server > SI.+CCG.+Pressure-Mon$
+2021-12-20 18:38:53.352756 message to owner walter.junior sent to server > SI.+CCG.+Pressure-Mon$
+2021-12-20 18:49:02.239128 message to owner walter.junior sent to server > SI.+CCG.+Pressure-Mon$
+2021-12-20 18:59:10.553302 message to owner walter.junior sent to server > SI.+CCG.+Pressure-Mon$
+2021-12-20 19:09:18.911597 message to owner walter.junior sent to server > SI.+CCG.+Pressure-Mon$
+2021-12-20 19:19:28.164761 message to owner walter.junior sent to server > SI.+CCG.+Pressure-Mon$
+2021-12-20 19:29:36.787221 message to owner walter.junior sent to server > SI.+CCG.+Pressure-Mon$
+2021-12-20 19:39:45.776850 message to owner walter.junior sent to server > SI.+CCG.+Pressure-Mon$
+2021-12-20 19:49:54.236429 message to owner walter.junior sent to server > SI.+CCG.+Pressure-Mon$
+2021-12-20 20:00:03.225437 message to owner walter.junior sent to server > SI.+CCG.+Pressure-Mon$
+2021-12-20 20:10:11.772012 message to owner walter.junior sent to server > SI.+CCG.+Pressure-Mon$
+2021-12-20 20:20:20.205385 message to owner walter.junior sent to server > SI.+CCG.+Pressure-Mon$
+2021-12-20 20:30:28.802427 message to owner walter.junior sent to server > SI.+CCG.+Pressure-Mon$
+2021-12-20 20:40:37.625957 message to owner walter.junior sent to server > SI.+CCG.+Pressure-Mon$
+2021-12-20 20:50:45.961066 message to owner walter.junior sent to server > SI.+CCG.+Pressure-Mon$
+2021-12-20 21:00:54.796699 message to owner walter.junior sent to server > SI.+CCG.+Pressure-Mon$
+2021-12-20 21:11:04.454369 message to owner walter.junior sent to server > SI.+CCG.+Pressure-Mon$
+2021-12-20 21:21:13.062304 message to owner walter.junior sent to server > SI.+CCG.+Pressure-Mon$
+2021-12-20 21:31:21.431929 message to owner walter.junior sent to server > SI.+CCG.+Pressure-Mon$
+2021-12-20 21:41:29.832756 message to owner walter.junior sent to server > SI.+CCG.+Pressure-Mon$
+2021-12-20 21:51:39.099532 message to owner walter.junior sent to server > SI.+CCG.+Pressure-Mon$
+2021-12-20 22:01:48.253984 message to owner walter.junior sent to server > SI.+CCG.+Pressure-Mon$
+2021-12-20 22:11:57.178265 message to owner walter.junior sent to server > SI.+CCG.+Pressure-Mon$
+2021-12-20 22:22:05.591945 message to owner walter.junior sent to server > SI.+CCG.+Pressure-Mon$
+2021-12-20 22:32:13.831956 message to owner walter.junior sent to server > SI.+CCG.+Pressure-Mon$
+2021-12-20 22:42:22.829710 message to owner walter.junior sent to server > SI.+CCG.+Pressure-Mon$
+2021-12-20 22:52:31.121994 message to owner walter.junior sent to server > SI.+CCG.+Pressure-Mon$
+2021-12-20 23:02:39.785499 message to owner walter.junior sent to server > SI.+CCG.+Pressure-Mon$
+2021-12-20 23:12:49.191318 message to owner walter.junior sent to server > SI.+CCG.+Pressure-Mon$
+2021-12-20 23:22:57.424602 message to owner walter.junior sent to server > SI.+CCG.+Pressure-Mon$
+2021-12-20 23:33:05.832281 message to owner walter.junior sent to server > SI.+CCG.+Pressure-Mon$
+2021-12-20 23:43:14.150749 message to owner walter.junior sent to server > SI.+CCG.+Pressure-Mon$
+2021-12-20 23:53:23.132996 message to owner walter.junior sent to server > SI.+CCG.+Pressure-Mon$
+2021-12-21 00:03:31.972819 message to owner walter.junior sent to server > SI.+CCG.+Pressure-Mon$
+2021-12-21 00:13:41.664119 message to owner walter.junior sent to server > SI.+CCG.+Pressure-Mon$
+2021-12-21 00:23:49.934034 message to owner walter.junior sent to server > SI.+CCG.+Pressure-Mon$
+2021-12-21 00:33:58.602972 message to owner walter.junior sent to server > SI.+CCG.+Pressure-Mon$
+2021-12-21 00:44:06.989873 message to owner walter.junior sent to server > SI.+CCG.+Pressure-Mon$
+2021-12-21 00:54:15.809791 message to owner walter.junior sent to server > SI.+CCG.+Pressure-Mon$
+2021-12-21 01:04:24.987786 message to owner walter.junior sent to server > SI.+CCG.+Pressure-Mon$
+2021-12-21 01:14:33.749822 message to owner walter.junior sent to server > SI.+CCG.+Pressure-Mon$
+2021-12-21 01:24:42.691924 message to owner walter.junior sent to server > SI.+CCG.+Pressure-Mon$
+2021-12-21 01:34:51.007799 message to owner walter.junior sent to server > SI.+CCG.+Pressure-Mon$
+2021-12-21 01:44:59.934679 message to owner walter.junior sent to server > SI.+CCG.+Pressure-Mon$
+2021-12-21 01:55:09.024535 message to owner walter.junior sent to server > SI.+CCG.+Pressure-Mon$
+2021-12-21 02:05:17.363017 message to owner walter.junior sent to server > SI.+CCG.+Pressure-Mon$
+2021-12-21 02:15:26.327280 message to owner walter.junior sent to server > SI.+CCG.+Pressure-Mon$
+2021-12-21 02:25:34.897219 message to owner walter.junior sent to server > SI.+CCG.+Pressure-Mon$
+2021-12-21 02:35:44.143279 message to owner walter.junior sent to server > SI.+CCG.+Pressure-Mon$
+2021-12-21 02:45:52.553641 message to owner walter.junior sent to server > SI.+CCG.+Pressure-Mon$
+2021-12-21 02:56:00.919096 message to owner walter.junior sent to server > SI.+CCG.+Pressure-Mon$
+2021-12-21 03:06:09.471819 message to owner walter.junior sent to server > SI.+CCG.+Pressure-Mon$
+2021-12-21 03:16:18.108678 message to owner walter.junior sent to server > SI.+CCG.+Pressure-Mon$
+2021-12-21 03:26:27.516949 message to owner walter.junior sent to server > SI.+CCG.+Pressure-Mon$
+2021-12-21 03:36:36.448457 message to owner walter.junior sent to server > SI.+CCG.+Pressure-Mon$
+2021-12-21 03:46:45.295188 message to owner walter.junior sent to server > SI.+CCG.+Pressure-Mon$
+2021-12-21 03:56:54.070171 message to owner walter.junior sent to server > SI.+CCG.+Pressure-Mon$
+2021-12-21 04:07:02.663829 message to owner walter.junior sent to server > SI.+CCG.+Pressure-Mon$
+2021-12-21 04:17:11.320828 message to owner walter.junior sent to server > SI.+CCG.+Pressure-Mon$
+2021-12-21 04:27:19.681232 message to owner walter.junior sent to server > SI.+CCG.+Pressure-Mon$
+2021-12-21 04:37:28.286364 message to owner walter.junior sent to server > SI.+CCG.+Pressure-Mon$
+2021-12-21 04:47:37.036479 message to owner walter.junior sent to server > SI.+CCG.+Pressure-Mon$
+2021-12-21 04:57:45.298312 message to owner walter.junior sent to server > SI.+CCG.+Pressure-Mon$
+2021-12-21 05:07:54.425847 message to owner walter.junior sent to server > SI.+CCG.+Pressure-Mon$
+2021-12-21 05:18:03.306351 message to owner walter.junior sent to server > SI.+CCG.+Pressure-Mon$
+2021-12-21 05:28:11.683794 message to owner walter.junior sent to server > SI.+CCG.+Pressure-Mon$
+2021-12-21 05:38:20.477982 message to owner walter.junior sent to server > SI.+CCG.+Pressure-Mon$
+2021-12-21 05:48:29.428327 message to owner walter.junior sent to server > SI.+CCG.+Pressure-Mon$
+2021-12-21 05:58:38.409365 message to owner walter.junior sent to server > SI.+CCG.+Pressure-Mon$
+2021-12-21 06:08:47.414102 message to owner walter.junior sent to server > SI.+CCG.+Pressure-Mon$
+2021-12-21 06:18:57.277104 message to owner walter.junior sent to server > SI.+CCG.+Pressure-Mon$
+2021-12-21 06:29:05.656159 message to owner walter.junior sent to server > SI.+CCG.+Pressure-Mon$
+2021-12-21 06:39:14.728032 message to owner walter.junior sent to server > SI.+CCG.+Pressure-Mon$
+2021-12-21 06:49:23.063604 message to owner walter.junior sent to server > SI.+CCG.+Pressure-Mon$
+2021-12-21 06:59:31.541845 message to owner walter.junior sent to server > SI.+CCG.+Pressure-Mon$
+2021-12-21 07:09:39.952487 message to owner walter.junior sent to server > SI.+CCG.+Pressure-Mon$
+2021-12-21 07:19:48.808987 message to owner walter.junior sent to server > SI.+CCG.+Pressure-Mon$
+2021-12-21 07:29:57.334399 message to owner walter.junior sent to server > SI.+CCG.+Pressure-Mon$
+2021-12-21 07:40:05.978387 message to owner walter.junior sent to server > SI.+CCG.+Pressure-Mon$
+2021-12-21 07:50:14.460858 message to owner walter.junior sent to server > SI.+CCG.+Pressure-Mon$
+2021-12-21 08:00:23.577508 message to owner walter.junior sent to server > SI.+CCG.+Pressure-Mon$
+2021-12-21 08:10:32.772883 message to owner walter.junior sent to server > SI.+CCG.+Pressure-Mon$
+2021-12-21 08:20:41.478371 message to owner walter.junior sent to server > SI.+CCG.+Pressure-Mon$
+2021-12-21 08:30:49.724017 message to owner walter.junior sent to server > SI.+CCG.+Pressure-Mon$
+2021-12-21 08:40:58.214535 message to owner walter.junior sent to server > SI.+CCG.+Pressure-Mon$
+2021-12-21 08:51:07.340758 message to owner walter.junior sent to server > SI.+CCG.+Pressure-Mon$
+2021-12-21 09:01:16.228103 message to owner walter.junior sent to server > SI.+CCG.+Pressure-Mon$
+2021-12-21 09:11:25.987128 message to owner walter.junior sent to server > SI.+CCG.+Pressure-Mon$
+2021-12-21 09:21:34.397096 message to owner walter.junior sent to server > SI.+CCG.+Pressure-Mon$
+2021-12-21 09:31:43.585557 message to owner walter.junior sent to server > SI.+CCG.+Pressure-Mon$
+2021-12-21 09:41:52.815184 message to owner walter.junior sent to server > SI.+CCG.+Pressure-Mon$
+2021-12-21 09:52:01.230537 message to owner walter.junior sent to server > SI.+CCG.+Pressure-Mon$
+2021-12-21 10:02:09.578213 message to owner walter.junior sent to server > SI.+CCG.+Pressure-Mon$
+2021-12-21 10:12:18.432082 message to owner walter.junior sent to server > SI.+CCG.+Pressure-Mon$
+2021-12-21 10:22:26.944404 message to owner walter.junior sent to server > SI.+CCG.+Pressure-Mon$
+2021-12-21 10:32:36.242433 message to owner walter.junior sent to server > SI.+CCG.+Pressure-Mon$
+2021-12-21 10:42:45.134675 message to owner walter.junior sent to server > SI.+CCG.+Pressure-Mon$
+2021-12-21 10:52:53.804098 message to owner walter.junior sent to server > SI.+CCG.+Pressure-Mon$
+2021-12-21 11:03:02.395216 message to owner walter.junior sent to server > SI.+CCG.+Pressure-Mon$
+2022-01-03 13:14:42.414799 message to owner walter.junior sent to server > BO.+CCG.+Pressure-Mon$
+2022-01-03 15:57:19.326487 message to owner walter.junior sent to server > SI.+CCG.+Pressure-Mon$
+2022-01-03 16:19:06.670381 message to owner walter.junior sent to server > SI.+CCG.+Pressure-Mon$
+2022-01-03 16:35:16.385372 message to owner walter.junior sent to server > SI.+CCG.+Pressure-Mon$
+2022-01-03 16:36:24.785734 message to owner walter.junior sent to server > BO.+CCG.+Pressure-Mon$
+2022-01-03 16:45:16.928399 message to owner walter.junior sent to server > SI.+CCG.+Pressure-Mon$
+2022-01-03 16:57:05.709061 message to owner walter.junior sent to server > SI.+CCG.+Pressure-Mon$
+2022-01-03 17:58:54.591668 message to owner walter.junior sent to server > BO.+CCG.+Pressure-Mon$
+2022-01-03 18:01:11.368252 message to owner walter.junior sent to server > SI.+CCG.+Pressure-Mon$
+2022-01-03 18:13:23.525163 message to owner walter.junior sent to server > BO.+CCG.+Pressure-Mon$
+2022-01-03 18:23:26.834207 message to owner walter.junior sent to server > BO.+CCG.+Pressure-Mon$
+2022-01-03 18:24:01.022565 message to owner walter.junior sent to server > SI.+CCG.+Pressure-Mon$
+2022-01-04 06:23:55.609241 message to owner walter.junior sent to server > BO.+CCG.+Pressure-Mon$
+2022-01-04 06:37:08.472688 message to owner walter.junior sent to server > SI.+CCG.+Pressure-Mon$
+2022-01-04 17:42:03.659048 message to owner walter.junior sent to server > BO.+CCG.+Pressure-Mon$
+2022-01-04 17:52:06.590037 message to owner walter.junior sent to server > BO.+CCG.+Pressure-Mon$
+2022-01-04 17:58:22.060820 message to owner walter.junior sent to server > SI.+CCG.+Pressure-Mon$
+2022-01-04 18:28:10.843683 message to owner walter.junior sent to server > SI.+CCG.+Pressure-Mon$
+2022-01-05 07:58:49.243685 message to owner walter.junior sent to server > BO.+CCG.+Pressure-Mon$
+2022-01-05 08:18:48.412987 message to owner walter.junior sent to server > SI.+CCG.+Pressure-Mon$
+2022-01-05 18:02:23.851790 message to owner walter.junior sent to server > BO.+CCG.+Pressure-Mon$
+2022-01-05 18:18:09.181772 message to owner walter.junior sent to server > SI.+CCG.+Pressure-Mon$
+2022-01-06 08:02:14.462946 message to owner walter.junior sent to server > BO.+CCG.+Pressure-Mon$
+2022-01-06 08:18:28.225266 message to owner walter.junior sent to server > SI.+CCG.+Pressure-Mon$
+2022-01-06 18:03:37.167532 message to owner walter.junior sent to server > BO.+CCG.+Pressure-Mon$
+2022-01-06 18:20:17.289914 message to owner walter.junior sent to server > SI.+CCG.+Pressure-Mon$
+2022-01-06 18:20:19.177083 message to owner rone.castro sent to server > ^([ST][IBS])(.+VA-CCG.+Pressure-Mon)$
+2022-01-07 08:39:40.340741 message to owner walter.junior sent to server > BO.+CCG.+Pressure-Mon$
+2022-01-07 08:56:14.329147 message to owner walter.junior sent to server > SI.+CCG.+Pressure-Mon$
+2022-01-07 08:56:16.213459 message to owner rone.castro sent to server > ^([ST][IBS])(.+VA-CCG.+Pressure-Mon)$
+2022-01-07 18:08:16.000397 message to owner walter.junior sent to server > BO.+CCG.+Pressure-Mon$
+2022-01-07 18:31:56.735325 message to owner walter.junior sent to server > SI.+CCG.+Pressure-Mon$
+2022-01-07 18:31:58.510167 message to owner rone.castro sent to server > ^([ST][IBS])(.+VA-CCG.+Pressure-Mon)$
+2022-01-08 08:01:43.090638 message to owner walter.junior sent to server > BO.+CCG.+Pressure-Mon$
+2022-01-08 08:22:33.444088 message to owner walter.junior sent to server > SI.+CCG.+Pressure-Mon$
+2022-01-08 08:22:35.333007 message to owner rone.castro sent to server > ^([ST][IBS])(.+VA-CCG.+Pressure-Mon)$
+2022-01-08 18:02:27.562471 message to owner walter.junior sent to server > BO.+CCG.+Pressure-Mon$
+2022-01-08 18:26:26.289440 message to owner walter.junior sent to server > SI.+CCG.+Pressure-Mon$
+2022-01-08 18:26:28.175831 message to owner rone.castro sent to server > ^([ST][IBS])(.+VA-CCG.+Pressure-Mon)$
+2022-01-09 07:13:38.135993 message to owner walter.junior sent to server > BO.+CCG.+Pressure-Mon$
+2022-01-09 07:37:51.200625 message to owner walter.junior sent to server > SI.+CCG.+Pressure-Mon$
+2022-01-09 07:37:52.739748 message to owner rone.castro sent to server > ^([ST][IBS])(.+VA-CCG.+Pressure-Mon)$
+2022-01-09 12:11:17.069659 message to owner walter.junior sent to server > SI.+CCG.+Pressure-Mon$
+2022-01-09 12:11:41.562777 message to owner rone.castro sent to server > ^([ST][IBS])(.+VA-CCG.+Pressure-Mon)$
+2022-01-09 12:21:20.316976 message to owner walter.junior sent to server > SI.+CCG.+Pressure-Mon$
+2022-01-09 12:31:48.150028 message to owner walter.junior sent to server > SI.+CCG.+Pressure-Mon$
+2022-01-09 12:42:01.833371 message to owner walter.junior sent to server > SI.+CCG.+Pressure-Mon$
+2022-01-09 12:53:05.066003 message to owner walter.junior sent to server > SI.+CCG.+Pressure-Mon$
+2022-01-09 13:03:32.909303 message to owner walter.junior sent to server > SI.+CCG.+Pressure-Mon$
+2022-01-09 13:14:01.634140 message to owner rone.castro sent to server > ^([ST][IBS])(.+VA-CCG.+Pressure-Mon)$
+2022-01-09 13:15:10.688400 message to owner walter.junior sent to server > SI.+CCG.+Pressure-Mon$
+2022-01-09 13:25:39.463147 message to owner walter.junior sent to server > SI.+CCG.+Pressure-Mon$
+2022-01-10 08:36:46.371062 message to owner walter.junior sent to server > SI.+CCG.+Pressure-Mon$
+2022-01-10 08:36:47.974513 message to owner walter.junior sent to server > TS.+CCG.+Pressure-Mon$
+2022-01-10 08:36:49.988488 message to owner rone.castro sent to server > ^([ST][IBS])(.+VA-CCG.+Pressure-Mon)$
+2022-01-12 17:44:19.569061 message to owner walter.junior sent to server > SI.+CCG.+Pressure-Mon$
+2022-01-12 17:44:20.908090 message to owner rone.castro sent to server > ^([ST][IBS])(.+VA-CCG.+Pressure-Mon)$
+2022-01-12 17:54:28.147621 message to owner walter.junior sent to server > SI.+CCG.+Pressure-Mon$
+2022-01-12 18:04:36.263274 message to owner walter.junior sent to server > SI.+CCG.+Pressure-Mon$
+2022-01-12 18:14:45.017197 message to owner walter.junior sent to server > SI.+CCG.+Pressure-Mon$
+2022-01-12 18:24:52.653202 message to owner walter.junior sent to server > SI.+CCG.+Pressure-Mon$
+2022-01-12 18:35:00.406843 message to owner walter.junior sent to server > SI.+CCG.+Pressure-Mon$
+2022-01-12 18:44:22.284026 error sending message to server > ^([ST][IBS])(.+VA-CCG.+Pressure-Mon)$
+2022-01-12 18:44:33.847180 error sending message to server > ^([ST][IBS])(.+VA-CCG.+Pressure-Mon)$
+2022-01-12 18:44:45.196330 error sending message to server > ^([ST][IBS])(.+VA-CCG.+Pressure-Mon)$
+2022-01-12 18:44:56.648930 error sending message to server > ^([ST][IBS])(.+VA-CCG.+Pressure-Mon)$
+2022-01-12 18:45:07.193353 error sending message to server > SI.+CCG.+Pressure-Mon$
+2022-01-12 18:45:08.038898 error sending message to server > ^([ST][IBS])(.+VA-CCG.+Pressure-Mon)$
+2022-01-12 18:45:18.648800 error sending message to server > SI.+CCG.+Pressure-Mon$
+2022-01-12 18:45:19.476434 error sending message to server > ^([ST][IBS])(.+VA-CCG.+Pressure-Mon)$
+2022-01-12 18:45:30.071247 error sending message to server > SI.+CCG.+Pressure-Mon$
+2022-01-12 18:45:30.905543 error sending message to server > ^([ST][IBS])(.+VA-CCG.+Pressure-Mon)$
+2022-01-12 18:45:41.581512 error sending message to server > SI.+CCG.+Pressure-Mon$
+2022-01-12 18:45:42.625819 error sending message to server > ^([ST][IBS])(.+VA-CCG.+Pressure-Mon)$
+2022-01-12 18:45:53.180801 error sending message to server > SI.+CCG.+Pressure-Mon$
+2022-01-12 18:45:54.006922 error sending message to server > ^([ST][IBS])(.+VA-CCG.+Pressure-Mon)$
+2022-01-12 18:46:04.595587 error sending message to server > SI.+CCG.+Pressure-Mon$
+2022-01-12 18:46:05.427703 error sending message to server > ^([ST][IBS])(.+VA-CCG.+Pressure-Mon)$
+2022-01-12 18:46:15.974391 error sending message to server > SI.+CCG.+Pressure-Mon$
+2022-01-12 18:46:16.809274 error sending message to server > ^([ST][IBS])(.+VA-CCG.+Pressure-Mon)$
+2022-01-12 18:46:27.364346 error sending message to server > SI.+CCG.+Pressure-Mon$
+2022-01-12 18:46:28.222679 error sending message to server > ^([ST][IBS])(.+VA-CCG.+Pressure-Mon)$
+2022-01-12 18:46:38.793109 error sending message to server > SI.+CCG.+Pressure-Mon$
+2022-01-12 18:46:39.696130 error sending message to server > ^([ST][IBS])(.+VA-CCG.+Pressure-Mon)$
+2022-01-12 18:46:50.358547 error sending message to server > SI.+CCG.+Pressure-Mon$
+2022-01-12 18:46:51.232760 error sending message to server > ^([ST][IBS])(.+VA-CCG.+Pressure-Mon)$
+2022-01-12 18:47:01.828293 error sending message to server > SI.+CCG.+Pressure-Mon$
+2022-01-12 18:47:02.829733 error sending message to server > ^([ST][IBS])(.+VA-CCG.+Pressure-Mon)$
+2022-01-12 18:47:13.513547 error sending message to server > SI.+CCG.+Pressure-Mon$
+2022-01-12 18:47:14.503495 error sending message to server > ^([ST][IBS])(.+VA-CCG.+Pressure-Mon)$
+2022-01-12 18:47:25.106705 error sending message to server > SI.+CCG.+Pressure-Mon$
+2022-01-12 18:47:25.956134 error sending message to server > ^([ST][IBS])(.+VA-CCG.+Pressure-Mon)$
+2022-01-12 18:47:36.661495 error sending message to server > SI.+CCG.+Pressure-Mon$
+2022-01-12 18:47:37.500671 error sending message to server > ^([ST][IBS])(.+VA-CCG.+Pressure-Mon)$
+2022-01-12 18:47:48.131280 error sending message to server > SI.+CCG.+Pressure-Mon$
+2022-01-12 18:47:49.153416 error sending message to server > ^([ST][IBS])(.+VA-CCG.+Pressure-Mon)$
+2022-01-12 18:47:59.876780 error sending message to server > SI.+CCG.+Pressure-Mon$
+2022-01-12 18:48:00.897253 error sending message to server > ^([ST][IBS])(.+VA-CCG.+Pressure-Mon)$
+2022-01-12 18:48:11.456589 error sending message to server > SI.+CCG.+Pressure-Mon$
+2022-01-12 18:48:12.423324 error sending message to server > ^([ST][IBS])(.+VA-CCG.+Pressure-Mon)$
+2022-01-12 18:48:23.047468 error sending message to server > SI.+CCG.+Pressure-Mon$
+2022-01-12 18:48:23.911350 error sending message to server > ^([ST][IBS])(.+VA-CCG.+Pressure-Mon)$
+2022-01-12 18:48:34.488326 error sending message to server > SI.+CCG.+Pressure-Mon$
+2022-01-12 18:48:35.354400 error sending message to server > ^([ST][IBS])(.+VA-CCG.+Pressure-Mon)$
+2022-01-12 18:48:45.884446 error sending message to server > SI.+CCG.+Pressure-Mon$
+2022-01-12 18:48:46.732278 error sending message to server > ^([ST][IBS])(.+VA-CCG.+Pressure-Mon)$
+2022-01-12 18:48:57.297637 error sending message to server > SI.+CCG.+Pressure-Mon$
+2022-01-12 18:48:58.153763 error sending message to server > ^([ST][IBS])(.+VA-CCG.+Pressure-Mon)$
+2022-01-12 18:49:08.716268 error sending message to server > SI.+CCG.+Pressure-Mon$
+2022-01-12 18:49:09.535479 error sending message to server > ^([ST][IBS])(.+VA-CCG.+Pressure-Mon)$
+2022-01-12 18:49:20.144305 error sending message to server > SI.+CCG.+Pressure-Mon$
+2022-01-12 18:49:20.982885 error sending message to server > ^([ST][IBS])(.+VA-CCG.+Pressure-Mon)$
+2022-01-12 18:49:31.600227 error sending message to server > SI.+CCG.+Pressure-Mon$
+2022-01-12 18:49:32.456424 error sending message to server > ^([ST][IBS])(.+VA-CCG.+Pressure-Mon)$
+2022-01-12 18:49:43.017597 error sending message to server > SI.+CCG.+Pressure-Mon$
+2022-01-12 18:49:43.877744 error sending message to server > ^([ST][IBS])(.+VA-CCG.+Pressure-Mon)$
+2022-01-12 18:49:54.422076 error sending message to server > SI.+CCG.+Pressure-Mon$
+2022-01-12 18:49:55.255510 error sending message to server > ^([ST][IBS])(.+VA-CCG.+Pressure-Mon)$
+2022-01-12 18:50:05.935434 error sending message to server > SI.+CCG.+Pressure-Mon$
+2022-01-12 18:50:06.778066 error sending message to server > ^([ST][IBS])(.+VA-CCG.+Pressure-Mon)$
+2022-01-12 18:50:17.344364 error sending message to server > SI.+CCG.+Pressure-Mon$
+2022-01-12 18:50:18.185755 error sending message to server > ^([ST][IBS])(.+VA-CCG.+Pressure-Mon)$
+2022-01-12 18:50:28.736205 error sending message to server > SI.+CCG.+Pressure-Mon$
+2022-01-12 18:50:29.570429 error sending message to server > ^([ST][IBS])(.+VA-CCG.+Pressure-Mon)$
+2022-01-12 18:50:40.150533 error sending message to server > SI.+CCG.+Pressure-Mon$
+2022-01-12 18:50:40.974404 error sending message to server > ^([ST][IBS])(.+VA-CCG.+Pressure-Mon)$
+2022-01-12 18:50:51.581409 error sending message to server > SI.+CCG.+Pressure-Mon$
+2022-01-12 18:50:52.425190 error sending message to server > ^([ST][IBS])(.+VA-CCG.+Pressure-Mon)$
+2022-01-12 18:51:03.008058 error sending message to server > SI.+CCG.+Pressure-Mon$
+2022-01-12 18:51:03.840125 error sending message to server > ^([ST][IBS])(.+VA-CCG.+Pressure-Mon)$
+2022-01-12 18:51:14.391671 error sending message to server > SI.+CCG.+Pressure-Mon$
+2022-01-12 18:51:15.252861 error sending message to server > ^([ST][IBS])(.+VA-CCG.+Pressure-Mon)$
+2022-01-12 18:51:25.879151 error sending message to server > SI.+CCG.+Pressure-Mon$
+2022-01-12 18:51:26.820127 error sending message to server > ^([ST][IBS])(.+VA-CCG.+Pressure-Mon)$
+2022-01-12 18:51:37.560588 error sending message to server > SI.+CCG.+Pressure-Mon$
+2022-01-12 18:51:38.614382 error sending message to server > ^([ST][IBS])(.+VA-CCG.+Pressure-Mon)$
+2022-01-12 18:51:49.286995 error sending message to server > SI.+CCG.+Pressure-Mon$
+2022-01-12 18:51:50.324437 error sending message to server > ^([ST][IBS])(.+VA-CCG.+Pressure-Mon)$
+2022-01-12 18:52:01.207794 message to owner walter.junior sent to server > SI.+CCG.+Pressure-Mon$
+2022-01-12 18:52:03.223373 message to owner rone.castro sent to server > ^([ST][IBS])(.+VA-CCG.+Pressure-Mon)$
+2022-01-12 19:02:12.567227 message to owner walter.junior sent to server > SI.+CCG.+Pressure-Mon$
+2022-01-12 19:12:23.737092 message to owner walter.junior sent to server > SI.+CCG.+Pressure-Mon$
+2022-01-12 19:22:33.244459 message to owner walter.junior sent to server > SI.+CCG.+Pressure-Mon$
+2022-01-12 19:52:09.131970 message to owner rone.castro sent to server > ^([ST][IBS])(.+VA-CCG.+Pressure-Mon)$
+2022-01-12 20:52:10.269430 message to owner rone.castro sent to server > ^([ST][IBS])(.+VA-CCG.+Pressure-Mon)$
+2022-01-12 21:52:17.864770 message to owner rone.castro sent to server > ^([ST][IBS])(.+VA-CCG.+Pressure-Mon)$
+2022-01-12 22:52:26.983289 message to owner rone.castro sent to server > ^([ST][IBS])(.+VA-CCG.+Pressure-Mon)$
+2022-01-12 23:52:32.075088 message to owner rone.castro sent to server > ^([ST][IBS])(.+VA-CCG.+Pressure-Mon)$
+2022-01-13 00:52:36.616680 message to owner rone.castro sent to server > ^([ST][IBS])(.+VA-CCG.+Pressure-Mon)$
+2022-01-13 01:52:41.567737 message to owner rone.castro sent to server > ^([ST][IBS])(.+VA-CCG.+Pressure-Mon)$
+2022-01-13 02:52:45.679975 message to owner rone.castro sent to server > ^([ST][IBS])(.+VA-CCG.+Pressure-Mon)$
+2022-01-13 03:52:52.872538 message to owner rone.castro sent to server > ^([ST][IBS])(.+VA-CCG.+Pressure-Mon)$
+2022-01-13 04:52:54.901860 message to owner rone.castro sent to server > ^([ST][IBS])(.+VA-CCG.+Pressure-Mon)$
+2022-01-13 05:53:01.856107 message to owner rone.castro sent to server > ^([ST][IBS])(.+VA-CCG.+Pressure-Mon)$
+2022-01-13 06:53:07.103687 message to owner rone.castro sent to server > ^([ST][IBS])(.+VA-CCG.+Pressure-Mon)$
+2022-01-13 07:53:12.771079 message to owner rone.castro sent to server > ^([ST][IBS])(.+VA-CCG.+Pressure-Mon)$
+2022-01-13 08:53:16.115983 message to owner rone.castro sent to server > ^([ST][IBS])(.+VA-CCG.+Pressure-Mon)$
+2022-01-13 09:53:21.829737 message to owner rone.castro sent to server > ^([ST][IBS])(.+VA-CCG.+Pressure-Mon)$
+2022-01-13 17:41:42.315151 message to owner rone.castro sent to server > ^([ST][IBS])(.+VA-CCG.+Pressure-Mon)$
+2022-01-13 18:41:46.034719 message to owner rone.castro sent to server > ^([ST][IBS])(.+VA-CCG.+Pressure-Mon)$
+2022-01-13 19:41:54.931933 message to owner rone.castro sent to server > ^([ST][IBS])(.+VA-CCG.+Pressure-Mon)$
+2022-01-13 20:42:03.484061 message to owner rone.castro sent to server > ^([ST][IBS])(.+VA-CCG.+Pressure-Mon)$
+2022-01-13 21:42:12.243819 message to owner rone.castro sent to server > ^([ST][IBS])(.+VA-CCG.+Pressure-Mon)$
+2022-01-13 22:42:15.031113 message to owner rone.castro sent to server > ^([ST][IBS])(.+VA-CCG.+Pressure-Mon)$
+2022-01-13 23:42:15.607601 message to owner rone.castro sent to server > ^([ST][IBS])(.+VA-CCG.+Pressure-Mon)$
+2022-01-14 00:42:26.216695 message to owner rone.castro sent to server > ^([ST][IBS])(.+VA-CCG.+Pressure-Mon)$
+2022-01-14 01:42:27.820115 message to owner rone.castro sent to server > ^([ST][IBS])(.+VA-CCG.+Pressure-Mon)$
+2022-01-14 02:42:31.634964 message to owner rone.castro sent to server > ^([ST][IBS])(.+VA-CCG.+Pressure-Mon)$
+2022-01-14 03:42:33.329792 message to owner rone.castro sent to server > ^([ST][IBS])(.+VA-CCG.+Pressure-Mon)$
+2022-01-14 04:42:42.003391 message to owner rone.castro sent to server > ^([ST][IBS])(.+VA-CCG.+Pressure-Mon)$
+2022-01-14 05:42:52.327505 message to owner rone.castro sent to server > ^([ST][IBS])(.+VA-CCG.+Pressure-Mon)$
+2022-01-14 06:42:55.203357 message to owner rone.castro sent to server > ^([ST][IBS])(.+VA-CCG.+Pressure-Mon)$
+2022-01-14 07:42:56.670106 message to owner rone.castro sent to server > ^([ST][IBS])(.+VA-CCG.+Pressure-Mon)$
+2022-01-14 08:43:06.589705 message to owner rone.castro sent to server > ^([ST][IBS])(.+VA-CCG.+Pressure-Mon)$
+2022-01-14 09:43:08.833932 message to owner rone.castro sent to server > ^([ST][IBS])(.+VA-CCG.+Pressure-Mon)$
+2022-01-14 10:43:15.773476 message to owner rone.castro sent to server > ^([ST][IBS])(.+VA-CCG.+Pressure-Mon)$
+2022-01-14 11:43:18.197437 message to owner rone.castro sent to server > ^([ST][IBS])(.+VA-CCG.+Pressure-Mon)$
+2022-01-14 12:43:29.402080 message to owner rone.castro sent to server > ^([ST][IBS])(.+VA-CCG.+Pressure-Mon)$
+

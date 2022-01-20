@@ -247,7 +247,7 @@ def evaluate():
                                                                         limits2=n.limits2,\
                                                                         subrule1=n.subrule1,\
                                                                         value1=check1[2][0],\
-                                                                        value2="ok",\
+                                                                        value2="pv ok",\
                                                                         phone=n.phone)
                                 elif (check1[0] == False and check2[0] == True):
                                     msg = '{{"numpvs" : "{numpvs}",\
@@ -268,7 +268,7 @@ def evaluate():
                                                                         limits1=n.limits1,\
                                                                         limits2=n.limits2,\
                                                                         subrule1=n.subrule1,\
-                                                                        value1="ok",\
+                                                                        value1="pv ok",\
                                                                         value2=check2[2][0],\
                                                                         phone=n.phone)
                             # elif numpvs == 3:                                           
