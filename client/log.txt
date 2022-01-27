@@ -1301,4 +1301,322 @@
 2022-01-14 10:43:15.773476 message to owner rone.castro sent to server > ^([ST][IBS])(.+VA-CCG.+Pressure-Mon)$
 2022-01-14 11:43:18.197437 message to owner rone.castro sent to server > ^([ST][IBS])(.+VA-CCG.+Pressure-Mon)$
 2022-01-14 12:43:29.402080 message to owner rone.castro sent to server > ^([ST][IBS])(.+VA-CCG.+Pressure-Mon)$
+2022-01-20 09:41:56.205760 message to owner rone.castro sent to server > SI-13C4:DI-DCCT:Current-Mon
+2022-01-20 09:51:50.422996 message to owner rone.castro sent to server > SI-13C4:DI-DCCT:Current-Mon
+2022-01-20 18:09:51.506403 message to owner walter.junior sent to server > BO.+CCG.+Pressure-Mon$
+2022-01-24 09:36:49.396864 message to owner walter.junior sent to server > BO.+CCG.+Pressure-Mon$
+2022-01-24 09:48:30.519485 message to owner walter.junior sent to server > BO.+CCG.+Pressure-Mon$
+2022-01-24 09:48:32.418910 message to owner rone.castro sent to server > ^([ST][IBS])(.+VA-CCG.+Pressure-Mon)$
+2022-01-24 10:49:14.905575 message to owner walter.junior sent to server > BO.+CCG.+Pressure-Mon$
+2022-01-24 10:49:16.761532 message to owner rone.castro sent to server > ^([ST][IBS])(.+VA-CCG.+Pressure-Mon)$
+2022-01-24 10:59:25.057779 message to owner walter.junior sent to server > BO.+CCG.+Pressure-Mon$
+2022-01-24 11:09:34.720480 message to owner walter.junior sent to server > BO.+CCG.+Pressure-Mon$
+2022-01-24 11:19:44.973519 message to owner walter.junior sent to server > BO.+CCG.+Pressure-Mon$
+2022-01-24 11:29:54.762393 message to owner walter.junior sent to server > BO.+CCG.+Pressure-Mon$
+2022-01-24 11:40:03.421454 message to owner walter.junior sent to server > BO.+CCG.+Pressure-Mon$
+2022-01-24 11:50:13.934961 message to owner walter.junior sent to server > BO.+CCG.+Pressure-Mon$
+2022-01-24 12:00:20.463365 message to owner walter.junior sent to server > BO.+CCG.+Pressure-Mon$
+2022-01-24 12:10:28.492464 message to owner walter.junior sent to server > BO.+CCG.+Pressure-Mon$
+2022-01-24 12:12:35.283192 message to owner rone.castro sent to server > ^([ST][IBS])(.+VA-CCG.+Pressure-Mon)$
+2022-01-24 12:20:36.785736 message to owner walter.junior sent to server > BO.+CCG.+Pressure-Mon$
+2022-01-24 12:30:45.831901 message to owner walter.junior sent to server > BO.+CCG.+Pressure-Mon$
+2022-01-24 12:40:54.823145 message to owner walter.junior sent to server > BO.+CCG.+Pressure-Mon$
+2022-01-24 12:51:02.857837 message to owner walter.junior sent to server > BO.+CCG.+Pressure-Mon$
+2022-01-24 13:01:12.046838 message to owner walter.junior sent to server > BO.+CCG.+Pressure-Mon$
+2022-01-24 13:11:22.975993 message to owner walter.junior sent to server > BO.+CCG.+Pressure-Mon$
+2022-01-24 13:21:28.395955 message to owner walter.junior sent to server > BO.+CCG.+Pressure-Mon$
+2022-01-24 13:31:36.956206 message to owner walter.junior sent to server > BO.+CCG.+Pressure-Mon$
+2022-01-24 13:41:45.431069 message to owner walter.junior sent to server > BO.+CCG.+Pressure-Mon$
+2022-01-24 13:51:55.110396 message to owner walter.junior sent to server > BO.+CCG.+Pressure-Mon$
+2022-01-24 14:02:04.018400 message to owner walter.junior sent to server > BO.+CCG.+Pressure-Mon$
+2022-01-24 14:12:12.697512 message to owner walter.junior sent to server > BO.+CCG.+Pressure-Mon$
+2022-01-24 14:22:21.317772 message to owner walter.junior sent to server > BO.+CCG.+Pressure-Mon$
+2022-01-24 14:32:31.275762 message to owner walter.junior sent to server > BO.+CCG.+Pressure-Mon$
+2022-01-24 14:42:40.405010 message to owner walter.junior sent to server > BO.+CCG.+Pressure-Mon$
+2022-01-24 14:52:47.272974 message to owner walter.junior sent to server > BO.+CCG.+Pressure-Mon$
+2022-01-24 15:02:56.931610 message to owner walter.junior sent to server > BO.+CCG.+Pressure-Mon$
+2022-01-24 15:13:03.929206 message to owner walter.junior sent to server > BO.+CCG.+Pressure-Mon$
+2022-01-24 15:23:12.976659 message to owner walter.junior sent to server > BO.+CCG.+Pressure-Mon$
+2022-01-24 15:33:21.657232 message to owner walter.junior sent to server > BO.+CCG.+Pressure-Mon$
+2022-01-24 15:43:32.957397 message to owner walter.junior sent to server > BO.+CCG.+Pressure-Mon$
+2022-01-24 15:53:41.513166 message to owner walter.junior sent to server > BO.+CCG.+Pressure-Mon$
+2022-01-24 16:03:52.731730 message to owner walter.junior sent to server > BO.+CCG.+Pressure-Mon$
+2022-01-24 16:14:00.171581 message to owner walter.junior sent to server > BO.+CCG.+Pressure-Mon$
+2022-01-24 16:24:07.208626 message to owner walter.junior sent to server > BO.+CCG.+Pressure-Mon$
+2022-01-24 16:27:45.853183 message to owner rone.castro sent to server > ^([ST][IBS])(.+VA-CCG.+Pressure-Mon)$
+2022-01-24 16:34:18.065306 message to owner walter.junior sent to server > BO.+CCG.+Pressure-Mon$
+2022-01-24 16:44:27.221630 message to owner walter.junior sent to server > BO.+CCG.+Pressure-Mon$
+2022-01-24 16:54:34.307412 message to owner walter.junior sent to server > BO.+CCG.+Pressure-Mon$
+2022-01-24 17:04:43.319011 message to owner walter.junior sent to server > BO.+CCG.+Pressure-Mon$
+2022-01-24 17:14:51.746721 message to owner walter.junior sent to server > BO.+CCG.+Pressure-Mon$
+2022-01-24 17:24:59.664593 message to owner walter.junior sent to server > BO.+CCG.+Pressure-Mon$
+2022-01-24 17:35:08.267185 message to owner walter.junior sent to server > BO.+CCG.+Pressure-Mon$
+2022-01-24 17:45:15.917784 message to owner walter.junior sent to server > BO.+CCG.+Pressure-Mon$
+2022-01-24 17:55:25.424794 message to owner walter.junior sent to server > BO.+CCG.+Pressure-Mon$
+2022-01-24 18:05:36.860451 message to owner walter.junior sent to server > BO.+CCG.+Pressure-Mon$
+2022-01-24 18:15:46.118205 message to owner walter.junior sent to server > BO.+CCG.+Pressure-Mon$
+2022-01-24 18:25:46.385825 message to owner walter.junior sent to server > BO.+CCG.+Pressure-Mon$
+2022-01-24 18:35:55.002013 message to owner walter.junior sent to server > BO.+CCG.+Pressure-Mon$
+2022-01-24 18:46:06.081261 message to owner walter.junior sent to server > BO.+CCG.+Pressure-Mon$
+2022-01-24 18:56:13.825764 message to owner walter.junior sent to server > BO.+CCG.+Pressure-Mon$
+2022-01-24 19:06:22.795847 message to owner walter.junior sent to server > BO.+CCG.+Pressure-Mon$
+2022-01-24 19:16:34.165890 message to owner walter.junior sent to server > BO.+CCG.+Pressure-Mon$
+2022-01-25 15:30:18.881877 message to owner rone.castro sent to server > SI-13C4:DI-DCCT:Current-Mon
+2022-01-25 15:40:19.044235 message to owner rone.castro sent to server > SI-13C4:DI-DCCT:Current-Mon
+2022-01-25 15:50:20.066189 message to owner rone.castro sent to server > SI-13C4:DI-DCCT:Current-Mon
+2022-01-25 16:00:30.538884 message to owner rone.castro sent to server > SI-13C4:DI-DCCT:Current-Mon
+2022-01-25 16:04:57.193995 message to owner rafael.cardoso sent to server > RAD:Thermo10:Gamma:Dose
+2022-01-25 16:10:32.356763 message to owner rone.castro sent to server > SI-13C4:DI-DCCT:Current-Mon
+2022-01-25 16:20:33.120593 message to owner rone.castro sent to server > SI-13C4:DI-DCCT:Current-Mon
+2022-01-25 16:30:34.098289 message to owner rone.castro sent to server > SI-13C4:DI-DCCT:Current-Mon
+2022-01-25 16:40:34.326275 message to owner rone.castro sent to server > SI-13C4:DI-DCCT:Current-Mon
+2022-01-25 16:50:45.652743 message to owner rone.castro sent to server > SI-13C4:DI-DCCT:Current-Mon
+2022-01-25 17:00:47.616049 message to owner rone.castro sent to server > SI-13C4:DI-DCCT:Current-Mon
+2022-01-25 17:10:51.680968 message to owner rone.castro sent to server > SI-13C4:DI-DCCT:Current-Mon
+2022-01-25 17:20:51.688536 message to owner rone.castro sent to server > SI-13C4:DI-DCCT:Current-Mon
+2022-01-25 17:30:53.464406 message to owner rone.castro sent to server > SI-13C4:DI-DCCT:Current-Mon
+2022-01-25 17:40:55.174202 message to owner rone.castro sent to server > SI-13C4:DI-DCCT:Current-Mon
+2022-01-25 17:50:55.107298 message to owner rone.castro sent to server > SI-13C4:DI-DCCT:Current-Mon
+2022-01-25 18:00:57.037432 message to owner rone.castro sent to server > SI-13C4:DI-DCCT:Current-Mon
+2022-01-25 18:11:07.858129 message to owner rone.castro sent to server > SI-13C4:DI-DCCT:Current-Mon
+2022-01-25 18:21:08.576541 message to owner rone.castro sent to server > SI-13C4:DI-DCCT:Current-Mon
+2022-01-25 18:31:13.912965 message to owner rone.castro sent to server > SI-13C4:DI-DCCT:Current-Mon
+2022-01-25 18:41:24.803701 message to owner rone.castro sent to server > SI-13C4:DI-DCCT:Current-Mon
+2022-01-25 18:51:34.601122 message to owner rone.castro sent to server > SI-13C4:DI-DCCT:Current-Mon
+2022-01-25 19:01:43.675357 message to owner rone.castro sent to server > SI-13C4:DI-DCCT:Current-Mon
+2022-01-25 19:12:01.065497 message to owner rone.castro sent to server > SI-13C4:DI-DCCT:Current-Mon
+2022-01-25 19:22:06.313624 message to owner rone.castro sent to server > SI-13C4:DI-DCCT:Current-Mon
+2022-01-25 19:32:16.870035 message to owner rone.castro sent to server > SI-13C4:DI-DCCT:Current-Mon
+2022-01-25 19:42:25.950352 message to owner rone.castro sent to server > SI-13C4:DI-DCCT:Current-Mon
+2022-01-25 19:52:35.279728 message to owner rone.castro sent to server > SI-13C4:DI-DCCT:Current-Mon
+2022-01-25 20:02:44.918545 message to owner rone.castro sent to server > SI-13C4:DI-DCCT:Current-Mon
+2022-01-25 20:12:46.040488 message to owner rone.castro sent to server > SI-13C4:DI-DCCT:Current-Mon
+2022-01-25 20:22:55.666773 message to owner rone.castro sent to server > SI-13C4:DI-DCCT:Current-Mon
+2022-01-25 20:32:55.373320 message to owner rone.castro sent to server > SI-13C4:DI-DCCT:Current-Mon
+2022-01-25 20:43:05.020021 message to owner rone.castro sent to server > SI-13C4:DI-DCCT:Current-Mon
+2022-01-25 20:53:04.994546 message to owner rone.castro sent to server > SI-13C4:DI-DCCT:Current-Mon
+2022-01-25 21:03:14.915301 message to owner rone.castro sent to server > SI-13C4:DI-DCCT:Current-Mon
+2022-01-25 21:13:24.058403 message to owner rone.castro sent to server > SI-13C4:DI-DCCT:Current-Mon
+2022-01-25 21:23:32.324687 message to owner rone.castro sent to server > SI-13C4:DI-DCCT:Current-Mon
+2022-01-25 21:33:33.107114 message to owner rone.castro sent to server > SI-13C4:DI-DCCT:Current-Mon
+2022-01-25 21:43:32.882485 message to owner rone.castro sent to server > SI-13C4:DI-DCCT:Current-Mon
+2022-01-25 21:53:42.288041 message to owner rone.castro sent to server > SI-13C4:DI-DCCT:Current-Mon
+2022-01-25 22:03:50.527399 message to owner rone.castro sent to server > SI-13C4:DI-DCCT:Current-Mon
+2022-01-25 22:14:02.205468 message to owner rone.castro sent to server > SI-13C4:DI-DCCT:Current-Mon
+2022-01-25 22:24:10.546379 message to owner rone.castro sent to server > SI-13C4:DI-DCCT:Current-Mon
+2022-01-25 22:34:22.122209 message to owner rone.castro sent to server > SI-13C4:DI-DCCT:Current-Mon
+2022-01-25 22:44:21.895427 message to owner rone.castro sent to server > SI-13C4:DI-DCCT:Current-Mon
+2022-01-25 22:54:30.452592 message to owner rone.castro sent to server > SI-13C4:DI-DCCT:Current-Mon
+2022-01-25 23:04:39.947496 message to owner rone.castro sent to server > SI-13C4:DI-DCCT:Current-Mon
+2022-01-25 23:14:49.799068 message to owner rone.castro sent to server > SI-13C4:DI-DCCT:Current-Mon
+2022-01-25 23:24:59.797883 message to owner rone.castro sent to server > SI-13C4:DI-DCCT:Current-Mon
+2022-01-25 23:35:01.709523 message to owner rone.castro sent to server > SI-13C4:DI-DCCT:Current-Mon
+2022-01-25 23:45:12.946849 message to owner rone.castro sent to server > SI-13C4:DI-DCCT:Current-Mon
+2022-01-25 23:55:21.494386 message to owner rone.castro sent to server > SI-13C4:DI-DCCT:Current-Mon
+2022-01-26 00:05:30.874610 message to owner rone.castro sent to server > SI-13C4:DI-DCCT:Current-Mon
+2022-01-26 00:15:40.203369 message to owner rone.castro sent to server > SI-13C4:DI-DCCT:Current-Mon
+2022-01-26 00:25:51.259141 message to owner rone.castro sent to server > SI-13C4:DI-DCCT:Current-Mon
+2022-01-26 00:36:01.564118 message to owner rone.castro sent to server > SI-13C4:DI-DCCT:Current-Mon
+2022-01-26 00:46:10.068208 message to owner rone.castro sent to server > SI-13C4:DI-DCCT:Current-Mon
+2022-01-26 00:56:17.840053 message to owner rone.castro sent to server > SI-13C4:DI-DCCT:Current-Mon
+2022-01-26 01:06:18.575164 message to owner rone.castro sent to server > SI-13C4:DI-DCCT:Current-Mon
+2022-01-26 01:16:29.290307 message to owner rone.castro sent to server > SI-13C4:DI-DCCT:Current-Mon
+2022-01-26 01:26:39.039943 message to owner rone.castro sent to server > SI-13C4:DI-DCCT:Current-Mon
+2022-01-26 01:36:46.667365 message to owner rone.castro sent to server > SI-13C4:DI-DCCT:Current-Mon
+2022-01-26 01:46:55.801065 message to owner rone.castro sent to server > SI-13C4:DI-DCCT:Current-Mon
+2022-01-26 01:56:57.984420 message to owner rone.castro sent to server > SI-13C4:DI-DCCT:Current-Mon
+2022-01-26 02:07:08.859159 message to owner rone.castro sent to server > SI-13C4:DI-DCCT:Current-Mon
+2022-01-26 02:17:19.796411 message to owner rone.castro sent to server > SI-13C4:DI-DCCT:Current-Mon
+2022-01-26 02:27:26.892277 message to owner rone.castro sent to server > SI-13C4:DI-DCCT:Current-Mon
+2022-01-26 02:37:37.113417 message to owner rone.castro sent to server > SI-13C4:DI-DCCT:Current-Mon
+2022-01-26 02:47:37.695847 message to owner rone.castro sent to server > SI-13C4:DI-DCCT:Current-Mon
+2022-01-26 02:57:37.844464 message to owner rone.castro sent to server > SI-13C4:DI-DCCT:Current-Mon
+2022-01-26 03:07:47.080737 message to owner rone.castro sent to server > SI-13C4:DI-DCCT:Current-Mon
+2022-01-26 03:17:58.909803 message to owner rone.castro sent to server > SI-13C4:DI-DCCT:Current-Mon
+2022-01-26 03:28:09.172855 message to owner rone.castro sent to server > SI-13C4:DI-DCCT:Current-Mon
+2022-01-26 03:38:19.778499 message to owner rone.castro sent to server > SI-13C4:DI-DCCT:Current-Mon
+2022-01-26 03:48:29.902826 message to owner rone.castro sent to server > SI-13C4:DI-DCCT:Current-Mon
+2022-01-26 03:58:39.368532 message to owner rone.castro sent to server > SI-13C4:DI-DCCT:Current-Mon
+2022-01-26 04:08:48.484549 message to owner rone.castro sent to server > SI-13C4:DI-DCCT:Current-Mon
+2022-01-26 04:18:58.555495 message to owner rone.castro sent to server > SI-13C4:DI-DCCT:Current-Mon
+2022-01-26 04:29:09.745801 message to owner rone.castro sent to server > SI-13C4:DI-DCCT:Current-Mon
+2022-01-26 04:39:18.430083 message to owner rone.castro sent to server > SI-13C4:DI-DCCT:Current-Mon
+2022-01-26 04:49:29.019288 message to owner rone.castro sent to server > SI-13C4:DI-DCCT:Current-Mon
+2022-01-26 04:59:30.319530 message to owner rone.castro sent to server > SI-13C4:DI-DCCT:Current-Mon
+2022-01-26 05:09:39.505782 message to owner rone.castro sent to server > SI-13C4:DI-DCCT:Current-Mon
+2022-01-26 05:19:48.021138 message to owner rone.castro sent to server > SI-13C4:DI-DCCT:Current-Mon
+2022-01-26 05:29:57.040027 message to owner rone.castro sent to server > SI-13C4:DI-DCCT:Current-Mon
+2022-01-26 05:40:06.508540 message to owner rone.castro sent to server > SI-13C4:DI-DCCT:Current-Mon
+2022-01-26 05:50:16.618896 message to owner rone.castro sent to server > SI-13C4:DI-DCCT:Current-Mon
+2022-01-26 06:00:18.407069 message to owner rone.castro sent to server > SI-13C4:DI-DCCT:Current-Mon
+2022-01-26 06:10:19.652778 message to owner rone.castro sent to server > SI-13C4:DI-DCCT:Current-Mon
+2022-01-26 06:20:28.459850 message to owner rone.castro sent to server > SI-13C4:DI-DCCT:Current-Mon
+2022-01-26 06:30:37.259188 message to owner rone.castro sent to server > SI-13C4:DI-DCCT:Current-Mon
+2022-01-26 06:40:43.322547 message to owner rone.castro sent to server > SI-13C4:DI-DCCT:Current-Mon
+2022-01-26 06:50:54.254006 message to owner rone.castro sent to server > SI-13C4:DI-DCCT:Current-Mon
+2022-01-26 07:01:02.008255 message to owner rone.castro sent to server > SI-13C4:DI-DCCT:Current-Mon
+2022-01-26 07:11:12.029374 message to owner rone.castro sent to server > SI-13C4:DI-DCCT:Current-Mon
+2022-01-26 07:21:22.250488 message to owner rone.castro sent to server > SI-13C4:DI-DCCT:Current-Mon
+2022-01-26 07:31:33.232120 message to owner rone.castro sent to server > SI-13C4:DI-DCCT:Current-Mon
+2022-01-26 07:41:41.495455 message to owner rone.castro sent to server > SI-13C4:DI-DCCT:Current-Mon
+2022-01-26 07:51:41.403964 error sending message to server > SI-13C4:DI-DCCT:Current-Mon
+2022-01-26 07:51:52.887938 error sending message to server > SI-13C4:DI-DCCT:Current-Mon
+2022-01-26 07:52:04.518179 error sending message to server > SI-13C4:DI-DCCT:Current-Mon
+2022-01-26 07:52:15.926950 error sending message to server > SI-13C4:DI-DCCT:Current-Mon
+2022-01-26 07:52:27.683721 error sending message to server > SI-13C4:DI-DCCT:Current-Mon
+2022-01-26 07:52:39.128096 error sending message to server > SI-13C4:DI-DCCT:Current-Mon
+2022-01-26 07:52:50.870054 error sending message to server > SI-13C4:DI-DCCT:Current-Mon
+2022-01-26 07:53:02.516438 error sending message to server > SI-13C4:DI-DCCT:Current-Mon
+2022-01-26 07:53:14.039973 error sending message to server > SI-13C4:DI-DCCT:Current-Mon
+2022-01-26 07:53:25.503140 error sending message to server > SI-13C4:DI-DCCT:Current-Mon
+2022-01-26 07:53:37.145946 error sending message to server > SI-13C4:DI-DCCT:Current-Mon
+2022-01-26 07:53:48.556574 error sending message to server > SI-13C4:DI-DCCT:Current-Mon
+2022-01-26 07:53:59.992840 error sending message to server > SI-13C4:DI-DCCT:Current-Mon
+2022-01-26 07:54:11.366306 error sending message to server > SI-13C4:DI-DCCT:Current-Mon
+2022-01-26 07:54:22.779015 error sending message to server > SI-13C4:DI-DCCT:Current-Mon
+2022-01-26 07:54:34.189980 error sending message to server > SI-13C4:DI-DCCT:Current-Mon
+2022-01-26 07:54:45.907526 error sending message to server > SI-13C4:DI-DCCT:Current-Mon
+2022-01-26 07:54:57.548864 error sending message to server > SI-13C4:DI-DCCT:Current-Mon
+2022-01-26 07:55:09.142457 error sending message to server > SI-13C4:DI-DCCT:Current-Mon
+2022-01-26 07:55:20.577560 error sending message to server > SI-13C4:DI-DCCT:Current-Mon
+2022-01-26 07:55:32.167953 error sending message to server > SI-13C4:DI-DCCT:Current-Mon
+2022-01-26 07:55:43.714802 error sending message to server > SI-13C4:DI-DCCT:Current-Mon
+2022-01-26 07:55:55.133188 error sending message to server > SI-13C4:DI-DCCT:Current-Mon
+2022-01-26 07:56:06.538202 error sending message to server > SI-13C4:DI-DCCT:Current-Mon
+2022-01-26 07:56:17.941279 error sending message to server > SI-13C4:DI-DCCT:Current-Mon
+2022-01-26 07:56:29.720179 error sending message to server > SI-13C4:DI-DCCT:Current-Mon
+2022-01-26 07:56:41.357149 error sending message to server > SI-13C4:DI-DCCT:Current-Mon
+2022-01-26 07:56:52.801319 error sending message to server > SI-13C4:DI-DCCT:Current-Mon
+2022-01-26 07:57:04.234249 error sending message to server > SI-13C4:DI-DCCT:Current-Mon
+2022-01-26 07:57:15.623861 error sending message to server > SI-13C4:DI-DCCT:Current-Mon
+2022-01-26 07:57:27.053770 error sending message to server > SI-13C4:DI-DCCT:Current-Mon
+2022-01-26 07:57:38.468690 error sending message to server > SI-13C4:DI-DCCT:Current-Mon
+2022-01-26 07:57:50.133978 error sending message to server > SI-13C4:DI-DCCT:Current-Mon
+2022-01-26 07:58:01.728415 error sending message to server > SI-13C4:DI-DCCT:Current-Mon
+2022-01-26 07:58:13.124704 error sending message to server > SI-13C4:DI-DCCT:Current-Mon
+2022-01-26 07:58:24.688251 error sending message to server > SI-13C4:DI-DCCT:Current-Mon
+2022-01-26 07:58:36.301446 error sending message to server > SI-13C4:DI-DCCT:Current-Mon
+2022-01-26 07:58:48.097990 error sending message to server > SI-13C4:DI-DCCT:Current-Mon
+2022-01-26 07:58:59.849916 error sending message to server > SI-13C4:DI-DCCT:Current-Mon
+2022-01-26 07:59:11.313050 error sending message to server > SI-13C4:DI-DCCT:Current-Mon
+2022-01-26 07:59:22.770788 error sending message to server > SI-13C4:DI-DCCT:Current-Mon
+2022-01-26 07:59:34.220861 error sending message to server > SI-13C4:DI-DCCT:Current-Mon
+2022-01-26 07:59:45.701593 error sending message to server > SI-13C4:DI-DCCT:Current-Mon
+2022-01-26 07:59:57.152229 error sending message to server > SI-13C4:DI-DCCT:Current-Mon
+2022-01-26 08:00:08.627166 error sending message to server > SI-13C4:DI-DCCT:Current-Mon
+2022-01-26 08:00:20.060182 error sending message to server > SI-13C4:DI-DCCT:Current-Mon
+2022-01-26 08:00:31.537133 error sending message to server > SI-13C4:DI-DCCT:Current-Mon
+2022-01-26 08:00:42.977987 error sending message to server > SI-13C4:DI-DCCT:Current-Mon
+2022-01-26 08:00:54.531845 error sending message to server > SI-13C4:DI-DCCT:Current-Mon
+2022-01-26 08:01:06.031987 error sending message to server > SI-13C4:DI-DCCT:Current-Mon
+2022-01-26 08:01:17.485290 error sending message to server > SI-13C4:DI-DCCT:Current-Mon
+2022-01-26 08:01:28.943588 error sending message to server > SI-13C4:DI-DCCT:Current-Mon
+2022-01-26 08:01:40.416762 error sending message to server > SI-13C4:DI-DCCT:Current-Mon
+2022-01-26 08:01:52.281741 error sending message to server > SI-13C4:DI-DCCT:Current-Mon
+2022-01-26 08:02:03.883385 error sending message to server > SI-13C4:DI-DCCT:Current-Mon
+2022-01-26 08:02:15.328378 error sending message to server > SI-13C4:DI-DCCT:Current-Mon
+2022-01-26 08:02:26.903766 error sending message to server > SI-13C4:DI-DCCT:Current-Mon
+2022-01-26 08:02:38.717679 error sending message to server > SI-13C4:DI-DCCT:Current-Mon
+2022-01-26 08:02:50.368377 error sending message to server > SI-13C4:DI-DCCT:Current-Mon
+2022-01-26 08:03:01.911634 error sending message to server > SI-13C4:DI-DCCT:Current-Mon
+2022-01-26 08:03:13.442153 error sending message to server > SI-13C4:DI-DCCT:Current-Mon
+2022-01-26 08:03:24.984384 error sending message to server > SI-13C4:DI-DCCT:Current-Mon
+2022-01-26 08:03:36.492825 error sending message to server > SI-13C4:DI-DCCT:Current-Mon
+2022-01-26 08:03:47.965912 error sending message to server > SI-13C4:DI-DCCT:Current-Mon
+2022-01-26 08:03:59.413361 error sending message to server > SI-13C4:DI-DCCT:Current-Mon
+2022-01-26 08:04:10.859700 error sending message to server > SI-13C4:DI-DCCT:Current-Mon
+2022-01-26 08:04:22.311883 error sending message to server > SI-13C4:DI-DCCT:Current-Mon
+2022-01-26 08:04:33.860357 error sending message to server > SI-13C4:DI-DCCT:Current-Mon
+2022-01-26 08:04:45.707490 error sending message to server > SI-13C4:DI-DCCT:Current-Mon
+2022-01-26 08:04:57.244910 error sending message to server > SI-13C4:DI-DCCT:Current-Mon
+2022-01-26 08:05:08.709113 error sending message to server > SI-13C4:DI-DCCT:Current-Mon
+2022-01-26 08:05:20.185020 error sending message to server > SI-13C4:DI-DCCT:Current-Mon
+2022-01-26 08:05:31.642918 error sending message to server > SI-13C4:DI-DCCT:Current-Mon
+2022-01-26 08:05:43.103164 error sending message to server > SI-13C4:DI-DCCT:Current-Mon
+2022-01-26 08:05:54.569525 error sending message to server > SI-13C4:DI-DCCT:Current-Mon
+2022-01-26 08:06:06.171220 error sending message to server > SI-13C4:DI-DCCT:Current-Mon
+2022-01-26 08:06:17.635418 error sending message to server > SI-13C4:DI-DCCT:Current-Mon
+2022-01-26 08:06:29.145991 error sending message to server > SI-13C4:DI-DCCT:Current-Mon
+2022-01-26 08:06:40.700461 error sending message to server > SI-13C4:DI-DCCT:Current-Mon
+2022-01-26 08:06:52.239051 error sending message to server > SI-13C4:DI-DCCT:Current-Mon
+2022-01-26 08:07:03.934613 error sending message to server > SI-13C4:DI-DCCT:Current-Mon
+2022-01-26 08:07:15.358686 error sending message to server > SI-13C4:DI-DCCT:Current-Mon
+2022-01-26 08:07:26.796705 error sending message to server > SI-13C4:DI-DCCT:Current-Mon
+2022-01-26 08:07:38.418965 error sending message to server > SI-13C4:DI-DCCT:Current-Mon
+2022-01-26 08:07:49.815726 error sending message to server > SI-13C4:DI-DCCT:Current-Mon
+2022-01-26 08:08:01.229775 error sending message to server > SI-13C4:DI-DCCT:Current-Mon
+2022-01-26 08:08:12.934734 error sending message to server > SI-13C4:DI-DCCT:Current-Mon
+2022-01-26 08:08:24.590101 error sending message to server > SI-13C4:DI-DCCT:Current-Mon
+2022-01-26 08:08:36.341827 error sending message to server > SI-13C4:DI-DCCT:Current-Mon
+2022-01-26 08:08:47.735467 error sending message to server > SI-13C4:DI-DCCT:Current-Mon
+2022-01-26 08:08:59.145465 error sending message to server > SI-13C4:DI-DCCT:Current-Mon
+2022-01-26 08:09:10.540789 error sending message to server > SI-13C4:DI-DCCT:Current-Mon
+2022-01-26 08:09:21.969529 error sending message to server > SI-13C4:DI-DCCT:Current-Mon
+2022-01-26 08:09:33.383430 error sending message to server > SI-13C4:DI-DCCT:Current-Mon
+2022-01-26 08:09:44.805468 error sending message to server > SI-13C4:DI-DCCT:Current-Mon
+2022-01-26 08:09:56.215352 error sending message to server > SI-13C4:DI-DCCT:Current-Mon
+2022-01-26 08:10:07.646885 error sending message to server > SI-13C4:DI-DCCT:Current-Mon
+2022-01-26 08:10:19.138105 error sending message to server > SI-13C4:DI-DCCT:Current-Mon
+2022-01-26 08:10:30.626404 error sending message to server > SI-13C4:DI-DCCT:Current-Mon
+2022-01-26 08:10:42.033728 error sending message to server > SI-13C4:DI-DCCT:Current-Mon
+2022-01-26 08:10:53.449382 error sending message to server > SI-13C4:DI-DCCT:Current-Mon
+2022-01-26 08:11:04.848120 error sending message to server > SI-13C4:DI-DCCT:Current-Mon
+2022-01-26 08:11:16.266872 error sending message to server > SI-13C4:DI-DCCT:Current-Mon
+2022-01-26 08:11:27.894308 error sending message to server > SI-13C4:DI-DCCT:Current-Mon
+2022-01-26 08:11:39.453351 error sending message to server > SI-13C4:DI-DCCT:Current-Mon
+2022-01-26 08:11:50.931081 error sending message to server > SI-13C4:DI-DCCT:Current-Mon
+2022-01-26 08:12:02.600842 error sending message to server > SI-13C4:DI-DCCT:Current-Mon
+2022-01-26 08:12:14.266010 error sending message to server > SI-13C4:DI-DCCT:Current-Mon
+2022-01-26 08:12:25.905239 message to owner rone.castro sent to server > SI-13C4:DI-DCCT:Current-Mon
+2022-01-26 08:22:37.367700 message to owner rone.castro sent to server > SI-13C4:DI-DCCT:Current-Mon
+2022-01-26 08:32:47.736655 message to owner rone.castro sent to server > SI-13C4:DI-DCCT:Current-Mon
+2022-01-26 08:42:48.497729 message to owner rone.castro sent to server > SI-13C4:DI-DCCT:Current-Mon
+2022-01-26 08:52:48.625951 message to owner rone.castro sent to server > SI-13C4:DI-DCCT:Current-Mon
+2022-01-26 09:02:59.816976 message to owner rone.castro sent to server > SI-13C4:DI-DCCT:Current-Mon
+2022-01-26 09:13:08.792221 message to owner rone.castro sent to server > SI-13C4:DI-DCCT:Current-Mon
+2022-01-26 09:23:17.192257 message to owner rone.castro sent to server > SI-13C4:DI-DCCT:Current-Mon
+2022-01-26 09:33:28.080937 message to owner rone.castro sent to server > SI-13C4:DI-DCCT:Current-Mon
+2022-01-26 09:43:37.468179 message to owner rone.castro sent to server > SI-13C4:DI-DCCT:Current-Mon
+2022-01-26 09:53:48.161980 message to owner rone.castro sent to server > SI-13C4:DI-DCCT:Current-Mon
+2022-01-26 10:03:48.860799 message to owner rone.castro sent to server > SI-13C4:DI-DCCT:Current-Mon
+2022-01-26 10:13:59.804893 message to owner rone.castro sent to server > SI-13C4:DI-DCCT:Current-Mon
+2022-01-26 10:24:07.532594 message to owner rone.castro sent to server > SI-13C4:DI-DCCT:Current-Mon
+2022-01-26 10:34:09.572578 message to owner rone.castro sent to server > SI-13C4:DI-DCCT:Current-Mon
+2022-01-26 10:44:19.614115 message to owner rone.castro sent to server > SI-13C4:DI-DCCT:Current-Mon
+2022-01-26 10:54:28.764079 message to owner rone.castro sent to server > SI-13C4:DI-DCCT:Current-Mon
+2022-01-26 11:04:36.825822 message to owner rone.castro sent to server > SI-13C4:DI-DCCT:Current-Mon
+2022-01-26 11:14:47.335987 message to owner rone.castro sent to server > SI-13C4:DI-DCCT:Current-Mon
+2022-01-26 11:24:56.232956 message to owner rone.castro sent to server > SI-13C4:DI-DCCT:Current-Mon
+2022-01-26 11:35:07.286691 message to owner rone.castro sent to server > SI-13C4:DI-DCCT:Current-Mon
+2022-01-26 11:45:17.600787 message to owner rone.castro sent to server > SI-13C4:DI-DCCT:Current-Mon
+2022-01-26 11:55:27.297161 message to owner rone.castro sent to server > SI-13C4:DI-DCCT:Current-Mon
+2022-01-26 12:05:37.525937 message to owner rone.castro sent to server > SI-13C4:DI-DCCT:Current-Mon
+2022-01-26 12:15:48.355035 message to owner rone.castro sent to server > SI-13C4:DI-DCCT:Current-Mon
+2022-01-26 12:25:56.636758 message to owner rone.castro sent to server > SI-13C4:DI-DCCT:Current-Mon
+2022-01-26 12:36:04.249161 message to owner rone.castro sent to server > SI-13C4:DI-DCCT:Current-Mon
+2022-01-26 12:46:14.278571 message to owner rone.castro sent to server > SI-13C4:DI-DCCT:Current-Mon
+2022-01-26 12:56:23.307124 message to owner rone.castro sent to server > SI-13C4:DI-DCCT:Current-Mon
+2022-01-26 13:06:33.267787 message to owner rone.castro sent to server > SI-13C4:DI-DCCT:Current-Mon
+2022-01-26 13:16:44.024928 message to owner rone.castro sent to server > SI-13C4:DI-DCCT:Current-Mon
+2022-01-26 13:26:54.293382 message to owner rone.castro sent to server > SI-13C4:DI-DCCT:Current-Mon
+2022-01-26 13:36:55.127853 message to owner rone.castro sent to server > SI-13C4:DI-DCCT:Current-Mon
+2022-01-26 13:47:04.900178 message to owner rone.castro sent to server > SI-13C4:DI-DCCT:Current-Mon
+2022-01-26 13:57:15.320591 message to owner rone.castro sent to server > SI-13C4:DI-DCCT:Current-Mon
+2022-01-26 14:07:25.356747 message to owner rone.castro sent to server > SI-13C4:DI-DCCT:Current-Mon
+2022-01-26 14:17:36.243799 message to owner rone.castro sent to server > SI-13C4:DI-DCCT:Current-Mon
+2022-01-26 14:27:45.961974 message to owner rone.castro sent to server > SI-13C4:DI-DCCT:Current-Mon
+2022-01-26 14:37:46.016248 message to owner rone.castro sent to server > SI-13C4:DI-DCCT:Current-Mon
+2022-01-26 14:47:45.955463 message to owner rone.castro sent to server > SI-13C4:DI-DCCT:Current-Mon
+2022-01-26 14:57:55.264337 message to owner rone.castro sent to server > SI-13C4:DI-DCCT:Current-Mon
+2022-01-26 15:08:05.980146 message to owner rone.castro sent to server > SI-13C4:DI-DCCT:Current-Mon
+2022-01-26 15:18:17.118711 message to owner rone.castro sent to server > SI-13C4:DI-DCCT:Current-Mon
+2022-01-26 15:28:27.005695 message to owner rone.castro sent to server > SI-13C4:DI-DCCT:Current-Mon
+2022-01-26 18:23:22.461549 message to owner walter.junior sent to server > SI.+CCG.+Pressure-Mon$
+2022-01-26 18:23:24.312425 message to owner rone.castro sent to server > ^([ST][IBS])(.+VA-CCG.+Pressure-Mon)$
+2022-01-26 19:12:10.791754 message to owner walter.junior sent to server > SI.+CCG.+Pressure-Mon$
+2022-01-26 19:22:10.548673 message to owner walter.junior sent to server > SI.+CCG.+Pressure-Mon$
+2022-01-26 19:23:33.374601 message to owner rone.castro sent to server > ^([ST][IBS])(.+VA-CCG.+Pressure-Mon)$
+2022-01-26 19:45:47.885975 message to owner walter.junior sent to server > BO.+CCG.+Pressure-Mon$
+2022-01-27 08:10:19.616056 message to owner rone.castro sent to server > SI-13C4:DI-DCCT:Current-Mon
+2022-01-27 08:20:30.457351 message to owner rone.castro sent to server > SI-13C4:DI-DCCT:Current-Mon
 
