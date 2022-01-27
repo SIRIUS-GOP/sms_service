@@ -1255,4 +1255,212 @@
 2022-01-14 10:43:46.694170 // WARNING // 1) SI-10SB:VA-CCG-BG:Pressure-Mon = 7.8e-08 // Limit: L=1e-8 // Rule: pv > L // 2) ^BO.+VA-CCG.+Pressure-Mon$ = ok // Limit: L=1e-7 // Rule: pv > L
 2022-01-14 11:43:49.314979 // WARNING // 1) SI-10SB:VA-CCG-BG:Pressure-Mon = 7.6e-08 // Limit: L=1e-8 // Rule: pv > L // 2) ^BO.+VA-CCG.+Pressure-Mon$ = ok // Limit: L=1e-7 // Rule: pv > L
 2022-01-14 12:43:59.878184 // WARNING // 1) SI-10SB:VA-CCG-BG:Pressure-Mon = 3.9e-08 // Limit: L=1e-8 // Rule: pv > L // 2) ^BO.+VA-CCG.+Pressure-Mon$ = ok // Limit: L=1e-7 // Rule: pv > L
+2022-01-20 09:42:27.446332 // WARNING // SI-13C4:DI-DCCT:Current-Mon = -0.016099985548 // Limit: L=1 // Rule: pv < L
+2022-01-20 09:52:20.649825 // WARNING // SI-13C4:DI-DCCT:Current-Mon = -0.016226232667 // Limit: L=1 // Rule: pv < L
+2022-01-20 18:10:23.451323 // WARNING // BO-48D:VA-CCG-ED:Pressure-Mon = 2.1e-08 // Limit: L=1e-8 // Rule: pv > L
+2022-01-24 09:37:19.725038 // WARNING // BO-19U:VA-CCG-BG:Pressure-Mon = 2e-08 // Limit: L=1e-8 // Rule: pv > L
+2022-01-24 09:49:00.788281 // WARNING // BO-21U:VA-CCG-ED:Pressure-Mon = 1e-06 // Limit: L=1e-8 // Rule: pv > L
+2022-01-24 09:49:28.815991 // WARNING // 1) ^([ST][IBS])(.+VA-CCG.+Pressure-Mon)$ = pv ok // Limit: L=1e-8 // Rule: pv > L // 2) BO-21U:VA-CCG-ED:Pressure-Mon = 1e-06 // Limit: L=1e-7 // Rule: pv > L
+2022-01-24 10:49:45.449897 // WARNING // BO-19U:VA-CCG-BG:Pressure-Mon = 3.3e-07 // Limit: L=1e-8 // Rule: pv > L
+2022-01-24 10:50:13.468468 // WARNING // 1) ^([ST][IBS])(.+VA-CCG.+Pressure-Mon)$ = pv ok // Limit: L=1e-8 // Rule: pv > L // 2) BO-19U:VA-CCG-BG:Pressure-Mon = 3.3e-07 // Limit: L=1e-7 // Rule: pv > L
+2022-01-24 10:59:56.736815 // WARNING // BO-19U:VA-CCG-BG:Pressure-Mon = 1.9e-07 // Limit: L=1e-8 // Rule: pv > L
+2022-01-24 11:10:06.023535 // WARNING // BO-19U:VA-CCG-BG:Pressure-Mon = 1.6e-07 // Limit: L=1e-8 // Rule: pv > L
+2022-01-24 11:20:15.376142 // WARNING // BO-19U:VA-CCG-BG:Pressure-Mon = 1.2e-07 // Limit: L=1e-8 // Rule: pv > L
+2022-01-24 11:30:26.693654 // WARNING // BO-19U:VA-CCG-BG:Pressure-Mon = 9.2e-08 // Limit: L=1e-8 // Rule: pv > L
+2022-01-24 11:40:33.951528 // WARNING // BO-19U:VA-CCG-BG:Pressure-Mon = 8.7e-08 // Limit: L=1e-8 // Rule: pv > L
+2022-01-24 11:50:45.221345 // WARNING // BO-19U:VA-CCG-BG:Pressure-Mon = 8.4e-08 // Limit: L=1e-8 // Rule: pv > L
+2022-01-24 12:00:52.500150 // WARNING // BO-19U:VA-CCG-BG:Pressure-Mon = 7e-08 // Limit: L=1e-8 // Rule: pv > L
+2022-01-24 12:10:59.795871 // WARNING // BO-19U:VA-CCG-BG:Pressure-Mon = 4.1e-08 // Limit: L=1e-8 // Rule: pv > L
+2022-01-24 12:13:03.866287 // WARNING // 1) ^([ST][IBS])(.+VA-CCG.+Pressure-Mon)$ = pv ok // Limit: L=1e-8 // Rule: pv > L // 2) BO-19U:VA-CCG-BG:Pressure-Mon = 3e-07 // Limit: L=1e-7 // Rule: pv > L
+2022-01-24 12:21:07.113618 // WARNING // BO-19U:VA-CCG-BG:Pressure-Mon = 4.6e-08 // Limit: L=1e-8 // Rule: pv > L
+2022-01-24 12:31:16.402073 // WARNING // BO-19U:VA-CCG-BG:Pressure-Mon = 3.6e-08 // Limit: L=1e-8 // Rule: pv > L
+2022-01-24 12:41:25.702717 // WARNING // BO-19U:VA-CCG-BG:Pressure-Mon = 5e-08 // Limit: L=1e-8 // Rule: pv > L
+2022-01-24 12:51:33.010650 // WARNING // BO-19U:VA-CCG-BG:Pressure-Mon = 4.4e-08 // Limit: L=1e-8 // Rule: pv > L
+2022-01-24 13:01:42.284278 // WARNING // BO-19U:VA-CCG-BG:Pressure-Mon = 4e-08 // Limit: L=1e-8 // Rule: pv > L
+2022-01-24 13:11:53.575725 // WARNING // BO-19U:VA-CCG-BG:Pressure-Mon = 3.7e-08 // Limit: L=1e-8 // Rule: pv > L
+2022-01-24 13:21:58.854614 // WARNING // BO-19U:VA-CCG-BG:Pressure-Mon = 3.5e-08 // Limit: L=1e-8 // Rule: pv > L
+2022-01-24 13:32:08.145174 // WARNING // BO-19U:VA-CCG-BG:Pressure-Mon = 3.3e-08 // Limit: L=1e-8 // Rule: pv > L
+2022-01-24 13:42:17.415488 // WARNING // BO-19U:VA-CCG-BG:Pressure-Mon = 3.2e-08 // Limit: L=1e-8 // Rule: pv > L
+2022-01-24 13:52:26.706165 // WARNING // BO-19U:VA-CCG-BG:Pressure-Mon = 3e-08 // Limit: L=1e-8 // Rule: pv > L
+2022-01-24 14:02:35.975274 // WARNING // BO-19U:VA-CCG-BG:Pressure-Mon = 2.8e-08 // Limit: L=1e-8 // Rule: pv > L
+2022-01-24 14:12:43.285664 // WARNING // BO-19U:VA-CCG-BG:Pressure-Mon = 2.7e-08 // Limit: L=1e-8 // Rule: pv > L
+2022-01-24 14:22:52.586302 // WARNING // BO-19U:VA-CCG-BG:Pressure-Mon = 2.6e-08 // Limit: L=1e-8 // Rule: pv > L
+2022-01-24 14:33:01.854476 // WARNING // BO-19U:VA-CCG-BG:Pressure-Mon = 2.5e-08 // Limit: L=1e-8 // Rule: pv > L
+2022-01-24 14:43:06.147814 // Modem error: ATZ
+2022-01-24 14:53:17.442111 // WARNING // BO-19U:VA-CCG-BG:Pressure-Mon = 2.3e-08 // Limit: L=1e-8 // Rule: pv > L
+2022-01-24 15:03:28.726462 // WARNING // BO-19U:VA-CCG-BG:Pressure-Mon = 2.2e-08 // Limit: L=1e-8 // Rule: pv > L
+2022-01-24 15:13:34.017106 // WARNING // BO-19U:VA-CCG-BG:Pressure-Mon = 2.2e-08 // Limit: L=1e-8 // Rule: pv > L
+2022-01-24 15:23:43.289279 // WARNING // BO-19U:VA-CCG-BG:Pressure-Mon = 2.1e-08 // Limit: L=1e-8 // Rule: pv > L
+2022-01-24 15:33:52.570798 // WARNING // BO-19U:VA-CCG-BG:Pressure-Mon = 2.1e-08 // Limit: L=1e-8 // Rule: pv > L
+2022-01-24 15:44:03.854949 // WARNING // BO-19U:VA-CCG-BG:Pressure-Mon = 2e-08 // Limit: L=1e-8 // Rule: pv > L
+2022-01-24 15:54:13.143643 // WARNING // BO-19U:VA-CCG-BG:Pressure-Mon = 2e-08 // Limit: L=1e-8 // Rule: pv > L
+2022-01-24 16:04:24.421931 // WARNING // BO-19U:VA-CCG-BG:Pressure-Mon = 2e-08 // Limit: L=1e-8 // Rule: pv > L
+2022-01-24 16:14:31.718797 // WARNING // BO-19U:VA-CCG-BG:Pressure-Mon = 1.9e-08 // Limit: L=1e-8 // Rule: pv > L
+2022-01-24 16:24:39.016696 // WARNING // BO-19U:VA-CCG-BG:Pressure-Mon = 2.3e-08 // Limit: L=1e-8 // Rule: pv > L
+2022-01-24 16:28:13.127177 // WARNING // 1) ^([ST][IBS])(.+VA-CCG.+Pressure-Mon)$ = pv ok // Limit: L=1e-8 // Rule: pv > L // 2) BO-19U:VA-CCG-BG:Pressure-Mon = 1.1e-06 // Limit: L=1e-7 // Rule: pv > L
+2022-01-24 16:34:48.313216 // WARNING // BO-19U:VA-CCG-BG:Pressure-Mon = 4.4e-08 // Limit: L=1e-8 // Rule: pv > L
+2022-01-24 16:44:57.618316 // WARNING // BO-19U:VA-CCG-BG:Pressure-Mon = 3.3e-08 // Limit: L=1e-8 // Rule: pv > L
+2022-01-24 16:55:04.931582 // WARNING // BO-19U:VA-CCG-BG:Pressure-Mon = 3.6e-08 // Limit: L=1e-8 // Rule: pv > L
+2022-01-24 17:05:14.246318 // WARNING // BO-19U:VA-CCG-BG:Pressure-Mon = 2e-08 // Limit: L=1e-8 // Rule: pv > L
+2022-01-24 17:15:23.555511 // WARNING // BO-19U:VA-CCG-BG:Pressure-Mon = 1.9e-08 // Limit: L=1e-8 // Rule: pv > L
+2022-01-24 17:25:30.863345 // WARNING // BO-19U:VA-CCG-BG:Pressure-Mon = 2.9e-08 // Limit: L=1e-8 // Rule: pv > L
+2022-01-24 17:35:40.158435 // WARNING // BO-19U:VA-CCG-BG:Pressure-Mon = 1.5e-08 // Limit: L=1e-8 // Rule: pv > L
+2022-01-24 17:45:47.447965 // WARNING // BO-19U:VA-CCG-BG:Pressure-Mon = 1.4e-08 // Limit: L=1e-8 // Rule: pv > L
+2022-01-24 17:55:56.743688 // WARNING // BO-19U:VA-CCG-BG:Pressure-Mon = 1.4e-08 // Limit: L=1e-8 // Rule: pv > L
+2022-01-24 18:06:08.019001 // WARNING // BO-19U:VA-CCG-BG:Pressure-Mon = 1.4e-08 // Limit: L=1e-8 // Rule: pv > L
+2022-01-24 18:16:17.310397 // WARNING // BO-19U:VA-CCG-BG:Pressure-Mon = 1.3e-08 // Limit: L=1e-8 // Rule: pv > L
+2022-01-24 18:26:16.575820 // WARNING // BO-19U:VA-CCG-BG:Pressure-Mon = 1.3e-08 // Limit: L=1e-8 // Rule: pv > L
+2022-01-24 18:36:25.853573 // WARNING // BO-19U:VA-CCG-BG:Pressure-Mon = 1.2e-08 // Limit: L=1e-8 // Rule: pv > L
+2022-01-24 18:46:37.133267 // WARNING // BO-19U:VA-CCG-BG:Pressure-Mon = 1.5e-08 // Limit: L=1e-8 // Rule: pv > L
+2022-01-24 18:56:44.411325 // WARNING // BO-19U:VA-CCG-BG:Pressure-Mon = 1.2e-08 // Limit: L=1e-8 // Rule: pv > L
+2022-01-24 19:06:53.693363 // WARNING // BO-19U:VA-CCG-BG:Pressure-Mon = 1.1e-08 // Limit: L=1e-8 // Rule: pv > L
+2022-01-24 19:17:04.994665 // WARNING // BO-19U:VA-CCG-BG:Pressure-Mon = 1.1e-08 // Limit: L=1e-8 // Rule: pv > L
+2022-01-25 15:30:50.115630 // WARNING // SI-13C4:DI-DCCT:Current-Mon = -0.014883422405 // Limit: L=1 // Rule: pv < L
+2022-01-25 15:40:49.394451 // WARNING // SI-13C4:DI-DCCT:Current-Mon = -0.013275075848 // Limit: L=1 // Rule: pv < L
+2022-01-25 15:50:50.681686 // WARNING // SI-13C4:DI-DCCT:Current-Mon = -0.015064967848 // Limit: L=1 // Rule: pv < L
+2022-01-25 16:01:01.968398 // WARNING // SI-13C4:DI-DCCT:Current-Mon = -0.015098355516 // Limit: L=1 // Rule: pv < L
+2022-01-25 16:05:29.105211 // WARNING // 1) RAD:Thermo10:Gamma:Dose = 0.5297289366667192 // Limit: L=1 // Rule: pv < L // 2) RAD:Thermo10:Gamma:Dose = RAD:Thermo10:Gamma:Dose ok // Limit: L=1 // Rule: 
+2022-01-25 16:11:04.276164 // WARNING // SI-13C4:DI-DCCT:Current-Mon = -0.014521896565 // Limit: L=1 // Rule: pv < L
+2022-01-25 16:21:03.592110 // WARNING // SI-13C4:DI-DCCT:Current-Mon = -0.014529200118 // Limit: L=1 // Rule: pv < L
+2022-01-25 16:31:04.893715 // WARNING // SI-13C4:DI-DCCT:Current-Mon = -0.013398714555 // Limit: L=1 // Rule: pv < L
+2022-01-25 16:41:05.007155 // WARNING // SI-13C4:DI-DCCT:Current-Mon = -0.01296363151 // Limit: L=1 // Rule: pv < L
+2022-01-25 16:51:16.332402 // WARNING // SI-13C4:DI-DCCT:Current-Mon = -0.013614691031 // Limit: L=1 // Rule: pv < L
+2022-01-25 17:01:17.645966 // WARNING // SI-13C4:DI-DCCT:Current-Mon = -0.013132656578 // Limit: L=1 // Rule: pv < L
+2022-01-25 17:11:22.940129 // WARNING // SI-13C4:DI-DCCT:Current-Mon = -0.014813516976 // Limit: L=1 // Rule: pv < L
+2022-01-25 17:21:22.225840 // WARNING // SI-13C4:DI-DCCT:Current-Mon = -0.014278270927 // Limit: L=1 // Rule: pv < L
+2022-01-25 17:31:23.522312 // WARNING // SI-13C4:DI-DCCT:Current-Mon = -0.013688769919 // Limit: L=1 // Rule: pv < L
+2022-01-25 17:41:26.815499 // WARNING // SI-13C4:DI-DCCT:Current-Mon = -0.013913093311 // Limit: L=1 // Rule: pv < L
+2022-01-25 17:51:21.280327 // Modem error: ATZ
+2022-01-25 18:01:28.567663 // WARNING // SI-13C4:DI-DCCT:Current-Mon = -0.014791606319 // Limit: L=1 // Rule: pv < L
+2022-01-25 18:11:37.865685 // WARNING // SI-13C4:DI-DCCT:Current-Mon = -0.015301289934 // Limit: L=1 // Rule: pv < L
+2022-01-25 18:21:36.042533 // Modem error: ATZ
+2022-01-25 18:31:40.334130 // Modem error: ATZ
+2022-01-25 18:41:55.632039 // WARNING // SI-13C4:DI-DCCT:Current-Mon = -0.015073314765 // Limit: L=1 // Rule: pv < L
+2022-01-25 18:52:04.920078 // WARNING // SI-13C4:DI-DCCT:Current-Mon = -0.014971065033 // Limit: L=1 // Rule: pv < L
+2022-01-25 19:02:14.221254 // WARNING // SI-13C4:DI-DCCT:Current-Mon = -0.014730569489 // Limit: L=1 // Rule: pv < L
+2022-01-25 19:12:26.527733 // Modem error: ATZ
+2022-01-25 19:22:37.840743 // WARNING // SI-13C4:DI-DCCT:Current-Mon = -0.014551110774 // Limit: L=1 // Rule: pv < L
+2022-01-25 19:32:47.125814 // WARNING // SI-13C4:DI-DCCT:Current-Mon = -0.013813973673 // Limit: L=1 // Rule: pv < L
+2022-01-25 19:42:56.440905 // WARNING // SI-13C4:DI-DCCT:Current-Mon = -0.014321570559 // Limit: L=1 // Rule: pv < L
+2022-01-25 19:53:05.735514 // WARNING // SI-13C4:DI-DCCT:Current-Mon = -0.015896529448 // Limit: L=1 // Rule: pv < L
+2022-01-25 20:03:15.035615 // WARNING // SI-13C4:DI-DCCT:Current-Mon = -0.01612972144 // Limit: L=1 // Rule: pv < L
+2022-01-25 20:13:12.807486 // Modem error: ATZ
+2022-01-25 20:23:26.106048 // WARNING // SI-13C4:DI-DCCT:Current-Mon = -0.016231971172 // Limit: L=1 // Rule: pv < L
+2022-01-25 20:33:25.387873 // WARNING // SI-13C4:DI-DCCT:Current-Mon = -0.013936047333 // Limit: L=1 // Rule: pv < L
+2022-01-25 20:43:36.687078 // WARNING // SI-13C4:DI-DCCT:Current-Mon = -0.015238166375 // Limit: L=1 // Rule: pv < L
+2022-01-25 20:53:35.984216 // WARNING // SI-13C4:DI-DCCT:Current-Mon = -0.015012799618 // Limit: L=1 // Rule: pv < L
+2022-01-25 21:03:45.285834 // WARNING // SI-13C4:DI-DCCT:Current-Mon = -0.014893334369 // Limit: L=1 // Rule: pv < L
+2022-01-25 21:13:54.581914 // WARNING // SI-13C4:DI-DCCT:Current-Mon = -0.013492617371 // Limit: L=1 // Rule: pv < L
+2022-01-25 21:24:03.876617 // WARNING // SI-13C4:DI-DCCT:Current-Mon = -0.01329594314 // Limit: L=1 // Rule: pv < L
+2022-01-25 21:33:58.188964 // Modem error: ATZ
+2022-01-25 21:44:03.516688 // WARNING // SI-13C4:DI-DCCT:Current-Mon = -0.016500115879 // Limit: L=1 // Rule: pv < L
+2022-01-25 21:54:12.827574 // WARNING // SI-13C4:DI-DCCT:Current-Mon = -0.012518636501 // Limit: L=1 // Rule: pv < L
+2022-01-25 22:04:22.153884 // WARNING // SI-13C4:DI-DCCT:Current-Mon = -0.014595975453 // Limit: L=1 // Rule: pv < L
+2022-01-25 22:14:33.486277 // WARNING // SI-13C4:DI-DCCT:Current-Mon = -0.014735786312 // Limit: L=1 // Rule: pv < L
+2022-01-25 22:24:40.787658 // WARNING // SI-13C4:DI-DCCT:Current-Mon = -0.015021668217 // Limit: L=1 // Rule: pv < L
+2022-01-25 22:34:54.079095 // WARNING // SI-13C4:DI-DCCT:Current-Mon = -0.012275010863 // Limit: L=1 // Rule: pv < L
+2022-01-25 22:44:53.365660 // WARNING // SI-13C4:DI-DCCT:Current-Mon = -0.014554762551 // Limit: L=1 // Rule: pv < L
+2022-01-25 22:55:00.644137 // WARNING // SI-13C4:DI-DCCT:Current-Mon = -0.014531286847 // Limit: L=1 // Rule: pv < L
+2022-01-25 23:05:11.913508 // WARNING // SI-13C4:DI-DCCT:Current-Mon = -0.013861446763 // Limit: L=1 // Rule: pv < L
+2022-01-25 23:15:21.201291 // WARNING // SI-13C4:DI-DCCT:Current-Mon = -0.013111789285 // Limit: L=1 // Rule: pv < L
+2022-01-25 23:25:25.481183 // Modem error: ATZ
+2022-01-25 23:35:32.772637 // WARNING // SI-13C4:DI-DCCT:Current-Mon = -0.012997019178 // Limit: L=1 // Rule: pv < L
+2022-01-25 23:45:39.062134 // Modem error: ATZ
+2022-01-25 23:55:52.348336 // WARNING // SI-13C4:DI-DCCT:Current-Mon = -0.01241221331 // Limit: L=1 // Rule: pv < L
+2022-01-26 00:06:01.635234 // WARNING // SI-13C4:DI-DCCT:Current-Mon = -0.014416516739 // Limit: L=1 // Rule: pv < L
+2022-01-26 00:16:06.602977 // Modem error: ATZ
+2022-01-26 00:26:21.888439 // WARNING // SI-13C4:DI-DCCT:Current-Mon = -0.012999627589 // Limit: L=1 // Rule: pv < L
+2022-01-26 00:36:33.161289 // WARNING // SI-13C4:DI-DCCT:Current-Mon = -0.014222972602 // Limit: L=1 // Rule: pv < L
+2022-01-26 00:46:40.446368 // WARNING // SI-13C4:DI-DCCT:Current-Mon = -0.014192715029 // Limit: L=1 // Rule: pv < L
+2022-01-26 00:56:49.742883 // WARNING // SI-13C4:DI-DCCT:Current-Mon = -0.012369957043 // Limit: L=1 // Rule: pv < L
+2022-01-26 01:06:49.011271 // WARNING // SI-13C4:DI-DCCT:Current-Mon = -0.013902137983 // Limit: L=1 // Rule: pv < L
+2022-01-26 01:17:00.305354 // WARNING // SI-13C4:DI-DCCT:Current-Mon = -0.01293650403 // Limit: L=1 // Rule: pv < L
+2022-01-26 01:27:09.605869 // WARNING // SI-13C4:DI-DCCT:Current-Mon = -0.013908919853 // Limit: L=1 // Rule: pv < L
+2022-01-26 01:37:16.913239 // WARNING // SI-13C4:DI-DCCT:Current-Mon = -0.013519223168 // Limit: L=1 // Rule: pv < L
+2022-01-26 01:47:26.195975 // WARNING // SI-13C4:DI-DCCT:Current-Mon = -0.012722092601 // Limit: L=1 // Rule: pv < L
+2022-01-26 01:57:29.498157 // WARNING // SI-13C4:DI-DCCT:Current-Mon = -0.01330272501 // Limit: L=1 // Rule: pv < L
+2022-01-26 02:07:40.795315 // WARNING // SI-13C4:DI-DCCT:Current-Mon = -0.013961088084 // Limit: L=1 // Rule: pv < L
+2022-01-26 02:17:50.109294 // WARNING // SI-13C4:DI-DCCT:Current-Mon = -0.013726331045 // Limit: L=1 // Rule: pv < L
+2022-01-26 02:27:57.395654 // WARNING // SI-13C4:DI-DCCT:Current-Mon = -0.014312180277 // Limit: L=1 // Rule: pv < L
+2022-01-26 02:38:08.684477 // WARNING // SI-13C4:DI-DCCT:Current-Mon = -0.014050817441 // Limit: L=1 // Rule: pv < L
+2022-01-26 02:48:07.990257 // WARNING // SI-13C4:DI-DCCT:Current-Mon = -0.01383588433 // Limit: L=1 // Rule: pv < L
+2022-01-26 02:58:09.283452 // WARNING // SI-13C4:DI-DCCT:Current-Mon = -0.015461446403 // Limit: L=1 // Rule: pv < L
+2022-01-26 03:08:18.578809 // WARNING // SI-13C4:DI-DCCT:Current-Mon = -0.015399366208 // Limit: L=1 // Rule: pv < L
+2022-01-26 03:18:29.874471 // WARNING // SI-13C4:DI-DCCT:Current-Mon = -0.013330374173 // Limit: L=1 // Rule: pv < L
+2022-01-26 03:28:39.159876 // WARNING // SI-13C4:DI-DCCT:Current-Mon = -0.013352806512 // Limit: L=1 // Rule: pv < L
+2022-01-26 03:38:50.445543 // WARNING // SI-13C4:DI-DCCT:Current-Mon = -0.015882444026 // Limit: L=1 // Rule: pv < L
+2022-01-26 03:49:01.732658 // WARNING // SI-13C4:DI-DCCT:Current-Mon = -0.015134873278 // Limit: L=1 // Rule: pv < L
+2022-01-26 03:59:11.032537 // WARNING // SI-13C4:DI-DCCT:Current-Mon = -0.014804126694 // Limit: L=1 // Rule: pv < L
+2022-01-26 04:09:20.318180 // WARNING // SI-13C4:DI-DCCT:Current-Mon = -0.015314331992 // Limit: L=1 // Rule: pv < L
+2022-01-26 04:19:29.622512 // WARNING // SI-13C4:DI-DCCT:Current-Mon = -0.014588150218 // Limit: L=1 // Rule: pv < L
+2022-01-26 04:29:40.921466 // WARNING // SI-13C4:DI-DCCT:Current-Mon = -0.013925092004 // Limit: L=1 // Rule: pv < L
+2022-01-26 04:39:50.228292 // WARNING // SI-13C4:DI-DCCT:Current-Mon = -0.016334220905 // Limit: L=1 // Rule: pv < L
+2022-01-26 04:49:59.546430 // WARNING // SI-13C4:DI-DCCT:Current-Mon = -0.01499297569 // Limit: L=1 // Rule: pv < L
+2022-01-26 05:00:00.870574 // WARNING // SI-13C4:DI-DCCT:Current-Mon = -0.015003931018 // Limit: L=1 // Rule: pv < L
+2022-01-26 05:10:10.198565 // WARNING // SI-13C4:DI-DCCT:Current-Mon = -0.015102528975 // Limit: L=1 // Rule: pv < L
+2022-01-26 05:20:19.483434 // WARNING // SI-13C4:DI-DCCT:Current-Mon = -0.014511984601 // Limit: L=1 // Rule: pv < L
+2022-01-26 05:30:28.798506 // WARNING // SI-13C4:DI-DCCT:Current-Mon = -0.01549013893 // Limit: L=1 // Rule: pv < L
+2022-01-26 05:40:38.098865 // WARNING // SI-13C4:DI-DCCT:Current-Mon = -0.01435808832 // Limit: L=1 // Rule: pv < L
+2022-01-26 05:50:47.363755 // WARNING // SI-13C4:DI-DCCT:Current-Mon = -0.013980912011 // Limit: L=1 // Rule: pv < L
+2022-01-26 06:00:48.651858 // WARNING // SI-13C4:DI-DCCT:Current-Mon = -0.015771325694 // Limit: L=1 // Rule: pv < L
+2022-01-26 06:10:49.945961 // WARNING // SI-13C4:DI-DCCT:Current-Mon = -0.014915766708 // Limit: L=1 // Rule: pv < L
+2022-01-26 06:20:59.230000 // WARNING // SI-13C4:DI-DCCT:Current-Mon = -0.016661837395 // Limit: L=1 // Rule: pv < L
+2022-01-26 06:31:08.514463 // WARNING // SI-13C4:DI-DCCT:Current-Mon = -0.015514657998 // Limit: L=1 // Rule: pv < L
+2022-01-26 06:41:13.797818 // WARNING // SI-13C4:DI-DCCT:Current-Mon = -0.014032036878 // Limit: L=1 // Rule: pv < L
+2022-01-26 06:51:25.081672 // WARNING // SI-13C4:DI-DCCT:Current-Mon = -0.01624501323 // Limit: L=1 // Rule: pv < L
+2022-01-26 07:01:32.366665 // WARNING // SI-13C4:DI-DCCT:Current-Mon = -0.013875010503 // Limit: L=1 // Rule: pv < L
+2022-01-26 07:11:38.662762 // Modem error: ATZ
+2022-01-26 07:21:53.935604 // WARNING // SI-13C4:DI-DCCT:Current-Mon = -0.013942829203 // Limit: L=1 // Rule: pv < L
+2022-01-26 07:32:03.212294 // WARNING // SI-13C4:DI-DCCT:Current-Mon = -0.0133501981 // Limit: L=1 // Rule: pv < L
+2022-01-26 08:12:57.773061 // WARNING // SI-13C4:DI-DCCT:Current-Mon = -0.016271097346 // Limit: L=1 // Rule: pv < L
+2022-01-26 08:23:09.077570 // WARNING // SI-13C4:DI-DCCT:Current-Mon = -0.014999235877 // Limit: L=1 // Rule: pv < L
+2022-01-26 08:33:18.373274 // WARNING // SI-13C4:DI-DCCT:Current-Mon = -0.015261642079 // Limit: L=1 // Rule: pv < L
+2022-01-26 08:43:19.640530 // WARNING // SI-13C4:DI-DCCT:Current-Mon = -0.015997214134 // Limit: L=1 // Rule: pv < L
+2022-01-26 08:53:18.918746 // WARNING // SI-13C4:DI-DCCT:Current-Mon = -0.014471815064 // Limit: L=1 // Rule: pv < L
+2022-01-26 09:03:30.212953 // WARNING // SI-13C4:DI-DCCT:Current-Mon = -0.013445144281 // Limit: L=1 // Rule: pv < L
+2022-01-26 09:13:39.505201 // WARNING // SI-13C4:DI-DCCT:Current-Mon = -0.0161161577 // Limit: L=1 // Rule: pv < L
+2022-01-26 09:23:48.799283 // WARNING // SI-13C4:DI-DCCT:Current-Mon = -0.014307485136 // Limit: L=1 // Rule: pv < L
+2022-01-26 09:34:00.074458 // WARNING // SI-13C4:DI-DCCT:Current-Mon = -0.016215277339 // Limit: L=1 // Rule: pv < L
+2022-01-26 09:44:09.351585 // WARNING // SI-13C4:DI-DCCT:Current-Mon = -0.01532059218 // Limit: L=1 // Rule: pv < L
+2022-01-26 09:54:18.644792 // WARNING // SI-13C4:DI-DCCT:Current-Mon = -0.016619581128 // Limit: L=1 // Rule: pv < L
+2022-01-26 10:04:19.951365 // WARNING // SI-13C4:DI-DCCT:Current-Mon = -0.014638753402 // Limit: L=1 // Rule: pv < L
+2022-01-26 10:14:31.260771 // WARNING // SI-13C4:DI-DCCT:Current-Mon = -0.015694638395 // Limit: L=1 // Rule: pv < L
+2022-01-26 10:24:38.565152 // WARNING // SI-13C4:DI-DCCT:Current-Mon = -0.015350328071 // Limit: L=1 // Rule: pv < L
+2022-01-26 10:34:39.866959 // WARNING // SI-13C4:DI-DCCT:Current-Mon = -0.012978238614 // Limit: L=1 // Rule: pv < L
+2022-01-26 10:44:51.153098 // WARNING // SI-13C4:DI-DCCT:Current-Mon = -0.016591931965 // Limit: L=1 // Rule: pv < L
+2022-01-26 10:55:00.457664 // WARNING // SI-13C4:DI-DCCT:Current-Mon = -0.017872662033 // Limit: L=1 // Rule: pv < L
+2022-01-26 11:05:07.739537 // WARNING // SI-13C4:DI-DCCT:Current-Mon = -0.015211560577 // Limit: L=1 // Rule: pv < L
+2022-01-26 11:15:19.042820 // WARNING // SI-13C4:DI-DCCT:Current-Mon = -0.013668945991 // Limit: L=1 // Rule: pv < L
+2022-01-26 11:25:26.358956 // WARNING // SI-13C4:DI-DCCT:Current-Mon = -0.015574651464 // Limit: L=1 // Rule: pv < L
+2022-01-26 11:35:37.647287 // WARNING // SI-13C4:DI-DCCT:Current-Mon = -0.014786911178 // Limit: L=1 // Rule: pv < L
+2022-01-26 11:45:48.929779 // WARNING // SI-13C4:DI-DCCT:Current-Mon = -0.014942372506 // Limit: L=1 // Rule: pv < L
+2022-01-26 11:55:58.211379 // WARNING // SI-13C4:DI-DCCT:Current-Mon = -0.014349219721 // Limit: L=1 // Rule: pv < L
+2022-01-26 12:06:09.495706 // WARNING // SI-13C4:DI-DCCT:Current-Mon = -0.015058185978 // Limit: L=1 // Rule: pv < L
+2022-01-26 12:16:18.785146 // WARNING // SI-13C4:DI-DCCT:Current-Mon = -0.016734351236 // Limit: L=1 // Rule: pv < L
+2022-01-26 12:26:28.080446 // WARNING // SI-13C4:DI-DCCT:Current-Mon = -0.015861576733 // Limit: L=1 // Rule: pv < L
+2022-01-26 12:36:35.374410 // WARNING // SI-13C4:DI-DCCT:Current-Mon = -0.016311266883 // Limit: L=1 // Rule: pv < L
+2022-01-26 12:46:44.647787 // WARNING // SI-13C4:DI-DCCT:Current-Mon = -0.01581566869 // Limit: L=1 // Rule: pv < L
+2022-01-26 12:56:53.941103 // WARNING // SI-13C4:DI-DCCT:Current-Mon = -0.016418733439 // Limit: L=1 // Rule: pv < L
+2022-01-26 13:07:05.241000 // WARNING // SI-13C4:DI-DCCT:Current-Mon = -0.015905398047 // Limit: L=1 // Rule: pv < L
+2022-01-26 13:17:14.522089 // WARNING // SI-13C4:DI-DCCT:Current-Mon = -0.015165652534 // Limit: L=1 // Rule: pv < L
+2022-01-26 13:27:25.811562 // WARNING // SI-13C4:DI-DCCT:Current-Mon = -0.013123787979 // Limit: L=1 // Rule: pv < L
+2022-01-26 13:37:27.104776 // WARNING // SI-13C4:DI-DCCT:Current-Mon = -0.015728547745 // Limit: L=1 // Rule: pv < L
+2022-01-26 13:47:36.381881 // WARNING // SI-13C4:DI-DCCT:Current-Mon = -0.0165997572 // Limit: L=1 // Rule: pv < L
+2022-01-26 13:57:45.687853 // WARNING // SI-13C4:DI-DCCT:Current-Mon = -0.016371260349 // Limit: L=1 // Rule: pv < L
+2022-01-26 14:07:56.987863 // WARNING // SI-13C4:DI-DCCT:Current-Mon = -0.013619907854 // Limit: L=1 // Rule: pv < L
+2022-01-26 14:18:06.301862 // WARNING // SI-13C4:DI-DCCT:Current-Mon = -0.016981106967 // Limit: L=1 // Rule: pv < L
+2022-01-26 14:28:17.603812 // WARNING // SI-13C4:DI-DCCT:Current-Mon = -0.016293529685 // Limit: L=1 // Rule: pv < L
+2022-01-26 14:38:16.904674 // WARNING // SI-13C4:DI-DCCT:Current-Mon = -0.01692737369 // Limit: L=1 // Rule: pv < L
+2022-01-26 14:48:16.209033 // WARNING // SI-13C4:DI-DCCT:Current-Mon = -0.015158348982 // Limit: L=1 // Rule: pv < L
+2022-01-26 14:58:25.503819 // WARNING // SI-13C4:DI-DCCT:Current-Mon = -0.015103050657 // Limit: L=1 // Rule: pv < L
+2022-01-26 15:08:31.775897 // Modem error: ATZ
+2022-01-26 15:18:49.069578 // WARNING // SI-13C4:DI-DCCT:Current-Mon = -0.017662945745 // Limit: L=1 // Rule: pv < L
+2022-01-26 15:28:58.358518 // WARNING // SI-13C4:DI-DCCT:Current-Mon = -0.015611169225 // Limit: L=1 // Rule: pv < L
+2022-01-26 18:23:54.281102 // WARNING // SI-02SB:VA-CCG-CAV:Pressure-Mon = 1.1e-08 // Limit: L=1e-8 // Rule: pv > L
+2022-01-26 18:24:22.297600 // WARNING // 1) SI-02SB:VA-CCG-CAV:Pressure-Mon = 1.1e-08 // Limit: L=1e-8 // Rule: pv > L // 2) ^BO.+VA-CCG.+Pressure-Mon$ = ^BO.+VA-CCG.+Pressure-Mon$ ok // Limit: L=1e-
+2022-01-26 19:12:42.625866 // WARNING // SI-02SB:VA-CCG-CAV:Pressure-Mon = 1.2e-08 // Limit: L=1e-8 // Rule: pv > L
+2022-01-26 19:22:41.918584 // WARNING // SI-02SB:VA-CCG-CAV:Pressure-Mon = 1.2e-08 // Limit: L=1e-8 // Rule: pv > L
+2022-01-26 19:24:01.959244 // WARNING // 1) SI-02SB:VA-CCG-CAV:Pressure-Mon = 1.2e-08 // Limit: L=1e-8 // Rule: pv > L // 2) ^BO.+VA-CCG.+Pressure-Mon$ = ^BO.+VA-CCG.+Pressure-Mon$ ok // Limit: L=1e-
+2022-01-26 19:46:19.569565 // WARNING // BO-05D:VA-CCG-RFC:Pressure-Mon = 1.7e-08 // Limit: L=1e-8 // Rule: pv > L
+2022-01-27 08:10:49.705450 // WARNING // SI-13C4:DI-DCCT:Current-Mon = -0.011680814713 // Limit: L=1 // Rule: pv < L
 

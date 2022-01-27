@@ -76,19 +76,19 @@ def server(sock, queue, stop):
         sleep(1)
         # Wait for a connection
         connection, client_address = sock.accept()
-        if client_address[0] != '10.20.31.19':
-            try:
-                #print('setting p')
-                p = Process(target=on_new_client, args=(connection, client_address, queue))
-                #print('on_new_client on')
-                p.start()
-            finally:
-                #Clean up the connection
-                #listen(sock)
-                sleep(1)
-        else:
+        #if client_address[0] != '10.20.31.19':
+        try:
+            #print('setting p')
+            p = Process(target=on_new_client, args=(connection, client_address, queue))
+            #print('on_new_client on')
+            p.start()
+        finally:
+            #Clean up the connection
+            #listen(sock)
+            sleep(1)
+        #else:
             #print('server OFF')
-            break
+        #    break
 
 def watcherseye(queue, stop): #queue watcher
     while True:
