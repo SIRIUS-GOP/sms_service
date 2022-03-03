@@ -10,4 +10,3 @@
 - on both ends, log files are recorded when a message is
   sent from client to server and when a sms is sent to
   a cellphone number.
-  
