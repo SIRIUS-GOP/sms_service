@@ -3865,4 +3865,205 @@
 2022-03-03 08:08:36.002039 error sending message to server > SI.+CCG.+Pressure-Mon$
 2022-03-03 08:08:39.074087 error sending message to server > ^([ST][IBS])(.+VA-CCG.+Pressure-Mon)$
 2022-03-03 08:08:52.673955 error sending message to server > SI.+CCG.+Pressure-Mon$
+2022-03-03 15:15:54.050083 error sending message to server > SI-Glob:AP-SOFB:LoopState-Sel
+2022-03-03 15:15:57.126074 error sending message to server > SI-Glob:AP-SOFB:LoopState-Sts
+2022-03-03 15:16:00.193780 error sending message to server > SI-Glob:AP-SOFB:LoopState-Sel
+2022-03-03 15:16:13.921999 error sending message to server > SI-Glob:AP-SOFB:LoopState-Sel
+2022-03-03 15:16:16.994018 error sending message to server > SI-Glob:AP-SOFB:LoopState-Sts
+2022-03-03 15:16:20.066283 error sending message to server > SI-Glob:AP-SOFB:LoopState-Sel
+2022-03-03 15:16:33.825978 error sending message to server > SI-Glob:AP-SOFB:LoopState-Sel
+2022-03-03 15:16:36.902017 error sending message to server > SI-Glob:AP-SOFB:LoopState-Sts
+2022-03-03 15:16:39.969900 error sending message to server > SI-Glob:AP-SOFB:LoopState-Sel
+2022-03-03 15:16:53.666585 error sending message to server > SI-Glob:AP-SOFB:LoopState-Sel
+2022-03-03 15:16:56.742035 error sending message to server > SI-Glob:AP-SOFB:LoopState-Sts
+2022-03-03 15:16:59.813977 error sending message to server > SI-Glob:AP-SOFB:LoopState-Sel
+2022-03-03 15:17:13.537722 error sending message to server > SI-Glob:AP-SOFB:LoopState-Sel
+2022-03-03 15:17:16.613763 error sending message to server > SI-Glob:AP-SOFB:LoopState-Sts
+2022-03-03 15:17:19.682020 error sending message to server > SI-Glob:AP-SOFB:LoopState-Sel
+2022-03-03 15:17:33.345980 error sending message to server > SI-Glob:AP-SOFB:LoopState-Sel
+2022-03-03 15:17:36.422074 error sending message to server > SI-Glob:AP-SOFB:LoopState-Sts
+2022-03-03 15:17:39.490142 error sending message to server > SI-Glob:AP-SOFB:LoopState-Sel
+2022-03-03 15:17:53.121743 error sending message to server > SI-Glob:AP-SOFB:LoopState-Sel
+2022-03-03 15:17:56.194037 error sending message to server > SI-Glob:AP-SOFB:LoopState-Sts
+2022-03-03 15:17:59.266018 error sending message to server > SI-Glob:AP-SOFB:LoopState-Sel
+2022-03-03 15:18:13.029746 error sending message to server > SI-Glob:AP-SOFB:LoopState-Sel
+2022-03-03 15:18:16.102134 error sending message to server > SI-Glob:AP-SOFB:LoopState-Sts
+2022-03-03 15:18:19.174065 error sending message to server > SI-Glob:AP-SOFB:LoopState-Sel
+2022-03-03 15:18:32.962277 error sending message to server > SI-Glob:AP-SOFB:LoopState-Sel
+2022-03-03 15:18:36.033733 error sending message to server > SI-Glob:AP-SOFB:LoopState-Sts
+2022-03-03 15:18:39.105990 error sending message to server > SI-Glob:AP-SOFB:LoopState-Sel
+2022-03-03 15:18:52.774005 error sending message to server > SI-Glob:AP-SOFB:LoopState-Sel
+2022-03-03 15:18:55.842070 error sending message to server > SI-Glob:AP-SOFB:LoopState-Sts
+2022-03-03 15:18:58.914051 error sending message to server > SI-Glob:AP-SOFB:LoopState-Sel
+2022-03-03 15:19:12.609966 error sending message to server > SI-Glob:AP-SOFB:LoopState-Sel
+2022-03-03 15:19:15.681993 error sending message to server > SI-Glob:AP-SOFB:LoopState-Sts
+2022-03-03 15:19:18.754373 error sending message to server > SI-Glob:AP-SOFB:LoopState-Sel
+2022-03-03 15:19:32.482126 error sending message to server > SI-Glob:AP-SOFB:LoopState-Sel
+2022-03-03 15:19:35.554005 error sending message to server > SI-Glob:AP-SOFB:LoopState-Sts
+2022-03-03 15:19:38.626213 error sending message to server > SI-Glob:AP-SOFB:LoopState-Sel
+2022-03-03 15:19:52.386170 error sending message to server > SI-Glob:AP-SOFB:LoopState-Sel
+2022-03-03 15:19:55.458120 error sending message to server > SI-Glob:AP-SOFB:LoopState-Sts
+2022-03-03 15:19:58.530141 error sending message to server > SI-Glob:AP-SOFB:LoopState-Sel
+2022-03-03 15:20:12.193727 error sending message to server > SI-Glob:AP-SOFB:LoopState-Sel
+2022-03-03 15:20:15.266178 error sending message to server > SI-Glob:AP-SOFB:LoopState-Sts
+2022-03-03 15:20:18.338050 error sending message to server > SI-Glob:AP-SOFB:LoopState-Sel
+2022-03-03 15:20:32.066096 error sending message to server > SI-Glob:AP-SOFB:LoopState-Sel
+2022-03-03 15:20:35.138047 error sending message to server > SI-Glob:AP-SOFB:LoopState-Sts
+2022-03-03 15:20:38.210095 error sending message to server > SI-Glob:AP-SOFB:LoopState-Sel
+2022-03-03 15:20:51.873978 error sending message to server > SI-Glob:AP-SOFB:LoopState-Sel
+2022-03-03 15:20:54.945785 error sending message to server > SI-Glob:AP-SOFB:LoopState-Sts
+2022-03-03 15:20:58.017705 error sending message to server > SI-Glob:AP-SOFB:LoopState-Sel
+2022-03-03 15:21:11.650035 error sending message to server > SI-Glob:AP-SOFB:LoopState-Sel
+2022-03-03 15:21:14.722055 error sending message to server > SI-Glob:AP-SOFB:LoopState-Sts
+2022-03-03 15:21:17.794136 error sending message to server > SI-Glob:AP-SOFB:LoopState-Sel
+2022-03-03 15:21:31.585878 error sending message to server > SI-Glob:AP-SOFB:LoopState-Sel
+2022-03-03 15:21:34.658052 error sending message to server > SI-Glob:AP-SOFB:LoopState-Sts
+2022-03-03 15:21:37.730519 error sending message to server > SI-Glob:AP-SOFB:LoopState-Sel
+2022-03-03 15:21:51.400485 error sending message to server > SI-Glob:AP-SOFB:LoopState-Sel
+2022-03-03 15:21:54.470267 error sending message to server > SI-Glob:AP-SOFB:LoopState-Sts
+2022-03-03 15:21:57.542610 error sending message to server > SI-Glob:AP-SOFB:LoopState-Sel
+2022-03-03 15:22:11.233872 error sending message to server > SI-Glob:AP-SOFB:LoopState-Sel
+2022-03-03 15:22:14.310704 error sending message to server > SI-Glob:AP-SOFB:LoopState-Sts
+2022-03-03 15:22:17.378071 error sending message to server > SI-Glob:AP-SOFB:LoopState-Sel
+2022-03-03 15:22:31.045783 error sending message to server > SI-Glob:AP-SOFB:LoopState-Sel
+2022-03-03 15:22:34.117939 error sending message to server > SI-Glob:AP-SOFB:LoopState-Sts
+2022-03-03 15:22:37.186105 error sending message to server > SI-Glob:AP-SOFB:LoopState-Sel
+2022-03-03 15:22:50.881945 error sending message to server > SI-Glob:AP-SOFB:LoopState-Sel
+2022-03-03 15:22:53.953812 error sending message to server > SI-Glob:AP-SOFB:LoopState-Sts
+2022-03-03 15:22:57.025767 error sending message to server > SI-Glob:AP-SOFB:LoopState-Sel
+2022-03-03 15:23:10.690654 error sending message to server > SI-Glob:AP-SOFB:LoopState-Sel
+2022-03-03 15:23:13.763009 error sending message to server > SI-Glob:AP-SOFB:LoopState-Sts
+2022-03-03 15:23:16.837779 error sending message to server > SI-Glob:AP-SOFB:LoopState-Sel
+2022-03-03 15:23:30.530008 error sending message to server > SI-Glob:AP-SOFB:LoopState-Sel
+2022-03-03 15:23:33.602068 error sending message to server > SI-Glob:AP-SOFB:LoopState-Sts
+2022-03-03 15:23:36.673762 error sending message to server > SI-Glob:AP-SOFB:LoopState-Sel
+2022-03-03 15:23:50.466453 error sending message to server > SI-Glob:AP-SOFB:LoopState-Sel
+2022-03-03 15:23:53.537916 error sending message to server > SI-Glob:AP-SOFB:LoopState-Sts
+2022-03-03 15:23:56.610100 error sending message to server > SI-Glob:AP-SOFB:LoopState-Sel
+2022-03-03 15:24:10.273998 error sending message to server > SI-Glob:AP-SOFB:LoopState-Sel
+2022-03-03 15:24:13.345991 error sending message to server > SI-Glob:AP-SOFB:LoopState-Sts
+2022-03-03 15:24:16.418000 error sending message to server > SI-Glob:AP-SOFB:LoopState-Sel
+2022-03-03 15:24:30.081945 error sending message to server > SI-Glob:AP-SOFB:LoopState-Sel
+2022-03-03 15:24:33.153981 error sending message to server > SI-Glob:AP-SOFB:LoopState-Sts
+2022-03-03 15:24:36.226089 error sending message to server > SI-Glob:AP-SOFB:LoopState-Sel
+2022-03-03 15:24:49.921935 error sending message to server > SI-Glob:AP-SOFB:LoopState-Sel
+2022-03-03 15:24:52.994016 error sending message to server > SI-Glob:AP-SOFB:LoopState-Sts
+2022-03-03 15:24:56.069827 error sending message to server > SI-Glob:AP-SOFB:LoopState-Sel
+2022-03-03 15:25:09.762013 error sending message to server > SI-Glob:AP-SOFB:LoopState-Sel
+2022-03-03 15:25:12.833968 error sending message to server > SI-Glob:AP-SOFB:LoopState-Sts
+2022-03-03 15:25:15.909994 error sending message to server > SI-Glob:AP-SOFB:LoopState-Sel
+2022-03-03 15:25:29.603872 error sending message to server > SI-Glob:AP-SOFB:LoopState-Sel
+2022-03-03 15:25:32.673800 error sending message to server > SI-Glob:AP-SOFB:LoopState-Sts
+2022-03-03 15:25:35.746007 error sending message to server > SI-Glob:AP-SOFB:LoopState-Sel
+2022-03-03 15:25:49.441800 error sending message to server > SI-Glob:AP-SOFB:LoopState-Sel
+2022-03-03 15:25:52.513756 error sending message to server > SI-Glob:AP-SOFB:LoopState-Sts
+2022-03-03 15:25:55.586696 error sending message to server > SI-Glob:AP-SOFB:LoopState-Sel
+2022-03-03 15:26:09.345758 error sending message to server > SI-Glob:AP-SOFB:LoopState-Sel
+2022-03-03 15:26:12.417734 error sending message to server > SI-Glob:AP-SOFB:LoopState-Sts
+2022-03-03 15:26:15.493723 error sending message to server > SI-Glob:AP-SOFB:LoopState-Sel
+2022-03-03 15:26:29.218592 error sending message to server > SI-Glob:AP-SOFB:LoopState-Sel
+2022-03-03 15:26:32.290157 error sending message to server > SI-Glob:AP-SOFB:LoopState-Sts
+2022-03-03 15:26:35.365833 error sending message to server > SI-Glob:AP-SOFB:LoopState-Sel
+2022-03-03 15:26:49.057916 error sending message to server > SI-Glob:AP-SOFB:LoopState-Sel
+2022-03-03 15:26:52.134616 error sending message to server > SI-Glob:AP-SOFB:LoopState-Sts
+2022-03-03 15:26:55.206283 error sending message to server > SI-Glob:AP-SOFB:LoopState-Sel
+2022-03-03 15:27:08.929953 error sending message to server > SI-Glob:AP-SOFB:LoopState-Sel
+2022-03-03 15:27:12.002005 error sending message to server > SI-Glob:AP-SOFB:LoopState-Sts
+2022-03-03 15:27:15.073787 error sending message to server > SI-Glob:AP-SOFB:LoopState-Sel
+2022-03-03 15:27:28.737792 error sending message to server > SI-Glob:AP-SOFB:LoopState-Sel
+2022-03-03 15:27:31.810127 error sending message to server > SI-Glob:AP-SOFB:LoopState-Sts
+2022-03-03 15:27:34.885934 error sending message to server > SI-Glob:AP-SOFB:LoopState-Sel
+2022-03-03 15:27:48.578000 error sending message to server > SI-Glob:AP-SOFB:LoopState-Sel
+2022-03-03 15:27:51.653771 error sending message to server > SI-Glob:AP-SOFB:LoopState-Sts
+2022-03-03 15:27:54.726453 error sending message to server > SI-Glob:AP-SOFB:LoopState-Sel
+2022-03-03 15:28:08.450032 error sending message to server > SI-Glob:AP-SOFB:LoopState-Sel
+2022-03-03 15:28:11.526097 error sending message to server > SI-Glob:AP-SOFB:LoopState-Sts
+2022-03-03 15:28:14.593795 error sending message to server > SI-Glob:AP-SOFB:LoopState-Sel
+2022-03-03 15:28:28.258010 error sending message to server > SI-Glob:AP-SOFB:LoopState-Sel
+2022-03-03 15:28:31.330024 error sending message to server > SI-Glob:AP-SOFB:LoopState-Sts
+2022-03-03 15:28:34.401733 error sending message to server > SI-Glob:AP-SOFB:LoopState-Sel
+2022-03-03 15:28:48.098017 error sending message to server > SI-Glob:AP-SOFB:LoopState-Sel
+2022-03-03 15:28:51.174063 error sending message to server > SI-Glob:AP-SOFB:LoopState-Sts
+2022-03-03 15:28:54.242085 error sending message to server > SI-Glob:AP-SOFB:LoopState-Sel
+2022-03-03 15:29:08.033894 error sending message to server > SI-Glob:AP-SOFB:LoopState-Sel
+2022-03-03 15:29:11.110050 error sending message to server > SI-Glob:AP-SOFB:LoopState-Sts
+2022-03-03 15:29:14.178108 error sending message to server > SI-Glob:AP-SOFB:LoopState-Sel
+2022-03-03 15:29:27.811131 error sending message to server > SI-Glob:AP-SOFB:LoopState-Sel
+2022-03-03 15:29:30.882057 error sending message to server > SI-Glob:AP-SOFB:LoopState-Sts
+2022-03-03 15:29:33.954051 error sending message to server > SI-Glob:AP-SOFB:LoopState-Sel
+2022-03-03 15:29:47.618006 error sending message to server > SI-Glob:AP-SOFB:LoopState-Sel
+2022-03-03 15:29:50.690057 error sending message to server > SI-Glob:AP-SOFB:LoopState-Sts
+2022-03-03 15:29:53.762011 error sending message to server > SI-Glob:AP-SOFB:LoopState-Sel
+2022-03-03 15:30:07.461990 error sending message to server > SI-Glob:AP-SOFB:LoopState-Sel
+2022-03-03 15:30:10.530108 error sending message to server > SI-Glob:AP-SOFB:LoopState-Sts
+2022-03-03 15:30:13.602592 error sending message to server > SI-Glob:AP-SOFB:LoopState-Sel
+2022-03-03 15:30:27.297999 error sending message to server > SI-Glob:AP-SOFB:LoopState-Sel
+2022-03-03 15:30:30.370147 error sending message to server > SI-Glob:AP-SOFB:LoopState-Sts
+2022-03-03 15:30:33.445859 error sending message to server > SI-Glob:AP-SOFB:LoopState-Sel
+2022-03-03 15:30:47.110145 error sending message to server > SI-Glob:AP-SOFB:LoopState-Sel
+2022-03-03 15:30:50.178097 error sending message to server > SI-Glob:AP-SOFB:LoopState-Sts
+2022-03-03 15:30:53.249954 error sending message to server > SI-Glob:AP-SOFB:LoopState-Sel
+2022-03-03 15:31:06.946253 error sending message to server > SI-Glob:AP-SOFB:LoopState-Sel
+2022-03-03 15:31:10.018015 error sending message to server > SI-Glob:AP-SOFB:LoopState-Sts
+2022-03-03 15:31:13.090051 error sending message to server > SI-Glob:AP-SOFB:LoopState-Sel
+2022-03-03 15:31:26.758030 error sending message to server > SI-Glob:AP-SOFB:LoopState-Sel
+2022-03-03 15:31:29.826025 error sending message to server > SI-Glob:AP-SOFB:LoopState-Sts
+2022-03-03 15:31:32.897754 error sending message to server > SI-Glob:AP-SOFB:LoopState-Sel
+2022-03-03 15:31:46.561918 error sending message to server > SI-Glob:AP-SOFB:LoopState-Sel
+2022-03-03 15:31:49.633875 error sending message to server > SI-Glob:AP-SOFB:LoopState-Sts
+2022-03-03 15:31:52.710043 error sending message to server > SI-Glob:AP-SOFB:LoopState-Sel
+2022-03-03 15:32:06.402036 error sending message to server > SI-Glob:AP-SOFB:LoopState-Sel
+2022-03-03 15:32:09.473941 error sending message to server > SI-Glob:AP-SOFB:LoopState-Sts
+2022-03-03 15:32:12.545751 error sending message to server > SI-Glob:AP-SOFB:LoopState-Sel
+2022-03-03 15:32:26.177999 error sending message to server > SI-Glob:AP-SOFB:LoopState-Sel
+2022-03-03 15:32:29.250149 error sending message to server > SI-Glob:AP-SOFB:LoopState-Sts
+2022-03-03 15:32:32.322194 error sending message to server > SI-Glob:AP-SOFB:LoopState-Sel
+2022-03-03 15:32:46.049785 error sending message to server > SI-Glob:AP-SOFB:LoopState-Sel
+2022-03-03 15:32:49.122045 error sending message to server > SI-Glob:AP-SOFB:LoopState-Sts
+2022-03-03 15:32:52.194024 error sending message to server > SI-Glob:AP-SOFB:LoopState-Sel
+2022-03-03 15:33:05.889998 error sending message to server > SI-Glob:AP-SOFB:LoopState-Sel
+2022-03-03 15:33:08.965941 error sending message to server > SI-Glob:AP-SOFB:LoopState-Sts
+2022-03-03 15:33:12.037713 error sending message to server > SI-Glob:AP-SOFB:LoopState-Sel
+2022-03-03 15:33:25.730048 error sending message to server > SI-Glob:AP-SOFB:LoopState-Sel
+2022-03-03 15:33:28.802055 error sending message to server > SI-Glob:AP-SOFB:LoopState-Sts
+2022-03-03 15:33:31.873736 error sending message to server > SI-Glob:AP-SOFB:LoopState-Sel
+2022-03-03 15:33:45.506009 error sending message to server > SI-Glob:AP-SOFB:LoopState-Sel
+2022-03-03 15:33:48.577769 error sending message to server > SI-Glob:AP-SOFB:LoopState-Sts
+2022-03-03 15:33:51.650086 error sending message to server > SI-Glob:AP-SOFB:LoopState-Sel
+2022-03-03 15:34:05.345994 error sending message to server > SI-Glob:AP-SOFB:LoopState-Sel
+2022-03-03 15:34:08.417701 error sending message to server > SI-Glob:AP-SOFB:LoopState-Sts
+2022-03-03 15:34:11.493950 error sending message to server > SI-Glob:AP-SOFB:LoopState-Sel
+2022-03-03 15:34:25.250050 error sending message to server > SI-Glob:AP-SOFB:LoopState-Sel
+2022-03-03 15:34:28.322012 error sending message to server > SI-Glob:AP-SOFB:LoopState-Sts
+2022-03-03 15:34:31.394067 error sending message to server > SI-Glob:AP-SOFB:LoopState-Sel
+2022-03-03 15:34:45.125932 error sending message to server > SI-Glob:AP-SOFB:LoopState-Sel
+2022-03-03 15:34:48.194550 error sending message to server > SI-Glob:AP-SOFB:LoopState-Sts
+2022-03-03 15:34:51.270181 error sending message to server > SI-Glob:AP-SOFB:LoopState-Sel
+2022-03-03 15:35:04.930023 error sending message to server > SI-Glob:AP-SOFB:LoopState-Sel
+2022-03-03 15:35:08.002023 error sending message to server > SI-Glob:AP-SOFB:LoopState-Sts
+2022-03-03 15:35:11.074634 error sending message to server > SI-Glob:AP-SOFB:LoopState-Sel
+2022-03-03 15:35:24.737974 error sending message to server > SI-Glob:AP-SOFB:LoopState-Sel
+2022-03-03 15:35:27.809878 error sending message to server > SI-Glob:AP-SOFB:LoopState-Sts
+2022-03-03 15:35:30.882040 error sending message to server > SI-Glob:AP-SOFB:LoopState-Sel
+2022-03-03 15:35:44.577971 error sending message to server > SI-Glob:AP-SOFB:LoopState-Sel
+2022-03-03 15:35:47.654072 error sending message to server > SI-Glob:AP-SOFB:LoopState-Sts
+2022-03-03 15:35:50.722075 error sending message to server > SI-Glob:AP-SOFB:LoopState-Sel
+2022-03-03 15:36:04.450763 error sending message to server > SI-Glob:AP-SOFB:LoopState-Sel
+2022-03-03 15:36:07.522036 error sending message to server > SI-Glob:AP-SOFB:LoopState-Sts
+2022-03-03 15:36:10.593961 error sending message to server > SI-Glob:AP-SOFB:LoopState-Sel
+2022-03-03 15:36:24.321992 error sending message to server > SI-Glob:AP-SOFB:LoopState-Sel
+2022-03-03 15:36:27.393918 error sending message to server > SI-Glob:AP-SOFB:LoopState-Sts
+2022-03-03 15:36:30.465980 error sending message to server > SI-Glob:AP-SOFB:LoopState-Sel
+2022-03-03 15:36:44.161901 error sending message to server > SI-Glob:AP-SOFB:LoopState-Sel
+2022-03-03 15:36:47.233979 error sending message to server > SI-Glob:AP-SOFB:LoopState-Sts
+2022-03-03 15:36:50.311031 error sending message to server > SI-Glob:AP-SOFB:LoopState-Sel
+2022-03-03 15:37:04.129788 error sending message to server > SI-Glob:AP-SOFB:LoopState-Sel
+2022-03-03 15:37:07.205870 error sending message to server > SI-Glob:AP-SOFB:LoopState-Sts
+2022-03-03 15:37:10.273890 error sending message to server > SI-Glob:AP-SOFB:LoopState-Sel
+2022-03-03 15:37:23.969783 error sending message to server > SI-Glob:AP-SOFB:LoopState-Sel
+2022-03-03 15:37:27.041813 error sending message to server > SI-Glob:AP-SOFB:LoopState-Sts
+2022-03-03 15:37:30.113691 error sending message to server > SI-Glob:AP-SOFB:LoopState-Sel
+2022-03-03 15:37:43.750015 error sending message to server > SI-Glob:AP-SOFB:LoopState-Sel
+2022-03-03 15:37:46.817995 error sending message to server > SI-Glob:AP-SOFB:LoopState-Sts
+2022-03-03 15:37:49.889929 error sending message to server > SI-Glob:AP-SOFB:LoopState-Sel
 
