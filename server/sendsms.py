@@ -15,7 +15,7 @@ class TextMessage:
             sleep(1)
             return 1
         except:
-            #print('Error connecPhone')
+            print('Error connecPhone')
             return 'Cannot connect to the modem'
 
     def memSlot(self, index):

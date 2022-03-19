@@ -16,7 +16,7 @@ def on_new_client(connection, client_address, queue):
     while True:
         try:
             #print('connection from', client_address)
-            ip1 = config.read("IP", "client_ip4") #changed to get connections only from optiplex-sc-02
+            ip1 = config.read("IP", "client_ip1") #changed to get connections only from optiplex-sc-02
             ip2 = config.read("IP", "client_ip2")
             ip3 = config.read("IP", "client_ip3")
             ip4 = config.read("IP", "client_ip4")
@@ -80,11 +80,12 @@ def server(sock, queue, stop):
         try:
             #print('setting p')
             p = Process(target=on_new_client, args=(connection, client_address, queue))
-            #print('on_new_client on')
+            print('on_new_client on')
             p.start()
         finally:
             #Clean up the connection
             #listen(sock)
+            print("client_address:", client_address)
             sleep(1)
         #else:
             #print('server OFF')
@@ -98,12 +99,12 @@ def watcherseye(queue, stop): #queue watcher
         sleep(1)
         if queue.empty() == False:
             n = queue.get_nowait()
-            #print("n", n)
+            print("n", n)
             prefix = 'WARNING'
             msg, msg1, msg2 = '', '', ''
             if int(n['numpvs']) == 0: #for future implementation
-                pass
                 msg = 'ERROR on monitor.py'
+                pass
             elif int(n['numpvs']) == 1:
                 msg = prefix + '\n\r' + n['rule1']
                 msg = msg.replace('==', '=', 1)
@@ -118,10 +119,10 @@ def watcherseye(queue, stop): #queue watcher
             elif int(n['numpvs']) == 2:
                 if (n['rule1'].find('(pv < LL) or (pv > LU)') != -1): #outside range
                     msg1 = prefix + '\n\r1) ' + n['pv1'] + ' = ' + n['value1'] + '\n\r'+ 'Limits: ' + n['limits1'] + '\n\rRule: ' + n['rule1']
-                    #print('pv1 outside range')
+                    print('pv1 outside range')
                 elif (n['rule1'].find('(pv > LL) and (pv < LU)') != -1): #within range
                     msg1 = prefix + '\n\r1) ' + n['pv1'] + ' = ' + n['value1'] + '\n\r'+ 'Limits: ' + n['limits1'] + '\n\rRule: ' + n['rule1']
-                    #print('pv1 within range')
+                    print('pv1 within range')
                 elif (bool(re.search('^pv .+ L$', n['rule1']))) != -1: #other rules
                     msg1 = prefix + '\n\r1) ' + n['rule1']
                     msg1 = msg1.replace('==', '=', 1)
@@ -133,12 +134,12 @@ def watcherseye(queue, stop): #queue watcher
                     msg1 = msg1.replace('L', n['value1'], 1)
                     msg1 = msg1.replace('pv', n['pv1'], 1)
                     msg1 = msg1 + '\n\r' + 'Limit: ' + n['limits1'] + '\n\rRule: ' + n['rule1']
-                    #print('pv1 pv=L choice')
+                    print('pv1 pv=L choice')
                 if (n['rule2'].find('(pv < LL) or (pv > LU)') != -1): #outside range
                     msg2 = '\n\r2) ' + n['pv2'] + ' = ' + n['value2'] + '\n\r'+ 'Limits: ' + n['limits2'] + '\n\rRule: ' + n['rule2']
                 elif (n['rule2'].find('(pv > LL) and (pv < LU)') != -1): #within range
                     msg2 = '\n\r2) ' + n['pv2'] + ' = ' + n['value2'] + '\n\r'+ 'Limits: ' + n['limits2'] + '\n\rRule: ' + n['rule2']
-                    #print('pv2 within range')
+                    print('pv2 within range')
                 elif (bool(re.search('^pv .+ L$', n['rule2']))): #other rules
                     msg2 = '\n\r2) ' + n['rule2']
                     msg2 = msg2.replace('==', '=', 1)
@@ -150,13 +151,14 @@ def watcherseye(queue, stop): #queue watcher
                     msg2 = msg2.replace('L', n['value2'])
                     msg2 = msg2.replace('pv', n['pv2'])
                     msg2 = msg2 + '\n\r' + 'Limit: ' + n['limits2'] + '\n\rRule: ' + n['rule2']
-                    #print('pv2 pv=L choice')
+                    print('pv2 pv=L choice')
                 msg = msg1 + msg2
-                msg = (msg[:159]) if len(msg) > 160 else msg
+                msg = (msg[:149]) if len(msg) > 149 else msg
             elif int(n['numpvs']) == 3:
                 pass
             r = sendsms.sendSMS(sub("[^0-9]", "", n['phone']), msg)
-            #print('r', r)
+            print('r', r)
+            print("msg",msg)
             if r==True:
                 writer.write(msg)
             else:
@@ -181,7 +183,7 @@ def main():
             processlist.append(p.name())
             #print(p.name())
         except psutil.AccessDenied:
-           # print("======= Access Denied ======= ")
+            #print("======= Access Denied ======= ")
             pass
     if search(processlist, proc):
         userclick = windll.user32.MessageBoxW(0, "SMS Service Server already running!", "Warning", 0)
