@@ -4066,4 +4066,524 @@
 2022-03-03 15:37:43.750015 error sending message to server > SI-Glob:AP-SOFB:LoopState-Sel
 2022-03-03 15:37:46.817995 error sending message to server > SI-Glob:AP-SOFB:LoopState-Sts
 2022-03-03 15:37:49.889929 error sending message to server > SI-Glob:AP-SOFB:LoopState-Sel
+2022-03-03 20:05:27.333993 error sending message to server > BO.+CCG.+Pressure-Mon$
+2022-03-03 20:05:30.402951 error sending message to server > BO.+CCG.+Pressure-Mon$
+2022-03-03 20:05:44.705975 error sending message to server > BO.+CCG.+Pressure-Mon$
+2022-03-03 20:05:47.778011 error sending message to server > BO.+CCG.+Pressure-Mon$
+2022-03-03 20:06:01.921701 error sending message to server > BO.+CCG.+Pressure-Mon$
+2022-03-03 20:06:04.994023 error sending message to server > BO.+CCG.+Pressure-Mon$
+2022-03-03 20:06:19.174616 error sending message to server > BO.+CCG.+Pressure-Mon$
+2022-03-03 20:06:22.246545 error sending message to server > BO.+CCG.+Pressure-Mon$
+2022-03-03 20:06:36.321989 error sending message to server > BO.+CCG.+Pressure-Mon$
+2022-03-03 20:06:39.394099 error sending message to server > BO.+CCG.+Pressure-Mon$
+2022-03-03 20:06:53.409865 error sending message to server > SI.+CCG.+Pressure-Mon$
+2022-03-03 20:06:56.482030 error sending message to server > BO.+CCG.+Pressure-Mon$
+2022-03-03 20:06:59.553973 error sending message to server > SI.+CCG.+Pressure-Mon$
+2022-03-03 20:07:02.625956 error sending message to server > BO.+CCG.+Pressure-Mon$
+2022-03-03 20:07:05.698018 error sending message to server > ^([ST][IBS])(.+VA-CCG.+Pressure-Mon)$
+2022-03-03 20:07:19.266009 error sending message to server > SI.+CCG.+Pressure-Mon$
+2022-03-03 20:07:22.338023 error sending message to server > SI.+CCG.+Pressure-Mon$
+2022-03-03 20:07:25.410005 error sending message to server > ^([ST][IBS])(.+VA-CCG.+Pressure-Mon)$
+2022-03-03 20:07:39.010439 error sending message to server > SI.+CCG.+Pressure-Mon$
+2022-03-03 20:07:42.082317 error sending message to server > SI.+CCG.+Pressure-Mon$
+2022-03-03 20:07:45.153998 error sending message to server > ^([ST][IBS])(.+VA-CCG.+Pressure-Mon)$
+2022-03-03 20:07:58.721685 error sending message to server > SI.+CCG.+Pressure-Mon$
+2022-03-03 20:08:24.834086 error sending message to server > BO.+CCG.+Pressure-Mon$
+2022-03-03 20:08:27.906972 error sending message to server > BO.+CCG.+Pressure-Mon$
+2022-03-03 20:08:42.081963 error sending message to server > BO.+CCG.+Pressure-Mon$
+2022-03-04 01:03:48.865990 error sending message to server > SI-Glob:AP-SOFB:LoopState-Sel
+2022-03-04 01:03:51.937712 error sending message to server > SI-Glob:AP-SOFB:LoopState-Sts
+2022-03-04 01:03:55.010006 error sending message to server > SI-Glob:AP-SOFB:LoopState-Sel
+2022-03-04 01:04:08.641768 error sending message to server > SI-Glob:AP-SOFB:LoopState-Sel
+2022-03-04 01:04:11.713983 error sending message to server > SI-Glob:AP-SOFB:LoopState-Sts
+2022-03-04 01:04:14.786104 error sending message to server > SI-Glob:AP-SOFB:LoopState-Sel
+2022-03-04 01:04:28.545923 error sending message to server > SI-Glob:AP-SOFB:LoopState-Sel
+2022-03-04 01:04:31.618100 error sending message to server > SI-Glob:AP-SOFB:LoopState-Sts
+2022-03-04 01:04:34.690123 error sending message to server > SI-Glob:AP-SOFB:LoopState-Sel
+2022-03-04 01:04:48.321981 error sending message to server > SI-Glob:AP-SOFB:LoopState-Sel
+2022-03-04 01:04:51.394355 error sending message to server > SI-Glob:AP-SOFB:LoopState-Sts
+2022-03-04 01:04:54.466142 error sending message to server > SI-Glob:AP-SOFB:LoopState-Sel
+2022-03-04 01:05:08.194043 error sending message to server > SI-Glob:AP-SOFB:LoopState-Sel
+2022-03-04 01:05:11.265989 error sending message to server > SI-Glob:AP-SOFB:LoopState-Sts
+2022-03-04 01:05:14.338589 error sending message to server > SI-Glob:AP-SOFB:LoopState-Sel
+2022-03-04 01:05:28.033709 error sending message to server > SI-Glob:AP-SOFB:LoopState-Sel
+2022-03-04 01:05:31.111213 error sending message to server > SI-Glob:AP-SOFB:LoopState-Sts
+2022-03-04 01:05:34.178041 error sending message to server > SI-Glob:AP-SOFB:LoopState-Sel
+2022-03-04 01:05:47.841999 error sending message to server > SI-Glob:AP-SOFB:LoopState-Sel
+2022-03-04 01:05:50.918042 error sending message to server > SI-Glob:AP-SOFB:LoopState-Sts
+2022-03-04 01:05:53.985998 error sending message to server > SI-Glob:AP-SOFB:LoopState-Sel
+2022-03-04 01:06:07.682063 error sending message to server > SI-Glob:AP-SOFB:LoopState-Sel
+2022-03-04 01:06:10.753997 error sending message to server > SI-Glob:AP-SOFB:LoopState-Sts
+2022-03-04 01:06:13.826033 error sending message to server > SI-Glob:AP-SOFB:LoopState-Sel
+2022-03-04 01:06:27.461968 error sending message to server > SI-Glob:AP-SOFB:LoopState-Sel
+2022-03-04 01:06:30.530055 error sending message to server > SI-Glob:AP-SOFB:LoopState-Sts
+2022-03-04 01:06:33.602066 error sending message to server > SI-Glob:AP-SOFB:LoopState-Sel
+2022-03-04 01:06:47.266183 error sending message to server > SI-Glob:AP-SOFB:LoopState-Sel
+2022-03-04 01:06:50.338368 error sending message to server > SI-Glob:AP-SOFB:LoopState-Sts
+2022-03-04 01:06:53.410041 error sending message to server > SI-Glob:AP-SOFB:LoopState-Sel
+2022-03-04 01:07:07.073771 error sending message to server > SI-Glob:AP-SOFB:LoopState-Sel
+2022-03-04 01:07:10.146295 error sending message to server > SI-Glob:AP-SOFB:LoopState-Sts
+2022-03-04 01:07:13.218024 error sending message to server > SI-Glob:AP-SOFB:LoopState-Sel
+2022-03-04 01:07:26.913712 error sending message to server > SI-Glob:AP-SOFB:LoopState-Sel
+2022-03-04 01:07:29.986084 error sending message to server > SI-Glob:AP-SOFB:LoopState-Sts
+2022-03-04 01:07:33.058082 error sending message to server > SI-Glob:AP-SOFB:LoopState-Sel
+2022-03-04 01:07:46.721971 error sending message to server > SI-Glob:AP-SOFB:LoopState-Sel
+2022-03-04 01:07:49.794069 error sending message to server > SI-Glob:AP-SOFB:LoopState-Sts
+2022-03-04 01:07:52.866418 error sending message to server > SI-Glob:AP-SOFB:LoopState-Sel
+2022-03-04 01:08:06.529747 error sending message to server > SI-Glob:AP-SOFB:LoopState-Sel
+2022-03-04 01:08:09.601988 error sending message to server > SI-Glob:AP-SOFB:LoopState-Sts
+2022-03-04 01:08:12.674028 error sending message to server > SI-Glob:AP-SOFB:LoopState-Sel
+2022-03-04 01:08:26.338007 error sending message to server > SI-Glob:AP-SOFB:LoopState-Sel
+2022-03-04 08:04:48.258001 error sending message to server > BO.+CCG.+Pressure-Mon$
+2022-03-04 08:04:51.330045 error sending message to server > BO.+CCG.+Pressure-Mon$
+2022-03-04 08:05:05.569990 error sending message to server > BO.+CCG.+Pressure-Mon$
+2022-03-04 08:05:08.641984 error sending message to server > BO.+CCG.+Pressure-Mon$
+2022-03-04 08:05:22.721964 error sending message to server > BO.+CCG.+Pressure-Mon$
+2022-03-04 08:05:25.794087 error sending message to server > BO.+CCG.+Pressure-Mon$
+2022-03-04 08:05:39.777946 error sending message to server > SI.+CCG.+Pressure-Mon$
+2022-03-04 08:05:42.850070 error sending message to server > BO.+CCG.+Pressure-Mon$
+2022-03-04 08:05:45.921877 error sending message to server > SI.+CCG.+Pressure-Mon$
+2022-03-04 08:05:48.994072 error sending message to server > ^([ST][IBS])(.+VA-CCG.+Pressure-Mon)$
+2022-03-04 08:06:02.561982 error sending message to server > SI.+CCG.+Pressure-Mon$
+2022-03-04 08:06:05.634101 error sending message to server > SI.+CCG.+Pressure-Mon$
+2022-03-04 08:06:08.706048 error sending message to server > ^([ST][IBS])(.+VA-CCG.+Pressure-Mon)$
+2022-03-04 08:06:22.274037 error sending message to server > SI.+CCG.+Pressure-Mon$
+2022-03-04 08:06:25.346094 error sending message to server > SI.+CCG.+Pressure-Mon$
+2022-03-04 08:06:28.418047 error sending message to server > ^([ST][IBS])(.+VA-CCG.+Pressure-Mon)$
+2022-03-04 08:06:41.985974 error sending message to server > SI.+CCG.+Pressure-Mon$
+2022-03-04 08:06:45.058092 error sending message to server > SI.+CCG.+Pressure-Mon$
+2022-03-04 08:08:19.841988 error sending message to server > BO.+CCG.+Pressure-Mon$
+2022-03-04 08:08:22.914072 error sending message to server > BO.+CCG.+Pressure-Mon$
+2022-03-04 08:11:18.054528 error sending message to server > BO.+CCG.+Pressure-Mon$
+2022-03-04 08:11:21.122054 error sending message to server > BO.+CCG.+Pressure-Mon$
+2022-03-04 20:07:44.295133 error sending message to server > BO.+CCG.+Pressure-Mon$
+2022-03-04 20:07:47.361821 error sending message to server > BO.+CCG.+Pressure-Mon$
+2022-03-04 20:08:01.601934 error sending message to server > BO.+CCG.+Pressure-Mon$
+2022-03-04 20:08:04.674061 error sending message to server > BO.+CCG.+Pressure-Mon$
+2022-03-04 20:08:18.754069 error sending message to server > BO.+CCG.+Pressure-Mon$
+2022-03-04 20:08:21.825984 error sending message to server > BO.+CCG.+Pressure-Mon$
+2022-03-04 20:08:35.905983 error sending message to server > SI.+CCG.+Pressure-Mon$
+2022-03-04 20:08:38.977986 error sending message to server > BO.+CCG.+Pressure-Mon$
+2022-03-04 20:08:42.050271 error sending message to server > SI.+CCG.+Pressure-Mon$
+2022-03-04 20:08:45.122024 error sending message to server > BO.+CCG.+Pressure-Mon$
+2022-03-04 20:08:48.194067 error sending message to server > ^([ST][IBS])(.+VA-CCG.+Pressure-Mon)$
+2022-03-04 20:09:01.765953 error sending message to server > SI.+CCG.+Pressure-Mon$
+2022-03-04 20:09:04.834119 error sending message to server > SI.+CCG.+Pressure-Mon$
+2022-03-04 20:09:07.906026 error sending message to server > ^([ST][IBS])(.+VA-CCG.+Pressure-Mon)$
+2022-03-04 20:09:21.473923 error sending message to server > SI.+CCG.+Pressure-Mon$
+2022-03-04 20:09:24.546085 error sending message to server > SI.+CCG.+Pressure-Mon$
+2022-03-04 20:09:27.619726 error sending message to server > ^([ST][IBS])(.+VA-CCG.+Pressure-Mon)$
+2022-03-04 20:09:41.250010 error sending message to server > SI.+CCG.+Pressure-Mon$
+2022-03-04 20:09:44.321979 error sending message to server > SI.+CCG.+Pressure-Mon$
+2022-03-04 20:09:47.393981 error sending message to server > ^([ST][IBS])(.+VA-CCG.+Pressure-Mon)$
+2022-03-04 20:11:09.921974 error sending message to server > BO.+CCG.+Pressure-Mon$
+2022-03-04 20:11:12.994110 error sending message to server > BO.+CCG.+Pressure-Mon$
+2022-03-04 20:11:27.073948 error sending message to server > SI.+CCG.+Pressure-Mon$
+2022-03-04 20:11:30.146217 error sending message to server > SI.+CCG.+Pressure-Mon$
+2022-03-04 20:11:33.218133 error sending message to server > ^([ST][IBS])(.+VA-CCG.+Pressure-Mon)$
+2022-03-04 20:11:46.785988 error sending message to server > SI.+CCG.+Pressure-Mon$
+2022-03-04 20:11:49.858001 error sending message to server > SI.+CCG.+Pressure-Mon$
+2022-03-04 20:12:04.005960 error sending message to server > SI.+CCG.+Pressure-Mon$
+2022-03-04 20:13:50.657977 error sending message to server > BO.+CCG.+Pressure-Mon$
+2022-03-04 20:13:53.730088 error sending message to server > BO.+CCG.+Pressure-Mon$
+2022-03-05 08:03:18.497825 error sending message to server > BO.+CCG.+Pressure-Mon$
+2022-03-05 08:03:21.570300 error sending message to server > BO.+CCG.+Pressure-Mon$
+2022-03-05 08:03:36.193977 error sending message to server > BO.+CCG.+Pressure-Mon$
+2022-03-05 08:03:39.269679 error sending message to server > BO.+CCG.+Pressure-Mon$
+2022-03-05 08:03:53.858113 error sending message to server > BO.+CCG.+Pressure-Mon$
+2022-03-05 08:03:56.929800 error sending message to server > BO.+CCG.+Pressure-Mon$
+2022-03-05 08:04:11.301812 error sending message to server > BO.+CCG.+Pressure-Mon$
+2022-03-05 08:04:14.369942 error sending message to server > SI.+CCG.+Pressure-Mon$
+2022-03-05 08:04:17.445967 error sending message to server > BO.+CCG.+Pressure-Mon$
+2022-03-05 08:04:20.513669 error sending message to server > ^([ST][IBS])(.+VA-CCG.+Pressure-Mon)$
+2022-03-05 08:04:34.178022 error sending message to server > SI.+CCG.+Pressure-Mon$
+2022-03-05 08:04:37.253725 error sending message to server > BO.+CCG.+Pressure-Mon$
+2022-03-05 08:04:40.321802 error sending message to server > SI.+CCG.+Pressure-Mon$
+2022-03-05 08:04:43.393883 error sending message to server > BO.+CCG.+Pressure-Mon$
+2022-03-05 08:04:46.465710 error sending message to server > ^([ST][IBS])(.+VA-CCG.+Pressure-Mon)$
+2022-03-05 08:05:00.133785 error sending message to server > SI.+CCG.+Pressure-Mon$
+2022-03-05 08:05:03.205829 error sending message to server > SI.+CCG.+Pressure-Mon$
+2022-03-05 08:05:06.277762 error sending message to server > ^([ST][IBS])(.+VA-CCG.+Pressure-Mon)$
+2022-03-05 08:05:19.969937 error sending message to server > SI.+CCG.+Pressure-Mon$
+2022-03-05 08:05:23.045787 error sending message to server > SI.+CCG.+Pressure-Mon$
+2022-03-05 08:05:26.117762 error sending message to server > ^([ST][IBS])(.+VA-CCG.+Pressure-Mon)$
+2022-03-05 08:05:40.965776 error sending message to server > ^([ST][IBS])(.+VA-CCG.+Pressure-Mon)$
+2022-03-05 20:04:22.401904 error sending message to server > BO.+CCG.+Pressure-Mon$
+2022-03-05 20:04:25.473993 error sending message to server > BO.+CCG.+Pressure-Mon$
+2022-03-05 20:04:39.746226 error sending message to server > BO.+CCG.+Pressure-Mon$
+2022-03-05 20:04:42.818047 error sending message to server > BO.+CCG.+Pressure-Mon$
+2022-03-05 20:04:56.897889 error sending message to server > BO.+CCG.+Pressure-Mon$
+2022-03-05 20:04:59.971521 error sending message to server > BO.+CCG.+Pressure-Mon$
+2022-03-05 20:05:14.049732 error sending message to server > BO.+CCG.+Pressure-Mon$
+2022-03-05 20:05:17.122668 error sending message to server > BO.+CCG.+Pressure-Mon$
+2022-03-05 20:06:40.741901 error sending message to server > BO.+CCG.+Pressure-Mon$
+2022-03-05 20:06:43.810101 error sending message to server > BO.+CCG.+Pressure-Mon$
+2022-03-05 20:06:46.882024 error sending message to server > ^([ST][IBS])(.+VA-CCG.+Pressure-Mon)$
+2022-03-05 20:07:00.449944 error sending message to server > SI.+CCG.+Pressure-Mon$
+2022-03-05 20:07:03.522088 error sending message to server > SI.+CCG.+Pressure-Mon$
+2022-03-05 20:07:06.594947 error sending message to server > ^([ST][IBS])(.+VA-CCG.+Pressure-Mon)$
+2022-03-05 20:07:20.161966 error sending message to server > SI.+CCG.+Pressure-Mon$
+2022-03-05 20:07:23.234016 error sending message to server > SI.+CCG.+Pressure-Mon$
+2022-03-05 20:07:26.306192 error sending message to server > ^([ST][IBS])(.+VA-CCG.+Pressure-Mon)$
+2022-03-05 20:07:40.003070 error sending message to server > SI.+CCG.+Pressure-Mon$
+2022-03-05 20:07:43.074056 error sending message to server > SI.+CCG.+Pressure-Mon$
+2022-03-05 20:07:46.146029 error sending message to server > ^([ST][IBS])(.+VA-CCG.+Pressure-Mon)$
+2022-03-05 20:08:23.105972 error sending message to server > BO.+CCG.+Pressure-Mon$
+2022-03-05 20:08:37.186018 error sending message to server > BO.+CCG.+Pressure-Mon$
+2022-03-06 07:03:36.226111 error sending message to server > BO.+CCG.+Pressure-Mon$
+2022-03-06 07:03:39.298085 error sending message to server > BO.+CCG.+Pressure-Mon$
+2022-03-06 07:03:53.377908 error sending message to server > BO.+CCG.+Pressure-Mon$
+2022-03-06 07:03:56.450065 error sending message to server > BO.+CCG.+Pressure-Mon$
+2022-03-06 07:04:10.434187 error sending message to server > SI.+CCG.+Pressure-Mon$
+2022-03-06 07:04:13.506295 error sending message to server > BO.+CCG.+Pressure-Mon$
+2022-03-06 07:04:16.578095 error sending message to server > BO.+CCG.+Pressure-Mon$
+2022-03-06 07:05:50.786183 error sending message to server > BO.+CCG.+Pressure-Mon$
+2022-03-06 07:05:53.862003 error sending message to server > BO.+CCG.+Pressure-Mon$
+2022-03-06 07:06:07.874053 error sending message to server > SI.+CCG.+Pressure-Mon$
+2022-03-06 07:06:10.946027 error sending message to server > BO.+CCG.+Pressure-Mon$
+2022-03-06 07:06:14.017800 error sending message to server > SI.+CCG.+Pressure-Mon$
+2022-03-06 07:06:17.090085 error sending message to server > BO.+CCG.+Pressure-Mon$
+2022-03-06 07:06:20.162081 error sending message to server > ^([ST][IBS])(.+VA-CCG.+Pressure-Mon)$
+2022-03-06 07:06:33.729979 error sending message to server > SI.+CCG.+Pressure-Mon$
+2022-03-06 07:06:36.801985 error sending message to server > SI.+CCG.+Pressure-Mon$
+2022-03-06 07:06:39.873975 error sending message to server > ^([ST][IBS])(.+VA-CCG.+Pressure-Mon)$
+2022-03-06 07:06:53.474570 error sending message to server > SI.+CCG.+Pressure-Mon$
+2022-03-06 07:06:56.546112 error sending message to server > SI.+CCG.+Pressure-Mon$
+2022-03-06 07:06:59.622018 error sending message to server > ^([ST][IBS])(.+VA-CCG.+Pressure-Mon)$
+2022-03-06 07:07:59.073846 error sending message to server > BO.+CCG.+Pressure-Mon$
+2022-03-06 07:08:02.146664 error sending message to server > BO.+CCG.+Pressure-Mon$
+2022-03-06 07:08:17.185931 error sending message to server > ^([ST][IBS])(.+VA-CCG.+Pressure-Mon)$
+2022-03-06 22:02:21.185864 error sending message to server > SI-Glob:AP-SOFB:LoopState-Sel
+2022-03-06 22:02:35.522062 error sending message to server > SI-Glob:AP-SOFB:LoopState-Sel
+2022-03-06 22:02:49.826105 error sending message to server > SI-Glob:AP-SOFB:LoopState-Sel
+2022-03-06 22:03:04.098056 error sending message to server > SI-Glob:AP-SOFB:LoopState-Sel
+2022-03-06 22:03:18.305691 error sending message to server > SI-13C4:DI-DCCT:Current-Mon
+2022-03-06 22:03:21.377767 error sending message to server > SI-Glob:AP-SOFB:LoopState-Sel
+2022-03-06 22:03:35.553682 error sending message to server > SI-13C4:DI-DCCT:Current-Mon
+2022-03-06 22:03:38.625861 error sending message to server > SI-Glob:AP-SOFB:LoopState-Sel
+2022-03-06 22:03:52.929775 error sending message to server > SI-13C4:DI-DCCT:Current-Mon
+2022-03-06 22:03:56.007146 error sending message to server > SI-Glob:AP-SOFB:LoopState-Sel
+2022-03-06 22:04:10.209957 error sending message to server > SI-13C4:DI-DCCT:Current-Mon
+2022-03-06 22:04:13.282274 error sending message to server > SI-Glob:AP-SOFB:LoopState-Sel
+2022-03-06 22:04:27.554551 error sending message to server > SI-13C4:DI-DCCT:Current-Mon
+2022-03-06 22:04:30.626270 error sending message to server > SI-Glob:AP-SOFB:LoopState-Sel
+2022-03-06 22:04:45.089946 error sending message to server > SI-13C4:DI-DCCT:Current-Mon
+2022-03-06 22:04:48.162109 error sending message to server > SI-Glob:AP-SOFB:LoopState-Sel
+2022-03-06 22:05:02.529709 error sending message to server > SI-13C4:DI-DCCT:Current-Mon
+2022-03-06 22:05:05.602021 error sending message to server > SI-Glob:AP-SOFB:LoopState-Sel
+2022-03-06 22:05:19.781907 error sending message to server > SI-13C4:DI-DCCT:Current-Mon
+2022-03-06 22:05:22.850083 error sending message to server > SI-Glob:AP-SOFB:LoopState-Sel
+2022-03-06 22:05:37.062247 error sending message to server > SI-13C4:DI-DCCT:Current-Mon
+2022-03-06 22:05:40.129651 error sending message to server > SI-Glob:AP-SOFB:LoopState-Sel
+2022-03-06 22:05:54.401987 error sending message to server > SI-13C4:DI-DCCT:Current-Mon
+2022-03-06 22:05:57.477997 error sending message to server > SI-Glob:AP-SOFB:LoopState-Sel
+2022-03-06 22:06:11.685719 error sending message to server > SI-13C4:DI-DCCT:Current-Mon
+2022-03-06 22:06:14.753810 error sending message to server > SI-Glob:AP-SOFB:LoopState-Sel
+2022-03-06 22:06:29.089736 error sending message to server > SI-13C4:DI-DCCT:Current-Mon
+2022-03-06 22:06:32.161739 error sending message to server > SI-Glob:AP-SOFB:LoopState-Sel
+2022-03-06 22:06:46.370310 error sending message to server > SI-13C4:DI-DCCT:Current-Mon
+2022-03-06 22:06:49.442615 error sending message to server > SI-Glob:AP-SOFB:LoopState-Sel
+2022-03-06 22:07:04.065678 error sending message to server > SI-13C4:DI-DCCT:Current-Mon
+2022-03-06 22:07:07.137738 error sending message to server > SI-Glob:AP-SOFB:LoopState-Sel
+2022-03-07 09:38:32.417995 error sending message to server > ^([ST][IBS])(.+VA-CCG.+Pressure-Mon)$
+2022-03-07 09:38:46.661963 error sending message to server > ^([ST][IBS])(.+VA-CCG.+Pressure-Mon)$
+2022-03-07 09:39:00.866169 error sending message to server > ^([ST][IBS])(.+VA-CCG.+Pressure-Mon)$
+2022-03-07 09:39:15.073772 error sending message to server > ^([ST][IBS])(.+VA-CCG.+Pressure-Mon)$
+2022-03-07 09:39:29.313989 error sending message to server > ^([ST][IBS])(.+VA-CCG.+Pressure-Mon)$
+2022-03-08 09:19:22.797458 message to owner rone.castro sent to server > SI-13C4:DI-DCCT:Current-Mon
+2022-03-08 15:04:41.395715 message to owner rone.castro sent to server > ^([ST][IBS])(.+VA-CCG.+Pressure-Mon)$
+2022-03-08 16:04:50.012082 message to owner rone.castro sent to server > ^([ST][IBS])(.+VA-CCG.+Pressure-Mon)$
+2022-03-08 17:04:58.235767 message to owner rone.castro sent to server > ^([ST][IBS])(.+VA-CCG.+Pressure-Mon)$
+2022-03-08 18:05:02.918964 message to owner rone.castro sent to server > ^([ST][IBS])(.+VA-CCG.+Pressure-Mon)$
+2022-03-08 19:05:11.225004 message to owner rone.castro sent to server > ^([ST][IBS])(.+VA-CCG.+Pressure-Mon)$
+2022-03-08 20:05:16.043072 message to owner rone.castro sent to server > ^([ST][IBS])(.+VA-CCG.+Pressure-Mon)$
+2022-03-08 21:05:20.797601 message to owner rone.castro sent to server > ^([ST][IBS])(.+VA-CCG.+Pressure-Mon)$
+2022-03-08 22:05:27.581738 message to owner rone.castro sent to server > ^([ST][IBS])(.+VA-CCG.+Pressure-Mon)$
+2022-03-08 23:05:33.335319 message to owner rone.castro sent to server > ^([ST][IBS])(.+VA-CCG.+Pressure-Mon)$
+2022-03-09 00:05:35.409802 message to owner rone.castro sent to server > ^([ST][IBS])(.+VA-CCG.+Pressure-Mon)$
+2022-03-09 01:05:37.006287 message to owner rone.castro sent to server > ^([ST][IBS])(.+VA-CCG.+Pressure-Mon)$
+2022-03-09 02:05:40.566025 message to owner rone.castro sent to server > ^([ST][IBS])(.+VA-CCG.+Pressure-Mon)$
+2022-03-09 03:05:45.543707 message to owner rone.castro sent to server > ^([ST][IBS])(.+VA-CCG.+Pressure-Mon)$
+2022-03-09 04:05:48.043503 message to owner rone.castro sent to server > ^([ST][IBS])(.+VA-CCG.+Pressure-Mon)$
+2022-03-09 05:05:56.527944 message to owner rone.castro sent to server > ^([ST][IBS])(.+VA-CCG.+Pressure-Mon)$
+2022-03-09 06:06:01.823897 message to owner rone.castro sent to server > ^([ST][IBS])(.+VA-CCG.+Pressure-Mon)$
+2022-03-09 07:06:04.713091 message to owner rone.castro sent to server > ^([ST][IBS])(.+VA-CCG.+Pressure-Mon)$
+2022-03-09 08:06:12.923245 message to owner rone.castro sent to server > ^([ST][IBS])(.+VA-CCG.+Pressure-Mon)$
+2022-03-09 09:06:18.026331 message to owner rone.castro sent to server > ^([ST][IBS])(.+VA-CCG.+Pressure-Mon)$
+2022-03-09 10:06:20.696266 message to owner rone.castro sent to server > ^([ST][IBS])(.+VA-CCG.+Pressure-Mon)$
+2022-03-09 11:06:26.510187 message to owner rone.castro sent to server > ^([ST][IBS])(.+VA-CCG.+Pressure-Mon)$
+2022-03-09 12:06:29.691259 message to owner rone.castro sent to server > ^([ST][IBS])(.+VA-CCG.+Pressure-Mon)$
+2022-03-09 13:06:34.521576 message to owner rone.castro sent to server > ^([ST][IBS])(.+VA-CCG.+Pressure-Mon)$
+2022-03-09 14:06:41.012597 message to owner rone.castro sent to server > ^([ST][IBS])(.+VA-CCG.+Pressure-Mon)$
+2022-03-09 15:06:45.877922 message to owner rone.castro sent to server > ^([ST][IBS])(.+VA-CCG.+Pressure-Mon)$
+2022-03-09 16:06:53.985249 message to owner rone.castro sent to server > ^([ST][IBS])(.+VA-CCG.+Pressure-Mon)$
+2022-03-09 17:06:57.492399 message to owner rone.castro sent to server > ^([ST][IBS])(.+VA-CCG.+Pressure-Mon)$
+2022-03-09 18:07:03.429077 message to owner rone.castro sent to server > ^([ST][IBS])(.+VA-CCG.+Pressure-Mon)$
+2022-03-09 19:07:09.848633 message to owner rone.castro sent to server > ^([ST][IBS])(.+VA-CCG.+Pressure-Mon)$
+2022-03-09 20:07:16.747266 message to owner rone.castro sent to server > ^([ST][IBS])(.+VA-CCG.+Pressure-Mon)$
+2022-03-09 21:07:22.403014 message to owner rone.castro sent to server > ^([ST][IBS])(.+VA-CCG.+Pressure-Mon)$
+2022-03-09 22:07:29.897199 message to owner rone.castro sent to server > ^([ST][IBS])(.+VA-CCG.+Pressure-Mon)$
+2022-03-09 23:07:34.572405 message to owner rone.castro sent to server > ^([ST][IBS])(.+VA-CCG.+Pressure-Mon)$
+2022-03-10 00:07:38.945224 message to owner rone.castro sent to server > ^([ST][IBS])(.+VA-CCG.+Pressure-Mon)$
+2022-03-10 01:07:47.683375 message to owner rone.castro sent to server > ^([ST][IBS])(.+VA-CCG.+Pressure-Mon)$
+2022-03-10 02:07:54.420918 message to owner rone.castro sent to server > ^([ST][IBS])(.+VA-CCG.+Pressure-Mon)$
+2022-03-10 03:08:00.438198 message to owner rone.castro sent to server > ^([ST][IBS])(.+VA-CCG.+Pressure-Mon)$
+2022-03-10 04:08:09.389202 message to owner rone.castro sent to server > ^([ST][IBS])(.+VA-CCG.+Pressure-Mon)$
+2022-03-10 05:08:11.865292 message to owner rone.castro sent to server > ^([ST][IBS])(.+VA-CCG.+Pressure-Mon)$
+2022-03-10 06:08:17.256104 message to owner rone.castro sent to server > ^([ST][IBS])(.+VA-CCG.+Pressure-Mon)$
+2022-03-10 07:08:25.903609 message to owner rone.castro sent to server > ^([ST][IBS])(.+VA-CCG.+Pressure-Mon)$
+2022-03-10 08:08:36.051514 message to owner rone.castro sent to server > ^([ST][IBS])(.+VA-CCG.+Pressure-Mon)$
+2022-03-10 09:08:42.848275 message to owner rone.castro sent to server > ^([ST][IBS])(.+VA-CCG.+Pressure-Mon)$
+2022-03-10 10:08:48.180145 message to owner rone.castro sent to server > ^([ST][IBS])(.+VA-CCG.+Pressure-Mon)$
+2022-03-10 11:08:55.652265 message to owner rone.castro sent to server > ^([ST][IBS])(.+VA-CCG.+Pressure-Mon)$
+2022-03-10 12:09:01.307645 message to owner rone.castro sent to server > ^([ST][IBS])(.+VA-CCG.+Pressure-Mon)$
+2022-03-10 13:09:04.763886 message to owner rone.castro sent to server > ^([ST][IBS])(.+VA-CCG.+Pressure-Mon)$
+2022-03-10 14:09:11.285638 message to owner rone.castro sent to server > ^([ST][IBS])(.+VA-CCG.+Pressure-Mon)$
+2022-03-10 15:09:19.465688 message to owner rone.castro sent to server > ^([ST][IBS])(.+VA-CCG.+Pressure-Mon)$
+2022-03-10 16:09:37.424010 message to owner rone.castro sent to server > ^([ST][IBS])(.+VA-CCG.+Pressure-Mon)$
+2022-03-11 18:58:02.614400 message to owner rone.castro sent to server > ^([ST][IBS])(.+VA-CCG.+Pressure-Mon)$
+2022-03-12 09:04:28.328226 message to owner rone.castro sent to server > SI-13C4:DI-DCCT:Current-Mon
+2022-03-12 09:07:18.270789 message to owner rone.castro sent to server > SI-13C4:DI-DCCT:Current-Mon
+2022-03-12 09:17:27.054976 message to owner rone.castro sent to server > SI-13C4:DI-DCCT:Current-Mon
+2022-03-12 09:27:35.589942 message to owner rone.castro sent to server > SI-13C4:DI-DCCT:Current-Mon
+2022-03-12 09:37:43.812380 message to owner rone.castro sent to server > SI-13C4:DI-DCCT:Current-Mon
+2022-03-12 09:47:51.743501 message to owner rone.castro sent to server > SI-13C4:DI-DCCT:Current-Mon
+2022-03-12 09:58:00.673261 message to owner rone.castro sent to server > SI-13C4:DI-DCCT:Current-Mon
+2022-03-14 09:00:08.826708 message to owner rone.castro sent to server > ^([ST][IBS])(.+VA-CCG.+Pressure-Mon)$
+2022-03-14 14:28:06.718174 message to owner rone.castro sent to server > ^([ST][IBS])(.+VA-CCG.+Pressure-Mon)$
+2022-03-14 15:28:07.854295 message to owner rone.castro sent to server > ^([ST][IBS])(.+VA-CCG.+Pressure-Mon)$
+2022-03-14 16:28:12.183313 message to owner rone.castro sent to server > ^([ST][IBS])(.+VA-CCG.+Pressure-Mon)$
+2022-03-14 17:31:17.664828 message to owner rone.castro sent to server > ^([ST][IBS])(.+VA-CCG.+Pressure-Mon)$
+2022-03-15 01:32:12.898266 error sending message to server > ^([ST][IBS])(.+VA-CCG.+Pressure-Mon)$
+2022-03-15 01:33:42.754074 message to owner rone.castro sent to server > ^([ST][IBS])(.+VA-CCG.+Pressure-Mon)$
+2022-03-15 05:58:23.203216 message to owner rone.castro sent to server > ^([ST][IBS])(.+VA-CCG.+Pressure-Mon)$
+2022-03-15 14:42:43.213589 message to owner rone.castro sent to server > ^([ST][IBS])(.+VA-CCG.+Pressure-Mon)$
+2022-03-16 09:00:10.513743 message to owner rone.castro sent to server > ^([ST][IBS])(.+VA-CCG.+Pressure-Mon)$
+2022-03-16 11:14:19.661739 message to owner rone.castro sent to server > ^([ST][IBS])(.+VA-CCG.+Pressure-Mon)$
+2022-03-16 12:24:18.610813 message to owner rone.castro sent to server > ^([ST][IBS])(.+VA-CCG.+Pressure-Mon)$
+2022-03-16 13:24:21.836476 message to owner rone.castro sent to server > ^([ST][IBS])(.+VA-CCG.+Pressure-Mon)$
+2022-03-16 14:24:27.994713 message to owner rone.castro sent to server > ^([ST][IBS])(.+VA-CCG.+Pressure-Mon)$
+2022-03-16 15:24:32.792195 message to owner rone.castro sent to server > ^([ST][IBS])(.+VA-CCG.+Pressure-Mon)$
+2022-03-16 16:24:38.334938 message to owner rone.castro sent to server > ^([ST][IBS])(.+VA-CCG.+Pressure-Mon)$
+2022-03-16 17:24:45.197535 message to owner rone.castro sent to server > ^([ST][IBS])(.+VA-CCG.+Pressure-Mon)$
+2022-03-16 18:24:50.242298 message to owner rone.castro sent to server > ^([ST][IBS])(.+VA-CCG.+Pressure-Mon)$
+2022-03-16 19:24:52.356290 message to owner rone.castro sent to server > ^([ST][IBS])(.+VA-CCG.+Pressure-Mon)$
+2022-03-16 20:24:56.968826 message to owner rone.castro sent to server > ^([ST][IBS])(.+VA-CCG.+Pressure-Mon)$
+2022-03-16 21:25:00.489887 message to owner rone.castro sent to server > ^([ST][IBS])(.+VA-CCG.+Pressure-Mon)$
+2022-03-16 22:25:02.788064 message to owner rone.castro sent to server > ^([ST][IBS])(.+VA-CCG.+Pressure-Mon)$
+2022-03-16 23:25:04.493039 message to owner rone.castro sent to server > ^([ST][IBS])(.+VA-CCG.+Pressure-Mon)$
+2022-03-17 00:25:07.917914 message to owner rone.castro sent to server > ^([ST][IBS])(.+VA-CCG.+Pressure-Mon)$
+2022-03-17 01:25:13.074980 message to owner rone.castro sent to server > ^([ST][IBS])(.+VA-CCG.+Pressure-Mon)$
+2022-03-17 02:25:16.239785 message to owner rone.castro sent to server > ^([ST][IBS])(.+VA-CCG.+Pressure-Mon)$
+2022-03-17 03:25:18.583017 message to owner rone.castro sent to server > ^([ST][IBS])(.+VA-CCG.+Pressure-Mon)$
+2022-03-17 04:25:21.532757 message to owner rone.castro sent to server > ^([ST][IBS])(.+VA-CCG.+Pressure-Mon)$
+2022-03-17 05:25:26.091528 message to owner rone.castro sent to server > ^([ST][IBS])(.+VA-CCG.+Pressure-Mon)$
+2022-03-17 06:25:29.457162 message to owner rone.castro sent to server > ^([ST][IBS])(.+VA-CCG.+Pressure-Mon)$
+2022-03-17 07:25:31.798090 message to owner rone.castro sent to server > ^([ST][IBS])(.+VA-CCG.+Pressure-Mon)$
+2022-03-17 08:25:39.213045 message to owner rone.castro sent to server > ^([ST][IBS])(.+VA-CCG.+Pressure-Mon)$
+2022-03-17 09:25:50.060668 message to owner rone.castro sent to server > ^([ST][IBS])(.+VA-CCG.+Pressure-Mon)$
+2022-03-17 10:25:50.564173 message to owner rone.castro sent to server > ^([ST][IBS])(.+VA-CCG.+Pressure-Mon)$
+2022-03-17 11:25:59.048403 message to owner rone.castro sent to server > ^([ST][IBS])(.+VA-CCG.+Pressure-Mon)$
+2022-03-17 12:25:59.818693 message to owner rone.castro sent to server > ^([ST][IBS])(.+VA-CCG.+Pressure-Mon)$
+2022-03-17 13:26:08.169626 message to owner rone.castro sent to server > ^([ST][IBS])(.+VA-CCG.+Pressure-Mon)$
+2022-03-17 13:46:28.971417 message to owner rone.castro sent to server > SI-13C4:DI-DCCT:Current-Mon
+2022-03-17 14:08:30.932820 message to owner rone.castro sent to server > ^([ST][IBS])(.+VA-CCG.+Pressure-Mon)$
+2022-03-17 14:18:34.789227 message to owner rone.castro sent to server > ^([ST][IBS])(.+VA-CCG.+Pressure-Mon)$
+2022-03-17 14:28:39.305538 error sending message to server > ^([ST][IBS])(.+VA-CCG.+Pressure-Mon)$
+2022-03-17 14:28:50.480780 error sending message to server > ^([ST][IBS])(.+VA-CCG.+Pressure-Mon)$
+2022-03-17 14:29:01.613047 error sending message to server > ^([ST][IBS])(.+VA-CCG.+Pressure-Mon)$
+2022-03-17 14:29:12.753890 error sending message to server > ^([ST][IBS])(.+VA-CCG.+Pressure-Mon)$
+2022-03-17 14:29:23.905470 error sending message to server > ^([ST][IBS])(.+VA-CCG.+Pressure-Mon)$
+2022-03-17 14:29:35.209328 error sending message to server > ^([ST][IBS])(.+VA-CCG.+Pressure-Mon)$
+2022-03-17 14:29:46.577778 error sending message to server > ^([ST][IBS])(.+VA-CCG.+Pressure-Mon)$
+2022-03-17 14:29:57.717746 error sending message to server > ^([ST][IBS])(.+VA-CCG.+Pressure-Mon)$
+2022-03-17 14:30:08.862217 error sending message to server > ^([ST][IBS])(.+VA-CCG.+Pressure-Mon)$
+2022-03-17 14:30:20.004912 error sending message to server > ^([ST][IBS])(.+VA-CCG.+Pressure-Mon)$
+2022-03-17 14:30:31.130493 error sending message to server > ^([ST][IBS])(.+VA-CCG.+Pressure-Mon)$
+2022-03-17 14:30:42.346862 error sending message to server > ^([ST][IBS])(.+VA-CCG.+Pressure-Mon)$
+2022-03-17 14:30:53.589706 error sending message to server > ^([ST][IBS])(.+VA-CCG.+Pressure-Mon)$
+2022-03-17 14:31:04.743269 error sending message to server > ^([ST][IBS])(.+VA-CCG.+Pressure-Mon)$
+2022-03-17 14:31:15.936174 error sending message to server > ^([ST][IBS])(.+VA-CCG.+Pressure-Mon)$
+2022-03-17 14:31:27.069459 error sending message to server > ^([ST][IBS])(.+VA-CCG.+Pressure-Mon)$
+2022-03-17 14:31:38.200137 error sending message to server > ^([ST][IBS])(.+VA-CCG.+Pressure-Mon)$
+2022-03-17 14:31:49.353067 error sending message to server > ^([ST][IBS])(.+VA-CCG.+Pressure-Mon)$
+2022-03-17 14:32:00.644283 error sending message to server > ^([ST][IBS])(.+VA-CCG.+Pressure-Mon)$
+2022-03-17 14:32:11.800110 error sending message to server > ^([ST][IBS])(.+VA-CCG.+Pressure-Mon)$
+2022-03-17 14:32:22.973041 error sending message to server > ^([ST][IBS])(.+VA-CCG.+Pressure-Mon)$
+2022-03-17 14:32:34.118702 error sending message to server > ^([ST][IBS])(.+VA-CCG.+Pressure-Mon)$
+2022-03-17 14:32:45.272510 error sending message to server > ^([ST][IBS])(.+VA-CCG.+Pressure-Mon)$
+2022-03-17 14:32:56.467764 error sending message to server > ^([ST][IBS])(.+VA-CCG.+Pressure-Mon)$
+2022-03-17 14:33:07.645316 error sending message to server > ^([ST][IBS])(.+VA-CCG.+Pressure-Mon)$
+2022-03-17 14:33:18.812958 error sending message to server > ^([ST][IBS])(.+VA-CCG.+Pressure-Mon)$
+2022-03-17 14:33:30.028119 error sending message to server > ^([ST][IBS])(.+VA-CCG.+Pressure-Mon)$
+2022-03-17 14:33:41.183721 error sending message to server > ^([ST][IBS])(.+VA-CCG.+Pressure-Mon)$
+2022-03-17 14:33:52.333723 error sending message to server > ^([ST][IBS])(.+VA-CCG.+Pressure-Mon)$
+2022-03-17 14:34:03.499247 error sending message to server > ^([ST][IBS])(.+VA-CCG.+Pressure-Mon)$
+2022-03-17 14:34:14.983562 error sending message to server > ^([ST][IBS])(.+VA-CCG.+Pressure-Mon)$
+2022-03-17 14:34:26.156493 error sending message to server > ^([ST][IBS])(.+VA-CCG.+Pressure-Mon)$
+2022-03-17 14:34:37.358172 error sending message to server > ^([ST][IBS])(.+VA-CCG.+Pressure-Mon)$
+2022-03-17 14:34:48.536598 error sending message to server > ^([ST][IBS])(.+VA-CCG.+Pressure-Mon)$
+2022-03-17 14:34:59.826236 error sending message to server > ^([ST][IBS])(.+VA-CCG.+Pressure-Mon)$
+2022-03-17 14:35:10.986465 error sending message to server > ^([ST][IBS])(.+VA-CCG.+Pressure-Mon)$
+2022-03-17 14:35:22.195235 error sending message to server > ^([ST][IBS])(.+VA-CCG.+Pressure-Mon)$
+2022-03-17 14:35:33.648973 error sending message to server > ^([ST][IBS])(.+VA-CCG.+Pressure-Mon)$
+2022-03-17 14:35:44.830495 error sending message to server > ^([ST][IBS])(.+VA-CCG.+Pressure-Mon)$
+2022-03-17 14:35:55.967250 error sending message to server > ^([ST][IBS])(.+VA-CCG.+Pressure-Mon)$
+2022-03-17 14:36:07.106556 error sending message to server > ^([ST][IBS])(.+VA-CCG.+Pressure-Mon)$
+2022-03-17 14:36:18.242008 error sending message to server > ^([ST][IBS])(.+VA-CCG.+Pressure-Mon)$
+2022-03-17 14:36:29.407976 error sending message to server > ^([ST][IBS])(.+VA-CCG.+Pressure-Mon)$
+2022-03-17 14:36:40.564360 error sending message to server > ^([ST][IBS])(.+VA-CCG.+Pressure-Mon)$
+2022-03-17 14:36:51.733240 error sending message to server > ^([ST][IBS])(.+VA-CCG.+Pressure-Mon)$
+2022-03-17 14:37:02.901553 error sending message to server > ^([ST][IBS])(.+VA-CCG.+Pressure-Mon)$
+2022-03-17 14:37:14.034246 error sending message to server > ^([ST][IBS])(.+VA-CCG.+Pressure-Mon)$
+2022-03-17 14:37:25.179284 error sending message to server > ^([ST][IBS])(.+VA-CCG.+Pressure-Mon)$
+2022-03-17 14:37:36.310006 error sending message to server > ^([ST][IBS])(.+VA-CCG.+Pressure-Mon)$
+2022-03-17 14:37:47.475276 error sending message to server > ^([ST][IBS])(.+VA-CCG.+Pressure-Mon)$
+2022-03-17 14:37:58.693376 error sending message to server > ^([ST][IBS])(.+VA-CCG.+Pressure-Mon)$
+2022-03-17 14:38:09.829866 error sending message to server > ^([ST][IBS])(.+VA-CCG.+Pressure-Mon)$
+2022-03-17 14:38:21.261100 message to owner rone.castro sent to server > ^([ST][IBS])(.+VA-CCG.+Pressure-Mon)$
+2022-03-17 14:40:36.548389 message to owner rone.castro sent to server > SI-13C4:DI-DCCT:Current-Mon
+2022-03-17 14:48:29.600960 message to owner rone.castro sent to server > ^([ST][IBS])(.+VA-CCG.+Pressure-Mon)$
+2022-03-17 14:50:45.026275 message to owner rone.castro sent to server > SI-13C4:DI-DCCT:Current-Mon
+2022-03-17 14:58:37.119534 message to owner rone.castro sent to server > ^([ST][IBS])(.+VA-CCG.+Pressure-Mon)$
+2022-03-17 15:00:53.038289 message to owner rone.castro sent to server > SI-13C4:DI-DCCT:Current-Mon
+2022-03-17 15:08:45.992331 message to owner rone.castro sent to server > ^([ST][IBS])(.+VA-CCG.+Pressure-Mon)$
+2022-03-17 15:11:01.820057 message to owner rone.castro sent to server > SI-13C4:DI-DCCT:Current-Mon
+2022-03-17 15:18:54.766472 message to owner rone.castro sent to server > ^([ST][IBS])(.+VA-CCG.+Pressure-Mon)$
+2022-03-17 15:21:11.102444 message to owner rone.castro sent to server > SI-13C4:DI-DCCT:Current-Mon
+2022-03-17 15:29:03.697138 message to owner rone.castro sent to server > ^([ST][IBS])(.+VA-CCG.+Pressure-Mon)$
+2022-03-17 15:31:19.143860 message to owner rone.castro sent to server > SI-13C4:DI-DCCT:Current-Mon
+2022-03-17 15:39:11.257877 message to owner rone.castro sent to server > ^([ST][IBS])(.+VA-CCG.+Pressure-Mon)$
+2022-03-17 15:41:26.396036 message to owner rone.castro sent to server > SI-13C4:DI-DCCT:Current-Mon
+2022-03-17 15:49:20.996778 message to owner rone.castro sent to server > ^([ST][IBS])(.+VA-CCG.+Pressure-Mon)$
+2022-03-17 15:51:36.317691 message to owner rone.castro sent to server > SI-13C4:DI-DCCT:Current-Mon
+2022-03-17 15:59:28.455347 message to owner rone.castro sent to server > ^([ST][IBS])(.+VA-CCG.+Pressure-Mon)$
+2022-03-17 16:01:43.950363 message to owner rone.castro sent to server > SI-13C4:DI-DCCT:Current-Mon
+2022-03-17 16:09:36.516812 message to owner rone.castro sent to server > ^([ST][IBS])(.+VA-CCG.+Pressure-Mon)$
+2022-03-17 16:11:52.514379 message to owner rone.castro sent to server > SI-13C4:DI-DCCT:Current-Mon
+2022-03-17 16:19:45.156618 message to owner rone.castro sent to server > ^([ST][IBS])(.+VA-CCG.+Pressure-Mon)$
+2022-03-17 16:22:01.671759 message to owner rone.castro sent to server > SI-13C4:DI-DCCT:Current-Mon
+2022-03-17 16:29:54.388366 message to owner rone.castro sent to server > ^([ST][IBS])(.+VA-CCG.+Pressure-Mon)$
+2022-03-17 16:32:09.922854 message to owner rone.castro sent to server > SI-13C4:DI-DCCT:Current-Mon
+2022-03-17 16:40:02.959474 message to owner rone.castro sent to server > ^([ST][IBS])(.+VA-CCG.+Pressure-Mon)$
+2022-03-17 16:42:18.629796 message to owner rone.castro sent to server > SI-13C4:DI-DCCT:Current-Mon
+2022-03-17 16:50:09.834910 message to owner rone.castro sent to server > ^([ST][IBS])(.+VA-CCG.+Pressure-Mon)$
+2022-03-17 17:00:14.771683 message to owner rone.castro sent to server > ^([ST][IBS])(.+VA-CCG.+Pressure-Mon)$
+2022-03-17 17:10:19.633692 message to owner rone.castro sent to server > ^([ST][IBS])(.+VA-CCG.+Pressure-Mon)$
+2022-03-17 17:20:24.512550 message to owner rone.castro sent to server > ^([ST][IBS])(.+VA-CCG.+Pressure-Mon)$
+2022-03-17 17:30:28.788972 message to owner rone.castro sent to server > ^([ST][IBS])(.+VA-CCG.+Pressure-Mon)$
+2022-03-17 17:40:37.317463 message to owner rone.castro sent to server > ^([ST][IBS])(.+VA-CCG.+Pressure-Mon)$
+2022-03-17 17:50:46.749841 message to owner rone.castro sent to server > ^([ST][IBS])(.+VA-CCG.+Pressure-Mon)$
+2022-03-17 18:00:57.926048 message to owner rone.castro sent to server > ^([ST][IBS])(.+VA-CCG.+Pressure-Mon)$
+2022-03-17 18:11:08.232078 message to owner rone.castro sent to server > ^([ST][IBS])(.+VA-CCG.+Pressure-Mon)$
+2022-03-17 18:21:19.600059 message to owner rone.castro sent to server > ^([ST][IBS])(.+VA-CCG.+Pressure-Mon)$
+2022-03-17 18:31:19.961234 message to owner rone.castro sent to server > ^([ST][IBS])(.+VA-CCG.+Pressure-Mon)$
+2022-03-17 18:41:20.710760 message to owner rone.castro sent to server > ^([ST][IBS])(.+VA-CCG.+Pressure-Mon)$
+2022-03-17 18:51:31.330790 message to owner rone.castro sent to server > ^([ST][IBS])(.+VA-CCG.+Pressure-Mon)$
+2022-03-17 19:01:32.481149 message to owner rone.castro sent to server > ^([ST][IBS])(.+VA-CCG.+Pressure-Mon)$
+2022-03-17 19:11:43.412981 message to owner rone.castro sent to server > ^([ST][IBS])(.+VA-CCG.+Pressure-Mon)$
+2022-03-17 19:21:54.493505 message to owner rone.castro sent to server > ^([ST][IBS])(.+VA-CCG.+Pressure-Mon)$
+2022-03-17 19:31:54.920273 message to owner rone.castro sent to server > ^([ST][IBS])(.+VA-CCG.+Pressure-Mon)$
+2022-03-17 19:41:55.103381 message to owner rone.castro sent to server > ^([ST][IBS])(.+VA-CCG.+Pressure-Mon)$
+2022-03-17 19:51:56.975638 message to owner rone.castro sent to server > ^([ST][IBS])(.+VA-CCG.+Pressure-Mon)$
+2022-03-17 20:02:00.704832 message to owner rone.castro sent to server > ^([ST][IBS])(.+VA-CCG.+Pressure-Mon)$
+2022-03-17 20:12:09.982766 message to owner rone.castro sent to server > ^([ST][IBS])(.+VA-CCG.+Pressure-Mon)$
+2022-03-17 20:22:20.650940 message to owner rone.castro sent to server > ^([ST][IBS])(.+VA-CCG.+Pressure-Mon)$
+2022-03-17 20:32:21.292216 message to owner rone.castro sent to server > ^([ST][IBS])(.+VA-CCG.+Pressure-Mon)$
+2022-03-17 20:42:21.656872 message to owner rone.castro sent to server > ^([ST][IBS])(.+VA-CCG.+Pressure-Mon)$
+2022-03-17 20:52:31.962477 message to owner rone.castro sent to server > ^([ST][IBS])(.+VA-CCG.+Pressure-Mon)$
+2022-03-17 21:02:42.456627 message to owner rone.castro sent to server > ^([ST][IBS])(.+VA-CCG.+Pressure-Mon)$
+2022-03-17 21:12:43.245785 message to owner rone.castro sent to server > ^([ST][IBS])(.+VA-CCG.+Pressure-Mon)$
+2022-03-17 21:22:43.619214 message to owner rone.castro sent to server > ^([ST][IBS])(.+VA-CCG.+Pressure-Mon)$
+2022-03-17 21:32:54.184469 message to owner rone.castro sent to server > ^([ST][IBS])(.+VA-CCG.+Pressure-Mon)$
+2022-03-17 21:43:03.328585 message to owner rone.castro sent to server > ^([ST][IBS])(.+VA-CCG.+Pressure-Mon)$
+2022-03-17 21:53:04.040159 message to owner rone.castro sent to server > ^([ST][IBS])(.+VA-CCG.+Pressure-Mon)$
+2022-03-17 22:03:04.138979 message to owner rone.castro sent to server > ^([ST][IBS])(.+VA-CCG.+Pressure-Mon)$
+2022-03-17 22:13:13.785950 message to owner rone.castro sent to server > ^([ST][IBS])(.+VA-CCG.+Pressure-Mon)$
+2022-03-17 22:23:24.000164 message to owner rone.castro sent to server > ^([ST][IBS])(.+VA-CCG.+Pressure-Mon)$
+2022-03-17 22:33:24.873650 message to owner rone.castro sent to server > ^([ST][IBS])(.+VA-CCG.+Pressure-Mon)$
+2022-03-17 22:43:35.600554 message to owner rone.castro sent to server > ^([ST][IBS])(.+VA-CCG.+Pressure-Mon)$
+2022-03-17 22:53:36.122132 message to owner rone.castro sent to server > ^([ST][IBS])(.+VA-CCG.+Pressure-Mon)$
+2022-03-17 23:03:46.115345 message to owner rone.castro sent to server > ^([ST][IBS])(.+VA-CCG.+Pressure-Mon)$
+2022-03-17 23:13:55.894577 message to owner rone.castro sent to server > ^([ST][IBS])(.+VA-CCG.+Pressure-Mon)$
+2022-03-17 23:24:07.168322 message to owner rone.castro sent to server > ^([ST][IBS])(.+VA-CCG.+Pressure-Mon)$
+2022-03-17 23:34:18.008560 message to owner rone.castro sent to server > ^([ST][IBS])(.+VA-CCG.+Pressure-Mon)$
+2022-03-17 23:44:27.137056 message to owner rone.castro sent to server > ^([ST][IBS])(.+VA-CCG.+Pressure-Mon)$
+2022-03-17 23:54:29.600805 message to owner rone.castro sent to server > ^([ST][IBS])(.+VA-CCG.+Pressure-Mon)$
+2022-03-18 00:04:29.808013 message to owner rone.castro sent to server > ^([ST][IBS])(.+VA-CCG.+Pressure-Mon)$
+2022-03-18 00:14:39.973248 message to owner rone.castro sent to server > ^([ST][IBS])(.+VA-CCG.+Pressure-Mon)$
+2022-03-18 00:24:50.417958 message to owner rone.castro sent to server > ^([ST][IBS])(.+VA-CCG.+Pressure-Mon)$
+2022-03-18 00:35:02.029056 message to owner rone.castro sent to server > ^([ST][IBS])(.+VA-CCG.+Pressure-Mon)$
+2022-03-18 00:45:13.173185 message to owner rone.castro sent to server > ^([ST][IBS])(.+VA-CCG.+Pressure-Mon)$
+2022-03-18 00:55:14.003625 message to owner rone.castro sent to server > ^([ST][IBS])(.+VA-CCG.+Pressure-Mon)$
+2022-03-18 01:05:24.080181 message to owner rone.castro sent to server > ^([ST][IBS])(.+VA-CCG.+Pressure-Mon)$
+2022-03-18 01:15:24.286849 message to owner rone.castro sent to server > ^([ST][IBS])(.+VA-CCG.+Pressure-Mon)$
+2022-03-18 01:25:24.753687 message to owner rone.castro sent to server > ^([ST][IBS])(.+VA-CCG.+Pressure-Mon)$
+2022-03-18 01:35:35.679095 message to owner rone.castro sent to server > ^([ST][IBS])(.+VA-CCG.+Pressure-Mon)$
+2022-03-18 01:45:38.191051 message to owner rone.castro sent to server > ^([ST][IBS])(.+VA-CCG.+Pressure-Mon)$
+2022-03-18 01:55:48.273100 message to owner rone.castro sent to server > ^([ST][IBS])(.+VA-CCG.+Pressure-Mon)$
+2022-03-18 02:05:50.198231 message to owner rone.castro sent to server > ^([ST][IBS])(.+VA-CCG.+Pressure-Mon)$
+2022-03-18 02:15:59.770237 message to owner rone.castro sent to server > ^([ST][IBS])(.+VA-CCG.+Pressure-Mon)$
+2022-03-18 02:26:10.978749 message to owner rone.castro sent to server > ^([ST][IBS])(.+VA-CCG.+Pressure-Mon)$
+2022-03-18 02:36:10.501632 message to owner rone.castro sent to server > ^([ST][IBS])(.+VA-CCG.+Pressure-Mon)$
+2022-03-18 02:46:10.725979 message to owner rone.castro sent to server > ^([ST][IBS])(.+VA-CCG.+Pressure-Mon)$
+2022-03-18 02:56:11.405967 message to owner rone.castro sent to server > ^([ST][IBS])(.+VA-CCG.+Pressure-Mon)$
+2022-03-18 03:06:13.044618 message to owner rone.castro sent to server > ^([ST][IBS])(.+VA-CCG.+Pressure-Mon)$
+2022-03-18 03:16:14.617949 message to owner rone.castro sent to server > ^([ST][IBS])(.+VA-CCG.+Pressure-Mon)$
+2022-03-18 03:26:26.232426 message to owner rone.castro sent to server > ^([ST][IBS])(.+VA-CCG.+Pressure-Mon)$
+2022-03-18 03:36:36.160555 message to owner rone.castro sent to server > ^([ST][IBS])(.+VA-CCG.+Pressure-Mon)$
+2022-03-18 03:46:37.032004 message to owner rone.castro sent to server > ^([ST][IBS])(.+VA-CCG.+Pressure-Mon)$
+2022-03-18 03:56:37.154702 message to owner rone.castro sent to server > ^([ST][IBS])(.+VA-CCG.+Pressure-Mon)$
+2022-03-18 04:06:37.660280 message to owner rone.castro sent to server > ^([ST][IBS])(.+VA-CCG.+Pressure-Mon)$
+2022-03-18 04:16:48.740286 message to owner rone.castro sent to server > ^([ST][IBS])(.+VA-CCG.+Pressure-Mon)$
+2022-03-18 04:26:48.767362 message to owner rone.castro sent to server > ^([ST][IBS])(.+VA-CCG.+Pressure-Mon)$
+2022-03-18 04:36:58.449976 message to owner rone.castro sent to server > ^([ST][IBS])(.+VA-CCG.+Pressure-Mon)$
+2022-03-18 04:47:07.375101 message to owner rone.castro sent to server > ^([ST][IBS])(.+VA-CCG.+Pressure-Mon)$
+2022-03-18 04:57:17.768342 message to owner rone.castro sent to server > ^([ST][IBS])(.+VA-CCG.+Pressure-Mon)$
+2022-03-18 05:07:28.449594 message to owner rone.castro sent to server > ^([ST][IBS])(.+VA-CCG.+Pressure-Mon)$
+2022-03-18 05:17:38.785305 message to owner rone.castro sent to server > ^([ST][IBS])(.+VA-CCG.+Pressure-Mon)$
+2022-03-18 05:27:49.025083 message to owner rone.castro sent to server > ^([ST][IBS])(.+VA-CCG.+Pressure-Mon)$
+2022-03-18 05:37:59.114576 message to owner rone.castro sent to server > ^([ST][IBS])(.+VA-CCG.+Pressure-Mon)$
+2022-03-18 05:48:09.128045 message to owner rone.castro sent to server > ^([ST][IBS])(.+VA-CCG.+Pressure-Mon)$
+2022-03-18 05:58:19.470417 message to owner rone.castro sent to server > ^([ST][IBS])(.+VA-CCG.+Pressure-Mon)$
+2022-03-18 06:08:28.442120 message to owner rone.castro sent to server > ^([ST][IBS])(.+VA-CCG.+Pressure-Mon)$
+2022-03-18 06:18:38.752991 message to owner rone.castro sent to server > ^([ST][IBS])(.+VA-CCG.+Pressure-Mon)$
+2022-03-18 06:28:49.533890 message to owner rone.castro sent to server > ^([ST][IBS])(.+VA-CCG.+Pressure-Mon)$
+2022-03-18 06:38:59.835036 message to owner rone.castro sent to server > ^([ST][IBS])(.+VA-CCG.+Pressure-Mon)$
+2022-03-18 06:49:10.452210 message to owner rone.castro sent to server > ^([ST][IBS])(.+VA-CCG.+Pressure-Mon)$
+2022-03-18 06:59:21.182248 message to owner rone.castro sent to server > ^([ST][IBS])(.+VA-CCG.+Pressure-Mon)$
+2022-03-18 07:09:39.231663 message to owner rone.castro sent to server > ^([ST][IBS])(.+VA-CCG.+Pressure-Mon)$
+2022-03-18 07:19:45.472473 message to owner rone.castro sent to server > ^([ST][IBS])(.+VA-CCG.+Pressure-Mon)$
+2022-03-18 07:29:52.354366 message to owner rone.castro sent to server > ^([ST][IBS])(.+VA-CCG.+Pressure-Mon)$
+2022-03-18 07:39:58.406831 message to owner rone.castro sent to server > ^([ST][IBS])(.+VA-CCG.+Pressure-Mon)$
+2022-03-18 07:50:01.448374 message to owner rone.castro sent to server > ^([ST][IBS])(.+VA-CCG.+Pressure-Mon)$
+2022-03-18 08:00:06.708611 message to owner rone.castro sent to server > ^([ST][IBS])(.+VA-CCG.+Pressure-Mon)$
+2022-03-18 08:10:10.463884 message to owner rone.castro sent to server > ^([ST][IBS])(.+VA-CCG.+Pressure-Mon)$
+2022-03-18 08:20:13.719284 message to owner rone.castro sent to server > ^([ST][IBS])(.+VA-CCG.+Pressure-Mon)$
+2022-03-18 08:30:18.560894 message to owner rone.castro sent to server > ^([ST][IBS])(.+VA-CCG.+Pressure-Mon)$
+2022-03-18 08:40:23.278698 message to owner rone.castro sent to server > ^([ST][IBS])(.+VA-CCG.+Pressure-Mon)$
+2022-03-18 08:50:21.367777 message to owner rone.castro sent to server > ^([ST][IBS])(.+VA-CCG.+Pressure-Mon)$
+2022-03-18 09:00:30.284926 message to owner rone.castro sent to server > ^([ST][IBS])(.+VA-CCG.+Pressure-Mon)$
+2022-03-18 09:10:40.402834 message to owner rone.castro sent to server > ^([ST][IBS])(.+VA-CCG.+Pressure-Mon)$
+2022-03-18 09:20:50.479533 message to owner rone.castro sent to server > ^([ST][IBS])(.+VA-CCG.+Pressure-Mon)$
+2022-03-18 09:30:57.258027 message to owner rone.castro sent to server > ^([ST][IBS])(.+VA-CCG.+Pressure-Mon)$
+2022-03-18 09:40:55.643864 message to owner rone.castro sent to server > ^([ST][IBS])(.+VA-CCG.+Pressure-Mon)$
+2022-03-18 09:51:06.848493 message to owner rone.castro sent to server > ^([ST][IBS])(.+VA-CCG.+Pressure-Mon)$
+2022-03-18 10:01:16.724103 message to owner rone.castro sent to server > ^([ST][IBS])(.+VA-CCG.+Pressure-Mon)$
+2022-03-18 10:11:26.070609 message to owner rone.castro sent to server > ^([ST][IBS])(.+VA-CCG.+Pressure-Mon)$
+2022-03-18 10:21:35.711384 message to owner rone.castro sent to server > ^([ST][IBS])(.+VA-CCG.+Pressure-Mon)$
+2022-03-18 10:31:45.837349 message to owner rone.castro sent to server > ^([ST][IBS])(.+VA-CCG.+Pressure-Mon)$
+2022-03-18 22:14:06.251141 message to owner rone.castro sent to server > ^([ST][IBS])(.+VA-CCG.+Pressure-Mon)$
+2022-03-19 08:28:13.558494 message to owner rone.castro sent to server > SI-13C4:DI-DCCT:Current-Mon
+2022-03-19 09:51:28.784001 message to owner rone.castro sent to server > ^([ST][IBS])(.+VA-CCG.+Pressure-Mon)$
+2022-03-19 10:01:33.618792 message to owner rone.castro sent to server > ^([ST][IBS])(.+VA-CCG.+Pressure-Mon)$
+2022-03-19 18:11:43.609307 message to owner rone.castro sent to server > ^([ST][IBS])(.+VA-CCG.+Pressure-Mon)$
+2022-03-21 12:12:08.788777 message to owner rone.castro sent to server > ^([ST][IBS])(.+VA-CCG.+Pressure-Mon)$
+2022-03-21 12:52:01.744773 message to owner rone.castro sent to server > ^([ST][IBS])(.+VA-CCG.+Pressure-Mon)$
+2022-03-21 13:02:42.233206 message to owner rone.castro sent to server > ^([ST][IBS])(.+VA-CCG.+Pressure-Mon)$
+2022-03-21 13:17:40.732021 message to owner rone.castro sent to server > ^([ST][IBS])(.+VA-CCG.+Pressure-Mon)$
+2022-03-21 14:21:29.875119 message to owner rone.castro sent to server > ^([ST][IBS])(.+VA-CCG.+Pressure-Mon)$
+2022-03-21 17:42:04.343742 message to owner rone.castro sent to server > ^([ST][IBS])(.+VA-CCG.+Pressure-Mon)$
+2022-03-22 07:18:02.995556 message to owner rone.castro sent to server > ^([ST][IBS])(.+VA-CCG.+Pressure-Mon)$
+2022-03-22 09:34:16.672867 message to owner rone.castro sent to server > ^([ST][IBS])(.+VA-CCG.+Pressure-Mon)$
 

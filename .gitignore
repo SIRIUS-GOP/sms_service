@@ -1,0 +1,8 @@
+/.vscode
+/client/__pycache__
+/client/app/__pycache__
+/client/app/db/__pycache__
+/client/db/*.db
+/client/log.txt
+/server/__pycache__
+/server/*.pyc
