@@ -7,10 +7,6 @@ from werkzeug.urls import url_parse
 from app.dbfun import *
 from app import aux_fun
 
-@app.shell_context_processor
-def make_shell_context():
-    return {'db': db, 'User': User, 'Notification': Notification}
-
 @app.route('/')
 def index():
     return render_template('index.html', title='Home')
@@ -20,7 +16,7 @@ def autocomplete():
     search = request.args.get('q')
     conn_fullpvlist = get_fullpvlist_connection()
     conn_fullpvlist.create_function("REGEXP", 2, regexp)
-    results = conn_fullpvlist.execute('SELECT * FROM fullpvlist_db WHERE pv REGEXP ?',(search,))
+    results = conn_fullpvlist.execute('SELECT * FROM fullpvlist_db WHERE pv REGEXP ? LIMIT 20',(search,))
     #results = conn_fullpvlist.execute('SELECT * FROM fullpvlist_db WHERE pv LIKE ?', ('%' + search + '%',))
     m = []
     for row in results:
@@ -42,6 +38,7 @@ def login():
         next_page = request.args.get('next')
         if not next_page or url_parse(next_page).netloc != '':
             next_page = url_for('notifications')
+        print('next page', next_page)
         return redirect(next_page)
     return render_template('login.html', title='Login', form=form)
 
