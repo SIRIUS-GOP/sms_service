@@ -24,7 +24,7 @@ def on_new_client(connection, client_address, queue):
             if (client_address[0] == ip1 or client_address[0] == ip2 or client_address[0] == ip3 or client_address[0] == ip4):
                 #Receive the data in small chunks and retransmit it
                 data = connection.recv(1024)
-                #print(datetime.now(),' received "%s"' % data, type(data))
+                # print(datetime.now(),' received "%s"' % data, type(data))
                 if data:
                     #print('sending data back to the client')
                     connection.sendall(data) #echo
@@ -99,7 +99,7 @@ def watcherseye(queue, stop): #queue watcher
         sleep(1)
         if queue.empty() == False:
             n = queue.get_nowait()
-            print("n", n)
+            # print("n", n, '\n\r')
             prefix = 'WARNING'
             msg, msg1, msg2 = '', '', ''
             if int(n['numpvs']) == 0: #for future implementation
@@ -119,10 +119,10 @@ def watcherseye(queue, stop): #queue watcher
             elif int(n['numpvs']) == 2:
                 if (n['rule1'].find('(pv < LL) or (pv > LU)') != -1): #outside range
                     msg1 = prefix + '\n\r1) ' + n['pv1'] + ' = ' + n['value1'] + '\n\r'+ 'Limits: ' + n['limits1'] + '\n\rRule: ' + n['rule1']
-                    print('pv1 outside range')
+                    # print('pv1 outside range')
                 elif (n['rule1'].find('(pv > LL) and (pv < LU)') != -1): #within range
                     msg1 = prefix + '\n\r1) ' + n['pv1'] + ' = ' + n['value1'] + '\n\r'+ 'Limits: ' + n['limits1'] + '\n\rRule: ' + n['rule1']
-                    print('pv1 within range')
+                    # print('pv1 within range')
                 elif (bool(re.search('^pv .+ L$', n['rule1']))) != -1: #other rules
                     msg1 = prefix + '\n\r1) ' + n['rule1']
                     msg1 = msg1.replace('==', '=', 1)
@@ -134,12 +134,12 @@ def watcherseye(queue, stop): #queue watcher
                     msg1 = msg1.replace('L', n['value1'], 1)
                     msg1 = msg1.replace('pv', n['pv1'], 1)
                     msg1 = msg1 + '\n\r' + 'Limit: ' + n['limits1'] + '\n\rRule: ' + n['rule1']
-                    print('pv1 pv=L choice')
+                    # print('pv1 pv=L choice')
                 if (n['rule2'].find('(pv < LL) or (pv > LU)') != -1): #outside range
                     msg2 = '\n\r2) ' + n['pv2'] + ' = ' + n['value2'] + '\n\r'+ 'Limits: ' + n['limits2'] + '\n\rRule: ' + n['rule2']
                 elif (n['rule2'].find('(pv > LL) and (pv < LU)') != -1): #within range
                     msg2 = '\n\r2) ' + n['pv2'] + ' = ' + n['value2'] + '\n\r'+ 'Limits: ' + n['limits2'] + '\n\rRule: ' + n['rule2']
-                    print('pv2 within range')
+                    # print('pv2 within range')
                 elif (bool(re.search('^pv .+ L$', n['rule2']))): #other rules
                     msg2 = '\n\r2) ' + n['rule2']
                     msg2 = msg2.replace('==', '=', 1)
@@ -151,14 +151,16 @@ def watcherseye(queue, stop): #queue watcher
                     msg2 = msg2.replace('L', n['value2'])
                     msg2 = msg2.replace('pv', n['pv2'])
                     msg2 = msg2 + '\n\r' + 'Limit: ' + n['limits2'] + '\n\rRule: ' + n['rule2']
-                    print('pv2 pv=L choice')
+                    # print('pv2 pv=L choice')
                 msg = msg1 + msg2
-                msg = (msg[:149]) if len(msg) > 149 else msg
             elif int(n['numpvs']) == 3:
                 pass
-            r = sendsms.sendSMS(sub("[^0-9]", "", n['phone']), msg)
-            print('r', r)
-            print("msg",msg)
+            num = 124
+            msg_sms = (msg[:num]) if len(msg) > num else msg
+            # print("msg:\n\r", msg)
+            # print("msg_sms:\n\r", msg_sms)
+            r = sendsms.sendSMS(sub("[^0-9]", "", n['phone']), msg_sms)
+            # print('r', r)
             if r==True:
                 writer.write(msg)
             else:
@@ -201,13 +203,13 @@ def main():
         #t = systray_run(stop, exit)
         p1 = Process(target=systray_run, args=(start, stop, exit))#
         p1.start()
-        print('systray_run ok')
+        # print('systray_run ok')
         p2 = Process(target=server, args=(sock, q, stop))
         p2.start()
-        print('server ok')
+        # print('server ok')
         p3 = Process(target=watcherseye, args=(q, stop))
         p3.start()
-        print('watcherseye ok')
+        # print('watcherseye ok')
 #        while bool(exit.value) == False:
 #            if (bool(start.value) == True and bool(stop.value) == True):
 #                stop = Value(c_bool, False)

@@ -84,11 +84,11 @@ class TextMessage:
         if self.pipeline=='OK':
             self.sComm(CMGW, 32)
         else:
-            return pipeline
+            return self.pipeline
         if self.pipeline=='OK':
             self.sComm(content)
         else:
-            return pipeline
+            return self.pipeline
         if self.pipeline=='OK':
             self.sComm(endContent, 256)
         else:
@@ -106,7 +106,7 @@ class TextMessage:
         if self.pipeline=='OK':
             self.sComm(ATZ, 16)
         else:
-            return pipeline
+            return self.pipeline
         if self.pipeline=='OK':
             self.sComm(ATZ, 16)
         else:
@@ -114,7 +114,10 @@ class TextMessage:
 
         self.pipeline='OK'
 
-        return 1
+        if self.pipeline == 'OK':
+            return 1
+        else:
+            return 0
 
     def disconnectPhone(self):
         try:
@@ -136,3 +139,9 @@ def sendSMS(phone, msg):
             return r
     else:
         return r
+
+# msg = "WARNING\n\r1) SI-Glob:AP-FOFB:LoopState-Sts = 1\n\rLimit: L=1\n\rRule: pv == L\n\r2) AS-Glob:AP-MachShift:Mode-Sts = 0\n\rLimit: L=0\n\rRule: pv == L"
+# n = 124
+# msg = (msg[:n]) if len(msg) > n else msg
+# print(msg)
+# print(sendSMS('19997397443', msg))
