@@ -6,3 +6,4 @@
 /client/log.txt
 /server/__pycache__
 /server/*.pyc
+/server/log.txt
