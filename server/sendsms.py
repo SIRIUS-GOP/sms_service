@@ -1,4 +1,5 @@
 import serial
+import serial.tools.list_ports
 from time import sleep
 
 class TextMessage:
@@ -9,9 +10,23 @@ class TextMessage:
     pipeline = "OK"
     ans = b''
         
+    def get_port(self):
+        modem_port = serial.tools.list_ports.grep("ZTE Modem Device")
+        aux = []
+        for p in modem_port:
+            aux.append(p)
+        if len(aux) == 1:
+            modem_port_name = aux[0].name
+            return modem_port_name
+        else:
+            modem_port_name = aux[-1].name
+            return modem_port_name
+            
     def connectPhone(self):
         try:
-            self.ser = serial.Serial('COM8', 115200, timeout=2)
+            modem_port = self.get_port()
+            print('modem_port', modem_port)
+            self.ser = serial.Serial(modem_port, 115200, timeout=2)
             sleep(1)
             return 1
         except:
@@ -35,6 +50,7 @@ class TextMessage:
             pass
 
     def sComm(self, cmd, rsize=0):
+        # print('cmd:', cmd)
         try:
             r = self.ser.write((cmd + '\r').encode())
             if r:
@@ -44,12 +60,19 @@ class TextMessage:
                     self.ans = r
                     if len(r) > 0:
                         r = r.decode("utf-8")
+                        # print('Modem answer:', r)
                         if (r.find(cmd)==-1 and r.find('\nOK\r')==-1):
                             self.pipeline = cmd
                             return 1
                         else:
                             self.pipeline = 'OK'
                             return 0
+                    else:
+                        pass
+                        # print('len(r) < 0', r)
+                else:
+                    pass
+                    # print('error on write to modem')
         except:
             self.pipeline = cmd
             return 1
@@ -141,6 +164,7 @@ def sendSMS(phone, msg):
         return r
 
 # msg = "WARNING\n\r1) SI-Glob:AP-FOFB:LoopState-Sts = 1\n\rLimit: L=1\n\rRule: pv == L\n\r2) AS-Glob:AP-MachShift:Mode-Sts = 0\n\rLimit: L=0\n\rRule: pv == L"
+# msg = "test"
 # n = 124
 # msg = (msg[:n]) if len(msg) > n else msg
 # print(msg)

@@ -158,9 +158,9 @@ def watcherseye(queue, stop): #queue watcher
             num = 124
             msg_sms = (msg[:num]) if len(msg) > num else msg
             # print("msg:\n\r", msg)
-            # print("msg_sms:\n\r", msg_sms)
+            print("msg_sms:\n\r", msg_sms)
             r = sendsms.sendSMS(sub("[^0-9]", "", n['phone']), msg_sms)
-            # print('r', r)
+            print('r', r)
             if r==True:
                 writer.write(msg)
             else:
@@ -194,19 +194,20 @@ def main():
     else:
         runserver = True
     #print(processlist)
+    print('Server started.')
     if runserver:
         sock = init()
         q = Queue()
         start = Value(c_bool, False)
         stop = Value(c_bool, False)
         exit = Value(c_bool, False)
-        #t = systray_run(stop, exit)
+        # t = systray_run(stop, exit)
         p1 = Process(target=systray_run, args=(start, stop, exit))#
         p1.start()
-        # print('systray_run ok')
+        print('systray_run ok')
         p2 = Process(target=server, args=(sock, q, stop))
         p2.start()
-        # print('server ok')
+        print('server ok')
         p3 = Process(target=watcherseye, args=(q, stop))
         p3.start()
         # print('watcherseye ok')
