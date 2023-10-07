@@ -25,12 +25,12 @@ class TextMessage:
     def connectPhone(self):
         try:
             modem_port = self.get_port()
-            print('modem_port', modem_port)
+            # print('modem_port', modem_port)
             self.ser = serial.Serial(modem_port, 115200, timeout=2)
             sleep(1)
             return 1
         except:
-            print('Error connecPhone')
+            # print('Error connecPhone')
             return 'Cannot connect to the modem'
 
     def memSlot(self, index):

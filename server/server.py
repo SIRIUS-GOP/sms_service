@@ -194,7 +194,7 @@ def main():
     else:
         runserver = True
     #print(processlist)
-    print('Server started.')
+    # print('Server started.')
     if runserver:
         sock = init()
         q = Queue()
@@ -204,10 +204,10 @@ def main():
         # t = systray_run(stop, exit)
         p1 = Process(target=systray_run, args=(start, stop, exit))#
         p1.start()
-        print('systray_run ok')
+        # print('systray_run ok')
         p2 = Process(target=server, args=(sock, q, stop))
         p2.start()
-        print('server ok')
+        # print('server ok')
         p3 = Process(target=watcherseye, args=(q, stop))
         p3.start()
         # print('watcherseye ok')
