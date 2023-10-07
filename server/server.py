@@ -158,9 +158,11 @@ def watcherseye(queue, stop): #queue watcher
             num = 124
             msg_sms = (msg[:num]) if len(msg) > num else msg
             # print("msg:\n\r", msg)
-            print("msg_sms:\n\r", msg_sms)
-            r = sendsms.sendSMS(sub("[^0-9]", "", n['phone']), msg_sms)
-            print('r', r)
+            # print("msg_sms:\n\r", msg_sms)
+            p_number = sub("[^0-9]", "", n['phone'])
+            # print('p_number', p_number)
+            r = sendsms.sendSMS(p_number, msg_sms)
+            # print('r sendSMS', r)
             if r==True:
                 writer.write(msg)
             else:

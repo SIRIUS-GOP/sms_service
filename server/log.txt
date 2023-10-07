@@ -19699,4 +19699,49 @@
 2023-10-07 00:19:30.536802 // WARNING // SI-13C4:DI-DCCT:Current-Mon = 100.09766514 // Limit: L=200 // Rule: pv < L
 2023-10-07 00:29:51.849372 // WARNING // SI-13C4:DI-DCCT:Current-Mon = 99.925984263 // Limit: L=200 // Rule: pv < L
 2023-10-07 00:39:55.144005 // WARNING // SI-13C4:DI-DCCT:Current-Mon = 100.08580691 // Limit: L=200 // Rule: pv < L
+2023-10-07 00:50:18.472235 // WARNING // SI-13C4:DI-DCCT:Current-Mon = 99.946789118 // Limit: L=200 // Rule: pv < L
+2023-10-07 00:51:53.545231 // WARNING // CAX:B:BASLER01:ImgDVFStatus-Mon = 0 // Limit: L=100 // Rule: pv < L
+2023-10-07 00:54:40.657747 // WARNING // CAX:B:BASLER01:ImgDVFStatus-Mon = 0 // Limit: L=100 // Rule: pv < L
+2023-10-07 00:57:28.246074 // WARNING // CAX:B:BASLER01:ImgDVFStatus-Mon = 0 // Limit: L=100 // Rule: pv < L
+2023-10-07 01:02:57.430116 // WARNING // 1) ^RAD:Thermo.+:TotalDoseRate:Dose$ = pv ok // Limit: L=1 // Rule: pv > L // 2) RAD:ELSE:TotalDoseRate:Dose = 1.0001652777777446 // Limit: L=1 // Rule: pv > L
+2023-10-07 01:03:28.466864 // WARNING // 1) ^RAD:Thermo.+:TotalDoseRate:Dose$ = pv ok // Limit: L=1 // Rule: pv >= L // 2) RAD:ELSE:TotalDoseRate:Dose = 1.0002143055555224 // Limit: L=1 // Rule: pv >= L
+2023-10-07 01:09:03.647870 // WARNING // CAX:B:BASLER01:ImgDVFStatus-Mon = 0 // Limit: L=100 // Rule: pv < L
+2023-10-07 01:11:47.054913 // Modem error: OK
+2023-10-07 01:12:27.105871 // Modem error: OK
+2023-10-07 01:14:35.187290 // Modem error: OK
+2023-10-07 01:15:23.237588 // Modem error: OK
+2023-10-07 01:22:36.132536 // Modem error: OK
+2023-10-07 01:27:23.656810 // Modem error: OK
+2023-10-07 01:30:58.569876 // Modem error: nOK
+2023-10-07 01:36:14.310280 // WARNING // CAX:B:BASLER01:ImgDVFStatus-Mon = 0 // Limit: L=100 // Rule: pv < L
+2023-10-07 01:38:37.419642 // WARNING // SI-13C4:DI-DCCT:Current-Mon = 99.918693512 // Limit: L=200 // Rule: pv < L
+2023-10-07 01:47:16.705275 // WARNING // 1) ^RAD:Thermo.+:TotalDoseRate:Dose$ = pv ok // Limit: L=1 // Rule: pv > L // 2) RAD:ELSE:TotalDoseRate:Dose = 1.057962555555525 // Limit: L=1 // Rule: pv > L
+2023-10-07 01:47:47.756885 // WARNING // 1) ^RAD:Thermo.+:TotalDoseRate:Dose$ = pv ok // Limit: L=1 // Rule: pv >= L // 2) RAD:ELSE:TotalDoseRate:Dose = 1.0690707083333026 // Limit: L=1 // Rule: pv >= L
+2023-10-07 01:57:19.069595 // WARNING // 1) ^RAD:Thermo.+:TotalDoseRate:Dose$ = pv ok // Limit: L=1 // Rule: pv > L // 2) RAD:ELSE:TotalDoseRate:Dose = 1.0422525138888536 // Limit: L=1 // Rule: pv > L
+2023-10-07 02:30:07.787299 // Modem error: Cannot connect to the modem
+2023-10-07 02:30:14.809186 // Modem error: Cannot connect to the modem
+2023-10-07 02:41:32.154277 // WARNING // 1) ^RAD:Thermo.+:TotalDoseRate:Dose$ = pv ok // Limit: L=1 // Rule: pv > L // 2) RAD:ELSE:TotalDoseRate:Dose = 5.402817902777745 // Limit: L=1 // Rule: pv > L
+2023-10-07 02:51:37.484135 // WARNING // 1) ^RAD:Thermo.+:TotalDoseRate:Dose$ = pv ok // Limit: L=1 // Rule: pv > L // 2) RAD:ELSE:TotalDoseRate:Dose = 5.394407611111051 // Limit: L=1 // Rule: pv > L
+2023-10-07 03:01:24.779110 // WARNING // 1) ^RAD:Thermo.+:TotalDoseRate:Dose$ = pv ok // Limit: L=1 // Rule: pv >= L // 2) RAD:ELSE:TotalDoseRate:Dose = 6.565120236111068 // Limit: L=1 // Rule: pv >= L
+2023-10-07 03:01:55.812101 // WARNING // 1) ^RAD:Thermo.+:TotalDoseRate:Dose$ = pv ok // Limit: L=1 // Rule: pv > L // 2) RAD:ELSE:TotalDoseRate:Dose = 6.565117305555512 // Limit: L=1 // Rule: pv > L
+2023-10-07 03:12:37.177997 // WARNING // 1) ^RAD:Thermo.+:TotalDoseRate:Dose$ = pv ok // Limit: L=1 // Rule: pv > L // 2) RAD:ELSE:TotalDoseRate:Dose = 6.565126402777737 // Limit: L=1 // Rule: pv > L
+2023-10-07 03:22:44.499583 // WARNING // 1) ^RAD:Thermo.+:TotalDoseRate:Dose$ = pv ok // Limit: L=1 // Rule: pv > L // 2) RAD:ELSE:TotalDoseRate:Dose = 6.541939680555505 // Limit: L=1 // Rule: pv > L
+2023-10-07 03:31:43.789758 // WARNING // 1) ^RAD:Thermo.+:TotalDoseRate:Dose$ = pv ok // Limit: L=1 // Rule: pv >= L // 2) RAD:ELSE:TotalDoseRate:Dose = 6.539470513888841 // Limit: L=1 // Rule: pv >= L
+2023-10-07 03:32:56.837235 // WARNING // 1) ^RAD:Thermo.+:TotalDoseRate:Dose$ = pv ok // Limit: L=1 // Rule: pv > L // 2) RAD:ELSE:TotalDoseRate:Dose = 6.539435430555506 // Limit: L=1 // Rule: pv > L
+2023-10-07 03:43:00.151536 // WARNING // 1) ^RAD:Thermo.+:TotalDoseRate:Dose$ = pv ok // Limit: L=1 // Rule: pv > L // 2) RAD:ELSE:TotalDoseRate:Dose = 6.539899041666611 // Limit: L=1 // Rule: pv > L
+2023-10-07 03:53:07.465841 // WARNING // 1) ^RAD:Thermo.+:TotalDoseRate:Dose$ = pv ok // Limit: L=1 // Rule: pv > L // 2) RAD:ELSE:TotalDoseRate:Dose = 6.5410284999999355 // Limit: L=1 // Rule: pv > L
+2023-10-07 04:01:42.739533 // WARNING // 1) ^RAD:Thermo.+:TotalDoseRate:Dose$ = pv ok // Limit: L=1 // Rule: pv >= L // 2) RAD:ELSE:TotalDoseRate:Dose = 6.543964152777716 // Limit: L=1 // Rule: pv >= L
+2023-10-07 04:03:19.802642 // WARNING // 1) ^RAD:Thermo.+:TotalDoseRate:Dose$ = pv ok // Limit: L=1 // Rule: pv > L // 2) RAD:ELSE:TotalDoseRate:Dose = 6.544216999999944 // Limit: L=1 // Rule: pv > L
+2023-10-07 04:13:25.103267 // WARNING // 1) ^RAD:Thermo.+:TotalDoseRate:Dose$ = pv ok // Limit: L=1 // Rule: pv > L // 2) RAD:ELSE:TotalDoseRate:Dose = 6.543095180555491 // Limit: L=1 // Rule: pv > L
+2023-10-07 04:23:28.416303 // WARNING // 1) ^RAD:Thermo.+:TotalDoseRate:Dose$ = pv ok // Limit: L=1 // Rule: pv > L // 2) RAD:ELSE:TotalDoseRate:Dose = 6.537890874999945 // Limit: L=1 // Rule: pv > L
+2023-10-07 04:32:03.695045 // WARNING // 1) ^RAD:Thermo.+:TotalDoseRate:Dose$ = pv ok // Limit: L=1 // Rule: pv >= L // 2) RAD:ELSE:TotalDoseRate:Dose = 6.537935249999941 // Limit: L=1 // Rule: pv >= L
+2023-10-07 04:33:40.762933 // WARNING // 1) ^RAD:Thermo.+:TotalDoseRate:Dose$ = pv ok // Limit: L=1 // Rule: pv > L // 2) RAD:ELSE:TotalDoseRate:Dose = 6.537625388888831 // Limit: L=1 // Rule: pv > L
+2023-10-07 04:43:44.105476 // WARNING // 1) ^RAD:Thermo.+:TotalDoseRate:Dose$ = pv ok // Limit: L=1 // Rule: pv > L // 2) RAD:ELSE:TotalDoseRate:Dose = 6.537713694444388 // Limit: L=1 // Rule: pv > L
+2023-10-07 04:53:49.417946 // WARNING // 1) ^RAD:Thermo.+:TotalDoseRate:Dose$ = pv ok // Limit: L=1 // Rule: pv > L // 2) RAD:ELSE:TotalDoseRate:Dose = 6.537934486111052 // Limit: L=1 // Rule: pv > L
+2023-10-07 05:02:24.708167 // WARNING // 1) ^RAD:Thermo.+:TotalDoseRate:Dose$ = pv ok // Limit: L=1 // Rule: pv >= L // 2) RAD:ELSE:TotalDoseRate:Dose = 6.536813055555491 // Limit: L=1 // Rule: pv >= L
+2023-10-07 05:04:03.786543 // WARNING // 1) ^RAD:Thermo.+:TotalDoseRate:Dose$ = pv ok // Limit: L=1 // Rule: pv > L // 2) RAD:ELSE:TotalDoseRate:Dose = 6.5359727222221595 // Limit: L=1 // Rule: pv > L
+2023-10-07 05:14:13.110217 // WARNING // 1) ^RAD:Thermo.+:TotalDoseRate:Dose$ = pv ok // Limit: L=1 // Rule: pv > L // 2) RAD:ELSE:TotalDoseRate:Dose = 6.535580083333281 // Limit: L=1 // Rule: pv > L
+2023-10-07 05:24:26.430839 // WARNING // 1) ^RAD:Thermo.+:TotalDoseRate:Dose$ = pv ok // Limit: L=1 // Rule: pv > L // 2) RAD:ELSE:TotalDoseRate:Dose = 6.536718513888836 // Limit: L=1 // Rule: pv > L
+2023-10-07 06:40:33.073545 // WARNING // 1) ^RAD:Thermo.+:TotalDoseRate:Dose$ = pv ok // Limit: L=1 // Rule: pv > L // 2) RAD:ELSE:TotalDoseRate:Dose = 1.8680257916666125 // Limit: L=1 // Rule: pv > L
+2023-10-07 06:41:04.103776 // WARNING // 1) ^RAD:Thermo.+:TotalDoseRate:Dose$ = pv ok // Limit: L=1 // Rule: pv >= L // 2) RAD:ELSE:TotalDoseRate:Dose = 1.8680473194443903 // Limit: L=1 // Rule: pv >= L
 

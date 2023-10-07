@@ -25,7 +25,7 @@ class TextMessage:
     def connectPhone(self):
         try:
             modem_port = self.get_port()
-            # print('modem_port', modem_port)
+            print('modem_port', modem_port)
             self.ser = serial.Serial(modem_port, 115200, timeout=2)
             sleep(1)
             return 1
@@ -50,7 +50,7 @@ class TextMessage:
             pass
 
     def sComm(self, cmd, rsize=0):
-        # print('cmd:', cmd)
+        print('cmd:', cmd)
         try:
             r = self.ser.write((cmd + '\r').encode())
             if r:
@@ -60,7 +60,7 @@ class TextMessage:
                     self.ans = r
                     if len(r) > 0:
                         r = r.decode("utf-8")
-                        # print('Modem answer:', r)
+                        print('Modem answer:', r)
                         if (r.find(cmd)==-1 and r.find('\nOK\r')==-1):
                             self.pipeline = cmd
                             return 1
@@ -135,7 +135,7 @@ class TextMessage:
         else:
             return self.pipeline
 
-        self.pipeline='OK'
+        # self.pipeline='OK'
 
         if self.pipeline == 'OK':
             return 1
@@ -163,8 +163,9 @@ def sendSMS(phone, msg):
     else:
         return r
 
-# msg = "WARNING\n\r1) SI-Glob:AP-FOFB:LoopState-Sts = 1\n\rLimit: L=1\n\rRule: pv == L\n\r2) AS-Glob:AP-MachShift:Mode-Sts = 0\n\rLimit: L=0\n\rRule: pv == L"
-# msg = "test"
+# msg = "WARNING\n\rCAX:3:BASLER01:ImgDVFStatus-Mon = 0\n\rLimit: L=100\n\rRule: pv < L"
+# msg = "WARNING\n\r1) ^RAD:Thermo.+:TotalDoseRate:Dose$ = pv ok\n\rLimit: L=1\n\rRule: pv > L\n\r2) RAD:ELSE:TotalDoseRate:Dose = 1.04225251"
+# msg = "WARNING\n\rSI-13C4:DI-DCCT:Current-Mon = 99.918693512\n\rLimit: L=200\n\rRule: pv < L"
 # n = 124
 # msg = (msg[:n]) if len(msg) > n else msg
 # print(msg)
