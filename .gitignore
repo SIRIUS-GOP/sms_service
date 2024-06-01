@@ -7,3 +7,6 @@
 /server/__pycache__
 /server/*.pyc
 /server/log.txt
+log_backup_2021-2023.txt
+teste1.txt
+PyWhatKit_DB.txt
